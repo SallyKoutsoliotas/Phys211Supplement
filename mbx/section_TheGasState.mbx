@@ -1,0 +1,196 @@
+<section xml:id="section_TheGasState">
+<title>The Gas State</title>
+<p>
+In the gas phase, most of the time the molecules are so far apart that
+they exert no force on each other. The exception is the brief molecular
+collision, where the pair potential plays a role in determining the forces
+that they exert on each other during the collision. However, after the
+collision the pair of molecules head off in their new directions with
+new speeds, moving rather quickly out of range of each other and feeling
+no force. The details of the molecular collisions are complicated,
+but we can avoid having to worry about them by making use of the
+equipartition theorem.
+</p>
+
+<p>
+The total thermal energy for a gas is, to an excellent
+approximation, purely kinetic, as the molecules are too far apart to
+have an appreciable potential energy. However, the kinetic energy
+may consist of both translational and rotational kinetic energies.
+For a <em>monatomic</em> gas molecule, such as argon, there is no
+contribution to rotational kinetic energy and so
+<men xml:id="eq_monatomic_Emolecule" >
+  E_\text{ molecule }  = K_\text{ trans }  = {\textstyle\frac{1}{2}} m v_x^2 + 
+{\textstyle\frac{1}{2}} m v_y^2 + {\textstyle\frac{1}{2}} m v_z^2. 
+\text{ (monatomic ideal gas) }
+</men>
+</p>
+
+<p>
+There are three quadratic contributions to the energy.
+The equipartition theorem says, therefore, that the average thermal
+energy per molecule is <m>3(\textstyle\frac{1}{2}k_BT)</m>. Therefore, the
+total thermal energy is
+<men xml:id="eq_monatomic_ideal_gas" >
+  E_\text{ therm }  = N\langle
+E_\text{ molecule } \rangle =
+ {\textstyle\frac{3}{2}} N k_B T = {\textstyle\frac{3}{2}} n R T.
+\text{ (monatomic ideal gas) }
+</men>
+</p>
+<figure xml:id="fig_diatomic" >
+<caption>Molecular nitrogen, N<m>_2</m>, has two distinct axes of rotation, 
+both of which contribute to the molecular kinetic energy.</caption>
+<image width="37%" source="images/diatomic.png" />
+</figure>
+<p>
+However, many gas molecules are diatomic, such as N<m>_2</m>, which makes up
+about 78<percent /> of our atmosphere, and O<m>_2</m>, which makes up most of the rest.
+These dumbbell-shaped molecules have significant rotational kinetic energy
+as well as translational kinetic energy, as shown in Fig. <xref ref="fig_diatomic"></xref>.
+Their molecular energy is given by
+<men xml:id="eq_diatomic_Emolecule" >
+  E_\text{ molecule }  = {\textstyle\frac{1}{2}} m v_x^2 +
+{\textstyle\frac{1}{2}} m v_y^2 + {\textstyle\frac{1}{2}} m v_z^2
++{\textstyle\frac{1}{2}} I_1 \omega_1^2 + {\textstyle\frac{1}{2}} I_2
+\omega_2^2
+\text{ (diatomic ideal gas) }
+</men>
+where <m>\omega_1</m> and <m>\omega_2</m> are the angular frequencies of the molecular
+rotation about the two axes indicated in Fig. <xref ref="fig_diatomic"></xref>. The details
+of the molecular mass or rotational inertia again do not matter, and
+the equipartition theorem now gives
+<men xml:id="eq_diatomic_ideal_gas" >
+  E_\text{ therm }  = N\langle E_\text{ molecule } \rangle
+ = {\textstyle\frac{5}{2}} N k_B T = {\textstyle\frac{5}{2}} n R T.
+\text{ (diatomic ideal gas) }
+</men>
+</p>
+
+<p>
+These results can be combined into one expression,
+<men xml:id="eq_EthermIdealGas" >
+  E_\text{ therm }  = \frac{f}{2} Nk_BT = \frac{f}{2} nRT.\qquad\text{ (ideal gas) }
+</men>
+where <m>f</m> is the number of <em>degrees of freedom</em>, or the number of quadratic terms appearing in the energy of a molecule. So <m>f=3</m> for a monatomic
+ideal gas, and <m>f=5</m> for a diatomic ideal gas.
+</p>
+
+<p>
+Given the usual definition of molar specific heat, <m>\Delta E_\text{ therm } 
+= n C\Delta T</m>, we may identify
+<men>
+  C_\text{ monatomic }  = {\textstyle\frac{3}{2}R} = 12.5\units{J/mol$\cdot$K}, 
+\qquad
+C_\text{ diatomic }  = {\textstyle\frac{5}{2}R} = 20.8\units{J/mol$\cdot$K}.
+</men>
+</p>
+
+<p>
+As <xref ref="table_gas_specific_heats">Table</xref> shows, these values are highly
+accurate.
+</p>
+<table xml:id="table_gas_specific_heats" >
+<caption>Molar specific heats (at constant volume) of selected gases.</caption>
+<tabular>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  >
+Gas</cell><cell>Type</cell><cell><m>C</m> (J/mol<m>\cdot</m>K)</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row><cell>\noalign
+Neon (Ne)</cell><cell>monatomic</cell><cell>12.5</cell></row>
+<row><cell>Argon (Ar)</cell><cell>monatomic</cell><cell>12.5</cell></row>
+<row><cell>Hydrogen (H<m>_2</m>)</cell><cell>diatomic</cell><cell>20.5</cell></row>
+<row><cell>Oxygen (O<m>_2</m>)</cell><cell>diatomic</cell><cell>21.1</cell></row>
+<row><cell>Nitrogen (N<m>_2</m>)</cell><cell>diatomic</cell><cell>20.8</cell></row>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  ></cell></row>
+</tabular>
+</table>
+<p>
+Here is an application:
+Argon gas is the most abundant monatomic gas in the atmosphere, and is
+technologically useful since monatomic gases conduct heat slower than
+diatomic gases, due to the smaller heat capacity.
+Modern double-glazed windows have argon gas between the two
+sheets of glass, to minimize the rate of heat transfer through the
+window.
+</p>
+
+<p>
+In solids and liquids, sound waves move by molecules pushing on their
+neighbors. In a gas, the molecules are not in contact with each other
+to push and pull, and so sound propagation is fundamentally different:
+the molecules must travel from collision to collision for the sound
+wave to move. Thus, the speed of the sound wave is essentially the
+thermal speed of the molecules themselves, which makes for much slower
+speed of sound. While we will skip the derivation, one can show that
+the speed of sound in an ideal gas is given by
+<men>
+  v_\text{ sound }  = \sqrt{\frac{\gamma}{3}} v_\text{ therm }  = 
+\sqrt{\frac{\gamma RT}{M}}.
+</men>
+</p>
+
+<p>
+We have introduced the parameter <m>\gamma</m>, which is often called
+the <q>adiabatic exponent</q> and is defined as
+<men>
+  \gamma = \frac{f+2}{f},
+</men>
+where <m>f</m> is again the number of degrees of freedom.
+This gives us
+<men>
+  \gamma = \frac{5}{3} \ \ \text{ (monatomic), \qquad } 
+\gamma = \frac{7}{5}=1.4\ \ \text{ (diatomic). }
+</men>
+</p>
+
+<p>
+We will see <m>\gamma</m> again in the next lecture, since it also plays a
+role in fundamental gas processes.
+</p>
+
+<p>
+Notice that the speed of sound in a gas is dependent on the
+temperature, since the thermal speed depends on temperature, while for
+liquids and solids the speed of sound is essentially independent of
+temperature.
+</p>
+
+<example>
+<statement>
+<p>
+{The Speed of Sound in Air}
+Estimate the speed of sound in air at room temperature of <m>22^\circ\units{C}
+ = 295\units{K}</m>. Use the average molar mass based
+on an approximate composition of 78<percent /> N<m>_2</m> and 22<percent /> O<m>_2</m>.
+
+
+<em>Solution: </em>
+For the molar mass, we use the molar masses of nitrogen and oxygen
+to find
+<men>
+  M = 0.78 (28\units{g/mol}) + 0.22 (32\units{g/mol}) = 28.9\units{g/mol}.
+</men>
+</p>
+
+<p>
+Both of these gases are diatomic, so we get the sound speed
+<md>
+  <mrow>  v_\text{ sound }  \amp = \sqrt{\frac{\gamma R T}{M}}  
+=\sqrt{\frac{1.4(8.31\units{J/mol$\cdot$K})(295\units{K})}
+{0.0289\units{kg/mol}}}\nonumber</mrow>
+  <mrow>  \amp = 345\units{m/s}.</mrow>
+</md>
+</p>
+
+<p>
+That's a pretty accurate value. To get a more precise value we would need
+to know the amount of water vapor in the air and a few other details.
+</p>
+</statement>
+</example>
+</section>

@@ -1,0 +1,238 @@
+<section xml:id="sec_spacetime_intervals">
+<title>Spacetime intervals</title>
+<p>
+As we saw in <xref ref="chapter_relativityI">Chapter</xref>, observers in different reference frames
+disagree about time and distance measurements. But there are a few
+quantities referred to as invariants upon which all observers agree
+regardless of their reference frames. One of these invariants was
+discussed in the previous chapter; namely, the invariance of the speed
+of light in a vacuum. It turns out that distance and time can be
+folded together to make another invariant, referred to as the
+invariant spacetime interval <m>I</m>, defined by
+<men xml:id="eq_intervaldef" >
+  I^2 \equiv \left(c\Delta t\right)^2 - \left(\Delta x\right)^2.
+</men>
+</p>
+
+<p>
+Note that <m>I^2</m> can be positive, zero, or negative. If <m>I^2</m> is
+positive, then the interval is called <em>time-like</em> since the first term
+<mdash /> with <m>\Delta t</m> in it <mdash /> dominates. Similarly, negative values
+of <m>I^2</m> correspond to <em>space-like</em> intervals, and if <m>I^2 = 0</m>, the
+interval is called <em>light-like</em>. Qualitatively, an event is light-like
+if a pulse of light could travel directly between the two events.
+This can be seen from Eq.<nbsp /><xref ref="eq_intervaldef" />: if <m>I^2 = 0</m>, then
+<md>
+  <mrow>  0 \amp = \left(c\Delta t\right)^2 - \left(\Delta x\right)^2  \nonumber</mrow>
+  <mrow>  \Rightarrow \Delta x \amp = \pm c \Delta t,</mrow>
+</md>
+as would be expected for a pulse of light traveling a distance <m>\Delta
+x</m> in a time <m>\Delta t</m>.
+</p>
+
+<p>
+Two events could be <em>causally-linked</em> (i.e., event A actually
+causes or contributes to event B) if the spacetime interval between
+them is either light-like or time-like. In fact, for time-like
+spacetime intervals, the interval is the proper time (multiplied by <m>c</m>).
+If two events are separated by a space-like interval, then no
+information can travel between the two events since it would require
+superluminal (<m>|v| > c</m>) information transmission, and nothing
+(especially information) can travel faster than light relative to
+any observer. So events <em>can't</em> be causally linked if the square
+of the spacetime interval between them is negative.
+</p>
+
+<example xml:id="example_causality-intervals">
+<statement>
+<p>
+{Causality and intervals}
+In the year 2055, a father and his daughter are watching the 5<m>^{
+    th}</m> game of the National League Divisional Series from a Moon base at the Sea of
+Tranquility. The Washington Nationals lead the St. Louis Cardinals by a run with 2 outs
+in the bottom of the ninth
+inning, but the bases are loaded. The daughter sneezes and then watches in horror as
+<m>2.0\units{s}</m> later Drew Storen, Jr., of the Nationals throws
+a wild pitch that not only walks in the tying run but also allows St. Louis to
+score the winning run. Distraught, the
+daughter bursts into tears. <q>What's wrong?</q> her father asks.
+<q>It's my fault that the Nats lost! My sneeze caused Storen to throw
+that wild pitch!</q> What argument should the father use to assure his daughter
+that she is not personally responsible for yet another
+heart-breaking Nats playoff loss?
+</p>
+
+<p>
+<em>Solution: </em> The father should first point
+out that the distance between the Earth and Moon is <m>3.84\times
+  10^8\units{m}</m>, or <m>1.3\units{lt-s}</m>. So, if the father/daughter
+received the TV signal of the strikeout <m>2.0\units{s}</m> after the
+sneeze, in their reference frame it must have actually occurred only
+<m>0.7\units{s}</m> after the sneeze. (It takes the TV signal
+<m>1.3\units{s}</m> to make it from the Earth to the Moon.) Now, the
+father should calculate the spacetime interval:
+<md>
+  <mrow>  I^2 \amp = \left(c\Delta t\right)^2 - \left(\Delta x\right)^2 
+    = (1\units{lt-s/s}\times 0.7\units{s})^2 - 
+                    (1.3\units{lt-s})^2 
+    = -1.2\, (\mbox{lt-s} )^2 \nonumber</mrow>
+</md>
+</p>
+
+<p>
+So, the father should pat the daughter on the head and say, <q>So,
+you see honey <mdash /> you can't have caused Storen to throw that wild pitch
+because the spacetime interval between your sneeze and his strikeout
+is a space-like interval!</q><fn>By the way, we originally wrote this
+problem about the Red Sox when they hadn't won a World Series in over 80
+years. The following year, they won the World Series. And <em>that</em> is a
+<em>time-like</em> interval, so, yes, we do take credit for the Red
+Sox victory.</fn>
+<fn>And then we switched the example to one with the Cubs because,
+well, it didn't work for the Red Sox anymore, and we figured, "Well, we'll be
+able to use this example for <em>decades</em> because the Cubs will never win
+the World Series!" But the Cubs messed that up this past year. (Also a
+time-like interval, so we take credit for the Cubs World Series
+championship, too.) Fans of
+the Nationals in PHYS 211 requested that we use the Nats now in this example.</fn>
+</p>
+</statement>
+</example>
+
+<p>
+Don't worry about the fact that <m>I^2</m> is negative for space-like
+intervals. The definition of <m>I^2</m> in Eq.<nbsp /><xref ref="eq_intervaldef" /> is
+chosen so that for time-like intervals, the interval <m>I</m> itself is the
+proper time (multiplied by <m>c</m>), which is convenient for our purposes.
+But the interval could have equally been defined as
+<m>I^2 = \left(\Delta x\right)^2 - \left(c \Delta t\right)^2</m>,
+in which case <m>I^2</m> would be negative for
+time-like intervals (some authors do, in fact, define <m>I^2</m> this way).
+In fact, some physicists define two different intervals: <m>I^2 =
+\left(c\Delta t\right)^2-\left(\Delta x\right)^2</m> for time-like
+intervals and <m>I^2 = \left(\Delta x\right)^2-\left(c\Delta t\right)^2</m>
+for space-like intervals. We will stick with Eq.<nbsp /><xref ref="eq_intervaldef" />.
+</p>
+
+<p>
+As stated earlier, <m>I^2</m> is an invariant <mdash /> observers in different
+reference frames will agree on the value of this interval for any two
+events:
+<men>
+  I^2 = \left(I^\prime\right)^2,
+</men>
+or
+</p>
+
+<p>
+\begin{boxiteq}{
+<men xml:id="eq_interval-invariance" >
+  \left(c\Delta t\right)^2 - \left(\Delta x\right)^2 = 
+              \left(c\Delta t^\prime\right)^2 - 
+     \left(\Delta x^\prime\right)^2.
+</men>
+</p>
+
+<p>
+}
+\end{boxiteq}
+</p>
+
+<p>
+This is important for several reasons. First, the
+invariance of the interval helps to further clarify the intimate
+connection between distance and time in relativity. Any disagreements
+between different observers about the time interval between events
+must be accompanied by a corresponding disagreement in the distance in
+order to keep the interval invariant. Second, if an interval is
+space-like or time-like or light-like as viewed in one reference
+frame, then it is the same kind of interval as viewed in any reference
+frame. This makes sense: if two events cannot be causally-linked in
+one reference frame, for instance, it would be nonsensical to think
+that they would be causally-linked as observed by someone in a
+different reference frame. Finally, the interval can be used to
+determine how events are viewed in one reference frame, given
+information in a different frame. As an example, we refer back to a
+problem from the previous chapter.
+</p>
+
+<example xml:id="example_intervals-causality">
+<statement>
+<p>
+{Using the interval}
+A spaceship crew wants to make the trip from Earth to Alpha Centauri
+in only 2.0 years as measured by clocks on board their spaceship.
+</p>
+
+<p>
+(a) How long does the trip take according to Earth-frame observers?
+(b) How fast must the astronauts travel relative to Earth?
+
+
+<em>Solution: </em> For <xref ref="prob_alpha_centauri">problem</xref> in
+<xref ref="chapter_relativityI">chapter</xref>, you used the proper time relation,
+but you had to express the speed in terms of the unknown travel time
+according to Earth-frame observers. Here, we do the same problem
+but using the spacetime interval.
+</p>
+
+<p>
+(a) We know that the distance to Alpha Centauri is
+<m>4\units{lt-yr}</m> as measured by observers on the Earth, so <m>\Delta x =
+  4\units{lt-yr}</m>. From the statement of the problem, we can see that
+<m>\Delta t^\prime = 2\units{yr}</m>. And since the astronauts are
+present both at the launching of the rocket and its arrival at Alpha
+Centauri, it follows that <m>\Delta x^\prime = 0</m>. Using the
+interval, we have
+<md>
+  <mrow>  \left(c\Delta t\right)^2 - \left(\Delta x\right)^2 \amp = 
+   \left(c\Delta t^\prime\right)^2 -\left(\Delta x^\prime\right)^2 \nonumber</mrow>
+  <mrow>  \Rightarrow \left(c\Delta t\right)^2 \amp = \left(c\Delta t^\prime\right)^2 - 
+     \left(\Delta x^\prime\right)^2 + \left(\Delta x\right)^2 \nonumber</mrow>
+  <mrow>  \Rightarrow \left(\Delta t\right)^2 \amp = (2\units{y})^2 + 
+                         \frac{(4\units{lt-yr})^2}{(1\units{lt-yr/yr})^2} - 0^2
+                                                          \nonumber</mrow>
+  <mrow>  \amp = 20\units{y}^2    \nonumber</mrow>
+  <mrow>  \Rightarrow \Delta t \amp = 4.47\units{y}. \nonumber</mrow>
+</md>
+</p>
+
+<p>
+(b) The speed of the astronauts' ship is then simply
+<men>
+  v = \frac{\Delta x}{\Delta t} =
+  \frac{4\units{lt-yr/yr}}{4.47\units{y}}  
+   = 0.89\units{lt-yr/yr} = 0.89c.
+</men>
+</p>
+</statement>
+</example>
+
+<p>
+As you might have guessed from this example, the relations from the
+previous chapter (time dilation and length contraction) are both
+special cases of the more general invariance of the spacetime
+interval. The proper time relation, Eq.<nbsp /><xref ref="eq_ptr" /> corresponds to
+a situation where one of the observers is at both events. Let's say
+that the observer in the primed reference frame is at both events
+(i.e., measures the proper time). Then <m>\Delta x^\prime = 0</m>. The
+distance <m>\Delta x</m> (the distance between events as measured by the observer
+in the unprimed frame) is simply <m>\Delta x = v\Delta t</m>
+(distance = speed <times /> time).
+Eq.<nbsp /><xref ref="eq_interval-invariance" /> then becomes:
+<md>
+  <mrow>  \amp \amp \left(c\Delta t\right)^2 - \left(v\Delta t\right)^2 = 
+       \left(c\Delta t^\prime\right)^2 -  0^2 \nonumber</mrow>
+  <mrow>  \Rightarrow \amp \amp \left(\Delta t\right)^2\left(1-v^2/c^2\right) = 
+       \left(\Delta t^\prime\right)^2 \nonumber</mrow>
+  <mrow>  \Rightarrow \amp \amp \Delta t^\prime = \Delta t\sqrt{1-v^2/c^2}, \nonumber</mrow>
+</md>
+which is, in fact, the proper time relation Eq.<nbsp /><xref ref="eq_ptr" /> with
+<m>\Delta t^\prime</m> as the proper time (since the primed observer is at
+both events) and with <m>\Delta t</m> as the two-clock time. Similar
+arguments can be used to show that the length contraction relation,
+Eq.<nbsp /><xref ref="eq_lengthcontract" />, is a special case of the invariance of
+the spacetime interval for situations where <m>\Delta t</m> or <m>\Delta
+t^\prime</m> is zero.
+</p>
+</section>

@@ -1,0 +1,173 @@
+<section>
+<title>Calculating heat and thermal energy changes</title>
+<p>
+Okay, we now have everything that we need to determine
+the heat <m>Q_\text{ in }</m>, the work <m>W_\text{ on }</m> or <m>W_\text{ by }</m> and the change in
+thermal energy <m>\Delta E_\text{ therm }</m> for an arbitrary process. This
+will prove to be quite important when we talk about heat engines
+in a couple of chapters.
+</p>
+
+<p>
+We have already discussed the different approaches that you can use
+to determine the work done on or by a gas (see the bulleted list at the
+end of <xref ref="section_CalcWork">Section</xref>). We can make similar
+bulleted lists for <m>\Delta E_\text{ therm }</m> and <m>W_\text{ on }</m> or <m>W_\text{ by }</m>.
+</p>
+
+<p>
+To determine the change in the thermal energy for a process:
+<ul>
+<li><p>The easiest case is if the process is isothermal or if it
+ends up at the same temperature that it started (e.g., if it is a
+<em>cyclic</em> process), then <m>\Delta E_\text{ therm }  = 0</m>.</p></li>
+<li><p>If you know how many degrees of freedom the gas molecules
+have (<m>f = 3</m> or <m>5</m> for monatomic and diatomic gases, respectively,
+for example), then <m>\Delta E_\text{ therm }  = \frac{f}{2}nR\Delta T</m>.
+This is convenient if you know the starting and ending temperature.
+
+<em>Useful trick redux:</em> the same <m>pV = nRT</m> trick can be used here.
+If you don't know the initial and final temperatures but you <em>do</em> 
+know the initial and
+final pressure and volume, then <m>\Delta E_\text{ therm }  = \frac{f}{2}(p_2V_2
+- p_1V_1)</m>.</p></li>
+<li><p>If neither of the above work, but you can figure out <m>Q_\text{ on }</m> and
+<m>W_\text{ on }</m>, then you can get <m>\Delta E_\text{ therm }</m> from the first law:  
+<m>\Delta E_\text{ therm }  = Q_\text{ on }  + W_\text{ on }</m>.</p></li>
+</ul>
+</p>
+
+<p>
+We can make a similar bulleted list for how to determine the heat
+flow <m>Q_\text{ in }</m>:
+<ul>
+<li><p>The easiest case is if the problem states that the process is
+adiabatic<fn>The problem might be subtle about this: it might
+say <q>... for a well-insulated system ...</q> or ''... for a very
+rapid process ...,'' either of which imply no heat exchange between
+the system and the environment.</fn>: in this case, <m>Q_\text{ in }  = 0</m>.</p></li>
+<li><p>If the process is not adiabatic, then you will be using the first
+law of thermodynamics to find <m>Q_\text{ in }</m>: <m>Q_\text{ in }  = \Delta E_\text{ therm }  - W_\text{ on }</m>.</p></li>
+</ul>
+</p>
+
+<p>
+For all of these calculations, <em>make sure that you check the signs</em>
+of everything. There is a really big difference between positive and
+negative values for each of <m>\Delta E_\text{ therm }</m>, <m>Q_\text{ in }</m> and
+<m>W_\text{ on }</m> for a gas process.<fn>If you ever forget this, set
+your car in neutral and push it from here to New York <mdash /> that's what
+you would have to do for a car whose engine is described by a positive
+value of <m>W_\text{ on }</m>.</fn>
+</p>
+
+<example xml:id="ex_cycle2010tst3">
+<statement>
+<p>
+{A complete cycle}
+Consider a fixed amount of an ideal gas of diatomic molecules undergoing
+the processes shown in Fig. <xref ref="fig_CycleExample"></xref>. The gas starts at
+point <em>A</em> in the diagram and expands along the path <em> A</em><m>\longrightarrow</m><em>B</em> with no heat flowing into or out of the
+gas.
+</p>
+
+<p>
+(a) Calculate the pressure of the gas at point <em>B</em> after the
+expansion. (b) Determine the net work done <em>on</em> the gas and the heat flow <m>Q_\text{ in }</m>
+in one complete cycle
+(<em>A</em><m>\longrightarrow</m><em>B</em><m>\longrightarrow</m><em>C</em>
+<m>\longrightarrow{A}</m>).
+</p>
+<figure xml:id="fig_CycleExample" >
+<caption>For <xref ref="ex_cycle2010tst3">Example</xref>.</caption>
+<image width="56%" source="images/cycle.png" />
+</figure>
+<p>
+<em>Solution:</em> (a) Since the process <m>A \rightarrow B</m> is adiabatic,
+<m>pV^\gamma</m> = constant and <m>p_AV_A^\gamma = p_BV_B^\gamma</m>
+so
+<men>
+  p_B = p_A\biggl(\frac{V_A}{V_B}\biggr)^{7/5} = 100
+  \units{kPa} \times \biggl(\frac{1.0 \units{L}}{2.5 \units{L}}\biggr)^{7/5}
+  = 27.7 \units{kPa}.
+</men>
+</p>
+
+<p>
+(b) We will calculate the work done on the gas for each
+of the three processes and add up the results to get the net work.
+To figure out the total heat flow <m>Q_\text{ in }</m> we could do something similar <mdash />
+i.e., calculate <m>Q_\text{ in }</m> for each process and then add them up. But there
+is an easier way: since we know that <m>\Delta E_\text{ therm }  = 0</m> for the complete
+cycle, once we have determined the total <m>W_\text{ on }</m> for the complete
+cycle, we can use the First Law of Thermodynamics to get <m>Q_\text{ in }</m> for
+the complete cycle.
+</p>
+
+<p>
+Let's start with <em>process <m>A \rightarrow B</m></em>. This is an adiabatic process,
+so <m>Q_\text{ in }  = 0</m>. Calculating work is tricky for adiabatic processes,
+so we'll find <m>\Delta E_\text{ therm }</m> first and then use the First Law to get
+<m>W_\text{ on }</m>. This is a diatomic gas, so <m>f = 5</m> and <m>\Delta E_\text{ therm }  =
+\frac{f}{2}nR\Delta T</m>. We could calculate <m>T_B</m>, but we won't bother,
+because <m>\Delta E_\text{ therm }</m> can be found with the pressures and volumes
+given:
+<md>
+  <mrow>  \Delta E_\text{ therm }  \amp = \frac{f}{2}(p_BV_B - p_AV_A) = \frac{5}{2}
+\Bigl(27.7 \units{kPa} \times 2.5 \units{L} -
+100 \units{kPa}\times 1.0 \units{L}\Bigr)
+\nonumber</mrow>
+  <mrow>  \amp = -76.7 \units{J}.</mrow>
+</md>
+</p>
+
+<p>
+We can now find the work done on the gas via the First Law:
+<men>
+  W_\text{ on }  = \Delta E_\text{ therm }  - Q_\text{ in }  =
+  -76.7 \units{J} - 0 = -76.7 \units{J}.
+</men>
+</p>
+
+<p>
+<em>Process <m>B \rightarrow C</m>:</em> this is a constant volume process, so
+<m>W_\text{ on }  = 0</m>.
+</p>
+
+<p>
+<em>Process <m>C \rightarrow A</m>:</em> this is a constant pressure (isobaric)
+process, so
+<men>
+  W_\text{ on }  = -p\Delta V = -p(V_A - V_C) = -100 \units{kPa}(1.0
+\units{L} - 2.5 \units{L}) = 150 \units{J}.
+</men>
+</p>
+
+<p>
+So, the net work <m>W_\text{ on }</m> done on the gas for the complete cycle
+<m>A \rightarrow B \rightarrow C \rightarrow A</m> is
+<md>
+  <mrow>  W_\text{ on } ^\text{ net }  \amp = W_\text{ on } ^{A\to B}+W_\text{ on } ^{B\to C}+W_\text{ on } ^{C\to A}
+  \nonumber</mrow>
+  <mrow>  \amp = -76.7 \units{J} + 0\units{J}
++ 150 \units{J} = 73.3 \units{J}.</mrow>
+</md>
+</p>
+
+<p>
+As for the total heat flow <m>Q_\text{ in }</m> for the entire cycle, we can use
+the First Law:
+<men>
+  Q_\text{ in }  = \Delta E_\text{ therm }  - W_\text{ on }  = 0 - 73.3 \units{J}
+  = -73.3 \units{J}.
+</men>
+</p>
+
+<p>
+So, what this
+means is that for the entire cycle, 73.3 J of heat flows <em>out</em> of
+the gas.
+</p>
+</statement>
+</example>
+</section>

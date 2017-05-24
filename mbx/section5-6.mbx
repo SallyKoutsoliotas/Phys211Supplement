@@ -1,0 +1,103 @@
+<section>
+<title>Pressure</title>
+<p>
+Liquids and gases push outwardly on their surroundings. To describe
+this push we introduce the concept of <em>pressure</em>. Consider a
+liquid or a gas enclosed in some container, and focus on one wall of
+the container with area <m>A</m>, such as shown in
+Fig. <xref ref="fig_gas_pressure"></xref>. The fluid pushes on the wall in the
+perpendicular direction with a force of magnitude <m>F</m>. Pressure is
+then the force per area
+<men>
+  p=\frac{F}{A},
+</men>
+and has units N/m<m>^2</m>. This combination of units is given the name
+pascal (Pa), that is, <m>1\units{Pa} = 1\units{N/m</m>^2<m>}</m>. Atmospheric
+pressure is given by
+<men>
+  p_\text{ atm }  = 1.01\times 10^{5} \units{Pa} = 101\units{kPa}.
+</men>
+</p>
+
+<p>
+Note that pressure applies to more than just liquids and gases. Any
+time that there is a force exerted on a surface, you can define a
+pressure simply by dividing that force by the surface area.
+Conceptually, the pressure indicates how <q>spread out</q> the force is,
+i.e., if the same force is exerted over a larger surface area, then
+there is less force per unit area (smaller pressure) and each part of
+the surface experiences a smaller force. That is why, for example, it
+is useful to wear snowshoes with a large surface area when walking
+over fresh snow <mdash /> the downward force you exert on the ground is
+spread over a larger area, resulting in a smaller pressure on the
+snow, so the snow doesn't collapse.
+</p>
+
+<p>
+Pressure does not have a direction. If we consider some point in the
+fluid, pressure is an outward push in all directions. This outward
+push is balanced by an identical outward push from a neighboring
+region of the gas. Only at the boundaries of the gas is there an
+imbalance <mdash /> here the enclosed gas is only pushing from inside <mdash /> and
+that is where we can measure the pressure. And note: <em>a gas
+can ONLY push on a surface; it NEVER pulls!!!</em>
+</p>
+<figure xml:id="fig_gas_pressure" >
+<caption>A gas enclosed in a container of length <m>L</m>, with the shaded
+wall having area <m>A</m>.</caption>
+<image width="65%" source="images/gas_pressure.png" />
+</figure>
+<p>
+We can use our picture of the gas state to derive the pressure of a
+gas. In the <em>ideal gas</em> approximation we ignore collisions
+between the molecules entirely, and treat each molecule as bouncing
+back and forth between the walls of the container. The particles bouncing
+off the walls exert a force on the wall, and this is precisely the
+origin of pressure.
+</p>
+
+<example>
+<statement>
+<p>
+{Pressure and Balloons}
+Explain qualitatively how the gas inside an inflated balloon
+prevents the balloon from collapsing.
+</p>
+
+<p>
+<em>Solution: </em> When a balloon is inflated, the rubber is stretched in all
+directions, resulting in an increased tension. At every point along
+the surface of the balloon fabric, the tension pulls in all
+directions along the surface. Because of the curvature of the
+balloon, these tension forces add up to give a net inward tension
+force.
+</p>
+
+<p>
+The inward components of the tension do not cause the balloon to
+collapse because there is an outward force due to air molecules
+trapped within the balloon bouncing off the inner surface of the
+balloon. Each time a molecule bounces off a piece of the balloon,
+it gives that piece a small outward kick. Of course, there are also
+molecules outside the balloon, and each time one of these bounces
+off the balloon, it gives a small inward kick. If the outward and
+inward forces were balanced, which is what happens with an open
+balloon, then the net force would be the tension force, and the
+balloon would rapidly shrink.
+</p>
+
+<p>
+But what if the collisions from the inside molecules are more
+frequent and/or harder collisions? Consider that there are
+around <m>10^{23}</m> gas molecules in a typical balloon, and they are
+moving quite fast at typical room temperatures (see <xref ref="example_vtherm">Example</xref>). There are a <em>lot</em> of collisions occurring
+each second between gas molecules and the inside of the balloon.
+The result of all of these collisions is an outward force exerted on
+the balloon fabric by the gas molecules. This outward gas force
+opposes the inward components of the tension <em>and</em> the inward
+force due to the collisions of all the gas molecules on the outside,
+and as a result the balloon does not collapse.
+</p>
+</statement>
+</example>
+</section>

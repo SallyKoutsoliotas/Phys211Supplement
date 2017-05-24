@@ -1,0 +1,51 @@
+<section>
+<title>Temperature</title>
+<p>
+We began the chapter mentioning that when mechanical energy gets
+converted to thermal energy, the temperature increases. But what is
+temperature? Everyone has an intuitive feel for it: we know that a
+high temperature corresponds to something that is <q>hot</q> and a low
+temperature corresponds to something that is <q>cold.</q> We also know
+from experience that <q>heat</q> <mdash /> which we will define shortly <mdash /> flows
+from hot (high temperature) to cold (low temperature) objects.
+</p>
+
+<p>
+It is common in many introductory text books to define temperature as
+a measure of the average thermal kinetic energy <m>K_\text{ therm } /N</m> of
+a material.<fn>Historically, this approach was used successfully
+  in the <m>18^\text{ th }</m> and <m>19^\text{ th }</m> centuries to develop the
+  first successful quantitative theories of thermodynamics, referred
+  to as the <em>kinetic theory</em> of thermodynamics.</fn> This definition of
+temperature is not valid for all situations (we will provide a more
+rigorous definition of temperature in <xref ref="chapter_second_law">Chapter</xref>); however, there are many situations that can
+benefit from simple view of temperature as a measure of thermal
+kinetic energy.
+</p>
+
+<p>
+We must talk about temperature units. The Celsius
+temperature scale is defined so that water freezes at a temperature of
+<m>0^\circ\units{C}</m> and water boils at <m>100^\circ\units{C}</m>. Considering
+temperature as a measure of kinetic energy, we can define <em>absolute
+zero</em> as the temperature where all molecular motion stops. This occurs at
+<m>-273.15^\circ\units{C}</m> in the Celsius scale.
+</p>
+<figure xml:id="fig_temperature_scales" >
+<caption>The size of the degree is the same for Celsius and Kelvin
+  temperature scales.  They differ by a shift:  <m>T_K=T_C+273</m></caption>
+<image width="84%" source="images/temperature_scales.png" />
+</figure>
+<p>
+A important variation on the Celsius temperature scale is called the
+Kelvin scale, illustrated in Fig. <xref ref="fig_temperature_scales"></xref>. The
+<q>size</q> of the degree is the same for Kelvin and Celsius, that is, a
+change in temperature of <m>1\units{K}</m> is the same as a change in
+temperature of <m>1^\circ\units{C}</m>. The boiling temperature of water
+is still <m>100\units{K}</m> higher than the freezing temperature. The
+difference in the scales is the location of zero: in the Kelvin scale,
+absolute zero corresponds to <m>0\units{K}</m>, water freezes at
+<m>273\units{K}</m> and boils at <m>373\units{K}</m>. The Kelvin temperature
+scale is the one best suited for most thermodynamics problems.
+</p>
+</section>

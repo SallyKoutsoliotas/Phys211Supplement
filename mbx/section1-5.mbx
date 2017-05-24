@@ -1,0 +1,108 @@
+<section>
+<title>Length contraction</title>
+<p>
+One thing that will come up repeatedly in this unit is the fact that
+relativity breaks down the distinction between distance and time. In
+fact, in relativity, distance and time are really just flip sides of
+the same coin. And as we will see now, you can't change our
+conception of time without making a similarly dramatic change in the
+way we view distances and length.
+</p>
+
+<p>
+Consider the following thought experiment: a train is moving on a
+track, with Observers A and B at the front and back end of the train.
+A and B have measured the length of the train with a long tape measure
+that they carry with them on the moving train, and find the length to
+be <m>L_{ train}</m>. The train goes past Observer C who is standing
+next to the track with a stopwatch (see Fig. <xref ref="fig_contraction"></xref>).
+Relative to C in the <q>ground reference frame,</q> the train is moving
+with a speed <m>v</m>. From the train's reference frame, of course, it is
+C and the ground that are moving at a speed <m>v</m> in the opposite
+direction.
+</p>
+<figure xml:id="fig_contraction" >
+<caption>Sketch of train for length contraction thought-experiment.</caption>
+<image width="65%" source="images/rel1_train.png" />
+</figure>
+<p>
+Let's say that Observer C wants to measure the length of the train.
+He can use his stopwatch to do this: since distance = (speed) <times />
+(time), the length of the train is simply the speed <m>v</m> times the time
+interval between when the front of the train passes and when the back
+of the train passes. Let's consider two events: Event A <m>=</m> front of
+train passes C; Event B <m>=</m> back of train passes C. According to
+people on the train, the time between the two events <m>\Delta t_{
+  train} = L_{ train}/v</m>, where <m>L_{ train}</m> is the
+previously-measured length of the train <mdash /> this is how far Observer C
+moves between the events according to train observers. But, as we saw
+in the previous section, C measures the proper time (since this
+observer is at both events), which is a smaller time interval:
+<men>
+  \Delta t_C = \Delta t_{ proper} = \Delta t_{ train}\sqrt{1 - v^2/c^2}.
+</men>
+</p>
+
+<p>
+Based on this result, Observer C now says that the length of the train is
+<md>
+  <mrow>  \text{ Length }  = (\text{ speed } )\times (\text{ time } ) \amp = v\Delta t_C \nonumber</mrow>
+  <mrow>  \amp =  v \Delta t_{ train}\sqrt{1-v^2/c^2}  \nonumber</mrow>
+  <mrow>  \amp = L_{ train}\sqrt{1-v^2/c^2}.</mrow>
+</md>
+</p>
+
+<p>
+<em><em>The length of the train as measured by an observer by the
+side of the track is less than the length of the same train as
+measured by people moving with the train.</em></em>
+</p>
+
+<p>
+We can write this relation (referred to as the <em><em>Lorentz
+contraction</em></em> or simply <em><em>length contraction</em></em> equation) in
+more general terms:
+</p>
+
+<p>
+\begin{boxiteq}
+{
+<men xml:id="eq_lengthcontract" >
+  L_{ other} = L_{ rest}\sqrt{1-v^2/c^2},
+</men>
+</p>
+
+<p>
+}
+\end{boxiteq}
+</p>
+
+<p>
+where <m>L_{ rest}</m> is the length of an object as measured by
+observers in a reference frame where that object is at rest, and
+<m>L_{ other}</m> is the length as measured by observers in a different
+reference frame. Note that an object is always largest when viewed
+from its own reference frame, and shrinks when it is viewed as moving.
+</p>
+
+<p>
+Some comments are in order:
+<ul>
+<li><p>You can't have time dilation without length contraction <mdash /> the 
+two necessarily go hand-in-hand.  This is a recurring theme of relativity <mdash />
+Einstein's theory can't be taken <q>a la carte</q>; rather, it is all or nothing.
+Einstein realized that if any single prediction of relativity were
+ever refuted, then the entire theory would have to be discarded.</p></li>
+<li><p>The arguments in this section apply to length components along
+the direction of the relative motion.  Components of a length in 
+directions perpendicular to the relative motion are not contracted.</p></li>
+<li><p>Length contraction is not an illusion or merely a matter of
+perception.  In the example, the train doesn't just appear to be
+smaller from C's reference frame; rather, it  <em>really is
+smaller</em> in that reference frame.  Some of the homework problems and
+drill questions will investigate some of the curious properties of
+length contraction.</p></li>
+</ul>
+
+</p>
+</section>

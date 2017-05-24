@@ -1,0 +1,44 @@
+<section>
+<title>Units and dimensionless velocities</title>
+<p>
+When working with relativity, it is convenient to express lengths in
+terms of distance traveled by light in one unit of time. A <q>light
+year</q> for instance is the distance that light travels in one year.
+An analogy would be to say that the distance between here and New York
+City is <q>three car hours</q> (i.e., it takes 3 hours to get to New York
+in a car driving at highway speeds). In fact, you will often hear
+people using time directly to express a distance: <q>Oh, it's 3 hours
+to New York City from here.</q> We will abbreviate these units as lt-s,
+lt-min, lt-yr, <ellipsis /> for light-second, light-minute and light-year,
+respectively. Using these units for distance, we can express speeds in
+terms of lt-s/s, lt-min/min, lt-yr/yr, etc. Since the speed of light
+<m>c = 1 \units{lt-s/s} = 1 \units{lt-min/min} = 1 \units{lt-yr/yr} =
+\dots</m>, the speed of a particle in these units is simply the speed
+expressed as a fraction of the speed of light.
+</p>
+
+<example>
+<statement>
+<p>
+{Units Conversion from lt-s/s to m/s}
+A proton is traveling at a speed of <m>0.25\units{lt-s/s}</m>. Find its speed in
+units of m/s. 
+
+<em>Solution: </em> Use the fact that <m>1\units{lt-s/s}</m> is equal to
+about <m>3.00\times 10^8\units{m/s}</m>. Then convert units in the
+usual way:
+<me>
+  0.25\units{lt-s/s} \times 
+        \frac{3.0\times 10^8\units{m/s}}{1\units{lt-s/s}}
+       = 0.75\times 10^8\units{m/s}.
+</me>
+</p>
+
+<p>
+In this example, a particle has a speed <m>u = 0.25\units{lt-s/s}</m>. This same
+speed could be expressed as <m>u = 0.25c</m>. In fact, we will typically
+express velocities as a fraction of the speed of light <m>c</m>.
+</p>
+</statement>
+</example>
+</section>

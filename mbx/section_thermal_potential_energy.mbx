@@ -1,0 +1,97 @@
+<section xml:id="section_thermal_potential_energy">
+<title>Thermal Potential Energy</title>
+<p>
+Thermal energy is not just kinetic, but also involves potential
+energy. Molecules exert forces on each other, pushing and
+pulling.<fn>The origin of these forces is the electric force
+  interactions between the charges of the atoms combined with quantum
+  mechanics, which governs the location of the charges.  Both of these
+  topics will be covered in PHYS 212.</fn> These forces are conservative,
+so there is a potential energy associated with each pair of molecules.
+To understand this potential energy, we must first consider the force
+between an isolated pair of molecules. There are three distinct
+regimes, depending on how far apart the two molecules are.
+<ul>
+<li><p>When the molecules are closer than a molecular diameter, they
+exert a strong repulsive force on each other.</p></li>
+<li><p>When the molecules are within a few molecular diameters, they
+exert attractive forces on each other.</p></li>
+<li><p>When the molecules are more than a few molecular diameters away
+from each other, the force becomes negligibly small.</p></li>
+</ul>
+</p>
+
+<p>
+This behavior is captured by what is called the <em>pair
+potential</em>, shown in Fig. <xref ref="fig_pair_potential"></xref>, which is the
+potential energy <m>U_\text{ pair } (r)</m> due to a pair of molecules
+separated by a distance <m>r</m>. The diagram illustrates the three
+regions. Notice that at a separation <m>r=d</m>, where <m>d</m> is the
+molecular diameter, there is an equilibrium point dividing the regions
+of attractive and repulsive forces.
+</p>
+
+<p>
+As we shall see in the next two chapters, this pair potential explains
+the existence of solid, liquid, and gas phases, and many details of
+the phases and of the transitions between the phases. It is one of
+the remarkable triumphs of the atomic theory of matter that so much
+behavior can be explained by such a simple model of the forces between
+atoms!
+</p>
+
+<p>
+In principle, the <em>system</em> potential energy for a system of <m>N</m>
+molecules contains the pair potential energy for every single pairing
+of the molecules. This is a very large number of pairs! Fortunately,
+only those molecules which are immediate neighbors are close enough to
+have an appreciable force and potential energy, so we only need to
+consider the potential energy due to neighboring molecules.
+</p>
+<figure xml:id="fig_pair_potential" >
+<caption>The pair potential energy <m>U_ pair</m> as a function of
+  <m>r</m>, the separation between the pair of molecules.  The dashed lines
+  separate the regions of repulsive force, attractive force, and
+  negligible force.  At separation <m>r=d</m> the pair is in equilibrium,
+  which defines the molecular diameter.</caption>
+<image width="93%" source="images/pair_potential.png" />
+</figure>
+<p>
+What about other sources of potential energy besides the
+intermolecular forces? For example, gravitational potential energy.
+When a ball is thrown upwards, the gravitational potential energy of
+each molecule increases. But the height of each molecule is increased
+by the same amount that the height of the center of mass is increased.
+Therefore this change in potential energy has the form
+<men>
+  \Delta U_\text{ grav }  = M_\text{ object }  g\Delta y_{cm},
+</men>
+where <m>M_\text{ object }</m> is again the total mass of the object. This
+is the familiar mechanical potential energy. Therefore, gravitational
+potential energy is always part of the mechanical energy, whereas the
+molecular interaction energy makes up the thermal potential energy.
+</p>
+
+<p>
+In summary, here is the big picture for thermal energy:
+<ul>
+<li><p>For both potential energy and kinetic energy, it is the
+  `organized' motion that makes up the <em>mechanical energy</em>, such as
+  all molecules increasing their height together or all molecules
+  having a net alignment of their velocities.</p></li>
+<li><p>The remaining disorganized motion, such as the wiggling of the
+  molecules and their individual pushes and pulls on each other,
+  corresponds to the <em>thermal energy</em>.</p></li>
+<li><p>Friction is an agent that takes organized motion and
+  disorganizes it, taking away mechanical energy and increasing thermal
+  energy.</p></li>
+<li><p>Going the other way <mdash /> taking away thermal energy and
+  increasing mechanical energy <mdash /> is more difficult, since molecules
+  are not likely to spontaneously start moving together.
+  Nevertheless, we can capture some amount of thermal energy and
+  convert it to mechanical energy with a device called a heat engine,
+  which is the topic of Supplementary Reading <xref ref="chapter_heat_engines">Chapter</xref>.</p></li>
+</ul>
+
+</p>
+</section>

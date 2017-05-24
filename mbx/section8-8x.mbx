@@ -1,0 +1,58 @@
+<section>
+<title>Problems</title>
+<problem xml:id="prob_sphere">
+<statement>
+<p>
+Refer to Fig. <xref ref="fig_sphere"></xref>. Suppose <m>C_1</m> is the <m>50^\circ</m>
+north latitude circle on the earth, and <m>C_2</m> is the <m>40^\circ</m>
+north latitude circle on Earth. The measured circumferences are
+<m>C_1 = 25850\, \mbox{km}</m> and <m>C_2 = 30800\, \mbox{km}</m>.
+<ol>
+<li><p>Determine <m>r_1</m>, <m>r_2</m> and <m>\Delta r</m>.</p></li>
+<li><p>Determine <m>\Delta s</m> as a direct measurement on the earth's surface
+    of the distance between the <m>40^\circ</m> and <m>50^\circ</m> latitude
+    circles.  Compare your result to <m>\Delta r</m>.</p></li>
+<li><p>Explain how you could use your results to convince a member of
+    the Flat Earth Society that the earth's surface is actually
+    curved.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_neutron_star_time">
+<statement>
+<p>
+Consider clock <m>C</m> on the surface of a neutron star, and clock <m>D</m>
+far away. How do their rates compare? How much time elapses on
+clock <m>D</m> before clock <m>C</m> is one second behind? (The mass and
+radius of the neutron star are <m>2\times 10^{30}\units{kg}</m> and
+<m>10\units{km}</m>, respectively.)
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_neutron_star_space">
+<statement>
+<p>
+For the same neutron star as in
+<xref ref="prob_neutron_star_time">Problem</xref>, calculate the height above
+the surface for which the circumference of a circle concentric with
+the star is <m>2\pi\times 10.001\units{km}</m>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_trip">
+<statement>
+<p>
+Following path (b) in Fig. <xref ref="fig_trip2"></xref> means you go at <m>v =
+  0.8c</m> for the first leg, and <m>v = 0</m> for the next. Calculate the
+<m>t</m>-coordinate at the junction point; then determine the proper time
+for each leg and add them to get the total proper time. Compare to
+the <m>0.8\, \mbox{s}</m> of the direct route.
+</p>
+</statement>
+</problem>
+</section>

@@ -1,0 +1,40 @@
+<section xml:id="section_rel-units">
+<title>A note on units</title>
+<p>
+When working with energy and momentum for small, subatomic particles
+(the ones that are most typically traveling at relativistic speeds),
+it is convenient to define a unit of energy called the <q>electron
+volt</q> (eV for short). One electron volt is the kinetic energy gained
+by an electron when accelerated through a 1 volt potential difference.
+(You'll learn more about this in PHYS 212.) Quantitatively, <m>1\units{eV} =
+1.6\times 10^{-19}\units{J}</m>. An analogous energy unit might be a
+<q>superball-meter</q> <mdash /> the amount of kinetic energy gained by a
+superball when dropped 1 m.
+</p>
+
+<p>
+For high energy particles, the energies can get into the thousands,
+millions or billions of electron volts, so we also define
+<m>1\units{keV} = 10^3\units{eV}</m>, <m>1\units{MeV} = 10^6\units{eV}</m>,
+<m>1\units{GeV} = 10^9\units{eV}</m>.
+</p>
+
+<p>
+Units for mass and momentum are also defined in terms of energy in
+relativity. For mass, we use eV/<m>c^2</m> <mdash /> <q>electron volts per
+<m>c^2</m></q> <mdash /> or keV/<m>c^2</m>, MeV/<m>c^2</m>, GeV/<m>c^2</m>. For momentum, we use
+eV/<m>c</m> (or keV/<m>c</m>, MeV/<m>c</m>, GeV/<m>c</m>). For example, an electron has a
+mass of <m>511\units{keV/</m>c^2<m>}</m>; conceptually, this means that an electron
+has a rest energy of <m>511\units{keV}</m>, or that its mass <mdash /> if converted
+completely into kinetic energy <mdash /> would produce <m>511\units{keV}</m> of
+kinetic energy.
+</p>
+
+<p>
+<em>Warning</em>: when using these units, don't throw any numbers in for
+the <m>c</m> <mdash /> it is part of the unit. So, the mass of an electron
+should be written as <q><m>511\units{keV/</m>c^2<m>}</m></q> (or <m>0.511\units{MeV/</m>c^2<m>}</m>),
+<em>not</em> as <m>511\units{keV}/(3.0\times 10^8\units{m/s})^2</m> \rule[1mm]{42mm}{.2mm}
+or <m>511\units{keV}/(1\units{lt-s/s})^2</m>.\rule[1mm]{30mm}{.2mm}
+</p>
+</section>

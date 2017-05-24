@@ -1,0 +1,90 @@
+<section>
+<title>Experimental evidence</title>
+<p>
+Most people are skeptical when they first read about the predictions
+of special relativity. This is to be expected, since we do not
+experience time dilation or length contraction effects on a daily
+basis. For these effects to be significant, you need relative
+velocities that are significant fractions of the speed of light.
+Looking at both Eqs.<nbsp /><xref ref="eq_ptr" /> and <xref ref="eq_lengthcontract" />, the
+key piece is the stretch factor <m>\sqrt{1-v^2/c^2}</m>, which is almost
+identically equal to 1.00 for even the fastest velocities that people
+ever experience. This is an important aspect of relativity;
+namely, that it obeys classical correspondence, i.e., the results of
+relativity agree with Newton's classical results for smaller
+velocities.
+</p>
+
+<p>
+Despite the fact that relativistic effects are almost negligible in
+the <q>everyday</q> phenomena of our personal experience, there is
+copious experimental evidence
+that shows that Einstein's predictions are correct. In every case
+where an experiment has tested the theory of relativity, the
+experimental results have always agreed precisely with the predictions
+of relativity. Some examples:
+<ul>
+<li><p><em>Time dilation</em>.  Time dilation is the most tested aspect of
+relativity.  The most direct test was performed by taking two
+identical atomic clocks, flying one around the world on a plane and
+leaving the other on the ground, then comparing their readings after
+the trip.  As predicted by Einstein, the clocks had ticked off
+different times, and by precisely the predicted amount.<fn>Note
+that General Relativity plays a role here because the height of a
+clock also affects its rate, but the experiments took account of these
+general relativistic effects.</fn> Particle decay has also been used to
+test time dilation: a type of particle that typically lives for a
+certain period of time has been shown to live significantly longer if
+accelerated to high speeds (relative to the ground); again, the
+difference in times agrees perfectly with relativity.  And the Global
+Positioning System (GPS) <mdash /> which involves a series of satellites
+with precise clocks <mdash /> uses relativity extensively to keep the
+orbiting clocks synchronized with those in the GPS units on the Earth.
+Without relativistic corrections, GPS wouldn't work!</p></li>
+<li><p><em>The speed of light as a speed limit.</em>  This result is verified
+daily in particle accelerators.  It is fairly straightforward for
+scientists to accelerate subatomic particles to speeds close to the
+speed of light.  But no matter how much energy is added, the speeds
+never make it to or above <m>c</m>.  Electrons, in particular, have been
+accelerated to speeds <m>u> 0.99999999999c</m>, but never up to or above <m>c</m>.</p></li>
+<li><p><em>Length contraction.</em>  No experimentalist has managed to
+accelerate a train to relative speeds large enough to measure length
+contraction effects.  (Trust us: you wouldn't want to be anywhere near
+a train going this fast.)  But there is experimental evidence for
+length contraction: (a) cosmic rays produced at the top of the Earth's
+atmosphere somehow manage to make it to the surface of the Earth
+before decaying, despite the fact that they are very unstable.  Some
+of these particles have lifetimes so short that even traveling at
+speeds close to <m>c</m>, they would be expected to decay long before they
+reach the ground.  This can be explained using length contraction: the
+distance from the top of the atmosphere to the Earth's surface is
+significantly contracted from their reference frame, so there is no
+problem making it to the Earth's surface before
+decaying.<fn>This result can also be explained using time
+dilation, of course, because time dilation and length contraction are
+really different aspects of the same phenomenon.</fn> (b) Another piece of
+experimental evidence comes from electromagnetic theory <mdash /> it turns out
+that you can explain why an electrical current produces magnetic
+effects by applying relativistic length contraction to the stream of
+electrons.  The argument is too long to present here (especially since
+we haven't covered electricity and magnetism yet), but suffice it to
+say that the results agree perfectly with an analysis based on length
+contraction.</p></li>
+</ul>
+</p>
+
+<p>
+There are other experimental tests of other aspects of relativity,
+some of which will be discussed later in this unit (when those aspects
+are presented). But, in general, it is worth remembering that
+relativity is not a series of different theories, but rather is a
+single, coherent, internally consistent theory. All of the
+predictions are inherently related to each other. So you can't say,
+<q>Well, I'm fine with time dilation but I don't buy length
+contraction.</q> You simply can't have time dilation without length
+contraction <mdash /> they are the same thing. So even if there hadn't been
+any independent experimental evidence of length contraction (which
+there is) there would be very little doubt of its veracity since time
+dilation has been verified extensively.
+</p>
+</section>

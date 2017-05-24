@@ -1,0 +1,189 @@
+<section>
+<title>Fundamental Principles of Relativity</title>
+<p>
+Einstein's Special Theory of Relativity is based on a very simple
+premise, namely
+</p>
+
+<p>
+\begin{boxittext} {<em>The Principle of Relativity</em>: the laws of
+physics are the same for observers in different inertial reference
+frames.}
+\end{boxittext}
+</p>
+
+<p>
+Let's say, for example, that Michelle sets up a lab in the
+basement of Olin Science while Barack sets up an identical lab inside
+a truck that is driving on Route 15 with a constant velocity.
+Whatever physics equations (including fundamental constants) Michelle
+uses to predict and describe the behavior in her lab should work
+equally well for Barack in his lab.
+</p>
+
+<p>
+Not only is this an intuitively reasonable statement, but
+the argument can be made that the whole field of physics would be
+useless if this statement weren't true (along with chemistry, biology
+and engineering as well). After all, what is the point of formulating
+a set of laws to describe the universe if they only apply to certain
+observers moving in a certain way?
+</p>
+
+<p>
+The question then boils down to this: what <em>are</em> the fundamental <q>laws
+of physics</q> that are the same for all observers? At the beginning of
+the 20<m>^{ th}</m> century, there were two main cornerstones of physics:
+Newton's Laws of Classical Mechanics, and Maxwell's Equations
+describing electrical and magnetic fields. You have already been
+introduced to Newton's Laws. We will be discussing
+electricity and magnetism in PHYS 212, but here we highlight some of
+the ideas relevant to our discussion of relativity.
+</p>
+
+<p>
+During the 19<m>^{ th}</m> century, there was a tremendous surge of
+research to describe electric and magnetic phenomena, culminating in
+the integration of electromagnetic theory into a set of four
+fundamental laws by James Clerk Maxwell in the late 1800s. Maxwell's
+results not only unified electricity and magnetism into a single,
+consistent theory, but also showed for the first time that light is an
+electromagnetic wave (you'll learn more about this in PHYS 212). The
+theory also showed how to produce a wide variety of different types of
+electromagnetic waves, a prescription that had been successfully
+tested during the period between Maxwell's theory and Einstein's work
+on relativity. Suffice it to say that Maxwell's equations were
+(and still are) considered by the scientific community to be one of
+the cornerstones of physical law.
+</p>
+
+<p>
+But there was a problem: by the end of the 19<m>^{ th}</m> century, some
+theorists
+attempted to generalize Maxwell's equations to apply in
+any reference frame and found that this could not be done within the
+framework of Newtonian Classical Mechanics. There arose
+a conflict between the two most widely-accepted cornerstones of
+physics: Newton's Mechanics and Maxwell's equations.
+</p>
+
+<p>
+Here is where Einstein came into the picture. Whereas few people had
+previously had any doubts about the validity of Newtonian Mechanics,
+Einstein started from the assumption that Maxwell's Equations of
+electricity and magnetism were a fundamental law of physics that were
+valid in any reference frame, and then set about re-writing Newton's
+Laws (generalizing them, actually) to assure that Maxwell's Equations
+would be valid in any reference frame. (Hence the title of Einstein's
+third paper in 1905.)
+</p>
+
+<p>
+The argument is actually fairly simple. If Maxwell's Equations are
+valid for observers in any inertial reference frame, then not only the
+form of the equations but also all the constants should be valid in any
+reference frame. Two of the constants in particular <mdash /> the
+permittivity of free space <m>\epsilon_0</m>, and the permeability of free
+space <m>\mu_0</m> combine to give a value <m>1/\mu_0\epsilon_0 = 9.0\times
+10^{16}\units{m</m>^2<m>/s</m>^2<m>}</m>, which is the square of the speed of
+light when it propagates through a vacuum! Based on the fundamental
+Principle of Relativity (above), the conclusion is staggering. If
+Maxwell's equations formulate a fundamental law of physics, then the
+Relativity Principle implies the following consequence
+<fn>Einstein stated the second postulate slightly differently:  
+<q>light is always propagated in empty space with a definite velocity
+<em>c</em> which is independent of the state of motion of the emitting
+body.</q>  It can be shown that the invariance of the speed of light, 
+with respect to the motion of the <em>source</em>, and the invariance of the 
+speed of light with respect to the motion of the <em>observer</em>
+are simply consequences of each other.</fn>
+:
+</p>
+
+<p>
+\begin{boxittext}
+{
+<em>The invariance of the speed of light</em>: The speed of light in a vacuum <m>c</m>
+is measured to be <m>3.0\times 10^8\units{m/s}</m> by any observer in any inertial
+reference frame.
+}
+\end{boxittext}
+</p>
+
+<p>
+Although verified experimentally,<fn>In fact, an
+  experiment by Michelson and Morly in 1895 already indicated the
+  invariance of the speed of light in vacuum.</fn> this statement runs
+counter to our intuition, based on common experience. Consider the
+following sample problems:
+</p>
+
+<example>
+<statement>
+<p>
+{Classical calculation of relative velocities I.}
+Karen is running down the hall of Olin with a loaded blow dart gun.
+She is running with a constant speed of <m>5\units{m/s}</m> when she sees Brian
+and Jeff standing in front of their lab. While still running, she
+fires a blow dart in their direction. If the speed of the blow dart
+is <m>15\units{m/s}</m> relative to Karen, how fast is the dart moving with
+respect to
+Jeff and Brian's reference frame? 
+
+<em>Solution: </em> The answer is what you
+would think <mdash /> simply add the speeds to find that the blow dart
+travels at a speed of <m>20\units{m/s}</m> relative to Jeff and Brian.
+</p>
+</statement>
+</example>
+
+<p>
+\begin{exampleb}{Classical calculation of relative velocities II.}
+Brian now picks up his blow dart gun and aims it in Karen's
+direction. Karen quickly retreats, running away from Brian and Jeff
+with a constant speed of <m>5\units{m/s}</m>. Brian fires a dart toward Karen at
+a speed <m>15\units{m/s}</m> measured from his reference frame. How fast is the
+dart moving with respect to Karen's reference frame? 
+
+<em>Solution: </em> Again, the
+result is what you would think <mdash /> simply subtract the speeds to
+find that the blow dart travels at a speed <m>10\units{m/s}</m> relative to Karen.
+\end{exampleb}
+</p>
+
+<p>
+\begin{exampleb}{Speeds of light pulses.}
+Lord Fa is returning to his home world of Gao. Approaching the
+planet at speed of <m>2.0\times 10^8\units{m/s}</m> (relative to the planet), he
+sends a beacon of light to Commander Nea stationed on Gao. This
+pulse of light leaves his ship with a speed <m>3.0\times 10^8\units{m/s}</m>
+relative to the ship. How fast is the pulse moving relative to
+Commander Nea? 
+
+<em>Solution: </em> Classically, you should expect that
+Commander Nea would view the pulse as moving with a speed of
+<m>5.0\times 10^8\units{m/s}</m>. But this is wrong. Instead, from her
+reference frame, the pulse is moving with a speed of <m>3.0\times
+  10^8\units{m/s}</m>! That's just the way it is with light pulses moving in a
+vacuum <mdash /> everyone measures the same speed of <m>3.0\times 10^8\units{m/s}</m>,
+regardless of their motion.
+\end{exampleb}
+</p>
+
+<p>
+You should find the results of the above example to be strange <mdash />
+there is nothing in our everyday experience that would lead us to
+expect such a result. But numerous experiments have measured the
+speed of light in a wide variety of reference frames, and the
+results always agree with the statement of the invariance of <m>c</m>.
+</p>
+
+<p>
+That the speed of light (in empty space) does not depend on the speed
+of its source has been demonstrated so convincingly and the value of
+the speed measured so accurately that the value is now defined to be
+exactly <m>299,792,458\units{m/s}</m>. By combining this definition of <m>c</m> with the
+definition of the second (in terms of an atomic clock), we no longer
+need an independent definition of the meter.
+</p>
+</section>

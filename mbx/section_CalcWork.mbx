@@ -1,0 +1,179 @@
+<section xml:id="section_CalcWork">
+<title>Calculating work done in gas processes</title>
+<p>
+Okay, we now have the tools to enable us to calculate the work done on
+or by a gas during a process. The key is the volume. It turns out that
+an expanding gas does work on its environment, whereas it is necessary
+for an external agent to do work <em>on</em> a gas for it to be compressed.
+This can be understood qualitatively by considering a balloon. If you
+want to compress the gas on a balloon, you have to squeeze the balloon,
+doing work on the gas. But if you stick a pin in the balloon, it will pop
+and do work on the environment, as evidenced both by the loud <q>POP!</q>
+sound and the pieces of balloon fabric that go flying all over the place
+after the explosion.
+</p>
+
+<p>
+Quantitatively, the work done in an expansion or compression process can
+be analyzed as a <m>p</m>-<m>V</m> process. For simplicity, let's consider a cylinder
+with a fitted piston with mass <m>m</m> that seals in the gas but which can
+slide up and down without friction (Fig. <xref ref="fig_cylinder"></xref>).
+</p>
+<figure xml:id="fig_cylinder" >
+<caption>Piston with surface area <m>A</m> in a cylinder containing
+a gas with volume <m>V_ gas</m> and <m>p_ gas</m>.</caption>
+<image width="37%" source="images/cylinder.png" />
+</figure>
+<p>
+The work done on the piston by the gas inside the
+cylinder<fn>Note of course that the gas in the cylinder isn't the only
+  thing doing work on the piston in this example: gravity also does
+  work, as does the gas <em>outside</em> the cylinder, along with any
+  friction or air resistance.</fn> can be calculated from the standard
+relation for the work done by a spatially-varying force:
+<m>W_\text{ by } =\int_{x_i}^{x_f}{F_\text{ gas } \,dx}</m>. Since the pressure <m>p</m> is the
+force divided by the surface area, <m>F_\text{ gas }  = p_\text{ gas } A</m>
+where <m>A</m> is the cross-sectional area of the piston. Consequently,
+<m>W_\text{ by }  = \int_{x_i}^{x_f}{pA\,dx} = \int_{V_i}^{V_f}{p\,dV}</m> where we are dropping the
+<q>gas</q> subscripts. This result deserves its own line and an equation
+number:
+<men xml:id="eq_WorkBy" >
+  W_\text{ by }  = \int_{V_i}^{V_f} p\,dV
+</men>
+</p>
+
+<p>
+So, the work done by the gas is simply the integral of the pressure,
+integrated over the volume. And the work done <em>on</em> a gas is just the
+opposite:
+<men xml:id="eq_WorkOn" >
+  W_\text{ on }  = -\int_{V_i}^{V_f} p\,dV
+</men>
+</p>
+
+<p>
+Note also that we can also calculate the work
+by determining the area under a curve of <m>p</m> versus <m>V</m>, i.e., the area in a
+<m>p</m>-<m>V</m> diagram. Here is another example of how useful <m>p</m>-<m>V</m> diagrams can be,
+since they display quite directly the work done on or by a gas process.
+</p>
+
+<p>
+<em>NOTE:</em> the sign of the work is critically important. There is a big
+difference between a positive and a negative value, e.g., the work
+done by a process <m>W_\text{ by }</m>. For a car engine, a positive
+value of <m>W_\text{ by }</m> means that the car is able to drive, whereas a negative
+value for <m>W_\text{ by }</m> means that you have to push the car to get it to go.
+</p>
+
+<p>
+Special cases:
+<ul>
+<li><p><em>Constant volume processes</em>.  If the volume remains constant during a
+process, the work done on and by the gas is zero.</p></li>
+<li><p><em>Isobaric (constant pressure) processes</em>. In this case, the
+  work done by the gas is
+<men>
+  W_\text{ by }  = \int_{V_i}^{V_f}p\,dV = p\int_{V_i}^{V_f}\,dV = p\Delta V.
+</men>
+So, the work done <em>on</em> the gas <m>W_\text{ on }  = -W_\text{ by }  =
+-p\Delta V</m>.  This can also been seen easily from a <m>p</m>-<m>V</m> diagram
+for an isobaric process (Fig. <xref ref="fig_PVdiagrams"></xref>a): the area under
+the curve is simply the area of the rectangle <m>p\Delta V</m>.</p></li>
+<li><p><em>Isothermal (constant temperature) processes</em>. In this case,
+  the work done by the gas
+<md>
+  <mrow>  W_\text{ by }  \amp = \int_{V_i}^{V_f}p\,dV =
+  \int_{V_i}^{V_f}\frac{nRT}{V}\,dV = nRT\int_{V_i}^{V_f}\frac{dV}{V} 
+= nRT[\ln V]_{V_i}^{V_f}  \nonumber</mrow>
+  <mrow>  \amp = nRT( \ln V_f -\ln V_i)
+  = nRT\ln\biggl(\frac{V_f}{V_i}\biggr).</mrow>
+</md>
+And, of course, the work done <em>on</em> the gas <m>W_\text{ on }  =
+ -W_\text{ by }  = -nRT\ln (V_f/V_i)</m>.
+
+<em>Useful trick:</em> note that since the ideal gas law states that <m>pV = nRT</m>, the work done by 
+a gas during an isothermal process can also be written as <m>W_\text{ by } 
+= pV\ln (V_f/V_i)</m>. This is really useful if you know the pressure
+and volume at any moment during the isothermal process but don't know
+the temperature.</p></li>
+<li><p><em>Straight-line processes on a <m>p</m>-<m>V</m> diagram</em>. In these cases, the work
+can be determined by determining the area under the curve.</p></li>
+<li><p>If you can't figure it out from any of the four approaches, there is
+one other way in which you will be able to calculate the work done on
+or by a gas during a processes: use the First Law of Thermodynamics.
+If you have a process where you can determine the heat flowing in <m>Q_\text{ in }</m>
+and the change in the thermal energy <m>\Delta E_\text{ therm }</m>, then you will be able
+to find <m>W_\text{ on }  = \Delta E_\text{ therm }  - Q_\text{ in }</m>.</p></li>
+</ul>
+</p>
+
+<p>
+Remember that the sign of the work depends on whether the volume is
+increasing or decreasing. If <m>V</m> increase, <m>W_\text{ by }</m> is positive
+and <m>W_\text{ on }</m> is negative, and if <m>V</m> decreases, then
+<m>W_\text{ by }</m> is negative and <m>W_\text{ on }</m> is positive.
+</p>
+
+<p>
+<em>A note about units:</em> in standard units, if pressure is in N/m<m>^2</m>
+(i.e., Pa) and volume is in m<m>^3</m>, the resulting calculated work wil
+be in J. But in many realistic problems, the pressure is given in kPa
+and the volume is given in L. Since <m>1\units{L} = 10^{-3}
+\units{m</m>^3<m>}</m> and 1 kPa = <m>10^3</m> Pa, a calculation of work using L
+and kPa also gives an answer in J. So, it isn't necessary to convert
+to Pa and m<m>^3</m> when doing these calculations.
+</p>
+
+<example>
+<statement>
+<p>
+{Calculating work for gas processes}
+Calculate the work done on the gas for each of the three processes in
+<xref ref="ex_PVexample">Example</xref> (see Fig. <xref ref="fig_PVexample"></xref>).
+</p>
+
+<p>
+<em>Solution:</em> Let's deal with each of the three processes in turn:
+<ul>
+<li><p><em>Process <m>1 \rightarrow 2</m>:</em> This is a constant pressure
+  expansion.  First, we need to recognize that since the volume is
+  increasing, the work done <em>by</em> the gas <m>W_\text{ by }</m> is
+  positive, so <m>W_\text{ on }</m> is negative.  We can figure this out
+  easily enough by recognizing that <m>W_\text{ by }</m> is simply the area
+  under the curve
+<men>
+  W_\text{ by }  = \int_{V_1}^{V_2}p\,dV= (100\units{kPa})(6.0\units{L} -
+3.0\units{L}) = 300\units{J}.
+</men>
+Alternately, this could also be determined by <m>W_\text{ by }  =
+\int_{V_1}^{V_2}p\,dV = p\Delta V</m> (since this is a constant pressure
+process), giving
+<men>
+  W_\text{ by }  = 
+(100\units{kPa})(6.0\units{L} - 3.0\units{L}) = 300\units{J}.
+</men>
+So, <m>W_\text{ on }  = -W_\text{ by }  = -300</m> J.</p></li>
+<li><p><em>Process <m>2 \rightarrow 3</m>:</em> This is an isothermal
+  compression, so <m>W_\text{ on }  = -W_\text{ by }  = -nRT\ln (V_3/V_2)</m>. We
+  don't know how many moles of gas there are, but we could figure it
+  out using the Ideal Gas Law.  <em>But we aren't going to do that</em>,
+  because we can replace <m>nRT</m> with either <m>p_2V_2</m> or <m>p_3V_3</m>. So,
+<men>
+  W_\text{ on }  = -p_2V_2\ln\biggl(\frac{V_3}{V_2}\biggr) = -(100 \units{kPa})(6.0 L)\ln \biggl(\frac{3.0 L}{6.0 L}\biggr) = 416 \units{J}.
+</men>
+Note that this is a positive number, which makes sense
+since it is a compression, and we know that <m>W_\text{ on }</m> is positive for a
+compression.  Note also that the work for the  process <m>2 \rightarrow 3</m> 
+has a larger magnitude than that for process <m>1 \rightarrow 2</m>, which also
+makes sense because there is a larger area under the curve <m>2 \rightarrow 3</m>
+than under the curve <m>1 \rightarrow 2</m>.</p></li>
+<li><p><em>Process <m>3 \rightarrow 4</m>:</em> This is a constant volume process,
+so <m>W_\text{ on }  = 0</m>. This is also consistent with work as area under the curve,
+as there is no area under the process <m>3 \rightarrow 4</m>.</p></li>
+</ul>
+
+</p>
+</statement>
+</example>
+</section>

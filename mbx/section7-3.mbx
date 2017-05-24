@@ -1,0 +1,58 @@
+<section>
+<title>Second Law and Heat Flow</title>
+<p>
+Our new relatively simple relation between heat flow and entropy
+change can be directly brought back to the second law. Recall the
+Clausius statement of the second law, that heat can only spontaneously
+flow from higher temperature to lower temperature. Suppose we have a
+pair of bricks <m>A</m> and <m>B</m> with temperatures <m>T_A=400\units{K}</m> and
+<m>T_B=300\units{K}</m>. We bring the bricks into thermal contact and let
+<m>20\units{J}</m> of heat flow from the higher temperature brick to the
+lower temperature brick. This is a small enough amount of energy that
+the temperature of the bricks is essentially unchanged (they are
+acting as reservoirs), so we can use the constant temperature
+approximation (Eq. <xref ref="eq_deltaS_isothermal"></xref>) for entropy changes.
+</p>
+
+<p>
+Then the total entropy change is
+<md>
+  <mrow>  \Delta S_\text{ total } \amp = \Delta S_A + \Delta S_B = \frac{Q_A}{T_A} +
+\frac{Q_B}{T_B} \nonumber</mrow>
+  <mrow>  \amp = \frac{-20\units{J}}{400\units{K}} + \frac{+20\units{J}}{300\units{K}} 
+= -0.050\units{J/K} + 0.067\units{J/K} \nonumber</mrow>
+  <mrow>  \amp = 0.017\units{J/K}.</mrow>
+</md>
+</p>
+
+<p>
+Notice the signs of <m>Q_A</m> and <m>Q_B</m>: since heat was flowing out of
+brick <m>A</m>, <m>Q_A</m> is negative. We find that even though the entropy of
+brick <m>A</m> went down, the total entropy of bricks <m>A</m> and <m>B</m> went up,
+as required by the second law.
+</p>
+
+<p>
+If we had tried, as a thought experiment, to send the <m>20\units{J}</m> in
+the other direction, this would have changed all the signs, and we
+would be confronted with a <m>\Delta S_\text{ total } \lt 0</m>, violating the
+second law.
+</p>
+
+<p>
+More generally, for some amount <m>Q</m> flowing from reservoir <m>A</m> to
+reservoir <m>B</m>, we have
+<men>
+  \Delta S_\text{ total } = \frac{-Q}{T_A} + \frac{Q}{T_B}= 
+  Q\left(\frac{1}{T_B}-\frac{1}{T_A}\right)
+</men>
+</p>
+
+<p>
+Since the second law requires <m>\Delta S_\text{ total } \geq 0</m>, we see
+that <m>T_A</m> must be greater than <m>T_B</m> for this to happen. And so we
+have recovered the Clausius statement of the second law, i.e.,
+that heat can flow spontaneously only from higher to lower
+temperature.
+</p>
+</section>

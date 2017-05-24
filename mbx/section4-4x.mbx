@@ -1,0 +1,263 @@
+<section>
+<title>Problems</title>
+<problem xml:id="problem_flattium">
+<statement>
+<p>
+To understand better how the ideal solid thermal energy
+is derived, consider the following scenario.
+A mad scientist creates a new material, flattium, in which the
+molecules can only move in the <m>x</m>-<m>y</m> plane, while their <m>z</m>
+coordinates remain fixed. Consider how
+Eq.<nbsp /><xref ref="eq_ball-spring_energy" /> would be changed, and then use
+the equipartition theorem to derive an expression for the thermal energy of
+flattium.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_ball-spring_iron">
+<statement>
+<p>
+Here is some practice with the ideal solid model.
+<ol>
+<li><p>Using the data in <xref ref="table_material_properties">Table</xref>,
+  determine the ideal solid parameters, <m>m</m>, <m>d</m>, and <m>k_\text{ sp }</m>,
+  for iron.</p></li>
+<li><p>Use these values to estimate the speed of sound in iron.
+  Compare your answer with the measured value.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_iron_E_thermal">
+<statement>
+<p>
+Determine the thermal energy of one mole of a solid at a temperature of
+<m>100^\circ\units{C}</m>. You can use the ideal solid
+approximation for the molar specific heat.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_mole_kg_cc">
+<statement>
+<p>
+Calculate the thermal energy required to raise the temperature of
+iron by <m>25\units{K}</m> for the amounts given below.
+<ol>
+<li><p>One mole of iron.</p></li>
+<li><p>One gram of iron.</p></li>
+<li><p>One cubic centimeter of iron.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_calorimetry">
+<statement>
+<p>
+A two-mole ideal solid at temperature <m>40^\circ\units{C}</m> is
+brought into thermal contact with a one-mole ideal solid at
+temperature <m>10^\circ\units{C}</m>. Energy flows from the hotter solid
+to the colder solid until they reach the same final temperature.
+<ol>
+<li><p>Calculate the final temperature.</p></li>
+<li><p>Calculate the amount of thermal energy transferred in this process.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_iron_oscillation">
+<statement>
+<p>
+Using your results from <xref ref="problem_ball-spring_iron">Problem</xref>,
+calculate the typical period of oscillation for an iron molecule
+at <m>50^\circ\units{C}</m>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_falling_brick">
+<statement>
+<p>
+A 20 kg brick of lead is dropped from a height of <m>5.0\units{m}</m>
+above the sidewalk. It falls to the ground where it comes to rest.
+Assume that 60<percent /> of the mechanical energy of the brick is converted
+to thermal energy of the brick (the remaining energy went into
+thermal energy of the sidewalk and a big crack). Determine the
+temperature increase of the brick. <em>Hint:</em> you will need to
+calculate how many moles of lead the brick contains.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_silver_ball-spring">
+<statement>
+<p>
+For silver, the ideal solid parameters are <m>m=1.79\times
+  10^{-25}\units{kg}</m>, <m>d=2.58\times 10^{-10}\units{m}</m>, and
+<m>k_\text{ sp } =21.4\units{N/m}</m>. Based on this information, calculate the
+density and Young's modulus for silver.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_heat_examples">
+<statement>
+<p>
+In the following list of processes, the thermal energy of an object
+is increasing (and so the temperature is increasing as well). For
+which processes is this increase due to heat flow?
+<ol>
+<li><p>a drill bit which has been used to bore a hole</p></li>
+<li><p>an ice cube placed in a glass of water</p></li>
+<li><p>a cup of coffee warming in a microwave</p></li>
+<li><p>the filament in a light bulb in a lamp that is plugged in and turned on</p></li>
+<li><p>cookies placed into an oven to bake</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_compare_heat_capacity">
+<statement>
+<p>
+Consider three bricks, all with mass <m>10\units{kg}</m> and at room
+temperature. The first brick is made of aluminum, the second brick
+copper, and the third brick lead. Which will have the largest thermal
+energy? Rank from from highest to lowest.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<ol>
+<li><p>Using the data in <xref ref="table_material_properties">Table</xref>, 
+determine the ideal solid
+parameters, <m>m</m>, <m>d</m>, and <m>k_\text{ sp }</m>, for aluminum.</p></li>
+<li><p>Use these values to estimate the speed of sound in aluminum.  Compare
+your answer with the measured value.</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+For an ideal solid at temperature <m>T</m>, determine the ratio of
+thermal kinetic energy to thermal potential energy. Use the
+equipartition theorem to justify your answer.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Specific heats are often given by the amount of thermal energy
+required to raise the temperature of <em>one kilogram</em> of material by
+a degree, rather than <em>one mole</em> of material. The per-kilogram
+specific heat <m>c</m> satisfies <m>\Delta E_\text{ therm }  = m_\text{ obj }  c
+\Delta T</m>, where <m>m_\text{ obj }</m> is the mass of some object. Calculate
+the per-kilogram specific heat of iron.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Ideal solid <em>A</em> containing one-mole at some initial temperature <m>T_A</m> is
+brought into contact with ideal solid <em>B</em> containing three moles at
+temperature <m>20^\circ\units{C}</m>. The system equilibrates at a
+temperature of <m>75^\circ\units{C}</m>.
+<ol>
+<li><p>Calculate the initial temperature of the solid <em>A</em>.</p></li>
+<li><p>Calculate the amount of thermal energy transferred.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_thermal_energies_large">
+<statement>
+<p>
+Thermal energies are large! Calculate (roughly) the thermal energy of an
+<m>8\units{kg}</m> brick of lead at room temperature, say
+<m>22^\circ\units{C}</m>. Compare this to the gravitational potential
+energy of lifting this brick a height of <m>2\units{m}</m>.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+In <xref ref="section_the_solid_state">Section</xref>, an equation was derived to
+determine the spring constant <m>k_\text{ sp }</m> for the ball-spring model from
+the value of the Young's modulus for a material: <m>k_\text{ sp }  = Yd</m>.
+<ol>
+<li><p>Show that this equation gives the proper units for the spring
+constant, given the units for <m>Y</m> and <m>d</m>.</p></li>
+<li><p>Write a sentence explaining why it makes sense that a material
+with a large Young's modulus is associated with a large spring constant
+<m>k_\text{ sp }</m> for interactions between adjacent atoms.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+In <xref ref="section_speedofsound">Section</xref>, an equation was derived to
+determine the sound speed:
+<me>
+  v_\text{ sound }  =  d\sqrt{\frac{k_\text{ sp } }{m}}.
+</me>
+<ol>
+<li><p>Show that this equation gives the proper units for the speed
+of sound, given the units for <m>d</m>, <m>k_\text{ sp }</m> and <m>m</m>.</p></li>
+<li><p>Write a sentence explaining why it makes sense that a material
+with a large <m>k_\text{ sp }</m> is associated with a large speed of sound.</p></li>
+<li><p>Write a sentence explaining why it makes sense that
+the speed of sound is smaller for a material whose atoms have a 
+larger molar mass.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+You do <m>275\units{J}</m> of work on a system, and its thermal energy
+increases by <m>530\units{J}</m>. Calculate the heat that flows into
+or out of the system, and specify which direction the heat flows
+(i.e., in or out).
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_polish_ring">
+<statement>
+<p>
+You are polishing a <m>5.0\units{g}</m> gold wedding ring. After doing
+this for a minute, you find that the ring is hot, having warmed up
+<m>20^{\circ}\units{C}</m>. Assuming that the ring loses <m>210\units{J}</m>
+to the air while you are polishing it, calculate the work that you did
+on the ring while polishing it.
+</p>
+</statement>
+</problem>
+</section>

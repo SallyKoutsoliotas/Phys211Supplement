@@ -1,0 +1,173 @@
+<section>
+<title>Gas Cycles for Heat Engines</title>
+<p>
+We have made the case that skimming off some heat flow and generating
+work is possible, that is, consistent with energy conservation and the
+second law. But how do we actually make a heat engine? We need to
+find some working substance that can take in heat, do work, and dump
+heat. We do not have to look very far: an ideal gas will do the job
+nicely. In fact, gases are the most commonly used substance in heat
+engines today.
+</p>
+
+<p>
+Consider a gas enclosed in a cylinder with a movable piston, as shown
+in Fig. <xref ref="fig_gas_piston"></xref>. Recall that the work done by a gas is
+given by
+<men>
+  W_\text{ by }  = \int_A^B p\,dV,
+</men>
+so the gas can do work if we let the piston expand. We can put heat
+into the gas by bringing it into contact with something at a higher
+temperature, and we can dump heat out of the gas by bringing it into
+contact with something at a lower temperature. To be useful, we will
+want to complete a full cycle, to bring the gas back to its starting
+point. This means contracting the piston at some point in the cycle,
+which will cost work (i.e., work is done <em>on</em> the piston, or
+work done <em>by</em> the piston is negative). But part of the cycle
+will involve an expansion, and that produces positive work by the
+piston. Overall, we can get work out of the process (i.e., the net
+work by the piston is positive) if the expansion
+happens with higher pressure (so more force) than the contraction.
+</p>
+
+<p>
+A typical cycle is illustrated in Fig. <xref ref="fig_gas_piston"></xref>. Notice
+that the expansion happens at higher pressure than the compression,
+leading to a net work being done by the gas. These gas cylinders are
+often paired up, as in an automobile, so that the expansion of one
+cylinder causes the compression of the other cylinder, with power left
+to spare.
+</p>
+<figure xml:id="fig_gas_piston" >
+<caption>Caption for gas-piston figure</caption>
+<image width="103%" source="images/gas_piston.png" />
+</figure>
+<p>
+To quantify the cyclic gas process, it is useful to plot it on a
+<m>p</m> -<m>V</m> diagram. One such cyclic process is illustrated in
+Fig. <xref ref="fig_rectangle_cycle"></xref>, which is a sequence of constant
+pressure and constant volume processes that leads to a rectangular
+cycle on the <m>p</m> -<m>V</m> diagram. Let's analyze this case in some detail,
+starting with a calculation of the net work for the whole cycle.
+</p>
+<figure xml:id="fig_rectangle_cycle" >
+<caption>Cyclic process made up of constant pressure and constant volume
+processes.</caption>
+<image width="56%" source="images/rectangle.png" />
+</figure>
+<p>
+The constant volume steps do no work, while for constant pressure,
+<m>W_\text{ by } =p\Delta V</m>. Adding this up around the whole cycle gives
+<md>
+  <mrow>  W_\text{ cycle }  \amp = W_1 +  W_2 + W_3 + W_4 \nonumber</mrow>
+  <mrow>  \amp = 0 + 200 \units{kPa}(+80\units{L}) + 0 +
+ 60\units{kPa}(-80\units{L})  = 140\cdot 80 \units{kPa$\cdot$L}\nonumber</mrow>
+  <mrow>  \amp = 11.2\units{kJ}</mrow>
+</md>
+</p>
+
+<p>
+Notice that the work done in the cycle is just the area of the enclosed
+rectangle, which is true for any cycle.
+</p>
+
+<p>
+Now let's figure out what <m>|Q_H|</m> and <m>|Q_C|</m> are. For this we will
+need to know whether the gas is monatomic or diatomic. Let's assume
+the gas is diatomic, so <m>f=5</m> and <m>\gamma=1.4</m>. For the constant
+volume processes (steps 1 and 3 in Fig. <xref ref="fig_rectangle_cycle"></xref>)
+there is no work done by the gas, so the first law says
+<men>
+  Q = \Delta E_\text{ therm } + 0 = {\textstyle\frac{5}{2}} \Delta(pV)
+ = \textstyle{\frac{5}{2}} V\Delta p,
+</men>
+where we've used the fact that <m>V</m> is a constant in the last step.
+Now we can calculate the heat flow into the gas for steps 1 and 3:
+<md>
+  <mrow>  Q_1 \amp = {\textstyle\frac{5}{2}}\cdot  20\units{L}\cdot (200\units{kPa}-60\units{kPa}) =
+7.0\units{kJ}\nonumber</mrow>
+  <mrow>  Q_3 \amp = {\textstyle\frac{5}{2}}\cdot  100\units{L} \cdot (60\units{kPa}-200\units{kPa}) =
+-35.0\units{kJ}.</mrow>
+</md>
+</p>
+
+<p>
+For a constant pressure process (steps 2 and 4 in
+Fig. <xref ref="fig_rectangle_cycle"></xref>) the work is <m>p\, \Delta V</m> and so the
+first law says
+<men>
+  Q = \Delta E_\text{ therm } + W_\text{ by }  = {\textstyle\frac{5}{2}}\cdot \Delta(pV) +
+p\Delta V = {\textstyle\frac{7}{2}}\cdot  p\Delta V.
+</men>
+where we've used the fact that <m>p</m> is a constant in the last step.
+Now we can compute
+<md>
+  <mrow>  Q_2 \amp = {\textstyle\frac{7}{2}}\cdot  200\units{kPa}\cdot (100\units{L} - 20\units{L})
+ = 56.0\units{kJ} \nonumber</mrow>
+  <mrow>  Q_4 \amp = {\textstyle\frac{7}{2}}\cdot 60\units{kPa}\cdot (20\units{L} - 100\units{L})
+ = -16.8\units{kJ}</mrow>
+</md>
+</p>
+
+<p>
+We have calculated the heat flow into the gas for each step. Now we
+can identify <m>Q_H</m> as coming from all the steps with positive <m>Q</m>,
+where heat really does flow in. In our example, this would be steps 1
+and 2. In contrast, <m>Q_C</m> comes from all the steps with negative <m>Q</m>,
+where heat is actually flowing out of the gas, which is steps 3 and 4
+for our example. So we can calculate
+<md>
+  <mrow>  |Q_H| \amp = Q_1 + Q_2 = 7 + 56 = 63.0\units{kJ} \nonumber</mrow>
+  <mrow>  |Q_C| \amp = |Q_3| + |Q_4| = 35 + 16.8 = 51.8\units{kJ}.</mrow>
+</md>
+</p>
+
+<p>
+We can check our calculation, since we have already computed the work
+in Eq.<nbsp /><xref ref="eq_work_for_rectangle" />:
+<men>
+  |W| = |Q_H|-|Q_C| = 63.0 - 51.8 = 11.2\units{kJ}  \surd
+</men>
+</p>
+
+<p>
+And finally we can compute the efficiency,
+<men>
+  \epsilon = \frac{|W|}{|Q_H|} = \frac{11.2}{63.0} = 0.178.
+</men>
+</p>
+
+<p>
+This rectangular gas cycle engine is not actually practical. Automobiles
+use instead something called the Otto cycle, which is a sequence of
+constant volume and adiabatic processes, as illustrated in
+Fig. <xref ref="fig_otto_cycle"></xref>.
+</p>
+<figure xml:id="fig_otto_cycle" >
+<caption>Otto cycle.</caption>
+<image width="46%" source="images/otto_cycle.png" />
+</figure>
+<p>
+The heat for the constant volume steps is again given by
+<men>
+  Q = \Delta E_\text{ therm }  = \frac{f}{2}V\Delta p \qquad\text{ (constant
+  volume) }
+</men>
+which is positive when the pressure increases and negative when it
+decreases. And now for the nice part: by definition there is no heat flow during
+either of the adiabatic steps, so these constant volume processes give
+<m>Q_H</m> and <m>Q_C</m> as labeled in Fig. <xref ref="fig_otto_cycle"></xref>. In the
+homework problems you will work out the details of the Otto cycle.
+</p>
+
+<p>
+The adiabats are exactly what makes this a more practical engine.
+The adiabatic expansion and compression steps happen very quickly,
+which is why no heat flows because it simply doesn't have enough time
+to flow. But this means a cycle is completed relatively quickly, and
+so we are getting the work of the cycle out in a short amount of
+time. Recalling that work per time is power, we see that having a
+fast cycle can lead to more power output, which is often desired.
+</p>
+</section>

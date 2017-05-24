@@ -1,0 +1,35 @@
+<section xml:id="section_speedofsound">
+<title>Speed of Sound</title>
+<p>
+How well does this ball-spring picture of a solid work?
+One way to test the model is to study the speed of sound in a
+solid. Sound is a compression wave, much like a compression pulse
+sent down a stretched slinky. If an ideal solid is suddenly
+struck at one end, how fast does the compression wave travel toward
+the other end? We can almost guess the answer. The wave <q>hops</q>
+from one molecule to its neighbor and each hop moves the wave a
+distance <m>d</m>. Since the molecules are harmonic oscillators, the time
+it takes for a hop must be related to the period of oscillation <m>T</m>,
+so we could guess <m>v_\text{ sound }  \approx d/T</m>. It is not difficult
+to do the full calculation for the ideal solid<fn>This is
+  done in PHYS 221/222.</fn> and find that the answer differs from this
+guess by a factor of <m>2\pi</m>:
+<men>
+  v_\text{ sound }  = \frac{2\pi d}{T} = d\omega  = d\sqrt{\frac{k_\text{ sp } }{m}}
+</men>
+</p>
+
+<p>
+Thus, the speed of sound in the ideal solid depends on all three
+parameters. The values we obtained for copper (be careful to use SI
+units here!) give
+<men>
+  v_\text{ sound }  = 2.28\times
+ 10^{-10}\units{m}\sqrt{\frac{29.6\units{N/m}}{1.06\times
+     10^{-25}\units{kg}}} = 3810\units{m/s}
+</men>
+which is exactly the measured value for the speed of sound in copper.
+Evidently the ideal solid model works quite well. You will make more
+comparisons in the homework.
+</p>
+</section>

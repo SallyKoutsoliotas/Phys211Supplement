@@ -1,0 +1,88 @@
+<section>
+<title><m>p</m>-<m>V</m> diagrams</title>
+<p>
+An important tool used in analysis of thermodynamics processes is a
+plot of pressure versus the volume of a gas, referred to in short as a
+<em><m>p</m>-<m>V</m> diagram</em>. These diagrams are very useful first because
+they are directly related to the work done on or by a gas and second
+because they are convenient for showing the time evolution of a
+thermodynamic process, particularly <em>cyclic</em> processes that repeat
+over and over again, as is the case with many engineering systems.
+</p>
+
+<p>
+Given a fixed amount of a gas, a point on a <m>p</m>-<m>V</m> diagram represents the
+state of the system. A changing volume and/or pressure results in a
+curve on a <m>p</m>-<m>V</m> diagram. <xref ref="fig_PVdiagrams">Figure</xref> shows a few
+different processes. <xref ref="fig_PVdiagrams">Figure</xref>(a) shows a constant
+pressure process, with an arrow that indicates an increasing volume
+(expansion). If the arrow were turned around, the same graph would
+show a constant pressure compression. In the literature, you may see a
+constant pressure process referred to as an <em>isobaric</em> process
+(<q>iso</q> meaning <q>same</q> and <q>baric</q> meaning <q>pressure</q>). <xref ref="fig_PVdiagrams">Figure</xref>(b) shows a constant volume process, with an arrow
+that indicates an increasing volume.
+</p>
+<figure xml:id="fig_PVdiagrams" >
+<caption>Processes on a <m>p</m>-<m>V</m> diagram.  (a) Constant pressure expansion.
+(b) Constant volume process. (c) Three constant temperature (isothermal)
+processes.</caption>
+<image width="93%" source="images/PVdiagrams.png" />
+</figure>
+<p>
+<xref ref="fig_PVdiagrams">Figure</xref>(c) shows a few constant temperature (<em>isothermal</em>) processes. Assuming the number of moles of the gas
+doesn't change during a process, the ideal gas law can be used to
+determine the relationship between the pressure <m>p</m> and volume <m>V</m> for
+an isothermal process: <m>pV = nRT</m> implies <m>p = nRT/V</m>. The result is
+a swoopy curve (yes, <q>swoopy</q> is a valid scientific expression)
+since the pressure depends inversely on the volume if <m>n</m> and <m>T</m> are
+constant. The resulting curve on a <m>p</m>-<m>V</m> diagram is referred to as
+an <q>isotherm</q> and the same graph can show several different
+isotherms, depending on the magnitude of the temperature. <xref ref="fig_PVdiagrams">Figure</xref>(c) shows that the isotherms corresponding to
+higher temperatures are higher and to the right on a <m>p</m>-<m>V</m>
+diagram. It can also be seen that either a constant volume increase in
+pressure or an isobaric expansion result in a larger temperature
+(indicated by moving to a hotter isotherm). These results, of course,
+are both consistent with the ideal gas law.
+</p>
+
+<example xml:id="ex_PVexample">
+<statement>
+<p>
+{Sketching <m>p</m>-<m>V</m> diagrams.}
+A gas in a cylinder starts at a temperature <m>T_1 = 300</m> K, volume
+<m>V_1 = 3.0</m> L and pressure <m>p_1 = 100</m> kPa. It
+is expanded at constant pressure to twice its initial volume. It is then
+compressed isothermally back to the original volume, after which
+it is cooled down to a temperature which is half of the initial temperature.
+Sketch a <m>p</m>-<m>V</m> diagram for the all three processes.
+</p>
+
+<p>
+<em>Solution:</em>
+</p>
+<figure xml:id="fig_PVexample" >
+<caption>Solution for <xref ref="ex_PVexample">Example</xref>. Constant pressure
+  expansion (1 <m>\rightarrow</m> 2) to twice the initial volume, followed
+  by isothermal compression (2 <m>\rightarrow</m> 3) back to initial
+  volume, followed by cooling at constant volume (3 <m>\rightarrow</m> 4)
+  to temperature half of the initial value.</caption>
+<image width="37%" source="images/PVexample.png" />
+</figure>
+<p>
+See Fig. <xref ref="fig_PVexample"></xref>. The constant
+pressure expansion (1 <m>\rightarrow</m> 2) also results in a temperature
+increase. Since <m>pV = nRT</m>, a doubling of the volume (to 6.0 kPa) at constant
+pressure results in a doubling of the temperature (to <m>600</m> K) as well. So,
+after the isothermal compression (2 <m>\rightarrow</m> 3), the gas
+is at twice its initial temperature and therefore twice the
+initial pressure; i.e., <m>p_3 = 200</m> kPa. (You could also easily determine
+the pressure <m>p_3</m> by noting that with <m>n</m> and <m>T</m> both constant,
+<m>p_2V_2 = p_3V_3</m>.) The final process
+(3 <m>\rightarrow</m> 4) brings the gas to a temperature
+half of its initial value, and since the final volume is the same
+as the initial volume, the final pressure must by half of the initial
+pressure; i.e., <m>p_4 = 50</m> kPa.
+</p>
+</statement>
+</example>
+</section>

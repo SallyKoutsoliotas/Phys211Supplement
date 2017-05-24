@@ -1,0 +1,38 @@
+<section>
+<title>Introduction</title>
+<p>
+Previously we have described the force of gravity on an object by a
+field model. In this Newtonian model, masses cause gravitational fields and
+these fields act on other masses to cause forces.
+</p>
+
+<p>
+In this chapter we examine another model of gravity which is
+Einstein's explanation in terms of curved spacetime. In this model
+masses cause spacetime to be curved and other masses, moving in
+`straight' lines in this curved spacetime, seem to accelerate relative
+to the source mass. As described succinctly by John A. Wheeler,
+the leading spokesman for Einstein's theory of gravity:
+</p>
+<blockquote>
+Mass tells spacetime how to curve;  spacetime tells mass how to
+move.
+</blockquote>
+<p>
+We begin by looking again at the concept of the invariant spacetime
+interval. We present the modifications of the interval that Einstein
+introduced to account for the effects of gravity. This leads us to
+examine how the gravitational effects of a spherical mass (like
+planets and stars) show up in clock rates and the measurement of
+distances.
+</p>
+
+<p>
+We also develop the idea of curved space and describe how one might
+determine whether the three-dimensional space we live in is curved.
+We apply this idea to the curvature of spacetime to examine how a
+particle moves in curved spacetime and present an unusual principle
+called the principle of maximum proper time which governs how an
+object moves in the presence of a gravitational field.
+</p>
+</section>

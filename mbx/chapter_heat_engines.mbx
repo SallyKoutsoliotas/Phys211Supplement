@@ -1,0 +1,10 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chapter_heat_engines">
+<title>Heat Engines</title>
+<xi:include  href="section7-1.mbx" />
+<xi:include  href="section7-2.mbx" />
+<xi:include  href="section7-3.mbx" />
+<xi:include  href="section7-4.mbx" />
+<xi:include  href="section7-5.mbx" />
+<xi:include  href="section7-6.mbx" />
+<xi:include  href="section7-7x.mbx" />
+</chapter>

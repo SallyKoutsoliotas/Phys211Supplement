@@ -1,0 +1,84 @@
+<section>
+<title>Another Invariant</title>
+<p>
+We now have relativistic expressions for energy and momentum.
+It turns out that these can be combined to form an invariant, just
+like we combined distance and time to get the invariant spacetime
+interval. Recall from chapter 4, we defined the square of the
+interval as
+<men>
+  I^2 = \left(c\Delta t\right)^2 - \left(\Delta x\right)^2.
+</men>
+</p>
+
+<p>
+We can combine energy and momentum of an object or particle in a
+similar manner to get an invariant:
+<men xml:id="eq_m-invariance1" >
+  m^2 = \left(\frac{E}{c^2}\right)^2 - \left(\frac{p}{c}\right)^2.
+</men>
+</p>
+
+<p>
+Given any object or particle with energy <m>E</m> and momentum <m>p</m> as
+measured by an observer in a reference frame, this observer can easily
+calculate the value of <m>m</m> for that object. If a different observer is
+in another reference frame (labeled with <q>primes</q>) and determines
+<m>E^\prime</m> and <m>p^\prime</m> for the same particle, she will find that
+if she calculates
+<men>
+  \left(m^\prime\right)^2 = \left(\frac{E^\prime}{c^2}\right)^2 
+          - \left(\frac{p^\prime}{c}\right)^2,
+</men>
+then she will get exactly the same value for <m>m^\prime</m> that the first
+observer found for <m>m</m>. In other words
+<men>
+  m=m^\prime,
+</men>
+or
+<men xml:id="eq_m-invariance2" >
+  E^2 - (pc)^2 = \left(E^\prime\right)^2 - \left(p^\prime c\right)^2.
+</men>
+</p>
+
+<p>
+In the same manner that we used the invariant spacetime interval to
+relate <m>\Delta x</m> and <m>\Delta t</m> as measured in one reference frame to
+<m>\Delta x^\prime</m> and <m>\Delta t^\prime</m> in
+another reference frame, we can use the invariance of <m>m</m> to relate <m>E</m>
+and <m>p</m> in one frame to <m>E^\prime</m> and <m>p^\prime</m> in a different frame.
+</p>
+
+<p>
+What is this invariant <m>m</m>? This is simply the mass of the object.
+In words, the invariance expressed in
+Eqs.<nbsp />( <xref ref="eq_m-invariance1"></xref><ndash /> <xref ref="eq_m-invariance2"></xref>) states that
+all observers agree about the mass of an object.<fn>You may hear
+people saying that in relativity, <q>a person's mass increases as (s)he
+approaches the speed of light.</q>  (In fact, it used to be common for
+physicists to say this.)  This is an unfortunate claim.  What they are
+doing is saying, <q>Well, since <m>p = mu/\sqrt{1-u^2/c^2}</m>, we're going
+to artificially call <m>m/\sqrt{1-u^2/c^2}</m> the relativistic mass so
+that we can hold on to the <m>p=mu</m> definition of momentum.</q>  There is
+no reason to do this <mdash /> there is nothing in relativity that requires
+us to redefine mass and, in fact, mass is an invariant.</fn>
+</p>
+
+<p>
+We can rewrite Eq.<nbsp /><xref ref="eq_m-invariance1" /> in a slightly more
+convenient form
+<men xml:id="eq_m-invariance3" >
+  E^2 - (pc)^2 = (mc^2)^2.
+</men>
+</p>
+
+<p>
+As we'll see in the next chapter, this is actually the most useful of
+all the energy and momentum relations. It applies to <em>every</em>
+particle in <em>every</em> situation. (We'll see that
+Eqs.<nbsp /><xref ref="eq_rel-p-def" /> and <xref ref="eq_rel-e-def" /> aren't very useful
+for `particles' of light.) In the homework for tonight, you'll show
+that this relation comes very easily from the relativistic definitions
+for energy and momentum <xref ref="eq_rel-p-def" /> and <xref ref="eq_rel-e-def" />.
+</p>
+</section>

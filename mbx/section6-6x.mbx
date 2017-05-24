@@ -1,0 +1,290 @@
+<section>
+<title>Problems</title>
+<problem xml:id="prob_ThreeCompress">
+<statement>
+<p>
+Three identical gas-cylinder systems are compressed from the
+same initial state to final states that have the same volume, one
+isothermally, one adiabatically, and one isobarically. Which
+system has the most work done on it? The least?
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+The relation between thermal energy and temperature depends on the type
+of gas molecule: for a monatomic gas, <m>\Delta E_\text{ therm }  = \frac{3}{2}nR\Delta T</m>
+and for a diatomic gas, <m>\Delta E_\text{ therm }  = \frac{5}{2}nR\Delta T</m>. In your
+own words <mdash /> and discussing explicitly the microscopic picture of gases <mdash />
+explain why it is that you need to put more thermal energy into a diatomic
+gas than for a monatomic gas to raise the temperature by 1 K.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Consider a piston in a car engine that is compressing an air-gasoline
+mixture before ignition, all in the gas state.
+<ol>
+<li><p>Under what circumstances would the compression be adiabatic? 
+(There are a couple of ways to get an adiabatic compression, one of
+which is more relevant to a car engine.)</p></li>
+<li><p>Use the First Law of Thermodynamics to argue that the gas heats
+up if the compression is adiabatic.  Where does that additional thermal energy
+come from during this process?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A gas with <m>n</m> moles of molecules starts with a temperature <m>T_1</m>,
+pressure <m>p_1</m> and volume <m>V_1</m>. Draw a <m>p</m>-<m>V</m> diagram for the following
+multi-step processes (and label each process with its letter a, b, c
+or d):
+<ol>
+<li><p>The gas expands at a constant pressure to twice its initial
+volume.</p></li>
+<li><p>The gas is then compressed isothermally back to its initial
+volume.</p></li>
+<li><p>The gas then expands adiabatically back to its initial
+pressure.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A gas with <m>n</m> moles of molecules starts with a temperature
+<m>T_1</m>, pressure <m>p_1</m> and volume <m>V_1</m>. Draw a <m>p</m>-<m>V</m> diagram
+for the following multi-step processes:
+<ol>
+<li><p>The gas is heated up at constant volume, doubling its
+initial temperature.</p></li>
+<li><p>The gas expands adiabatically until the pressure returns
+to <m>1.5p_1</m>.</p></li>
+<li><p>A vent is opened, allowing gas to escape until the pressure returns
+to the original pressure <m>p_1</m>.</p></li>
+<li><p>The gas is compressed isothermally until the volume returns to the
+original volume <m>V_1</m>.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Calculate the work done on a gas as it undergoes the process shown
+in the <m>p</m>-<m>V</m> diagram (Fig. <xref ref="fig_PVProblem"></xref>).
+</p>
+<figure xml:id="fig_PVProblem" >
+<caption>For Prob. <xref ref="prob_PVProblem"></xref>.</caption>
+<image width="46%" source="images/PVProblem.png" />
+</figure>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A piston initially contains 1.2 moles of a monatomic gas at a pressure
+of 210 kPa and a volume of 0.25 L. The gas expands at constant pressure
+to a volume of 0.47 L. Calculate the work done on the gas during this
+process.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A piston initially contains 0.75 moles of a diatomic gas at a pressure
+of 105 kPa, a temperature 350 K and a volume of 0.33 L. The gas
+is ignited, raising the temperature rapidly to 550 K without a significant
+change in the volume. Calculate the work done on the gas during this
+process.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A monatomic ideal gas undergoes an isothermal compression from an initial
+volume of 7.0 L and pressure 100 kPa to a final volume and pressure
+of 2.0 L and 350 kPa, respectively. The temperature along the isotherm
+is 120<m>^\circ</m> C.
+<ol>
+<li><p>Determine the number of moles of this gas.</p></li>
+<li><p>Determine the work done <em>on the gas</em> during this process.</p></li>
+<li><p>Determine the heat flowing into the gas during this process.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_adiabatic">
+<statement>
+<p>
+Consider a fixed amount of an ideal monatomic gas undergoing the
+<em>adiabatic</em> process illustrated in Fig. <xref ref="fig_gasProcess2"></xref>.
+</p>
+<figure xml:id="fig_gasProcess2" >
+<caption>For <xref ref="prob_adiabatic">problem</xref>.</caption>
+<image width="37%" source="images/gasProcess2.png" />
+</figure>
+<ol>
+<li><p>Calculate the number of moles in the gas.</p></li>
+<li><p>Calculate the work done on the gas between points <em>A</em>
+and <em>B</em>.</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<ol>
+<li><p>Use the Equipartition Theorem to determine a relation between the
+thermal energy change <m>\Delta E_\text{ therm }</m> and the temperature
+change <m>\Delta T</m> for a monatomic <em>flattium</em> gas where the
+molecules can move only in two dimensions.</p></li>
+<li><p>Do the same thing, but this time for a diatomic flattium gas.</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+The <q>5/2</q> in the <m>\Delta E_\text{ therm }</m> relation for a diatomic gas (as
+opposed to <q>3/2</q> for a monatomic gas) comes from the fact that
+a diatomic molecule can also rotate in two different directions,
+adding two terms to the Equipartition Theorem. But if the gas is
+<em>really</em> hot, it can also excite <em>vibrations</em> for diatomic
+molecules, which provides two more terms in the equation for the energy
+of a diatomic molecule: one for the kinetic energy of the vibration and
+one for the potential energy of the vibrating molecule. What might you
+expect for the relation between <m>\Delta E_\text{ therm }</m> and <m>\Delta T</m>
+for a diatomic gas where the molecules are also vibrating?
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A piston contains 0.65 moles of diatomic Nitrogen gas (N<m>_2</m>),
+with an initial pressure and volume of 110 kPa and 0.15 L, respectively.
+The piston compresses the gas adiabatically to a volume 0.062 L.
+Calculate the pressure of the gas after this compression.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A piston contains 0.45 moles of monatomic Helium gas, with an initial
+volume and temperature of 0.12 L and 285 K, respectively. The
+piston expands the gas adiabatically to a volume of 0.31 L.
+Calculate the temperature of the gas after this expansion.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_chart">
+<statement>
+<p>
+A fixed amount of diatomic ideal gas goes through the cycle as shown
+in Fig. <xref ref="fig_pv_diagram"></xref>.
+</p>
+<figure xml:id="fig_pv_diagram" >
+<caption>For <xref ref="prob_chart">problem</xref>.</caption>
+<image width="46%" source="images/pv_diagram.png" />
+</figure>
+<p>
+<m>A\to B</m>: adiabatic compression
+</p>
+
+<p>
+<m>B\to C</m>: constant pressure expansion
+</p>
+
+<p>
+<m>C\to A</m>: cooling at constant volume
+</p>
+
+<p>
+Fill in the chart below for the change in thermal energy, heat flow
+in, and work done <em>on the gas</em> for each of the processes and for the
+complete cycle. <em>Show all work.</em>
+<me>
+  <image width="65%" source="images/chart.png" />
+</me>
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_table">
+<statement>
+<p>
+An amount <m>0.20</m> moles of diatomic ideal gas undergoes the
+processes shown in the <m>p</m>-<m>V</m> diagram (Fig. <xref ref="fig_pv_processes"></xref>).
+</p>
+<figure xml:id="fig_pv_processes" >
+<caption>For <xref ref="prob_table">problem</xref>.</caption>
+<image width="46%" source="images/pv_processes.png" />
+</figure>
+<p>
+The table below has boxes for the change in thermal energy of the
+gas, the heat added to the gas, and the work <em>done on</em> the gas,
+all in joules.
+</p>
+
+<p>
+Energy values have already been entered in two of the
+boxes. Fill in the remaining entries with values accurate to three
+significant digits. Be sure to show your work for each entry.
+</p>
+
+<p>
+<image width="84%" source="images/table.png" />
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_from2011final">
+<statement>
+<p>
+The <m>pV</m> diagram (Fig. <xref ref="fig_from2011final"></xref>) shows a cyclic process for 2 moles
+of an ideal monatomic gas.
+</p>
+<figure xml:id="fig_from2011final" >
+<caption>For <xref ref="prob_from2011final">problem</xref>.</caption>
+<image width="46%" source="images/pVfinal.png" />
+</figure>
+<ol>
+<li><p>Determine the temperature of the gas at state <em>A</em>.</p></li>
+<li><p>Determine the heat flow into the gas during the process 
+<em>A</em><m>\rightarrow</m><em>B</em>.</p></li>
+<li><p>Determine the heat flow into the gas during the process 
+<em>B</em><m>\rightarrow</m><em>C</em>.</p></li>
+<li><p>Is the work done on the system for the complete cycle
+positive, negative or zero? (No calculation required.)</p></li>
+</ol>
+</statement>
+</problem>
+</section>

@@ -1,0 +1,103 @@
+<section>
+<title>Molar Specific Heat</title>
+<p>
+Now we are prepared to address the question, <q>If a certain amount of
+thermal energy is added to a system, how much will the temperature
+increase?</q> This is a question with far-reaching applications. For
+instance, how much energy needs to be added to a swimming pool to heat
+it up to a comfortable temperature? How much cooling water or antifreeze
+is needed to keep a car from overheating? How much will the temperature
+of a bucket of water increase if a hot ingot of lead is tossed into it?
+</p>
+
+<p>
+We mentioned in the previous section that temperature is often associated
+with the thermal energy of a system, i.e., increases in temperature
+are associated with increases in the thermal energy. But <em>how much</em>
+does the temperature increase with a certain amount of energy is
+added to a material? For that, we define the <em>molar specific heat</em>
+<m>C</m>:
+<men xml:id="eq_specificheat" >
+  C = \frac{\Delta E_\text{ therm } }{n \Delta T}.
+</men>
+</p>
+
+<p>
+In words, the specific heat is defined as the energy required to
+raise the temperature of one mole of a material by a temperature 1 K.
+So, a material with a large specific heat requires a lot of heat to
+increase its temperature significantly, whereas a material with a
+small specific heat requires less energy to raise its temperature by the
+same amount.
+</p>
+
+<p>
+Turning Eq.<nbsp /><xref ref="eq_specificheat" /> around, the energy
+required to raise the temperature of a material is given by
+<men xml:id="eq_Ethermspecificheat" >
+  \Delta E_\text{ therm }  = n C \Delta T.
+</men>
+</p>
+
+<p>
+Measurements have been made of the molar specific heat for a wide
+variety of materials. A few of these values are listed in
+<xref ref="table_material_properties">Table</xref> for some common metals.
+</p>
+
+<p>
+Note that the relation between the thermal
+energy and the temperature depends on the amount of material via the
+number of moles <m>n</m>. Having more stuff
+will require more thermal energy to get the same temperature change.
+The molar specific heat <m>C</m>, however, is defined such that it
+does <em>not</em> depend on the amount of material.
+</p>
+
+<example>
+<statement>
+<p>
+{Temperature increases}
+How much thermal energy must be added to <m>5.0\units{kg}</m> of lead to
+increase its temperature from <m>25^{\circ}\units{C}</m> to <m>40^{\circ}\units{C}</m>?
+</p>
+
+<p>
+<em>Solution: </em> First, it is convenient to determine how many moles of lead
+we have here. From <xref ref="table_material_properties">Table</xref>, we see that
+the molar mass of lead is <m>207\units{g/mol}</m>, so the number of moles
+is given by
+<me>
+  n = 5.0\units{kg} \cdot \frac{1000\units{g}}{\units{kg}} \cdot 
+\frac{1\units{mol}}{207\units{g}} = 24.2\units{mol}
+</me>
+</p>
+
+<p>
+From <xref ref="table_material_properties">Table</xref>, we see that
+the molar specific heat of lead is
+<m>26.6\units{</m>\frac{ J}{ mol} \cdot { K}<m>}</m>.
+Using Eq.<nbsp /><xref ref="eq_Ethermspecificheat" />, we find
+<me>
+  \Delta E_\text{ therm }  = n C \Delta T = 24.2\units{mol} \cdot
+26.6\units{$\frac{\units{J}}{\units{mol} \cdot \units{K}}$} \cdot 15\units{K} = 9640\units{J}.
+</me>
+</p>
+
+<p>
+Note that the conversion between Celsius and Kelvin is trivial; a
+temperature difference of <m>15^{\circ}\units{C}</m> is the same as a
+temperature difference of <m>15\units{K}</m>.
+</p>
+</statement>
+</example>
+
+<p>
+Looking at <xref ref="table_material_properties">Table</xref>, it is apparent that
+the molar specific heat for metals is fairly consistent <mdash /> around
+<m>25\units{J/mol</m>\cdot<m>K}</m> <mdash /> for several common metals. A pattern like this
+indicates that there might be a simple, common explanation. That
+explanation is provided by the ideal solid model and what is known as the
+equipartition theorem.
+</p>
+</section>

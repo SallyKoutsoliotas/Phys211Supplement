@@ -1,0 +1,103 @@
+<section>
+<title>Phases of Matter</title>
+<p>
+Since the dawn of human existence, people have noticed that
+matter could be solid, liquid, or gas. What cavewoman Thag and her
+contemporaries did not realize is that these quite different phases
+are made up of the same stuff: molecules that are
+pushing and pulling on each other, sometimes in a solid phase, sometimes
+a liquid and sometimes a gas.
+She was not the only one who didn't understand this. Plato didn't
+know about molecules. Nor did Dante, or even Newton. Only after the
+seminal work of Boltzmann and Einstein around the turn of the 20<m>^{ th}</m>
+century did our process of scientific discovery lead us to understand the
+molecular form of matter.
+</p>
+
+<p>
+This discovery is one of the crowning achievements of our species, and
+is also very practical, having provided the basis for most of our
+modern technology. The great 20th century physicist Richard
+Feynman<fn>You're going to be hearing more about him in PHYS
+  212.</fn> once remarked
+</p>
+<blockquote>
+<q>If, in some cataclysm, all scientific knowledge were to be
+  destroyed, and only one sentence passed on to the next generation of
+  creatures, what statement would contain the most information in the
+  fewest words? I believe it is the atomic hypothesis <ellipsis /> that all
+  things are made of atoms <mdash /> little particles that move around in
+  perpetual motion, attracting each other when they are a little
+  distance apart, but repelling upon being squeezed into one
+  another. In that one sentence you will see an enormous amount of
+  information about the world, if just a little imagination and
+  thinking are applied.</q>
+</blockquote>
+<p>
+Let us now follow Feynman's suggestion and apply a little
+imagination and thinking.
+</p>
+
+<p>
+We have been discussing the solid phase of matter, where the particles
+are arranged in a regular lattice pattern, and the forces between the
+particles can be well-modeled as springs attached between neighbors.
+But we know from everyday experience that a solid can be melted when
+heated enough. Consider a lattice of vibrating molecules. Once the
+molecular excursions become large enough, the molecules start slipping
+past one another. As a result, the regular arrangement of the
+molecules in the lattice breaks down and the molecules are now
+disordered. They are still very closely packed and the density is
+comparable to the solid state, but the object has no rigidity. This
+is a liquid.
+</p>
+<figure xml:id="fig_phases" >
+<caption>The molecular picture of the phases of matter.</caption>
+<image width="65%" source="images/phases.png" />
+</figure>
+<p>
+For most substances, there exists a boiling point separating a liquid
+phase from a gas phase. The picture you should have for the gas state
+is molecules moving about freely, far from their neighbors, and moving
+in a straight line until they collide with another molecule or with
+the walls of the container. Like a liquid, the gas phase is
+disordered. But the density of gases is much lower than liquids.
+Another difference between liquids and gases that we can understand
+immediately from the molecular viewpoint is their compressibility.
+Because the gas is dilute, we can compress a gas if we push the walls
+of the container inward. The molecules end up a bit closer together
+and bounce around a little faster, but otherwise they don't object.
+Liquids are essentially incompressible: you can't squeeze water to fit
+into a smaller volume. The liquid molecules are already packed
+together, albeit in a messy way, and any further squeezing is resisted
+by the repulsive forces of the pair potential.
+</p>
+
+<p>
+Our basic understanding of the thermal energy of matter, developed
+in <xref ref="section_thermal_kinetic_energy">sections</xref> and <xref ref="section_thermal_potential_energy"></xref> for solids
+applies for liquids and gases as well: in particular,
+thermal kinetic energy is associated with motion of the molecules.
+And the potential energy associated with
+the forces between the molecules <mdash /> i.e., the pair potential <mdash />
+provides the thermal potential energy.
+However, there are significant differences in the thermal
+potential energy for the different phases:
+<ul>
+<li><p>in the solid phase are the molecules very near their equilibrium
+  separation, allowing us to approximate their forces with springs</p></li>
+<li><p>in the liquid phase, however, the potential energy is
+  complicated, since the molecules are pushed closer together and
+  pulled farther apart as the molecules squeeze by each other, making
+  the spring approximation invalid, and</p></li>
+<li><p>in the gas phase, the molecules are so far apart that, except for
+  very brief collisions, there is no potential energy.</p></li>
+</ul>
+</p>
+
+<p>
+In contrast to these differences, the thermal <em>kinetic energy</em>
+is identical in form in all three phases. This allows us to develop the
+notion of thermal speed.
+</p>
+</section>

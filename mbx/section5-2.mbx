@@ -1,0 +1,88 @@
+<section>
+<title>Thermal Speed</title>
+<p>
+For all phases of matter, the translational kinetic
+energy of a single molecule is
+<men xml:id="eq_k_molecule" >
+  K_\text{ trans }  = {\textstyle\frac{1}{2}} m v_x^2 + 
+{\textstyle\frac{1}{2}} m v_y^2 + {\textstyle\frac{1}{2}} m v_z^2.
+</men>
+</p>
+
+<p>
+We can take advantage of this to determine how fast the molecules are
+moving at some given temperature <m>T</m>.
+Via the equipartition theorem, we can say that the average
+translational kinetic energy is
+<men>
+  \langle K_\text{ trans } \bigr\rangle = \textstyle
+  \bigl\langle\frac{1}{2}mv_x^2\bigr\rangle 
+  +\bigl\langle\frac{1}{2}mv_y^2\bigr\rangle 
+  +\bigl\langle\frac{1}{2}mv_z^2\bigr\rangle 
+= \frac{3}{2}k_BT,   \text{ (single molecule) }
+</men>
+since there are three quadratic terms in the energy. Recalling that
+<m>v^2=v_x^2+v_y^2+v_z^2</m>, we can write
+<men>
+  \frac{3}{2}k_BT = \textstyle\bigl\langle \frac{1}{2}mv^2\bigr\rangle = 
+  \frac{1}{2}m\langle v^2\rangle \Rightarrow
+  \langle v^2\rangle = 3 k_B T/m.
+</men>
+</p>
+
+<p>
+Now we define the thermal speed, which indicates the typical speed of
+the molecules, as<fn>Why didn't we simply define
+  <m>v_\text{ therm }</m> as the average velocity <m>\langle \vec v\rangle</m>?
+  Because the average velocity is zero, which tells us nothing about
+  the typical magnitude of the velocity.</fn>
+<men xml:id="eq_v_thermal" >
+  v_\text{ therm }  =  \sqrt{\langle v^2\rangle}= \sqrt{\frac{3k_BT}{m}} = 
+  \sqrt{\frac{3RT}{M}}
+</men>
+where <m>m</m> is the molecular mass and <m>M</m> is the molar
+mass.<fn>A.k.a. what is often horribly called the <q>molecular
+  weight</q> (horrible because its a mass, not a weight, and it's for a
+  mole of molecules, not just one).  From here on, we'll abandon that
+  nonsensical term and call it molar mass.</fn> The second equality above
+comes from multiplying numerator and denominator by <m>N_A</m> and then
+using <m>M = N_A m</m> and <m>R=N_Ak_B</m>. So we have shown, via
+equipartition, a direct connection between the temperature and the
+translational kinetic energy.
+</p>
+
+<example xml:id="example_vtherm">
+<statement>
+<p>
+{Speed of Nitrogen in the Atmosphere}
+What is the typical speed of a nitrogen molecule in the atmosphere at
+room temperature of <m>22^\circ\units{C}</m>?
+
+
+<em>Solution: </em>
+First we need to convert the temperature to Kelvin:
+<m>T = 273 + 22 = 295\units{K}</m>.
+The molar mass of elemental nitrogen is <m>14\units{g/mol}</m>. However,
+nitrogen in the air is in molecular form, <m>N_2</m>, which has two nitrogen
+atoms per molecule, and a molar mass of <m>28\units{g/mol}</m>. We
+may use Eq.<nbsp /><xref ref="eq_v_thermal" />, but to be consistent with SI units,
+we should convert the molar mass to kilograms:
+<md>
+  <mrow>  v_\text{ therm }  \amp = \sqrt{\frac{3 R T}{M}} = \sqrt{
+ \frac{3(8.31\units{J/mol$\cdot$K})(295\units{K})}{0.028\units{kg/mol}}}
+\nonumber</mrow>
+  <mrow>  \amp = 512\units{m/s}</mrow>
+</md>
+which is the same as about 1150 m.p.h. Room temperature molecules are fast!
+</p>
+</statement>
+</example>
+
+<p>
+A variation of this approach (i.e., using the equipartition theorem)
+can be used to determine
+how much a typical molecule is displaced from its
+equilibrium position but in the <em>solid phase only!</em> This is discussed
+(along with an example) in Sec. <xref ref="sec_phase_transitions"></xref>.
+</p>
+</section>

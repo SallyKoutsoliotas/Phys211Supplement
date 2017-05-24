@@ -1,0 +1,45 @@
+<section>
+<title>Summary</title>
+<p>
+The various equations introduced in this chapter are summarized as
+in <xref ref="table_rel-defs">Table</xref>.
+</p>
+<table xml:id="table_rel-defs" >
+<caption>Relativistic formulas for energy and momentum.</caption>
+<tabular>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row><cell><em>Definition of momentum:</em></cell><cell>
+<me>
+  \vec p =\frac{m\vec u}{\sqrt{1-u^2/c^2}}
+</me>
+</cell><cell><em>Definition of energy:</em></cell><cell>
+<me>
+  E =\frac{mc^2}{\sqrt{1-u^2/c^2}}
+</me>
+</cell></row>
+<row><cell><em>Energy in terms of momentum and mass:</em></cell><cell>
+<me>
+  E^2 = p^2c^2 + m^2c^4
+</me>
+</cell><cell><em>Velocity in terms of energy and momentum:</em></cell></row>
+<row><cell>(See Problem \arabic{chapter}. <xref ref="prob_rel-u-p-e"></xref>.)</cell><cell>
+<me>
+  \vec{u} = \frac{\vec{p}c^2}{E}
+</me>
+</cell></row>
+<row><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row><cell><em>Definition of kinetic energy:</em></cell><cell>
+<me>
+  K = E - mc^2
+</me>
+</cell><cell><em>Energy in terms of momentum for 
+zero-mass particle:</em></cell><cell>
+<me>
+  E = \left|\vec{p}\right|c
+</me>
+</cell></row>
+<row><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell></row>
+</tabular>
+</table>
+</section>

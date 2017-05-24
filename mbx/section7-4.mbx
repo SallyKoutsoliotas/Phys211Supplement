@@ -1,0 +1,369 @@
+<section>
+<title>Heat Engines</title>
+<p>
+Let's return to the question at the beginning of the chapter: how can
+we harness some of the thermal energy of some object and convert it to
+mechanical energy? We know how to spontaneously decrease the thermal
+energy of an object: put it into contact with something at a lower
+temperature. So we can extract thermal energy as <em>heat</em>, but that
+doesn't yet give us <em>mechanical energy</em>, which is what we are
+after. We need somehow to transform heat to work: start with the
+spontaneous energy flow due to a temperature difference, but convert
+it to something that will turn a crank or generate electricity or lift
+a weight. Once we have energy available in the form of work, we can
+use it to manipulate mechanical energy however we like.
+</p>
+<figure xml:id="fig_impossible_engine" >
+<caption>On the left, heat flows from a hot reservoir at temperature <m>T_H</m>
+  to a cold reservoir at <m>T_C</m>.  On the right, how the diagram would
+  be altered if we could convert the heat <m>Q</m> into work <m>W</m>.</caption>
+<image width="50%" source="images/impossible.png" />
+</figure>
+<p>
+Can we simply convert all the heat to work? The first law of
+thermodynamics, a.k.a. energy conservation, would have no problem with
+this. This hypothetical engine is illustrated in
+Fig. <xref ref="fig_impossible_engine"></xref>. In both scenarios in this figure,
+the hot reservoir is giving off heat <m>Q</m>, and so has negative entropy
+change. Since we are dealing with a reservoir, we use the
+constant temperature approximation (Eq. <xref ref="eq_deltaS_isothermal"></xref>) to find
+<men>
+  \Delta S_H = -\frac{|Q|}{T_H}.
+</men>
+</p>
+
+<p>
+(We use absolute value bars so that there no confusion about the sign
+of <m>Q</m>). For the figure on the left, this negative entropy change is
+allowed, because it is offset by the positive entropy change of the
+cold reservoir, <m>\Delta S_C=|Q|/T_C</m>. But for the figure on the
+right, there is no compensating positive entropy change. And so if we
+could convert all heat to work, then
+<men>
+  \Delta S_\text{ total }  = \Delta S_H = -\frac{|Q|}{T_H} \lt  0
+</men>
+which violates the second law! So we cannot do this.
+</p>
+
+<p>
+But, you may have noticed that we could still satisfy the second law in
+the previous example even if we didn't dump all of the heat <m>Q</m> into the
+cold reservoir. Suppose we only dumped enough heat to make the positive
+<m>\Delta S_C</m> large enough to compensate for the negative <m>\Delta S_H</m>.
+That would leave a little energy that we could conceivably convert to
+work, while satisfying the second law (and the first, for that matter).
+</p>
+
+<p>
+A schematic diagram of this process <mdash /> called an <em>engine diagram</em>
+<mdash /> is shown in Fig. <xref ref="fig_engine_diagram"></xref>. An amount of heat
+<m>Q_H</m> is pulled from the hot reservoir, and an amount <m>Q_C</m> is dumped
+into the cold reservoir. In between, some device which we'll call the
+working substance intercepts this heat and produces work. For now,
+don't worry about how this might actually be accomplished; we'll
+discuss that in detail in the next section. Instead, focus on the big
+picture: such a device will be consistent with the first law as long
+as we conserve energy. Looking at the arrows for energy flow, this
+tells us
+<men>
+  |Q_H| = |Q_C| + |W|. \qquad\text{ (first law) }
+</men>
+</p>
+
+<p>
+Again, we have used absolute value bars everywhere to avoid ambiguity about
+whether the symbol <m>Q_H</m> represent the heat flow out of the hot
+reservoir (in which case it is a negative value), or the heat flow in
+to the work substance (in which case it is positive).
+</p>
+<figure xml:id="fig_engine_diagram" >
+<caption>Engine diagram.</caption>
+<image width="45%" source="images/engine_diagram.png" />
+</figure>
+<p>
+And continuing with the big picture: such a device will be consistent
+with the second law as long as the total entropy doesn't decrease. So
+where do entropy changes happen? Certainly in the reservoirs. The
+hot reservoir has an entropy decrease (since heat leaves the
+reservoir) and the cold reservoir has an entropy increase
+(since heat is added to the reservoir). But what about the
+working substance? This gets at an
+essential point: in order to be a heat engine, the working substance is <em> not</em> a source of energy. It's not a battery stuck in between the
+reservoirs, or anything else consuming chemical energy. Rather, it
+must be returned back to the same state it started from, so the
+process can be repeated indefinitely. But if this is the case, if the
+working substance undergoes some cyclic process, then we
+can use Eq.<nbsp /><xref ref="eq_DeltaS_cyclic" />, which tells us <m>\Delta
+S_\text{ w.s. } =0</m>, since the final and initial states are the same.
+</p>
+
+<p>
+And now we can do the complete entropy accounting:
+<men xml:id="eq_engine_second_law" >
+  \Delta S_\text{ total } = \Delta S_H + \Delta S_C + 
+  \cancelto{0}{\Delta S}_\text{ w.s. } 
+  = -\frac{|Q_H|}{T_H}+ \frac{|Q_C|}{T_C}  \geq 0 \text{ (second
+    law) }
+</men>
+</p>
+
+<p>
+One way to think of Eq.<nbsp /><xref ref="eq_engine_second_law" /> is that it gives
+a lower bound on how much heat we have to dump to the cold reservoir:
+<men>
+  |Q_C| \geq \frac{T_C}{T_H}|Q_H|.
+</men>
+</p>
+
+<p>
+That lower bound isn't zero, so we must dump some heat.
+<em>This is an important result</em>: any heat engine <em>must</em>
+dump some of its heat into a cold reservoir. It is impossible
+to turn all heat into usable mechanical energy.
+</p>
+
+<p>
+But the good news is that the lower bound on the dumped heat <m>|Q_C|</m>
+is smaller than <m>|Q_H|</m>, so we do get to <q>skim off</q> some of the
+energy and generate some work. Notice that the bound on how much heat
+we have to dump becomes smaller for very large <m>T_H</m> or small <m>T_C</m>.
+Evidently, the more extreme the difference in temperature between the
+reservoir, the more work we will be able to extract.
+</p>
+
+<p>
+Let's quantify that. Let's introduce a dimensionless quantity called
+the efficiency, which is simply the fraction of heat pulled out of the
+hot reservoir that we are able to convert to work:
+<men xml:id="eq_efficiency_def" >
+  \epsilon \equiv \frac{|W|}{|Q_H|}.
+</men>
+</p>
+
+<p>
+From the first law we know <m>|W|=|Q_H|-|Q_C|</m>, so we can substitute
+this in and write the efficiency equivalently as
+<men xml:id="eq_general_efficiency" >
+  \epsilon = \frac{|Q_H|-|Q_C|}{|Q_H|} = 1 - \frac{|Q_C|}{|Q_H|}.
+</men>
+</p>
+
+<p>
+Obviously, the efficiency can't ever be greater than 1;
+that would correspond to an engine that produces more mechanical energy
+than the amount of heat that flows into it, and that would violate the
+first law of thermodynamics. But since <m>|Q_C|</m> can never be zero in
+a real engine <mdash /> we must always dump some heat <mdash /> the efficiency can
+never reach 1. That would violate the second law of thermodynamics.
+We'll say more about this in a bit, after we have done a simple example
+using efficiency.
+</p>
+
+<example xml:id="ex_simple_engine">
+<statement>
+<p>
+{A simple engine problem}
+</p>
+<figure xml:id="fig_engine_for_example" >
+<caption>Diagram for <xref ref="ex_simple_engine">Example</xref></caption>
+<image width="20%" source="images/engine_for_example.png" />
+</figure>
+<p>
+An engine is described by the engine diagram in
+Fig. <xref ref="fig_engine_for_example"></xref>. Determine the work output by this
+engine and the efficiency of the engine.
+</p>
+
+<p>
+<em>Solution: </em>
+We can straightforwardly find the work done
+by this engine using the first law of thermodynamics, i.e., energy
+conservation. The energy going into the working substance is
+equal to the energy going out of the working substance, so
+<men>
+  |Q_H| = |Q_C| + |W|
+</men>
+and
+<men>
+  |W| = |Q_H| - |Q_C| = 250\units{J} - 175\units{J} = 75\units{J} .
+</men>
+</p>
+
+<p>
+Then from the definition of efficiency, Eq.<nbsp /><xref ref="eq_efficiency_def" />,
+we have
+<me>
+  \epsilon = \frac{|W|}{|Q_H|}  = \frac{75\units{J}}{250\units{J}} = 0.30.
+</me>
+</p>
+</statement>
+</example>
+
+<p>
+Okay, so we have a definition for efficiency, which can never be
+greater than one (that would violate the first law of thermodynamics).
+But it can never <em>be equal to</em> 1 either.<fn>This is
+  important: if you ever calculate an efficiency equal to or greater
+  than one, then it is wrong.</fn> The maximum value of <m>\epsilon</m>
+corresponds to <m>|Q_C|</m> being at its minimum (since it is being subtracted).
+Evidently,
+<men xml:id="eq_max_efficiency" >
+  \epsilon_\text{ max }  = 1 - \frac{|Q_{C,{ min}}|}{|Q_H|} = 1 -
+\frac{(T_C/T_H)|Q_H|}{|Q_H|} = 1-\frac{T_C}{T_H}.
+</men>
+</p>
+
+<p>
+Warning: do not confuse this result for the maximum efficiency
+<m>\epsilon_\text{ max }</m> with the similar looking expression
+Eq.<nbsp /><xref ref="eq_general_efficiency" /> for efficiency <m>\epsilon</m> in general.
+Also, this is only valid if heat is drawn from and dumped into
+isothermal reservoirs.
+</p>
+
+<p>
+It is worth keeping in mind that Eq.<nbsp /><xref ref="eq_max_efficiency" /> for the
+maximum efficiency is really a special case of an engine operating
+between two thermal reservoirs. A more general approach is just to
+use the first and second laws of thermodynamics. The first law just says
+balance the energy in and the energy out, and the second law says
+<men>
+  \Delta S_\text{ total }  = 0 \qquad\text{ (maximum efficiency) }
+</men>
+</p>
+
+<p>
+Ultimately, that's the one equation you need to remember
+to solve problems involving a maximally efficient engine.
+</p>
+
+<p>
+Let's consider some examples:
+</p>
+
+<example xml:id="example_automobile_efficiency">
+<statement>
+<p>
+{Automobile Efficiency} The internal combustion engine of an automobile is a heat engine.
+Yes, there is gas being consumed, but that's being burned to provide
+the high temperature of the hot reservoir. From there on, the engine
+functions as a heat engine.
+</p>
+
+<p>
+The hot reservoir is about <m>820^\circ\units{C}</m> and the cold reservoir
+is almost air temperature, but typically more like
+<m>70^\circ\units{C}</m>. Burning a gallon of gasoline provides about
+<m>120\units{MJ}</m> of heat. What is the upper limit on how much work can
+be extracted from a gallon of gas, and how much heat must be dumped?
+</p>
+
+<p>
+<em>Solution: </em> The moment you see the words <q>upper limit</q> (or similar
+language), then you can pull out the second law of thermodynamics:
+<m>\Delta S_\text{ total }  = 0</m>. For this problem, <m>\Delta S_\text{ total } 
+= \Delta S_H + \Delta S_C</m>, since the reservoirs are the
+only parts of this system whose entropy changes.
+</p>
+
+<p>
+To calculate <m>\Delta S</m> for the reservoirs, we need to convert the
+temperatures to Kelvin, so <m>T_H=820+273=1093\units{K}</m> and
+<m>T_C=70+273=343\units{K}</m>. The entropy change of the hot reservoir is
+<men>
+  \Delta S_H = \frac{-|Q_H|}{T_H} = 
+-\frac{120\times 10^6\units{J}}{1093\units{K}}
+ = -1.10\times 10^{5}\units{J/K}
+</men>
+</p>
+
+<p>
+Therefore, since <m>\Delta S_\text{ total }  = 0</m>, it follows that
+<m>\Delta S_C</m> must be positive by at least this amount.
+<men>
+  \Delta S_{C,{ min}} = \frac{|Q_{C,{ min}}|}{T_C} = 1.10\times
+10^5\units{J/K}
+</men>
+so
+<men>
+  |Q_{C,{ min}}| = 343\units{K} \cdot 1.10\times 10^{5}\units{J/K} =
+37.7\units{MJ}.
+</men>
+</p>
+
+<p>
+We get the maximum work by subtracting this from <m>|Q_H|</m>:
+<men>
+  |W_\text{ max } | = 120 - 37.7 = 82\units{MJ}.
+</men>
+</p>
+
+<p>
+In reality, the work output is only about 1/3 of this amount, due to
+(i) design choices to get the work out faster, i.e. to get more power,
+(ii) friction, and (iii) imperfect combustion of the fuel.
+</p>
+</statement>
+</example>
+
+<p>
+We could have solved the previous example by using the equation for
+<m>\epsilon_\text{ max }</m> for engines with thermal reservoirs (although
+there was no need to do so). The following is an example where
+the <m>\epsilon_\text{ max }</m> approach would not work; i.e., you
+<em>must</em> start from the second law of thermodynamics:
+</p>
+
+<example xml:id="example_two_brick_heat_engine">
+<statement>
+<p>
+{A Two-Brick Heat Engine} A hot brick initially at temperature <m>T_H=400\units{K}</m> is used as
+the source for a heat engine. An equal sized cold brick made of the
+same material, initially at temperature <m>T_C=300\units{K}</m>, is used
+to dump the waste heat. As the heat flows, the two bricks come to
+thermal equilibrium. Assuming the heat engine was maximally
+efficient, what is the final temperature?
+</p>
+
+<p>
+<em>Solution: </em> You might think the final temperature should just be
+<m>350\units{K}</m>, but that would be true only if we didn't intercept
+any of the heat and convert it to work.
+</p>
+
+<p>
+There is a lot we aren't given. We don't know the amounts
+or the composition of the bricks, but we know they are identical.
+The hotter brick is going to cool from <m>400\units{K}</m> down to some
+<m>T_f</m>, so its entropy change will be <m>\Delta S_H = nC\ln(T_f/400)</m>,
+which is negative since <m>T_f/400\lt 1</m>. The colder brick will warm
+from <m>300\units{K}</m> to <m>T_f</m>, so its entropy change will be <m>\Delta
+  S_C=nC\ln(T_f/300)</m>. For maximum efficiency, then,
+<men>
+  \Delta S_\text{ total }  = \Delta S_H+ \Delta S_C =
+nC\ln\left(\frac{T_f}{400}\right) + nC\ln\left(\frac{T_f}{300}\right)
+= 0.
+</men>
+</p>
+
+<p>
+The <m>nC</m> factors divide out, and we get
+<men>
+  \ln T_f - \ln 400 + \ln T_f - \ln 300 = 0
+</men>
+and so
+<md>
+  <mrow>  2\ln T_f = \ln(400\cdot 300) \amp \Rightarrow\amp  
+T_f^2=400\cdot 300  \nonumber</mrow>
+  <mrow>  \amp \Rightarrow\amp  T_f = 346.4\units{K}.</mrow>
+</md>
+</p>
+
+<p>
+We see that the bricks end up slightly cooler than <m>350\units{K}</m>,
+which makes sense since we skimmed off some of the energy as it was
+flowing from hot to cold.
+</p>
+</statement>
+</example>
+</section>

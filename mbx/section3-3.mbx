@@ -1,0 +1,263 @@
+<section>
+<title>New definitions for energy and momentum</title>
+<p>
+You have learned previously that in interactions among low velocity
+particles in which the only forces are the interparticle forces
+(i.e.<nbsp />no <em>external</em> forces), the total momentum <m>\sum_i
+m_i\vec{u}_i</m> and the total mass <m>\sum_i m_i</m> are conserved. (As in
+<xref ref="chapter_relativistic_spacetime">Chapter</xref>, we use the symbol <m>u</m> to
+refer to the velocity of some particle as viewed from a reference
+frame, reserving <m>v</m> for the velocity of the reference frame itself.)
+For example, when particle 1 collides with particle 2 and particles 3,
+4, and 5 emerge from the point of collision, we have two conservation
+laws:
+<men xml:id="eq_pcons" >
+  \vec{p}_1 +\vec{p}_2 = \vec{p}_3 +\vec{p}_4 +\vec{p}_5
+</men>
+and
+<men xml:id="eq_mcons" >
+  m_1 + m_2 = m_3 + m_4 + m_5 
+   \text{\hspace{0.2in}\textbf{Caution: Only valid classically!}}
+</men>
+</p>
+
+<p>
+After Einstein discovered the velocity transformation law,
+Eq.<nbsp /><xref ref="eq_vtransform" /> and <xref ref="eq_vtransform-inverse" />, he
+recognized that the classical definition of momentum (<m>\vec{p} =
+m\vec{u}</m>) was incompatible with Eq.<nbsp /><xref ref="eq_pcons" /> and the Relativity
+Principle. That is, for a given collision, classical momentum could
+be conserved in one frame but not another. An example will illustrate
+this:
+</p>
+
+<example xml:id="ex_momentum-goodbye">
+<statement>
+<p>
+{Say goodbye to the classical expression for momentum.} (For this example, we use the natural units of MeV, MeV/<m>c</m>, MeV/<m>c^2</m>
+and <m>c</m>. More detail on these units appears <xref ref="section_rel-units">section</xref>.) <xref ref="fig_momentum_goodbye">Figure</xref> shows a
+particle of mass <m>9\units{MeV/</m>c^2<m>}</m> and speed <m>0.8c</m> striking a
+stationary particle of mass <m>5 \units{MeV/</m>c^2<m>}</m>, producing a
+single particle. (a) Calculate the mass and speed of the single
+particle after the collision. (b) Show that classical momentum is
+<em>not</em> conserved in the frame in which the final particle is at
+rest.
+</p>
+<figure xml:id="fig_momentum_goodbye" >
+<caption>Collision discussed in <xref ref="ex_momentum-goodbye">Example</xref>.</caption>
+<image width="71%" source="images/relpande1.png" />
+</figure>
+<p>
+<em>Solution: </em>
+The classical laws Eqs.<nbsp /><xref ref="eq_pcons" /> and <xref ref="eq_mcons" /> would
+yield
+<md>
+  <mrow>  \text{ Eq.~(3.3.1) } \amp \Rightarrow\amp  9\units{MeV/$c^2$}\times 0.8c + 
+                     5\units{MeV/$c^2$}\times 0 = m_3u_3 \nonumber</mrow>
+  <mrow>  \amp \Rightarrow\amp  u_3 = \frac{7.2\units{MeV/$c$}}
+                            {14\units{MeV/$c^2$}} = 0.514c\nonumber</mrow>
+</md>
+and
+<md>
+  <mrow>  \text{ Eq.~(3.3.2) } 
+\amp \Rightarrow\amp  9\units{MeV/$c^2$} + 
+                     5\units{MeV/$c^2$} = m_3 \nonumber</mrow>
+  <mrow>  \amp \Rightarrow\amp  m_3 = 14\units{MeV/$c^2$}. \nonumber</mrow>
+</md>
+</p>
+
+<p>
+Transform now to a frame in which the final particle is at rest. This
+clearly means that we should view the collision from a spaceship
+traveling with particle 3 at <m>0.514c</m> to the right, relative to the
+original observer. Equation<nbsp /><xref ref="eq_vtransform-inverse" /> gives
+<md>
+  <mrow>  u_3^\prime \amp =\amp  \frac{u_3 - v}{1 - u_3v/c^2} = 
+              \frac{0.514c - 0.514c}{1-0.514^2} = 0 \nonumber</mrow>
+  <mrow>  u_5^\prime \amp =\amp  \frac{u_5 - v}{1 - u_5v/c^2} = 
+              \frac{0-0.514c}{1-0\times 0.514} = -0.514c \nonumber</mrow>
+  <mrow>  u_9^\prime \amp =\amp  \frac{u_9 - v}{1 - u_9v/c^2} = 
+              \frac{0.8c - 0.514c}{1-0.8\times0.514} = 0.486c \nonumber</mrow>
+</md>
+</p>
+<figure xml:id="fig_momentum_goodbyeII" >
+<caption>Collision discussed in <xref ref="ex_momentum-goodbye">Example</xref> as
+viewed from rest frame of product particle.</caption>
+<image width="71%" source="images/relpande2.png" />
+</figure>
+<p>
+In the new primed frame, the collision appears as in
+Fig. <xref ref="fig_momentum_goodbyeII"></xref>. Checking the classical momentum
+conservation law in the new frame gives
+<men>
+  9\units{MeV/$c^2$}\times 0.486c + 5\units{MeV/$c^2$}\times (-0.514c) = 
+   m_3 \times 0.
+</men>
+</p>
+
+<p>
+But the left side of this equation here works out to be
+<m>1.80\units{MeV/</m>c<m>}</m> which is NOT equal to the right side (which is
+0). So, classical momentum is not conserved in this new frame.
+Therefore, either (a) conservation of momentum isn't a valid law of
+physics; (b) the Relativity Principle (invariance of the laws of
+physics) is violated; or (c) we need a new definition for momentum.
+</p>
+</statement>
+</example>
+
+<p>
+You probably won't be surprised to hear that Einstein wasn't about to
+give up on the Relativity Principle because of this argument. After
+all, he had already redefined time and space to make the Principle
+work. And although the classical expression for momentum does not lead to
+invariance for high velocity collisions, there are attributes of
+particles involving their masses and velocities that do produce
+invariant conservation laws. These quantities are called relativistic
+momentum and relativistic energy, or more simply, momentum and energy.
+They are defined by
+</p>
+
+<p>
+\boxiteq{
+<men xml:id="eq_rel-p-def" >
+  \vec{p} = \frac{m\vec{u}}{\sqrt{1-u^2/c^2}} 
+        \text{\hspace{0.2in}\textbf{Definition of relativistic momentum}} ,
+</men>
+and
+</p>
+
+<p>
+\boxiteq{
+<men xml:id="eq_rel-e-def" >
+  E = \frac{mc^2}{\sqrt{1-u^2/c^2}} 
+\text{\hspace{0.2in}\textbf{Definition of relativistic energy}} .
+</men>
+</p>
+
+<p>
+Einstein was motivated to define momentum and energy in this way
+because conservation of momentum and energy defined in this
+new way are invariant, as we will show with an example below. Of
+course, motivation is all very nice, but the most compelling reason
+that the momentum and energy of a particle must be defined this way
+instead of in the classical way is because experiments with high-speed
+particles it is these new relativistic quantities that are conserved,
+and not those given by the classical definitions.
+</p>
+
+<p>
+Let's explore this invariance by redoing <xref ref="ex_momentum-goodbye">Example</xref>
+using Einstein's new definitions and the relativistic conservation laws:
+<men>
+  \vec{p}_{ before} = \vec{p}_{ after}
+</men>
+<men xml:id="eq_econs" >
+  E_{ before} = E_{ after}
+</men>
+</p>
+
+<example xml:id="ex_pe-cons">
+<statement>
+<p>
+<xref ref="fig_junk">Figure</xref> shows a particle of mass <m>9\units{MeV/</m>c^2<m>}</m> and
+speed <m>0.8c</m> striking a stationary particle of mass <m>5\units{MeV/</m>c^2<m>}</m>,
+producing a single particle of mass <m>16\units{MeV/</m>c^2<m>}</m>.
+You might not be too happy here with the final particle having a mass
+of <m>16\units{MeV/</m>c^2<m>}</m>, but hold on a little longer <mdash /> we'll
+explain this shortly. (A little preview <mdash /> this might be a good time
+to take a pen and scribble Eq.<nbsp /><xref ref="eq_mcons" /> out of existence.) In
+the next chapter, we'll learn more rigorously how to determine the
+correct attributes of the final particle. Here we just want to check
+the conservation laws. (a) Check the conservation of relativistic
+momentum and relativistic energy in the rest frame of the
+<m>5\units{MeV/</m>c^2<m>}</m> particle. (b) Check the conservation of
+relativistic momentum and relativistic energy in the rest frame of the
+<m>16\units{MeV/</m>c^2<m>}</m> particle.
+</p>
+<figure xml:id="fig_junk" >
+<caption>Collision discussed in <xref ref="ex_pe-cons">Example</xref>.</caption>
+<image width="71%" source="images/relpande3.png" />
+</figure>
+<p>
+<em>Solution: </em>
+(a) We will use the relativistic definitions and conservation laws given
+in Eqs.<nbsp /><xref ref="eq_rel-p-def" /><ndash /><xref ref="eq_econs" />. Conservation of momentum
+gives
+<men>
+  \frac{9\units{MeV/$c^2$}\times 0.8c}{\sqrt{1 - 0.8^2}} + 0 = 
+\frac{16\units{MeV/$c^2$}\times 0.6c}{\sqrt{1 - 0.6^2}},
+</men>
+and conservation of energy gives
+<men>
+  \frac{9\units{MeV/$c^2$}\times c^2}{\sqrt{1 - 0.8^2}} 
+ + \frac{5\units{MeV/$c^2$}\times c^2}{\sqrt{1 - 0^2}}= 
+\frac{16\units{MeV/$c^2$}\times c^2}{\sqrt{1 - 0.6^2}}.
+</men>
+</p>
+
+<p>
+The momentum equation gives <m>12\units{MeV/</m>c<m>} = 12\units{MeV/</m>c<m>}</m>,
+while the energy equation gives <m>15\units{MeV} + 5\units{MeV} = 20\units{MeV}</m>.
+So the conservation laws are satisfied in this frame.
+</p>
+
+<p>
+(b) Now, transform to a frame in which the final particle is at rest, by
+viewing from a spaceship moving at <m>0.6c</m> to the right. The velocity
+transformations give
+<md>
+  <mrow>  u_{16}^\prime \amp =\amp  \frac{u_{16}-v}{1 - u_{16}v/c^2} 
+   = \frac{0.6c -0.6 c}{1-0.6^2} = 0</mrow>
+  <mrow>  u_{5}^\prime \amp =\amp  \frac{u_{5}-v}{1 - u_{5}v/c^2} 
+   = \frac{0 -0.6 c}{1-0\times 0.6} = -0.6c = -\frac{3}{5}c</mrow>
+  <mrow>  u_{9}^\prime \amp =\amp  \frac{u_{9}-v}{1 - u_{9}v/c^2} 
+   = \frac{0.8c -0.6 c}{1-0.8\times 0.6} = \frac{5}{13}c \simeq 0.385c</mrow>
+</md>
+</p>
+<figure xml:id="fig_junk2" >
+<caption>Collision discussed in <xref ref="ex_pe-cons">Example</xref> as viewed from 
+rest frame 
+of product particle.</caption>
+<image width="71%" source="images/relpande4.png" />
+</figure>
+<p>
+In this new frame, the collision appears as in Fig. <xref ref="fig_junk2"></xref>.
+When we check the relativistic conservation laws in this new frame, we find:
+<men>
+  \frac{9\units{MeV/$c^2$}\times 5c/13}{\sqrt{1 - (5/13)^2}} 
+    -  \frac{5\units{MeV/$c^2$}\times 3c/5}{\sqrt{1 - (3/5)^2}}= 
+\frac{16\units{MeV/$c^2$}\times 0}{\sqrt{1 - 0^2}}
+</men>
+<men>
+  \frac{9\units{MeV/$c^2$}\times c^2}{\sqrt{1 - (5/13)^2}} 
+ + \frac{5\units{MeV/$c^2$}\times c^2}{\sqrt{1 - (3/5)^2}}= 
+\frac{16\units{MeV/$c^2$}\times c^2}{\sqrt{1 - 0^2}}
+</men>
+</p>
+
+<p>
+The momentum equation gives
+<men>
+  \frac{15}{4}\units{MeV/$c$} -\frac{15}{4}\units{MeV/$c$} = 0,
+</men>
+which checks out, while the energy equation gives
+<men>
+  \frac{39}{4}\units{MeV} +\frac{25}{4}\units{MeV} = 16\units{MeV}
+</men>
+which also checks out. This means the conservation laws are true in
+both the original and the new frame, and the Relativity Principle is
+upheld with Einstein's new definitions.
+</p>
+</statement>
+</example>
+
+<p>
+This may be a nice argument on paper, but does it work in practice?
+Are relativistic momentum and energy, rather than classical momentum
+and mass, really conserved in particle interactions? The answer is an
+emphatic <em>YES</em>! In countless interactions observed in high-energy
+particle accelerators, relativistic momentum and energy are always
+found to be conserved.
+</p>
+</section>

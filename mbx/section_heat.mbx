@@ -1,0 +1,221 @@
+<section xml:id="section_heat">
+<title>Heat and the First Law of Thermodynamics</title>
+<p>
+There are many ways to add thermal energy to an object or to remove it
+from the object. We have already discussed how friction can increase
+the thermal energy of a blow dart as it slides across the floor.
+Another way to change the thermal energy is to bring the object into
+<em>thermal contact</em> with something hotter or colder. For a pair of
+solid objects, thermal contact occurs when they are physically in
+contact. Then the molecules at the boundary exert forces on each
+other and energy is transferred from the object with the higher
+temperature to the object with the lower temperature.
+As we have already discussed, temperature directs the flow of
+thermal energy, determining which objects will spontaneously give off
+energy and which objects will receive it.
+</p>
+
+<p>
+The energy transferred spontaneously by molecular motion is given the
+name <em>heat.</em> Similar to work, heat is an energy transfer and not
+an energy. Think of thermal energy as a bank balance and heat and work
+as deposits and withdrawals. The distinction between heat and
+work is the mechanism for the energy transfer.
+</p>
+
+<p>
+\boxittext{Heat is the thermal energy transferred spontaneously due
+to a temperature difference.}
+</p>
+
+<p>
+All other forms of energy transfer into a system are lumped
+together as thermodynamic <q>work.</q> For example, the term work can refer
+to energy transfer due to external forces that act on system (but do not
+change the motion of the center of mass of the system)<fn>In Unit 1 
+in this course we discussed the work done on a single particle,
+and the resulting change in the kinetic energy of the particle.
+In thermodynamics we are interested in composite systems, such as gases
+liquids, and solids.  In composite systems, work can result in changes in
+thermal energy as well as kinetic energy. In the thermodynamic systems
+we study, there will be no changes in the bulk kinetic energy 
+<m>K_\text{ mech }</m>.</fn>, but it also
+encompasses energy transfers due to other things, such as the warming of
+a piece of frozen broccoli in a microwave oven. To distinguish the
+two forms of energy transfer, it is common to use the symbol <m>Q</m> for heat,
+and <m>W</m> for work.
+</p>
+
+<p>
+Now we can state the first law of thermodynamics, which is simply a
+statement of energy conservation: the change in thermal energy is
+equal to how much work is done on the system plus how much heat flows
+into the system:
+<men>
+  \Delta E_\text{ therm }  = Q + W \qquad\text{ (1st Law of Thermodynamics) }
+</men>
+</p>
+
+<p>
+Note that <m>Q</m>, like <m>W</m>, can be positive or negative, depending on
+whether heat is flowing in or out. The convention used here is to
+define the heat <m>Q</m> as being positive if heat is flowing <em>into</em>
+the material (and negative if heat is flowing out), and to define
+the work <m>W</m> as the work done <em>on</em> the system. Some people find it
+convenient to write the first law with these conventions stated
+explicitly:
+<men xml:id="eq_firstlaw" >
+  \Delta E_\text{ therm }  = Q_\text{ in }  + W_\text{ on }  \qquad\text{ (1st Law of Thermodynamics) }
+</men>
+</p>
+
+<p>
+From our perspective today, with energy conservation a fundamental
+principle, the 1st law may seem to be pretty obvious. But historically it was a
+very significant discovery, showing that indeed heat was just an
+energy transfer, rather than some new substance.<fn>Early theories of
+thermodynamics proposed <mdash /> incorrectly <mdash /> that heat was some sort of
+fluid (called <em>caloric</em>) that flows between hot and cold materials.
+We now know, of course, that heat is simply the <q>flow</q> of energy.</fn>
+And the
+importance of the first law cannot be overstated <mdash /> this seemingly simple
+result forms the foundation of much of what we will be doing during
+the next couple of weeks.
+</p>
+
+<p>
+It is worth appreciating what is not heat. Rubbing your hands
+together when they are cold certainly does increase their thermal
+energy, but not due to heat. There is not a higher temperature object
+making energy flow into your hands spontaneously, so there is no heat
+flow. Rather, you are doing work with your muscles, and the friction
+force between your hands converts the mechanical energy of your moving
+hands into thermal energy.
+</p>
+
+<example>
+<statement>
+<p>
+{First law}
+You hold a <m>35\units{mol}</m> iron anvil in place on a moving conveyor belt
+so that the belt slides under the stationary anvil. The belt does
+<m>12,000\units{J}</m> of work on the anvil, and and it gets warmer. During
+this process, the anvil loses <m>7,000\units{J}</m> to the cooler surrounding air
+and to the belt. If the anvil had an initial temperature of
+<m>22.0^{\circ}\units{C}</m>, what is its temperature at the end of this
+process?
+</p>
+
+<p>
+<em>Solution: </em>
+First, we can use the first law to determine the change in the anvil's
+thermal energy. Conceptually, <m>12,000\units{J}</m> is added in the form
+of work and <m>7,000\units{J}</m> is removed in the form of a heat flow. In terms
+of Eq.<nbsp /><xref ref="eq_firstlaw" />, <m>W_\text{ on } =12000\units{J}</m> and
+<m>Q_\text{ in } =-7000\units{J}</m> (negative since heat is flowing <em>out</em>
+of the anvil). So,
+<me>
+  \Delta E_\text{ therm }  = Q_\text{ in }  + W_\text{ on }  
+     = -7000\units{J} + 12000\units{J}= 5000\units{J}.
+</me>
+</p>
+
+<p>
+We can now use Eq.<nbsp /><xref ref="eq_Ethermspecificheat" /> and the molar specific
+heat of iron (see <xref ref="table_material_properties">Table</xref> to find the
+temperature change of the iron anvil:
+<me>
+  \Delta E_\text{ therm }  = n C \Delta T.
+</me>
+</p>
+
+<p>
+Solving for the rise in temperature gives
+<md>
+  <mrow>  \Delta T \amp =\amp  \frac{\Delta E_\text{ therm } }{nC}</mrow>
+  <mrow>  \amp =\amp  \frac{5000\units{J}}{35\units{mol} \times 25.1\frac{\units{J}}
+{\units{mol} \cdot \units{K}}}</mrow>
+  <mrow>  \amp =\amp  5.7\units{K}</mrow>
+</md>
+</p>
+
+<p>
+The final temperature is therefore <m>22.0^\circ\units{C} + 5.7^\circ\units{C} = 
+27.7^\circ\units{C}</m>.
+</p>
+
+<p>
+Note that we could get a very good approximation of the result here by using
+the ideal solid approximation for the molar
+specific heat.
+</p>
+</statement>
+</example>
+
+<p>
+When a pair of objects is in thermal contact but is otherwise thermally
+isolated, we can say that <m>\Delta E_\text{ therm }</m> is equal and opposite
+for the two objects, since the thermal energy lost by the hotter object
+is gained by the colder object. This brings the objects closer together
+in temperature, until finally they have the same temperature and no more
+heat flows. This situation is called <em>thermal equilibrium</em>.
+</p>
+
+<example>
+<statement>
+<p>
+{Hot Meets Cold}
+One mole of an ideal solid at temperature <m>70^\circ\units{C}</m> is
+brought into thermal contact with two moles of an ideal solid at
+temperature <m>10^\circ\units{C}</m>. How much heat will flow out of the
+hotter object before thermal equilibrium is reached?
+</p>
+
+<p>
+<em>Solution: </em>
+We will need to
+determine the final equilibrium temperature, <m>T_f</m>.
+This is done by balancing the heat flows in and out:
+<men xml:id="eq_calorimetry" >
+  \Delta
+E_\text{ therm,1 }  = -\Delta E_\text{ therm,2 }  
+\rangle \Rightarrow\rangle 
+n_1 C_1 \underbrace{(T_f - T_{1,i})}_{\Delta T_1} = -n_2 C_2 
+\underbrace{(T_f - T_{2,i}) }_{\Delta T_2}
+</men>
+where <m>T_{1,i}</m> and <m>T_{2,i}</m> are the initial temperatures of objects
+1 and 2. Putting in values:
+<men>
+  (1\units{mol})(3R)(T_f - 70^\circ\units{C})
+ = -(2\units{mol})(3R)(T_f - 10^\circ\units{C})
+</men>
+</p>
+
+<p>
+Note that we have used Celsius temperature. This is because <m>\Delta
+T</m> is the same whether measured in Kelvin or Celsius (see
+Fig. <xref ref="fig_temperature_scales"></xref>). Now we solve:
+<men>
+  T_f - 70 = -2(T_f-10)\Rightarrow 3T_f = 70+20
+</men>
+so
+<men>
+  T_f = \frac{90}{3} = 30^\circ\units{C}.
+</men>
+</p>
+
+<p>
+To complete the calculation, we go back to the change in thermal energy,
+Eq.<nbsp /><xref ref="eq_calorimetry" />,
+<men>
+  \Delta E_\text{ therm,1 }  = (1\units{mol})(24.9\units{J/mol$\cdot$K})
+(30^\circ\units{C} - 70^\circ\units{C}) = -996\units{J}.
+</men>
+</p>
+
+<p>
+So <m>996\units{J}</m> of heat flowed out of object <m>1</m> and into object <m>2</m>.
+</p>
+</statement>
+</example>
+</section>

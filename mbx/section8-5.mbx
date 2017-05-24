@@ -1,0 +1,114 @@
+<section>
+<title>Law of Motion for a Freely Falling Body</title>
+<p>
+Imagine taking a trip, in gravity-free spacetime, from the point <m>x =
+0</m>, <m>t = 0</m> to the point <m>x = 0</m>, <m>t = 1</m>. Not a very adventurous
+trip, to be sure, but some would opt for the lazy way; simply remain
+at rest at <m>x = 0</m> and you'll get there! But there are other ways of
+making the trip (see Fig. <xref ref="fig_trip"></xref>). For example you could take
+off at some high speed, say <m>v = 0.6 c</m> for half a second (in the rest
+frame) and travel about 0.3  light-sec and then suddenly reverse
+direction and travel for another half second back to <m>x = 0</m> at a
+velocity of <m>-0.6 c</m>. This hyperactive approach gets you to your
+destination quicker, in the sense that the time elapsed on your watch
+(proper time) will be only
+<men xml:id="eq_deltatnograv" >
+  \Delta t_{ proper} = \Delta t \sqrt{1 - v^2/c^2} = 
+      1.0 \times \sqrt{1 - 0.6^2} = 0.8\, \mbox{s} .
+</men>
+</p>
+
+<p>
+This effect is precisely what happens in the twin paradox.
+</p>
+
+<p>
+Of all the ways of making the trip, the one taken at zero velocity
+will give the longest proper time. This is because any non-zero
+velocity during any part of the trip reduces the proper time required
+for the trip. What is the `natural' route for the trip? By
+`natural' we mean the route taken by a particle with no forces
+acting on it. Clearly a particle makes the trip the lazy way, it
+simply `crawls' at constant velocity <m>v = 0</m> and it gets there.
+The `natural' way is also the way that gives the largest
+possible proper time for the trip (1 second in this case).
+</p>
+<figure xml:id="fig_trip" >
+<caption>Two ways of taking a different spacetime trip.</caption>
+<sidebyside><image width="73%" source="images/trip.png" />
+<image width="73%" source="images/trip2.png" /></sidebyside>
+
+</figure>
+<p>
+Let's see if this principle, which we call the <em>principle of
+maximum proper time</em>, can be generalized. For example, suppose we
+want to go from the point <m>x = 0</m>, <m>t = 0</m> to the point <m>x = 0.6</m>, <m>t
+= 1</m>. If our principle is correct then we should expect that the way
+to take the trip in the greatest proper time is to go the `natural'
+way, i.e., at a constant velocity <m>v = 0.6 c</m>, shown as route (a) in
+Fig. <xref ref="fig_trip2"></xref>. We already know that the proper time for this
+constant velocity trip is <m>(1 -0.6^2)^{1/2} = 0.8\, \mbox{s}</m>. Can we
+find a way that gives a longer proper time?
+</p>
+
+<p>
+<xref ref="fig_trip2">Figure</xref> shows an alternate route to get to <m>x = 0.6</m>,
+<m>t = 1</m>, labeled as path (b). In homework <xref ref="prob_trip">problem</xref>,
+you will calculate the proper time for this route. What you should
+find is that the total proper time is less for the two-step trip,
+route (b), than the 0.8 second `natural' trip at a single velocity,
+route (a). In fact there is no other route that gives a longer proper
+time than the natural route. Our principle shows an encouraging
+ability to <q>explain</q> Newton's first law, the law of inertia.
+</p>
+
+<p>
+This same principle works in curved spacetime. The path between two
+events actually taken by a freely falling body is that path that
+MAXIMIZES the elapsed proper time. This rule leads to the
+<q>straightest</q> possible path through the curved spacetime, and
+answers the question: How is it that <q>spacetime tells mass how to
+move</q>?
+</p>
+<figure xml:id="fig_trajectories" >
+<caption>Trajectories</caption>
+<image width="75%" source="images/trajectory.png" />
+</figure>
+<p>
+Here is a qualitative example. Throw a ball straight up and catch it
+one second later at the same original height. What is the <q>naturally
+chosen</q> path through spacetime that maximizes proper time? We have
+just seen that, because of time dilation, paths that speed up, slow
+down, or reverse direction tend to <em>decrease</em> proper time. On
+the other hand, we've learned that clocks at higher altitudes measure
+<em>more</em> elapsed proper time than those at lower altitudes. So
+now consider these three paths, shown in Fig. <xref ref="fig_trajectories"></xref>:
+<ul>
+<li>
+<title>Path 1</title>
+<p>
+The ball stays just above your hand the whole time.  No
+  speeding to decrease proper time <mdash /> BUT also not taking advantage of
+  increasing proper time by going high where clocks run faster.   Not
+  the best.</p></li>
+<li>
+<title>Path 2</title>
+<p>
+Zoom high at almost light-speed, zoom back down.  This
+  gets the ball high where clocks run fast, but time dilation at near
+  light speed means almost no elapsed proper time!  No good.</p></li>
+<li>
+<title>Path 3</title>
+<p>
+Spend most of the trip at a higher place where proper
+  time elapses rapidly.  But don't go very fast or change speed
+  quickly, so the time dilation is not too severe.</p></li>
+</ul>
+</p>
+
+<p>
+Result: Best path for maximizing proper time is parabolic motion <mdash />
+fast up, slow and stop smoothly at the top, faster on the way down.
+This is the motion we actually observe!
+</p>
+</section>
