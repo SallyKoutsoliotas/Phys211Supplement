@@ -1,0 +1,298 @@
+<section>
+<title>Problems</title>
+<problem>
+<statement>
+<p>
+Give a one sentence definition of a meter, using the concept of
+a second and the defined value for <m>c</m>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_rel_units">
+<statement>
+<p>
+A proton is traveling at a speed of <m>4.0 \times 10^7\units{m/s}</m>.
+How many lt-s/s is this?
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_rel_units2">
+<statement>
+<p>
+A <m>\pi^-</m> meson is traveling at a speed of <m>0.060\units{lt-s/s}</m>.
+Convert this speed to m/s.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A spaceship moving at constant speed <m>0.80\units{lt-s/s}</m>
+travels between two planets A and B in <m>1000\units{s}</m>, as measured by
+synchronized clocks on the planets. Calculate the elapsed time
+according to a clock carried on board the spaceship.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_time_dilation1">
+<statement>
+<p>
+How fast does a particle have to travel relative to clocks A and
+B, which are at rest relative to each other, in order that its elapsed
+time as read on a clock moving with the particle is one-tenth the
+elapsed time measured on clocks A and B? Express your answer both in
+lt-s/s and in m/s.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_meteorite">
+<statement>
+<p>
+A meteorite is observed to travel a distance <m>1.00 \times
+  10^5\units{lt-s}</m> relative to the Earth in a time of <m>6.00 \times
+  10^5\units{s}</m> as measured by Earth observers. Calculate the
+elapsed time for this trip as measured by a clock carried along on
+the meteorite.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_alpha_centauri">
+<statement>
+<p>
+A crew of astronauts travels at a speed of <m>0.60c</m> from Earth to
+the nearest star, Proxima Centauri, a distance of <m>4.0\units{lt-yr}</m>
+(as determined by observers on Earth).
+<ol>
+<li><p>Calculate how long the trip takes according to observers at
+   rest relative to the Earth.</p></li>
+<li><p>Calculate the time for the trip as measured by a clock on the
+   spaceship.</p></li>
+<li><p>Based on your answer to b), calculate the distance from
+   Earth to Proxima Centauri as determined by the astronauts using the
+   relation <q>distance</q> <m>=</m> <q>speed</q> <times /> <q>time</q>, where 
+   distance, speed and
+   time are all measured from the astronauts' reference frame.</p></li>
+<li><p>Calculate the Earth-Proxima Centauri distance from the
+   astronauts' reference frame, but this time use length contraction.
+   You should end up with the same result as for c).</p></li>
+<li><p>Think about the results from parts c) and d).  This should
+   convince you that length contraction and time dilation are really
+   the same thing (i.e., you can't have one without the other).</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_alpha_centauri2">
+<statement>
+<p>
+Another spaceship crew wants to make the trip from Earth to
+Proxima Centauri in only 2.0 years as measured by clocks on board their
+spaceship. (Recall from the previous problem statement that the
+distance between Earth and Proxima Centauri is <m>4.0\units{lt-yr}</m>
+as determined by observers on Earth.)
+<ol>
+<li><p>How long does the trip take according to Earth-frame observers?</p></li>
+<li><p>How fast must the astronauts travel relative to Earth?</p></li>
+</ol>
+</p>
+
+<p>
+Hint: First, do both parts a) and b) together. Also, you will need
+to express the speed in terms of the unknown travel time according to
+Earth-frame observers.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+You are in a metallic red VW bug stopped at a traffic light.
+You see the traffic light turn green, and <m>2.5\units{</m>\mu<m>s}</m> later you hear
+the car behind you honk its horn. What is the time between you
+seeing the light change to green and your hearing of the horn honk
+as measured by an
+alien passing by in a ship at a speed <m>0.9c</m>?
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_betelgeuse">
+<statement>
+<p>
+There is a supergiant star named Betelgeuse<fn>Betelgeuse
+is a supergiant star located in the constellation Orion.  It is very
+cool because it could go supernova anytime in the next million years,
+and that will be quite a show for us when it does.</fn> which (in the
+Earth's reference frame) is <m>80\units{lt-yr}</m> away.
+<ol>
+<li><p>A crew of astronauts is traveling toward Betelgeuse,
+    traveling at a speed <m>0.8c</m> relative to the Earth-Betelgeuse
+    reference frame.  What is the separation between Earth and
+    Betelgeuse in the astronauts' reference frame?</p></li>
+<li><p>Another crew traveling toward Betelgeuse measures the
+    Earth-Betelgeuse distance to be <m>23\units{lt-yr}</m>.  How fast is this 
+    second crew traveling relative to the Earth?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Betty is standing by the side of a train track when a really
+long train approaches traveling at a ridiculously fast speed of <m>0.9c</m>.
+Thinking quickly, she pulls out her stopwatch, clicks it on when the
+front of the train passes and clicks it off when the back of the train
+passes. After standing back up and smoothing down her hair, she notes
+that her stopwatch reads <m>0.0025\units{s}</m>. (She has really good reflexes.)
+Betty now makes some calculations.
+<ol>
+<li><p>According to Betty, how long is the moving train?  (Assume
+     that she was warned in advance that the train was going at a
+     speed <m>0.9c</m>.)</p></li>
+<li><p>Later that day (not much later), the train reaches its
+     destination and stops.  What is the length of the train according
+     to people standing next to the (now motionless) train?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_terns">
+<statement>
+<p>
+During migration, two fast Arctic terns fly one behind the other
+over London at speed <m>0.8 c</m>.
+A tourist sees the birds pass by while looking at the Big Ben clock tower.
+She notes that
+a time of <m>12.0\units{ms}</m> elapsed on the clock between the first
+bird's passing and the second bird's passing.
+<ol>
+<li><p>How much time elapsed between these two events, according to
+    the birds?</p></li>
+<li><p>How far apart are the birds according to the tourists watching the
+birds fly by?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_catch_on_trainI">
+<statement>
+<p>
+<em>Playing Catch on a Train I</em>
+</p>
+
+<p>
+<em>Note:</em> This is a non-relativistic physics problem.
+</p>
+
+<p>
+You are riding in a box car of a train that is traveling along the tracks
+at <m>30\units{m/s}</m>. You are bored, so you start to play catch with
+your friend who is standing on the opposite side of the box car, <m>5\units{m}</m>
+away from you. You throw the ball at a speed of <m>10\units{m/s}</m>
+straight to your friend, who catches the ball; the given speed and direction
+are determined in <em>your</em> reference frame. You may ignore any vertical
+motion of the ball.
+</p>
+<figure xml:id="fig_catch_on_trainI" >
+<caption>Figure for <xref ref="prob_catch_on_trainI">Problem</xref>.  This is
+    a top view looking down upon the train.</caption>
+<image width="103%" source="images/catch_on_trainI.png" />
+</figure>
+<ol>
+<li><p>How long does it take for the ball to reach your friend according
+to you?</p></li>
+<li><p>How long does it take for the ball to reach your friend according
+to an observer standing at rest on the ground?  (This is a dumb question in
+classical physics <mdash /> if the answer isn't obvious, you're thinking too
+hard!)</p></li>
+<li><p>How far does the ball travel according to the observer
+standing on the ground?</p></li>
+<li><p>What is the speed of the ball according to the observer
+standing on the ground?</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem xml:id="prob_catch_on_trainII">
+<statement>
+<p>
+<em>Playing Catch on a Train II</em>
+</p>
+
+<p>
+<em>Note:</em> This is a non-relativistic physics problem.
+</p>
+
+<p>
+You are riding in a
+box car of a train that is traveling along the tracks at an undetermined
+speed. Once again, you are bored, so you start to play catch with your
+friend who is standing on the opposite side of the box car <m>5\units{m}</m>
+away from you. (See figure in previous problem.) You throw the ball
+in a horizontal plane at a speed of <m>10\units{m/s}</m> straight to your
+friend, who catches the ball. According to an observer on the ground,
+the ball travels a distance of <m>13.93\units{m}</m> between the time you
+throw it and the time your friend catches it. Calculate the speed of
+the train along the tracks.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+<em>Photons on a Train</em>
+</p>
+
+<p>
+<em>Note:</em> This is a relativistic physics problem.
+</p>
+
+<p>
+Alice is riding
+in a box car of a train that is traveling along the tracks at a speed
+<m>v=0.6\units{lt-ns/ns}</m>. She just happens to have a light-clock with her
+(just like the one illustrated in Fig. <xref ref="fig_light-clocks"></xref> in <xref ref="chapter_relativityI">Chapter</xref>). Alice aligns the clock so that the light
+is aimed horizontally directly across the train car, perpendicular to
+the motion of the train. Alice sends a light pulse across the train,
+and notices that the light returns to the detector <m>2\units{ns}</m> later.
+Alice's friend Bob is standing at rest on the ground as Alice and her
+light-clock speed by. Bob measures the round-trip time for the pulse
+of light in Alice's light clock to be <m>\Delta t_{ Bob}</m>.
+<ol>
+<li><p>What is the speed of the light pulse according to Alice?</p></li>
+<li><p>Determine the distance between the emitter/detector and the mirror
+in the light-clock as determined by Alice.</p></li>
+<li><p>What is the speed of the light pulse according to Bob?  (This is
+a dumb question in relativistic physics <mdash /> if the answer isn't obvious,
+you're thinking too hard!)</p></li>
+<li><p>Determine length of the path traversed by the light pulse according
+to Bob <em>in terms of the unknown time <m>\Delta t_{ Bob}</m></em>.</p></li>
+<li><p>Use the Pythagorean theorem  to find the distance
+traveled by the light pulse according to Bob. From this determine
+a numerical value for <m>\Delta t_\text{ Bob }</m>.</p></li>
+<li><p>Now use Eq.<nbsp /><xref ref="eq_ptr" /> to calculate <m>\Delta t_{ Bob}</m>.
+This answer should agree with the answer you determined in the previous
+part.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+</section>

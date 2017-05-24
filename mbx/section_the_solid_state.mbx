@@ -1,0 +1,221 @@
+<section xml:id="section_the_solid_state">
+<title>The Solid State</title>
+<p>
+Molecules interacting via the pair potential can be solids, liquids,
+or gases. The remainder of this chapter is concerned with the thermal
+energy of the solid state, while liquid and gas states will be
+presented in <xref ref="chapter_liquids_and_gases">Chapter</xref>.
+</p>
+
+<p>
+Most inorganic solids are crystalline, which means the molecules are
+arranged in a symmetric way, such as a cubic lattice. (Organic
+solids instead are constructed from long carbon chains.) In this
+lattice, each pair of neighboring molecules is separated by roughly
+the equilibrium distance, that is, the minimum of the pair potential
+well, and only makes small excursions from this location. As
+illustrated in Fig. <xref ref="fig_pair_potential_spring"></xref>, the pair
+potential in this region is identical to a parabolic potential. We
+have previously encountered a parabolic potential energy curve as the
+potential energy for a mass on a spring. Evidently, as long as the
+molecules in a solid are not deviating significantly from their
+equilibrium position, we may regard their interactions with their
+nearest neighbors as equivalent to being attached by a spring.
+</p>
+
+<p>
+\boxittext{<sc>Checkpoint:</sc> What is the main difference between the pair
+potential and the spring potential? What would I need to do to a
+pair of molecules to see this difference? (Push together? Pull
+apart? How far?) }
+</p>
+<figure xml:id="fig_pair_potential_spring" >
+<caption>The solid curve is the pair potential <m>U_ pair</m> as a
+  function of separation <m>r</m>.  The dashed line is the spring potential
+  <m>U_ spring</m> with the spring constant <m>k_{\text sp}</m> chosen to match
+  <m>U_\text{ pair }</m> near the minimum.  The inset shows the match.</caption>
+<image width="65%" source="images/pair_potential_spring.png" />
+</figure>
+<p>
+This leads to what we call the <em>ideal solid</em>:
+the molecules are balls of mass <m>m</m>, they are connected by springs of
+spring constant <m>k_\text{ sp }</m>, and the springs have an equilibrium length
+of <m>d</m>. This model is illustrated in Fig. <xref ref="fig_ball-spring"></xref>. We
+may think of the spring constant as determining the bond strength and
+the equilibrium length <m>d</m> as the bond length. These three parameters
+(<m>m</m>, <m>d</m>, and <m>k_\text{ sp }</m>) define the model, and we shall see that for
+many solids determining these parameters describes much of the
+behavior of the solid.
+</p>
+
+<p>
+One may imagine packing the molecules together in different ways. The
+arrangement illustrated in Fig. <xref ref="fig_ball-spring"></xref>, is called a
+<em>simple cubic</em> lattice. In fact, most solids are packed
+differently, for example, in the way a grocer would stack oranges
+(which is called a <em>face-centered cubic</em> lattice). Fortunately,
+this distinction has little impact on the quantities we will study, so
+we will stick with the simple cubic lattice.
+</p>
+<figure xml:id="fig_ball-spring" >
+<caption>The ball-spring model of a solid.</caption>
+<image width="46%" source="images/ball-spring.png" />
+</figure>
+<p>
+Given the properties of some solid, how are the ideal solid
+parameters determined? Let's derive these for a specific case, namely
+copper. Molecular properties, such as mass, are usually not specified
+for a single molecule, but rather for a <em>mole</em>. One mole equals
+Avogadro's number
+<men>
+  N_A=6.02\times 10^{23}
+</men>
+of molecules. Avogadro's number is chosen so that roughly one mole of
+protons has a mass of one gram. The precise definition is that one
+mole of carbon atoms has a mass of <m>12\units{g}</m>. The mass of one mole
+of a material would logically be called the molar mass, but instead it
+is usually called the <em>molecular weight</em>.<fn>It's not our fault.</fn>
+</p>
+
+<p>
+One mole of copper has mass <m>64\units{g}</m>, so we may conclude that a
+single molecule of copper (the ball in our model) has mass
+<men>
+  m_\text{ Cu }  = \frac{64\units{g}}{6.02\times 10^{23}} = 1.06\times
+10^{-22}\units{g}.
+</men>
+</p>
+
+<p>
+This is the first of our three parameters.
+</p>
+
+<p>
+Next, we can get the equilibrium spacing <m>d</m> between the molecules by
+knowing the density of copper, which is <m>8.94\units{g/cm</m>^3<m>}</m>.
+In Fig. <xref ref="fig_ball-spring-volume"></xref> shows that each molecule of copper
+occupies its own cubical region with volume <m>d^3</m>.
+We can relate the density <m>\rho</m> of the solid to the mass per volume
+of a unit cell. That is,
+<men>
+  \rho = \frac{\text{ mass } }{\text{ volume } } = \frac{m}{d^3} 
+  \qquad \Rightarrow\qquad d =
+\left(\frac{m}{\rho}\right)^{1/3}.
+</men>
+</p>
+
+<p>
+For copper this gives
+<men>
+  d_\text{ Cu }  = \left(\frac{m_\text{ Cu } }{\rho_\text{ Cu } }\right)^{1/3}
+ =  \left(\frac{1.06\times
+     10^{-22}\units{g}}{8.94\units{g/cm$^3$}}\right)^{1/3}
+ = 2.28\times 10^{-8}\units{cm},
+</men>
+or equivalently, <m>2.28\times 10^{-10}\units{m}</m>.
+And so we have the second parameter.
+</p>
+<figure xml:id="fig_ball-spring-volume" >
+<caption>For the ideal solid with a separation <m>d</m> between the 
+balls, the volume per ball is given by a cube of side <m>d</m> (shown here
+in two-dimensions).</caption>
+<image width="37%" source="images/ball-spring-volume.png" />
+</figure>
+<p>
+The final step is to determine the spring constant. Fortunately, it
+is not necessary to try pulling on a single molecule and measuring the
+force that it pulls back with. Rather, a macroscopic chunk of
+material can be fixed at one end and pulled on the other, and by
+measuring how much the object stretches, the bond spring constant can
+be measured.
+</p>
+
+<p>
+Imagine a piece of copper wire with cross-sectional area <m>A</m> and
+length <m>L</m>. The applied force required to stretch the wire by an amount
+<m>\Delta L</m> is given by the following relation:
+<men xml:id="eq_force_extension" >
+  F_\text{ app }  = \frac{Y A}{L}\Delta L.
+</men>
+</p>
+
+<p>
+This relation indicates that the amount of stretch <m>\Delta L</m> is
+proportional to the amount of force applied; doubling the force will
+double the amount of stretch from the equilibrium length. A larger
+cross-sectional area <m>A</m> makes the wire harder to stretch, which
+accounts for the factor of <m>A</m> in the numerator. The longer the wire,
+the easier it is to stretch, accounting for the factor of <m>L</m> in the
+denominator. The final parameter <m>Y</m> is called Young's modulus,
+and is a property of the material but not dependent on the geometry
+of the wire. For example, Young's modulus for copper is
+<m>Y_\text{ Cu }  \approx 130\times 10^9 \units{N/m</m>^2<m>}</m>.
+</p>
+
+<example>
+<statement>
+<p>
+{Stretching an Extension Cord}
+Consider 16 gauge copper wire, commonly used in power cables, which
+has a
+cross-sectional area of <m>1.3\times 10^{-6}\units{m</m>^2<m>}</m>. How much
+force is required to stretch a 2-meter length of wire a distance of
+1 centimeter?
+
+
+<em>Solution: </em>
+According to Eq.<nbsp /><xref ref="eq_force_extension" />, the force is given by
+<md>
+  <mrow>  F_\text{ app }  = \frac{Y_\text{ Cu } A}{L}\Delta L \amp =
+ \displaystyle\frac{(130\times 10^9\units{N/m$^2$})(1.3\times
+  10^{-6}\units{m$^2$})} {2\units{m}} (0.01\units{m}) \nonumber</mrow>
+  <mrow>  \amp = 845\units{N}.</mrow>
+</md>
+</p>
+</statement>
+</example>
+
+<p>
+Now we need to calculate Young's modulus for the ideal solid.
+Consider a rectangular solid of <m>N_x \times N_y \times N_z</m> molecules.
+The object is stretched in the <m>z</m>-direction by an applied force <m>F</m>,
+with a resulting stretch <m>\Delta L</m>. The stretch is shared equally
+among each of the <m>N_z</m> springs aligned in the <m>z</m>-direction, so each
+spring is stretched an amount <m>\Delta L/N_z</m>. The plane of molecules
+where the force is applied consists of <m>N_xN_y</m> molecules, each
+connected to a spring pulling with force <m>k_\text{ sp } \Delta L/N_z</m>. This
+spring force is balancing the applied force, so we can conclude that
+<men>
+  F_\text{ app } = N_xN_y \left(\frac{k_\text{ sp }  \Delta L}{N_z}\right).
+</men>
+</p>
+
+<p>
+If we multiply top and bottom by <m>d^2</m> we can identify the
+cross-sectional area <m>A=(N_x d)(N_y d)</m>, and the length <m>L=N_z d</m>:
+<men>
+  F_\text{ app } =\frac{d^2N_xN_y k_\text{ sp } }{d^2 N_z} \Delta L 
+                = \frac{k_\text{ sp } }{d}
+\frac{A}{L}\Delta L
+</men>
+from which we conclude that Young's modulus for the ideal solid
+is
+<men>
+  Y=\frac{k_\text{ sp } }{d}.
+</men>
+</p>
+
+<p>
+This can be used to find the spring constant, <m>k_\text{ sp }  = Yd</m>. For
+example, for copper
+<men>
+  k_\text{ sp }  = (130\times 10^9\units{N/m$^2$})(2.28\times 10^{-10}\units{m})
+ = 29.6\units{N/m}.
+</men>
+</p>
+
+<p>
+In this way, we can find all three ideal solid parameters from
+knowing the molecular weight, the density, and Young's modulus.
+</p>
+</section>

@@ -1,0 +1,222 @@
+<section xml:id="section_time-dilation">
+<title>Time dilation</title>
+<p>
+The most startling consequence of the invariance of the speed of light
+is that it forces us to abandon the notion of absolute time. This
+means the time interval between two events depends on the velocity of
+the clocks used to measure the interval. The following <em>thought
+experiment</em> should help you understand this concept of the
+relativity of time intervals.
+</p>
+
+<p>
+Imagine three identical clocks constructed as follows. Each clock
+contains a light source that emits a pulse of light toward a mirror
+some fixed distance away (see <xref ref="fig_light-clocks">Figure</xref>a). The
+mirror reflects the pulse back toward the source. When the reflected
+pulse returns to the source and hits a triggering device, the source
+immediately fires a second pulse, which reflects from the mirror and
+triggers a third pulse, and so on. A count registers in a counter for
+each return pulse so the number of counts becomes a measure of elapsed
+time.
+</p>
+
+<p>
+We place two of these light clocks, A and B, a fixed distance apart
+and at rest in a reference frame attached to the constant velocity
+Earth. We put the third clock, C, on a spaceship traveling at a
+constant velocity <m>\vec{v}</m> relative to the Earth (see
+Fig. <xref ref="fig_light-clocks"></xref>b), and perpendicular to the direction of
+travel of the light pulse in the clocks.
+</p>
+<figure xml:id="fig_light-clocks" >
+<caption>(a) A light clock used in the thought experiment described in
+  the text. (b) Light clock C passing rest-frame clocks A and B.  The
+  dotted line shows the path of C's light pulse as observed in the
+  rest frame of A and B.</caption>
+<image width="84%" source="images/rel1_clocks.png" />
+</figure>
+<p>
+Suppose clock C emits a light pulse at the exact instant it passes
+clock A. Also suppose that the distance between A and B is such that
+clock C passes clock B at the precise instant clock C's reflected
+pulse returns to the source. We therefore have two events: Event <hash />1
+= <q>C passes A</q> and Event <hash />2 = <q>C passes B.</q> We label the time
+interval between these two events <mdash /> measured by clock C <mdash /> as
+<m>\Delta t_C</m>. The quantity <m>\Delta t_C</m> is called the <em>proper
+time</em> interval between the two events; <em><em>proper time is
+defined as the time measured on a single clock that is present at
+both events</em></em>. In the case discussed above, clock C measures the
+proper time. In our particular arrangement, the proper time is
+exactly one tick.
+</p>
+
+<p>
+We now pose the crucial question, the answer to which is the key to
+understanding all of special relativity.
+</p>
+<blockquote>
+<em>What is the elapsed time</em> <m>\Delta t_{AB}</m> <em>as measured by
+clocks A and B for clock C to travel from A to B?</em>
+</blockquote>
+<p>
+<q>Simple,</q> you might think. <q>The answer is obviously exactly one
+tick, the same as that measured by clock C, right?</q> Wrong. As we
+will see, the concepts of absolute time (i.e., everyone and everything
+measures the passage of time the say way) is a casualty of the
+invariance of the speed of light.
+</p>
+
+<p>
+For the question posed above to have any meaning, clocks A and B must
+be synchronized; i.e., observers in the Earth's reference frame would
+say that the two clocks are reading the same time. (Note: this is not
+a trivial matter <mdash /> we will discuss synchronization more fully in
+<xref ref="chapter_relativistic_spacetime">Chapter</xref>.) The two-clock time
+<m>\Delta t_{AB}</m> is then the difference between the time reading on
+clock A at Event <hash />1 (clock C at clock A) and the time reading on
+clock B at Event <hash />2 (clock C at clock B).
+</p>
+
+<p>
+In clock C's reference frame, clock A passes C first, and then clock B
+passes C. The time interval between these events is <m>\Delta t_C</m> on
+clock C and therefore the light pulse in clock C travels a round-trip
+distance equal to <m>c\Delta t_C</m>. But from Fig. <xref ref="fig_light-clocks"></xref>
+this same pulse (the one inside clock C) travels a longer, zig-zag
+path when viewed from the frame in which clocks A and B are at rest.
+Because of the invariance of the speed of light, <em>this longer
+distance must translate into a longer time interval.</em> This means
+the round trip time for clock C's pulse is one tick as measured on
+clock C, but it is more than one tick when measured on clocks A and B.
+In other words, the elapsed time between the event <q>C passes A</q> and
+the event <q>C passes B</q> is <em>longer</em> when measured with the two
+clocks A and B than when measured with the single clock C.
+</p>
+<figure xml:id="fig_rel_triangle" >
+<caption>Diagram for derivation of the proper time relation.  In 
+    this figure <m>\Delta t_{AB}</m> is the elapsed time determined from 
+    the clocks A and B, and <m>\Delta t_C</m> is the elapsed time on clock C.</caption>
+<image width="73%" source="images/rel1_triangle.png" />
+</figure>
+<p>
+How much longer is the time interval <m>\Delta t_{AB}</m> measured on the A
+and B clocks than the proper time interval <m>\Delta t_C</m> measured on
+clock C? We can find out by looking at the path taken by the pulse of
+light in clock C viewed from C's reference frame and from A and B's
+reference frame (see Fig. <xref ref="fig_rel_triangle"></xref>). As we've already
+seen, in clock C's frame the pulse travels straight up and down along
+the vertical line in the figure and the total round-trip distance is
+<m>c\Delta t_C</m>. The same pulse, traveling for time <m>\Delta t_{AB}</m>
+relative to A and B travels the total zigzag distance <m>c\Delta
+t_{AB}</m>. Clock C itself travels a distance <m>v\Delta t_{AB}</m> relative
+to clocks A and B while the pulse makes one round-trip in C.
+Therefore, using the Pythagorean theorem on either small triangle in
+Fig. <xref ref="fig_rel_triangle"></xref>, we find
+<men>
+  \left(\frac{c\Delta t_{AB}}{2}\right)^2 = 
+\left(\frac{c\Delta t_{C}}{2}\right)^2 + 
+\left(\frac{v\Delta t_{AB}}{2}\right)^2,
+</men>
+from which we solve for the proper time <m>\Delta t_C</m> to obtain
+<men>
+  \Delta t_C = \Delta t_{AB}\sqrt{1 - v^2/c^2}.
+</men>
+</p>
+
+<p>
+This relation can be written in the general form:
+</p>
+
+<p>
+\begin{boxiteq}
+{
+<men xml:id="eq_ptr" >
+  \Delta t_{ proper} = \Delta t_{ two-clock}\sqrt{1 - v^2/c^2}.
+</men>
+</p>
+
+<p>
+}
+\end{boxiteq}
+</p>
+
+<p>
+This very important relation is sometimes called the
+<q>proper time relation</q> or the principle of <q>time dilation.</q>
+Qualitatively, it expresses the fact that <em><em>different
+observers measure the passage of time differently depending on their
+relative motion.</em></em>
+</p>
+
+<p>
+Hidden inside Eq.<nbsp /><xref ref="eq_ptr" /> is another result from special
+relativity; namely, no object can travel at a speed greater than <m>c</m>
+relative to any other object or reference frame. A superluminal speed
+(<m>|v| > c</m>) would result in an imaginary proper time, something that
+has no physical meaning. You will learn later that this speed limit
+is imposed by energy considerations as well (it would take an infinite
+amount of energy to accelerate an object with mass<fn>Of course,
+a photon of light can be considered an <q>object</q> that travels at 
+a speed <m>c</m>, but this is a massless object.  We'll say more about this 
+in <xref ref="chapter_relativity_pande">Chapter</xref>.</fn> to a speed <m>v = c</m>
+relative to an observer, and <em>more</em> than an infinite amount of
+energy to achieve a speed <m>v > c</m>). Therefore, because <m>|v| \leq c</m>,
+the proper time interval <m>\Delta t_{ proper}</m> between two events
+is always <em>smaller</em> than the time <m>\Delta t_{ two-clock}</m>
+measured in a frame that requires two synchronized clocks for
+measurement.
+</p>
+
+<example>
+<statement>
+<p>
+{Time dilation.}
+A father and his daughter are traveling on a train that moves with a
+constant speed of <m>1.8\times 10^8\units{m/s}</m> (<m>= 0.6c</m>)
+relative to the ground. They pass a parked VW Beetle at which point
+the two of them simultaneously yell, <q>Red Punch Buggy!</q> and punch each
+other on the shoulder. Three seconds later, the daughter yells,
+<q>Jinx!</q> What is the time between these two events according to a
+person inside the VW who is waiting for the train to pass?
+
+
+<em>Solution: </em>
+The key question <mdash /> who measures the proper time (i.e., the
+smaller time interval)? To answer this, write this down in terms of
+events. Event A <m>=</m> father/daughter punch each other; Event B <m>=</m>
+daughter jinxes her dad. In this example, the father/daughter are at
+both events (not the person in the car), so they measure the smaller
+(proper) time interval, which has already been stated to be <m>3\units{s}</m>.
+So, we are given <m>\Delta t_{ proper}</m> and we are solving for
+<m>\Delta t_{ two-clock}</m>,
+which is the time interval measured by the person in the car.
+<md>
+  <mrow>  \Delta t_{ proper} \amp = \Delta t_{ two-clock}\sqrt{1-v^2/c^2} \nonumber</mrow>
+  <mrow>  \Rightarrow \Delta t_{ train} \amp = 
+                \Delta t_{ VW}\sqrt{1-v^2/c^2}\nonumber</mrow>
+  <mrow>  \Rightarrow \Delta t_{ VW} \amp = 
+                \frac{\Delta t_{ train}}{\sqrt{1-v^2/c^2}}\nonumber</mrow>
+  <mrow>  \amp = \frac{3\units{s}}{\sqrt{1-(0.6c/c)^2}}\nonumber</mrow>
+  <mrow>  \amp = \frac{3\units{s}}{\sqrt{1-0.6^2}}\nonumber</mrow>
+  <mrow>  \amp = 3.75\units{s}.</mrow>
+</md>
+</p>
+</statement>
+</example>
+
+<p>
+In this example, the father and daughter on the train measured the
+proper time because they were at both events, so the time interval is
+smaller from their reference frame. Be careful, though: sometimes the
+observer standing on the Earth measures the smaller time interval <mdash /> it
+all depends on what the events are and who happens to be present at
+both of them.
+</p>
+
+<p>
+Note also that we expressed <m>v</m> as a fraction of the speed of light <mdash /> it
+makes things a lot simpler to write <m>v</m> in this manner. We'll say more
+about this later
+</p>
+</section>

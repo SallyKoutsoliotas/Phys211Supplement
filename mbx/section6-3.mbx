@@ -1,0 +1,123 @@
+<section>
+<title>Adiabatic processes</title>
+<p>
+In many real gas processes, there is no heat flow either into or out
+of the system; i.e., <m>Q_\text{ in }  = 0</m>. This occurs if (a) the system
+is completely isolated from its environment so there is no way for
+heat to be exchanged with its surroundings (e.g., if it is surrounded
+by insulation); or (b) if the processes occurs so rapidly that there
+simply isn't enough time for there to be an appreciable flow of heat
+into or out of the system.
+</p>
+
+<p>
+A process with no heat flow (i.e., <m>Q_\text{ in }  = 0</m>) is referred to as an
+<em>adiabatic</em> process. The calculations of <m>Q_\text{ in }</m>, <m>W_\text{ on }</m> and
+<m>\Delta E_\text{ therm }</m> are easier for adiabatic processes, predominately because
+<m>Q_\text{ in }  = 0</m> (by definition), so if you can determine one of either
+<m>W_\text{ on }</m> or <m>\Delta E_\text{ therm }</m>, you can get the other from the First
+Law of Thermodynamics.
+Calculating <m>W_\text{ on }</m> is non-trivial for an adiabatic process (it isn't
+one of the four special cases discussed in the previous section), so
+for an adiabatic process, we will typically find <m>\Delta E_\text{ therm }</m> first.
+We'll discuss how to do that in the next section.
+</p>
+
+<p>
+First, however, we
+can quickly get an idea of how an adiabatic process looks on a <m>p</m>-<m>V</m>
+diagram. Since <m>Q_\text{ in }  = 0</m> for an adiabatic process, the First Law
+becomes: <m>\Delta E_\text{ therm }  = W_\text{ on }</m>; i.e., any work done on the system
+goes into increasing the thermal energy. And recall that the thermal
+energy of a gas increases with the temperature of the gas.
+For an adiabatic compression, <m>W_\text{ on }  > 0</m>
+which means that <m>\Delta E_\text{ therm }  > 0</m>. This means that for any
+adiabatic compression, the gas heats up (i.e., the temperature increases).
+This makes sense: we are doing work on the gas to compress it, and that
+work goes into heating up the gas and increasing the temperature.
+</p>
+<figure xml:id="fig_IsothermAdiabats" >
+<caption><m>p</m>-<m>V</m> diagram showing both isotherms and adiabats.</caption>
+<image width="37%" source="images/IsothermAdiabats.png" />
+</figure>
+<p>
+Since an adiabatic compression results in an increase in temperature,
+the curve on a <m>p</m>-<m>V</m> diagram for an adiabatic compression must go to larger
+and larger temperature, which means that and adiabatic process is
+associated with a curve (an <q>adiabat</q>) that is steeper than those for
+isothermal processes (i.e., <q>isotherms</q>). This can be seen in
+Fig. <xref ref="fig_IsothermAdiabats"></xref>,
+which shows curves for both adiabatic and isothermal processes.
+</p>
+
+<p>
+To make a quantitative statement about the functional form of the
+adiabatic curves, we need to consider the type of gas.
+As discussed in <xref ref="section_TheGasState">section</xref>, the thermal energy
+of a gas depends on the type of molecules in that gas. (See
+Eqs. <xref ref="eq_monatomic_ideal_gas"></xref>, <xref ref="eq_diatomic_ideal_gas"></xref> and <xref ref="eq_EthermIdealGas"></xref>.) In particular, the behavior of the gas depends
+on the number of degrees of freedom <m>f</m> and the <q>adiabatic exponent</q>
+<m>\gamma = \frac{f+2}{f}</m>. (Recall that <m>\gamma = 5/3</m> for a monatomic
+gas with 3 degrees of freedom, and <m>\gamma = 7/5</m> for a diatomic
+gas with 5 degrees of freedom.) Without going through the full
+derivation,<fn>The full derivation involves solving 
+a differential equation, but differential equations are not required for 
+PHYS 211.</fn> an adiabatic process has pressure and volume that are
+related via:
+<men xml:id="eq_PVGamma" >
+  pV^{\gamma} = (\text{ constant } ).
+</men>
+</p>
+
+<p>
+From a practical perspective, this means that given three of the four quantities
+<m>p_i</m>, <m>V_i</m>, <m>p_f</m> and <m>V_f</m>, for an adiabatic process the fourth can be determined from the relation
+<m>p_iV_i^{\gamma} = p_fV_f^{\gamma}</m>.
+</p>
+
+<p>
+Similarly, a relation can be found between the temperature <m>T</m> and volume <m>V</m>
+during an adiabatic process<fn>Simply combine Eq. <xref ref="eq_PVGamma"></xref> with
+the Ideal Gas Law.</fn>: <m>TV^{\gamma - 1} = (\text{ constant } )</m>.
+</p>
+
+<example>
+<statement>
+<p>
+{Adiabatic expansion}
+A diatomic gas with an initial pressure, temperature and volume of 150 kPa,
+300 K and 3.5 L is compressed to a volume of 0.5 L; the compression is
+so fast that there isn't enough time for heat to flow into or out
+of the gas. Calculate the pressure and temperature of the gas after the
+compression.
+</p>
+
+<p>
+<em>Solution:</em> Since there isn't enough time for heat to flow into or
+out of the gas, this is an adiabatic process. And since the gas is
+composed of diatomic molecules at a temperature that isn't too high,
+there are 5 degrees of freedom for the gas and <m>\gamma = \frac{f+2}{f} = 7/5</m>.
+Since this is an adiabatic process, <m>pV^{\gamma} =</m>constant, so
+so <m>p_iV_i^\gamma = p_fV_f^\gamma</m>, which implies
+<men>
+  p_f=p_i\biggl(\frac{V_i}{V_f}\biggr)^\gamma
+= 150 \units{kPa}\biggl(\frac{3.5 \units{L}}{0.5 \units{L}}\biggr)^{7/5} = 
+2290\units{kPa}.
+</men>
+</p>
+
+<p>
+As for the temperature: since this is an adiabatic process, <m>TV^{\gamma - 1}</m>
+= constant, so <m>T_iV_i^{\gamma - 1} = T_fV_f^{\gamma - 1}</m> which implies
+<men>
+  T_f = T_i\biggl(\frac{V_i}{V_f}\biggr)^{\gamma - 1} = (300 \units{K})\biggl(\frac{3.5 \units{L}}{0.5 \units{L}}\biggr)^{7/5-1} = 653 \units{K}.
+</men>
+</p>
+
+<p>
+Note that the gas heats up, which is
+always the case for an adiabatic compression.
+</p>
+</statement>
+</example>
+</section>

@@ -1,0 +1,59 @@
+<section>
+<title>More experimental evidence</title>
+<p>
+Now that we have introduced the relativistic relations for energy and
+momentum, we can discuss some additional pieces of evidence that
+Einstein's theory of relativity is, in fact, correct. The following
+examples can be added to those presented in <xref ref="chapter_relativityI">Chapter</xref>. Remember that if even one of these
+experiments had disagreed with Einstein's theory, then the entire
+theory would have to be thrown out since everything is internally
+consistent.
+<ul>
+<li><p><em>Particle accelerators</em>. As we already discussed in
+<xref ref="chapter_relativityI">Chapter</xref>, subatomic particles are frequently
+accelerated in high energy experiments to speeds very close to <m>c</m>,
+but no one has ever managed to accelerate a particle with mass to a
+speed greater than <m>c</m>.  There's more here, though: as the particle's
+speed (relative to the laboratory) gets closer and closer to <m>c</m>, the
+amount of energy that has to be added to increase the speed further
+gets larger and larger, diverging as the speed approach <m>c</m>.  For
+instance, the amount of energy that needs to be added to accelerate a
+particle from <m>0.98c</m> to <m>0.99c</m> has been found experimentally to be much
+larger than the energy to accelerate the same particle from <m>0.97c</m> to
+<m>0.98c</m>, and in fact, much larger than that predicted classically.  As
+is the case with all other tests of relativity, the amount of energy
+to be added agrees perfectly with Einstein's predictions.  Homework
+<xref ref="prob_energy-to-accelerate">problem</xref>  investigates this further.</p></li>
+<li><p><em>Collisions of high-energy particles</em>.  When subatomic
+particles are slammed into each other with high energies, new
+particles are actually created that weren't there before the
+collision.  These collisions are converting kinetic energy (KE) into
+matter, and this is done all the time in particle accelerators.  (This
+is, in fact, the main tool that physicists use to study massive
+subatomic particles.)  This is an experimental result that simply
+cannot be explained classically.  Once again, though, the results
+agree perfectly with Einstein's theory.  We will be discussing this in
+more detail in <xref ref="chapter_relativity_app">Chapter</xref>, and you will be doing
+(or have already done) a lab on this (the Relativistic Energy and
+Momentum lab).</p></li>
+<li><p><em>Matter-to-KE conversions</em>.  One of the most convincing and
+most dramatic tests of Einstein's theory of relativity occurred on
+July 16, 1945, in New Mexico when the first atomic bomb was exploded,
+converting matter into a horrifying amount of kinetic energy (don't
+forget that factor of <m>c^2</m> in the famous <m>E = mc^2</m> equation).  Since
+then, there have been quite a few additional such demonstrations of
+Einstein's theory.  (And again, the quantitative aspects of these
+demonstrations agree perfectly with the theory.)
+    
+It isn't necessary to explode a bomb to convert matter into energy.
+Nuclear energy has found peaceful applications in the area of power
+generation. (There is a nuclear power plant in Berwick, PA, in fact,
+which you can see easily if you drive on Rt.<nbsp />80 toward New Jersey,
+shortly after passing Bloomsburg).  We will discuss nuclear power
+generation more in the next chapter (including fusion power <mdash />  still
+being developed <mdash /> which doesn't produce any long-lasting radioactive
+waste).</p></li>
+</ul>
+
+</p>
+</section>

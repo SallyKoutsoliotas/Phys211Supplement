@@ -1,0 +1,276 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<title>Answers to Selected Problems</title>
+<p>
+<em>Additional Problems</em>
+</p>
+
+<p>
+<em><xref ref="prob_falling_birdie">A</xref></em><nbsp />(a)<nbsp /><m>v_{ terminal} = g/b</m>.
+<em><xref ref="prob_rocket_motion">A</xref></em><nbsp /><m>130\units{m/s}</m>; <m>18\units{m/s</m>^2<m>}</m>.
+<em><xref ref="prob_blow_dart">A</xref></em><nbsp />(a)<nbsp /><m>v_{ avg} = 0</m>.
+<em><xref ref="prob_spring_forward">A</xref></em><nbsp /><m>v =\sqrt{kx_0^2/m - 2 gx_0}</m>; <m>h = kx_0^2/2mg</m>.
+<em><xref ref="prob_skiing">A</xref></em><nbsp />(d)<nbsp /><m>\sqrt{gR}</m>; (e)<nbsp /><m>2.5R</m>; (f)<nbsp /><m>6mg</m>.
+<em><xref ref="prob_trapped">A</xref></em><nbsp />(a)<nbsp /><m>6\units{km}</m>; (b)<nbsp /><m>2\units{kJ}</m>; c)<nbsp />drifts
+as far as <m>{\sim}7\units{km}</m>.
+<em><xref ref="prob_hogwarts">A</xref></em><nbsp />(a)<nbsp /><m>2.7\units{m/s}</m>; (b)<nbsp /><m>2.7\units{m/s}</m>;
+c)<nbsp /><m>2.7\, \mbox{m/s}</m>.
+<em><xref ref="prob_photon_absorption">A</xref></em><nbsp /><m>m = 1718\units{MeV/</m>c^2<m>}</m>; <m>u = 0.4c</m>.
+<em><xref ref="prob_light">A</xref></em><nbsp /><m>550\units{MeV/</m>c^2<m>}</m>.
+<em><xref ref="prob_ball_turns">A</xref></em><nbsp />(a)<nbsp /><m>0.085\units{J}</m>; (b)<nbsp />more kinetic energy
+(<m>0.141\units{J}</m>);
+(c)<nbsp /><m>347\units{rev/min}</m>.
+</p>
+
+<p>
+<em><xref ref="prob_cycle">A</xref></em><nbsp />(a)<nbsp /><m>82^\circ\units{C}</m> or <m>355\units{K}</m>;
+(b)<nbsp /><m>A\to B</m>:<nbsp /><m>1873\units{J}</m>, <m>B\to C</m>:<nbsp /><m>0\units{J}</m>,
+<m>C\to A</m>:<nbsp /><m>-1701\units{J}</m>; (c)<nbsp />0.092; d)<nbsp />0.355.
+<em><xref ref="prob_pulleywithmass">A</xref></em><nbsp /><m>a = g(m_2-m_1)/(m_1+m_2+m_3/2)</m>, downward
+for <m>m_2</m>.
+<em><xref ref="problem_gravity_earth_on_moon">A</xref></em><nbsp />(a)<nbsp /><m>0.0027\units{N/kg}</m>;
+(b)<nbsp /><m>2.0\times 10^{20}\units{N}</m>; (c)<nbsp /><m>0.19\units{N}</m>.
+</p>
+
+<p>
+<em><xref ref="prob_nonuniform_rod">A</xref></em><nbsp />(a)<nbsp /><m>m=C(L_2^2-L_1^2)/2</m>; (b)<nbsp /><m>GC\ln(L_2/L_1)</m>.
+<em><xref ref="problem_static_friction">A</xref></em><nbsp /><m>T\cos\theta</m>.
+<em><xref ref="problem_W-KE-baseball">A</xref></em><nbsp />(a)<nbsp />+23.52 J; (b)<nbsp /><m>14.3\units{m/s}</m>.
+<em><xref ref="problem_simple_angmom">A</xref></em><nbsp /><m>\vec{L}_A = -31.5\, 
+\hat{k}\units{kg</m>\cdot<m>m</m>^2<m>/s}</m>, <m>\vec{L}_B = 0</m>,
+<m>\vec{L}_C = +15.75\, \hat{k}\units{kg</m>\cdot<m>m</m>^2<m>/s}</m>.
+<em><xref ref="problem_blarg_dimensions">A</xref></em><nbsp />(c) and (f) are possible; the others
+have incorrect dimensions.
+<em><xref ref="problem_ratios_trafficandpizza">A</xref></em><nbsp />(a) 197 cars; (b) <dollar />22.22.
+<em><xref ref="problem_asteroid">A</xref></em><nbsp /><m>7.4\units{y}</m>.
+<em><xref ref="problem_Jupiter_Moons">A</xref></em><nbsp /><m>7.3\units{d}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_numerical">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_numerical"></xref>. <xref ref="problem_ho-undamped-num"></xref></em><nbsp />(a)<nbsp /><m>x(2) 
+= 7.0\units{m}</m>, <m>v(2)=-2.9\units{m/s}</m>; (b)<nbsp /><m>x(2) = 6.56\units{m}</m>,
+<m>v(2)=-2.80\units{m/s}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_relativityI">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_rel_units"></xref></em><nbsp /><m>0.133\units{lt-s/s}</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_rel_units2"></xref></em><nbsp /><m>1.8\times 10^7\units{m/s}</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_time_dilation1"></xref></em><nbsp /><m>0.995\units{lt-s/s} 
+= 2.98\times 10^8\units{m/s}</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_meteorite"></xref></em><nbsp /><m>5.92\times 10^5\units{s}</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_alpha_centauri"></xref></em><nbsp />(a)<nbsp /><m>6\frac{2}{3}
+\units{yr}</m>; (b)<nbsp /><m>5\frac{1}{3}\units{yr}</m>;
+(c)<nbsp /><m>3.2\units{lt-yr}</m>; (d)<nbsp /><m>3.2\units{lt-yr}</m>.
+</p>
+
+<p>
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_alpha_centauri2"></xref></em><nbsp />(a)<nbsp /><m>4.47\units{yr}</m>;
+(b)<nbsp /><m>0.894c</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_betelgeuse"></xref></em><nbsp />(a)<nbsp /><m>48\units{lt-yr}</m>;
+(b)<nbsp /><m>0.958c</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_terns"></xref></em><nbsp />(a)<nbsp /><m>20\units{ms}</m>;
+(b)<nbsp /><m>9.6\units{lt-ms}</m>.
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_catch_on_trainI"></xref></em><nbsp />(a)<nbsp /><m>0.50\units{s}</m>;
+(b)<nbsp /><m>0.50\units{s}</m> (Duh!); (c)<nbsp /><m>15.8\units{m}</m>; (d)<nbsp /><m>31.6\units{m/s}</m>;
+<em> <xref ref="chapter_relativityI"></xref>. <xref ref="prob_catch_on_trainII"></xref></em><nbsp /><m>26.0\units{m/s}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_relativistic_spacetime">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_relativistic_spacetime"></xref>.1</em><nbsp />Yes;
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_spacetimeII"></xref></em><nbsp />(a)<nbsp />A;
+(b)<nbsp />B; (c)<nbsp />D, (d)<nbsp />b,c,d; (e)<nbsp />a,e; (f)<nbsp />space-like: bc, bd, cd, ae, be, ce;
+time-like: ab, ac, de.
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_solar_flare"></xref></em><nbsp />(a)<nbsp />calendar
+page; (b)<nbsp />B, then C, then A; (c)<nbsp /><m>\Delta t_{ BA,Earth} = 18\units{min}</m>,
+<m>\Delta t_{ AC,Earth} = 10\units{min}</m>, <m>\Delta t_{ BC,Earth} = 
+8\units{min}</m>;
+(d)<nbsp /><m>30\units{min}</m>;
+(e)<nbsp />BC light-like, CA time-like, AB time-like.
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_farmer"></xref></em><nbsp />(a)<nbsp /><m>12\units{lt-ns}</m>, yes;
+(b)<nbsp /><m>9.6\units{lt-ns}</m>, no; (c)<nbsp />discuss with prob session group and instructor;
+(d)<nbsp />A, C, B, D; it should be consistent with (a);
+(e)<nbsp />A, B, C, D; it should be consistent with (b);
+(f)<nbsp />Discuss with problem session group and instructor.
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_two_ships"></xref></em><nbsp />(b)<nbsp /><m>6\units{lt-s}</m>; (c)<nbsp /><m>2\units{lt-s}</m>; (d)<nbsp /><m>10\units{lt-s}</m>;
+(e)<nbsp /><m>14\units{s}</m>.
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_sparkler"></xref></em><nbsp />(a)<nbsp /><m>80\units{lt-s}</m>;
+(b)<nbsp /><m>80\units{lt-s}</m>, <m>0.8\units{lt-s/s}=0.8c</m>;
+(c)<nbsp /><m>0.8\units{lt-s/s}=0.8c</m>, <m>48\units{lt-s}</m>.
+<em> <xref ref="chapter_relativistic_spacetime"></xref>. <xref ref="prob_spacetimeIII"></xref></em><nbsp />(b)<nbsp /><m>0.8c</m>;
+(c)<nbsp /><m>4.5\units{yr}</m>;
+(d)<nbsp /><m>3.6\units{lt-yr}</m>; (f)<nbsp />D, B, C, A; (g)<nbsp />C, D, B, A;
+(h)<nbsp /><m>4.58\units{lt-yr}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_relativity_pande">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_vtransform"></xref></em><nbsp /><m>0.308c</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_vtransform2"></xref></em><nbsp /><m>0.385c</m> or
+<m>0.946</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_energy-to-accelerate"></xref></em><nbsp /><m>1.05\units{MeV}</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_proton"></xref></em><nbsp /><m>p = 6499\units{MeV/</m>c<m>}</m>, <m>u = 0.9897c</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_ep_transform"></xref></em><nbsp /><m>E^\prime = 
+15\units{MeV}</m>, <m>p^\prime = 12\units{MeV/</m>c<m>}</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_fermilab"></xref></em><nbsp />(a)<nbsp /><m>899\units{GeV}</m>;
+(b)<nbsp /><m>100\units{GeV}</m>;
+(c)<nbsp /><m>u/c \simeq 1 - 8.98\times 10^{-9} \simeq 0.999999991</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_J"></xref></em><nbsp /><m>p = 200\units{MeV/</m>c<m>}</m>;
+<m>K = 100\units{MeV}</m>.
+<em> <xref ref="chapter_relativity_pande"></xref>. <xref ref="prob_fermilab2"></xref></em><nbsp /><m>p = 1.921\units{GeV/</m>c<m>}</m>; <m>u = 0.899c</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_relativity_app">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_relativity_app"></xref>. <xref ref="prob_rel_recoil"></xref></em><nbsp />(c)<nbsp /><m>E_1 = 
+10/\sqrt{5} \simeq 4.47\units{GeV}</m>,
+<m>p_3 = 10/\sqrt{5} \simeq 4.47\units{GeV/</m>c<m>}</m>.
+<em> <xref ref="chapter_relativity_app"></xref>. <xref ref="prob_rel_recoil2"></xref></em><nbsp /><m>u = 2c/3</m>,
+same magnitude as <xref ref="ex_nuclear_decay">Example</xref>.
+<em> <xref ref="chapter_relativity_app"></xref>. <xref ref="prob_composite"></xref></em><nbsp />(a)<nbsp /><m>m = 
+5.06\units{MeV/</m>c^2<m>}</m>, <m>u = 0.19c</m>; (b)<nbsp /><m>0.06\units{MeV}</m>.
+<em> <xref ref="chapter_relativity_app"></xref>. <xref ref="prob_fusion"></xref></em><nbsp />(a)<nbsp />rest energy to
+kinetic energy; (b)<nbsp /><m>17.6\units{MeV}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_thermal_energy">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_flattium"></xref></em><nbsp /><m>2nRT</m>.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_ball-spring_iron"></xref></em><nbsp />(a)<nbsp /><m>m=9.27
+\times 10^{-26}\units{kg}</m>, <m>d=2.28\times 10^{-10}\units{m}</m>,
+<m>k_\text{ sp } =48.0\units{N/m}</m>; (b)<nbsp />5180 m/s.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_iron_E_thermal"></xref></em><nbsp />9.30 kJ.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_mole_kg_cc"></xref></em><nbsp />(a)<nbsp />628 J;
+(b)<nbsp />11.2 J; (c)<nbsp />88.5 J.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_calorimetry"></xref></em><nbsp />(a)<nbsp /><m>30^\circ\units{C}</m>; (b)<nbsp />499 J.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_falling_brick"></xref></em><nbsp /><m>0.229^\circ\units{C}</m>.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_heat_examples"></xref></em><nbsp />b, e.
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="problem_thermal_energies_large"></xref></em><nbsp />303,000  J versus 157  J (the word <q>wow!</q> would be appropriate here).
+<em> <xref ref="chapter_thermal_energy"></xref>. <xref ref="prob_polish_ring"></xref></em><nbsp />223  J.
+</p>
+
+<p>
+<em><xref ref="chapter_liquids_and_gases">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_iron_melting"></xref></em><nbsp />(a)<nbsp /><m>9.2\times 10^{-12}\units{m}</m>; (b)<nbsp /><m>1810
+\units{K}</m>.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_thermal_speeds"></xref></em><nbsp />(a)<nbsp /><m>479
+\units{m/s}</m>; (b)<nbsp /><m>678\units{m/s}</m>; (c)<nbsp /><m>409\units{m/s}</m>.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_water_calorimetry"></xref></em><nbsp />(a)<nbsp /><m>n_\text{ ice } =5.6\units{mol}</m>, <m>n_\text{ liq } =11.1\units{mol}</m>;
+(b)<nbsp /><m>20.9\units{kJ}</m>, (c)<nbsp /><m>3.5\units{mol}</m>.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_ideal_gas_ratios"></xref></em>
+(Note: assume <m>m_1 = m_2</m>.) <nbsp />(a)<nbsp /><m>\sqrt{2}</m>; (b)<nbsp />2, (c)<nbsp />2.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_ideal_gas_moles"></xref></em><nbsp /><m>0.194\units{mol}</m>.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_aquaman"></xref></em><nbsp /><m>2.44\units{atm}</m>.
+<em> <xref ref="chapter_liquids_and_gases"></xref>. <xref ref="problem_ideal_gas_quant"></xref></em><nbsp />(a)<nbsp /><m>4.76
+\times 10^{-23}\units{kg</m>\cdot<m>m/s}</m>; (b)<nbsp />2,560 collisions/s; (c)<nbsp /><m>1.22\times
+10^{-19}\units{kg</m>\cdot<m>m/s}</m>; (d)<nbsp /><m>1.22\times 10^{-19}\units{N}</m>;
+(e)<nbsp /><m>1.01\times 10^3\units{N}</m>; (f)<nbsp /><m>1.01\times 10^5\units{Pa}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_second_law">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_multiplicityforthree"></xref></em><nbsp />(a)<nbsp />15.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_mult_of_twentyfour"></xref></em><nbsp /><m>1.5 \times 10^{10}</m>.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_rolldie"></xref></em><nbsp />(a) 1/216; (b)<nbsp />1/216;
+(c)<nbsp />10/216.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_twosolids"></xref></em><nbsp /><m>25/7 \simeq 3.6</m>.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_tempoflargeobject"></xref></em><nbsp /><m>300\units{K}</m>.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_diminishing"></xref></em><nbsp />(a)<nbsp /><m>0.916 k_B</m>;
+(b)<nbsp /><m>0.446 k_B</m>.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_entropyoftwosolids"></xref></em><nbsp /><m>E_{A,f}=4E_{B,f}</m>
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_strangesystem"></xref></em><nbsp />(a)<nbsp />From A to B;
+(b)<nbsp />All energy will flow to system B.
+<em> <xref ref="chapter_second_law"></xref>. <xref ref="prob_energy_transferA"></xref></em><nbsp />(a)<nbsp />From A to B;
+(b) <m>\Delta S_A = -0.6\units{J/K}</m>, <m>\Delta S_B = +1.20\units{J/K}</m>,
+<m>\Delta S_{ total} = +0.6\units{J/K}</m>;
+</p>
+
+<p>
+(c) <m>\Omega_{ after}/\Omega_{ before} = e^{4.35\times 10^{22}}</m>.
+</p>
+
+<p>
+<em><xref ref="chapter_heat_engines">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_iceintowater"></xref></em><nbsp />(a)<nbsp /><m>1.38\units{mol}</m>
+melted; (b)<nbsp /><m>+30.3\units{J/K}</m>; (c)<nbsp /><m>-29.2\units{J/K}</m>; yes (it had
+<em>better</em> be consistent with the second law!)
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_multiplicityformelting"></xref></em><nbsp />this is
+<m>e</m> raised to the power <m>1.59\times 10^{24}</m>. (Don't bother trying to
+calculate that with your calculator.)
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_simpleengine"></xref></em><nbsp />1/2.
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_onebrickengine"></xref></em><nbsp />(a)<nbsp /><m>-131.5\units{J/K}</m>;
+(b)<nbsp /><m>38.8\units{kJ}</m>; (c)<nbsp />0.241.
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_twobrickengine"></xref></em><nbsp /><m>358\units{J}</m>
+(Note: this assumes you keep enough digits in the final temperature.
+If you round the final temperature to <m>346\units{K}</m>, you'll get
+<m>399\units{J}</m>).
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_threelegcycle"></xref></em><nbsp />(a)<nbsp />A:
+<m>100\units{kPa}</m>, <m>22.7\units{L}</m>, <m>273\units{K}</m>; B: <m>155\units{kPa}</m>,
+<m>22.7\units{L}</m>, <m>423\units{K}</m>; C: <m>100\units{kPa}</m>, <m>29.5\units{L}</m>,
+<m>355\units{K}</m>; (b)<nbsp />A to B: <m>1870\units{J}</m>; B to C: 0; C to A:
+<m>-1700\units{J}</m>; (c)<nbsp />0.092.
+<em> <xref ref="chapter_heat_engines"></xref>. <xref ref="prob_rectangularcycle"></xref></em><nbsp />(a)<nbsp /><m>T_H = 
+4813\units{K}</m>, <m>T_C = 289\units{K}</m>; (b)<nbsp /><m>\epsilon = 0.18</m>, as
+compared with maximum of 0.94.
+</p>
+
+<p>
+<em><xref ref="chapter_gravity">Chapter</xref></em>
+</p>
+
+<p>
+<em> <xref ref="chapter_gravity"></xref>. <xref ref="prob_sphere"></xref></em><nbsp />(a)<nbsp /><m>r_1 = 4114\units{km}</m>,
+<m>r_2 = 4902\units{km}</m>, <m>\Delta r = 788\units{km}</m>; (b)<nbsp /><m>1112\units{km}</m>;
+(c) <m>\Delta s \ne \Delta r</m>, which means it is curved.
+<em> <xref ref="chapter_gravity"></xref>. <xref ref="prob_neutron_star_time"></xref><nbsp />(a)<nbsp /><m>\Delta \tau _C = 0.839\Delta \tau _D</m>; <m>6.20</m> s.</em><em></em> <xref ref="chapter_gravity"></xref>. <xref ref="prob_neutron_star_space"></xref><nbsp /><m>1.19</m> m
+</p>
+
+<p>
+<em>
+Tables of Thermodynamic Properties</em>
+</p>
+
+<p>
+<em>Selected Properties of Solids</em>
+</p>
+
+<p>
+<em>Liquid Specific Heats</em>
+</p>
+
+<p>
+<em>Gas Specific Heats</em>
+</p>
+
+<p>
+<em>Latent Heats</em>
+</p>
+</chapter>

@@ -1,0 +1,333 @@
+<section>
+<title>Problems</title>
+<problem>
+<statement>
+<p>
+Duck Dodgers hops in his spaceship and leaves the Earth at a
+speed <m>0.6c</m> in an attempt to reach the newly discovered Planet X before
+aliens from Mars.
+<ol>
+<li><p>Mission control on Earth sends an encoded message (a
+    flashing beacon) to Duck Dodgers warning him about the progress of
+    the Martian ship.  The light pulses travel at a speed <m>c</m> relative
+    to observers on the Earth.  How fast are the pulses traveling
+    relative to Duck Dodgers?</p></li>
+<li><p>Duck Dodgers doesn't understand the message that he
+    received, so he sends a radio message back toward the Earth asking
+    for clarification.  The radio signal is traveling at a speed <m>c</m>
+    relative to the Duck.  How fast is the signal traveling relative
+    to observers on the Earth?</p></li>
+<li><p>The radio message is intercepted by the Martian who is
+    behind Duck Dodgers but traveling in the same direction at a speed
+    <m>0.8c</m> relative to the Earth.  How fast is the radio message going
+    relative to the Martian?</p></li>
+<li><p>The radio message is also intercepted by one of the
+    Martian's monsters who is traveling back toward the Earth to
+    attack.  The monster is traveling at a speed <m>0.9c</m> relative to the
+    Martian.  How fast is the radio signal relative to the monster?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_vtransform">
+<statement>
+<p>
+A particle travels at speed <m>0.50c</m> relative to Captain Kirk.
+Mr.<nbsp />Spock is traveling at a speed <m>0.70c</m> relative to Captain Kirk,
+in the same direction as the particle.
+Calculate the velocity of the particle relative to Mr.<nbsp />Spock.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_vtransform2">
+<statement>
+<p>
+A proton's velocity is measured at <m>0.6c</m> relative to an observer
+on earth, and <m>0.8c</m> relative to an observer passing by in a rocket.
+Determine the speed of the rocket relative to earth. (There
+are two possible correct answers that correspond to two different
+physical situations.)
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+After traveling on vacation to Betelgeuse to witness a supernova, Fred
+and Ethel are returning home, traveling at a speed <m>0.75c</m> relative to
+and toward the Earth. Ethel is particularly anxious to get home and
+see her new great-great-great-great-great-great-great-great grandson,
+so she hops on the emergency shuttlecraft, which leaves Fred's ship
+traveling at a speed of <m>0.75c</m>, relative to Fred. How fast is Ethel's
+shuttle traveling relative to the Earth?
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_inelastic">
+<statement>
+<p>
+A particle of mass <m>3m</m>, moving at speed <m>0.60c</m> in the positive
+<m>x</m>-direction, collides with and sticks to a particle of mass <m>2m</m>
+originally at rest. Assume a head-on collision.
+<ol>
+<li><p>Calculate the initial total momentum before impact, using the
+classical definition, <m>p = mu</m>, for momentum.</p></li>
+<li><p>Assuming conservation of mass as well as classical momentum,
+find the velocity of the composite particle of mass <m>5m</m> after the
+collision.</p></li>
+<li><p>Now transform to a primed frame in which the particle of mass
+<m>3m</m> is at rest.  Use the relativistic velocity transformation to
+compute the velocities <m>u^\prime_{3m}</m>, <m>u^\prime_{2m}</m>, and
+<m>u^\prime_{5m}</m> in the primed frame.</p></li>
+<li><p>Still in the primed frame, check whether momentum <m>mu^\prime</m> is
+conserved by computing the total momentum before the collision and the
+total momentum after the collision.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_rel-u-p-e">
+<statement>
+<p>
+Show that the velocity of a particle expressed in terms of
+relativistic energy and momentum is <m>u = pc^2/E</m>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_energy-to-accelerate">
+<statement>
+<p>
+An electron is accelerated from a velocity <m>u_1 = 0.98c</m> to a velocity
+<m>u_2 = 0.99c</m>. Calculate the change in the electron's kinetic energy in
+units of MeV. (<m>m_{ electron} = 0.511\units{MeV/</m>c^2<m>}</m>.)
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_electrons">
+<statement>
+<p>
+Electron A has a total energy of <m>1.0\units{MeV}</m>. Electron B has a
+kinetic energy of <m>0.25\units{MeV}</m>. Electron C has a kinetic energy of
+<m>0.75\units{MeV}</m>. Electron D has a momentum of <m>1.0\units{MeV/</m>c<m>}</m>.
+For each of the electrons A through D, determine its energy, momentum,
+kinetic energy, and speed.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A certain particle has a total energy of <m>1.20\units{MeV}</m> and
+a momentum of <m>0.95\units{MeV/</m>c<m>}</m>. Calculate the particle's mass,
+kinetic energy, and velocity.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_proton">
+<statement>
+<p>
+Compute the momentum and velocity of a proton that has a total
+energy equal to 7 times its rest energy. (<m>m_{ proton} =
+938\units{MeV/</m>c^2<m>}</m>.)
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Combine Eqs.<nbsp /><xref ref="eq_rel-p-def" /> and <xref ref="eq_rel-e-def" /> to derive
+Eq.<nbsp /><xref ref="eq_m-invariance3" />.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Show, from Eq.<nbsp /><xref ref="eq_m-invariance3" /> and the result of
+problem <xref ref="prob_rel-u-p-e" /> that any massless particle moves at
+the speed of light and that if a particle moves at the speed of light
+it must have zero mass.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A proton (mass <m>938\units{MeV/</m>c^2<m>}</m>) is traveling at velocity
+<m>0.60c</m> in the <m>+x</m> direction relative to a spaceship which itself is
+traveling at velocity <m>0.80c</m> in the <m>+x</m> direction relative to Earth.
+Calculate the velocity and then the energy and momentum of the proton
+as measured in the Earth frame.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_ep_transform">
+<statement>
+<p>
+A particle's energy and momentum in one frame are <m>41\units{MeV}</m> and
+<m>40\units{MeV/</m>c<m>}</m> respectively. Find the particle's energy and
+momentum as measured in a different frame in which the particle's speed is
+<m>u^\prime = 0.8c</m>.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Given a particle with <m>E_A = 21\units{MeV}</m> and <m>p_A
+= 15\units{MeV/</m>c<m>}</m> as measured in reference frame <em>A</em>, and
+<m>E_B = 20\units{MeV}</m> as measured in frame <em>B</em>, determine the
+mass <m>m_B</m> and momentum <m>p_B</m> of the particle as measured in
+frame <em>B</em>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_fermilab">
+<statement>
+<p>
+The Fermi National Accelerator Laboratory (Fermilab) is located outside
+Chicago, Illinois, and is one of the world's largest particle accelerator
+facilities. At Fermilab, protons (mass <m>938\units{MeV/</m>c^2<m>}</m>) are given
+huge amounts of energy and achieve velocities that are nearly the speed
+of light.
+<ol>
+<li><p>Prior to a recent upgrade, protons at Fermilab could reach
+speeds that were only <m>163\units{m/s}</m> slower than the speed of
+light.  How much energy is required to get a proton from rest up to
+the speed <m>u = c - 163\units{m/s}</m>?</p></li>
+<li><p>After the upgrade, the protons were able to reach the speed <m>u
+=c - 132\units{m/s}</m> (a whopping increase of <m>31\units{m/s}</m>).
+How much additional energy is required to get this <m>31\units{m/s}</m>
+increase?</p></li>
+<li><p>The Large Hadron Collider currently being developed at CERN (a
+  particle accelerator facility in Europe) is designed to get protons
+  up to an energy of <m>7.0\units{TeV}</m>. (<m>1\units{TeV} =
+  10^{12}\units{eV}</m>).  Determine <m>u/c</m>, the ratio of the speed of the
+  proton to the speed of light (note that <m>u/c</m> is NOT equal to 1!)</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_J">
+<statement>
+<p>
+A certain J-boson has mass of <m>150\units{MeV/</m>c^2<m>}</m>, speed of
+<m>0.8c</m>, and total energy of <m>250\units{MeV}</m>. Determine
+the J-boson's momentum and kinetic energy.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_fermilab2">
+<statement>
+<p>
+A proton (mass <m>938\units{MeV/</m>c^2<m>}</m>) traveling down a beam pipe at
+Fermilab is determined to have kinetic energy of <m>1.2\units{GeV}</m>.
+Determine this proton's momentum and speed.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_evil_genius">
+<statement>
+<p>
+An evil genius fires a rocket into a star, destroying the star.
+Ten minutes later, as measured in the reference frame of the star,
+debris thrown out from the explosion demolishes a
+populated planet a distance <m>7\units{lt-min}</m> from the star, as measured
+in the star/planet frame. Simultaneous with the explosion (according
+to the star/planet reference frame), the Starship
+Enterprise is <m>5\units{lt-min}</m> from the star, on the opposite side from
+the planet. The Enterprise is
+heading toward the star/planet system with a
+speed of <m>0.6c</m> relative to the planet and star.
+<ol>
+<li><p>Draw a spacetime diagram for this situation.  Take the
+       star/planet reference frame as the unprimed frame, and draw the
+       world lines of the star and the planet, showing that they are
+       <m>7\units{lt-min}</m> apart.  Indicate the destruction of the star
+       as event A on your spacetime diagram, and indicate the
+       destruction of the planet as event B on your spacetime diagram.
+       Also, draw the world line for the debris sent from the star to the
+       planet.</p></li>
+<li><p>Draw the world line of the Starship Enterprise on your spacetime
+     diagram, showing both the velocity of the spaceship and the correct
+     location of the Enterprise when the star explodes.</p></li>
+<li><p>Calculate the speed of the matter thrown out from the explosion
+     as measured by Starfleet officers on board the Enterprise.</p></li>
+<li><p>Calculate the time interval between the explosion of the star
+     and the destruction of the planet, as measured by Starfleet officers
+     on board the Enterprise.  (Hint:  use your result from (c) to
+     determine an expression for the distance between events <mdash />
+     according to the Enterprise <mdash /> in terms of the unknown time between
+     events.)</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_is_momentum_conserved">
+<statement>
+<p>
+<em>Are momentum and energy conserved?</em>
+</p>
+
+<p>
+A mad scientist at rest in a lab on the earth is colliding particles together
+to make more massive particles. She creates head-on collisions of
+particles with a mass of <m>4\units{GeV/</m>c^2<m>}</m> and speed <m>0.6c</m> to create
+particles at rest with a mass of <m>10\units{GeV/</m>c^2<m>}</m>.
+</p>
+
+<p>
+In the rest frame of the scientist, the <m>4\units{GeV/</m>c^2<m>}</m> particles
+have equal and oppositely directed momenta, and the <m>10\units{GeV/</m>c^2<m>}</m>
+particle is at rest, so momentum is conserved.
+</p>
+
+<p>
+An observer in a rocket flying over the lab at a speed <m>v=0.6c</m> views this
+experiment.
+<ol>
+<li><p>Test whether <em>relativistic</em> momentum is conserved 
+according to the observer in the rocket.  Your test should include 
+detailed numerical calculations  demonstrating the conservation 
+(or non-conservation) of <em>relativistic</em> momentum.</p></li>
+<li><p>Test whether <em>relativistic</em> energy is conserved 
+according to the scientist in her lab.  Your test should include 
+detailed numerical calculations demonstrating the conservation 
+(or non-conservation) of <em>relativistic</em> energy.</p></li>
+<li><p>Test whether <em>relativistic</em> energy is conserved 
+according to the observer in the rocket.  Your test should include 
+detailed numerical calculations demonstrating the conservation 
+(or non-conservation) of <em>relativistic</em> energy.</p></li>
+</ol>
+
+</p>
+<figure xml:id="fig_is_momentum_conserved" >
+<caption>Figure for <xref ref="prob_is_momentum_conserved">Problem</xref>.</caption>
+<image width="79%" source="images/atomsmasher.png" />
+</figure>
+</statement>
+</problem>
+</section>

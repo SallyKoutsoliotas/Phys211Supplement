@@ -1,0 +1,105 @@
+<section>
+<title>The Interval Revisited</title>
+<p>
+In developing his conception of gravity as a manifestation of curved
+spacetime, Einstein sought to extend his notion of invariance from
+special relativity. Recall that for special relativity all
+<em>inertial</em> reference frames were treated as equally valid for
+describing physics. In 1915, Einstein created the theory of general
+relativity, removing the inertial frame restriction: <em>all
+arbitrarily</em> moving reference frames were to be equally valid. This
+enabled him to include gravity into spacetime physics.
+</p>
+
+<p>
+Recall that in Sec. <xref ref="sec_spacetime_intervals"></xref> we introduced the
+spacetime interval <m>I^2</m> of special relativity, defined by
+<men>
+  I^2 = (c\Delta t)^2 - (\Delta x)^2.
+</men>
+</p>
+
+<p>
+The interval was shown to be invariant: observers in any inertial
+reference frame would calculate the same value for the interval
+separating any given pair of events.
+</p>
+<figure xml:id="fig_cartesian_to_spherical" >
+<caption>Cartesian to polar coordinates</caption>
+<image width="46%" source="images/coordinates.png" />
+</figure>
+<p>
+Let's work on generalizing this expression to include the effects of
+gravity. The first thing to do is convert from Cartesian to polar
+coordinates, shown in Fig. <xref ref="fig_cartesian_to_spherical"></xref>, as
+these will be more appropriate to describe spacetime in the presence
+of spherically symmetric masses, like Earth, stars, or black holes.
+Here <q><m>r</m></q> is a radial coordinate: it decreases or increases as you
+move toward or away from the given spherical mass. The interval
+expressed in these coordinates, not surprisingly, takes the form
+<men xml:id="eq_flat_space_spherical" >
+  I^2 =  (c\Delta t)^2 - \Delta r^2
+</men>
+when motion along only the radial direction is considered.
+</p>
+
+<p>
+Next, let's see how Einstein includes the effects of gravity in the
+invariant spacetime interval. How is it that <q>mass tells spacetime
+how to curve</q>? The full answer is very hard, far beyond the scope of
+this course: solve a set of nasty coupled nonlinear differential
+equations! But for the case of intervals in the spacetime outside a
+spherical mass, the result is surprisingly simple.
+Eq.<nbsp /><xref ref="eq_flat_space_spherical" /> becomes
+<men xml:id="eq_schwarzschild_metric" >
+  I^2 = \biggl(1-\frac{2GM}{c^2 r}\biggr)(c\Delta t)^2-
+  \biggl(1-\frac{2GM}{c^2 r}\biggr)^{-1}\Delta r^2.
+</men>
+</p>
+
+<p>
+Here <q><m>M</m></q> is the mass of the central body, and <m>G</m> is Newton's
+universal gravitation constant.
+</p>
+
+<p>
+The appearance of the coefficients <m>(1-\frac{2GM}{c^2r})</m> and
+<m>(1-\frac{2GM}{c^2r})^{-1}</m> in the general relativistic expression for
+the spacetime interval tells you that we're now dealing with curved
+spacetime. The presence of a nearby mass curves spacetime!
+</p>
+
+<p>
+Finally, recall from Sec. <xref ref="sec_spacetime_intervals"></xref> that when
+<m>I^2</m> is positive the interval <m>I</m> is timelike. In fact, the quantity
+<m>I/c</m> represents the proper time interval <m>\Delta\tau</m> between the two
+given events. Dividing Eq.<nbsp /><xref ref="eq_schwarzschild_metric" /> by <m>c^2</m>
+and replacing <m>I/c</m> with <m>\Delta\tau</m>, we get
+<men xml:id="eq_curved_space_proper_time" >
+  \Delta\tau^2 = \biggl(1-\frac{2GM}{r}\biggr)\Delta t^2 - 
+  \frac{1}{c^2}\biggl(1-\frac{2GM}{r}\biggr)^{-1}\Delta r^2.
+</men>
+</p>
+
+<p>
+On the other hand, when <m>I^2</m> is negative, we are dealing with a
+spacelike interval. It is convenient to introduce <m>\Delta s</m>, the
+proper distance, by
+<men>
+  \Delta s^2 = -I^2 > 0.
+</men>
+</p>
+
+<p>
+In this case, Eq.<nbsp /><xref ref="eq_schwarzschild_metric" /> becomes
+<men xml:id="eq_curved_space_proper_distance" >
+  \Delta s^2 =  \biggl(1-\frac{2GM}{r}\biggr)^{-1}\Delta r^2 -  
+  \biggl(1-\frac{2GM}{r}\biggr)(c\Delta t)^2.
+</men>
+</p>
+
+<p>
+Let's explore how these gravity-related factors lead to the warping of
+time and space.
+</p>
+</section>

@@ -1,0 +1,203 @@
+<section>
+<title>Ordering of events <mdash /> the 
+relativity of simultaneity</title>
+<p>
+Every event has a set of space and time coordinates. In <xref ref="example_causality-intervals-diagram">Example</xref> above, we would say that the
+event A (girl sneezes) occurs at time <m>t=0</m> and location <m>x =
+1.3\units{lt-s}</m>. Similarly, we can determine the location and times
+of events B and C, all as measured by observers in the Earth-Moon
+reference frame. Let's add one more event to the scenario: let's say
+that at time <m>t=0</m>, the pitcher Masahiro Tanaka, Jr., pitches the ball
+toward Castro. In Fig. <xref ref="fig_father-daughter"></xref> we have added this event and
+labeled it P. In the Earth-Moon frame, we can say quite definitively
+that A and P are simultaneous and come first, then B, then C. Also, A
+and C happen at the same location, and P and B happen at the same
+location.
+</p>
+<figure xml:id="fig_father-daughter" >
+<caption>Extension of spacetime diagram in <xref ref="example_causality-intervals-diagram">Example</xref>.</caption>
+<image width="80%" source="images/worldlines3.png" />
+</figure>
+<p>
+Special relativity helps us answer the following question: how does an
+observer moving in a different reference frame view these same events? We
+won't worry here about the actual numerical values of <m>x^\prime</m> and
+<m>t^\prime</m> (the position and time as measured by a different observer), but
+we can say quite a lot about the ordering of events in space and time
+by looking at the spacetime diagrams.
+</p>
+
+<p>
+We have added another world line to Fig. <xref ref="fig_father-daughter"></xref>,
+namely, the world line for a hypothetical alien whizzing past the
+Earth just as the pitch is thrown. This alien is monitoring the game
+to try to understand human culture. We assume the alien is traveling
+at a speed <m>0.5c</m>; hence, the world line has a slope of 2.
+</p>
+
+<p>
+We have already commented that the world line of an observer in a
+primed frame is simply the <m>t^\prime</m> axis for that frame, so we have
+labeled the alien's world line <m>t^\prime</m>. But where should we put the
+<m>x^\prime</m>-axis and what scale should we put on it? It turns out that to
+satisfy the invariance of the speed of light, we must draw the
+<m>x^\prime</m>-axis at the same angle relative to the <m>x</m>-axis as the angle of
+the <m>t^\prime</m>-axis relative to the <m>t</m>-axis. This means the slope of the
+<m>x^\prime</m>-axis is equal to the speed <m>v</m> of the primed frame relative to the
+unprimed frame.
+</p>
+
+<p>
+Recall that the <m>t^\prime</m>-axis represents points where <m>x^\prime =
+0</m>. It turns out that <m>x^\prime</m> is constant along any line parallel
+to the <m>t^\prime</m>-axis. In other words, lines parallel to the <m>t^\prime</m>-axis
+are equal-location lines for the primed frame of reference, just as
+the <m>t</m>-axis and all lines parallel to it are each lines of equal
+location for the unprimed frame of reference. The same ideas work for
+events on lines parallel to the <m>x</m> or <m>x^\prime</m> axes; events on a line
+parallel to the <m>x</m>-axis are simultaneous in the unprimed frame, and
+events on a line parallel to the <m>x^\prime</m>-axis are simultaneous in the
+primed reference frame.
+</p>
+
+<p>
+We can use these ideas to <q>read off</q> coordinates for events in
+both reference frames. As an example, let's look at event C in
+Fig. <xref ref="fig_father-daughter"></xref>. We have already commented that in the
+unprimed frame, its <m>x</m> location is <m>1.3\units{lt-s}</m> and its time
+is <m>2\units{s}</m>. The coordinates of this event in the alien's
+reference frame are determined by drawing lines parallel to the
+<m>x^\prime</m> and <m>t^\prime</m> axes (shown as dotted lines in
+Fig. <xref ref="fig_father-daughter"></xref>). The intersections of these
+construction lines with the opposing primed axis gives the <m>x_C</m> and
+<m>t_C</m> coordinates. The rules for determining coordinates can be
+summarized as follows:
+<ol>
+<li><p>To find <m>x_C</m>, draw a straight line through C parallel to the
+<m>t</m>-axis and read off where it crosses the <m>x</m>-axis.</p></li>
+<li><p>To find <m>t_C</m> draw a straight line through C parallel to the
+<m>x</m>-axis and read off where it crosses the <m>t</m>-axis.</p></li>
+<li><p>To find <m>x_C^\prime</m>, draw a straight line through C parallel to
+the <m>t^\prime</m>-axis and read off where it crosses the <m>x^\prime</m>-axis.</p></li>
+<li><p>To find <m>t_C^\prime</m>, draw a straight line through C parallel to the
+<m>x^\prime</m>-axis and read off where it crosses the <m>t^\prime</m>-axis.</p></li>
+</ol>
+</p>
+
+<p>
+Using this type of construction, we can see that although events A and
+C occur at the same place in the unprimed (Earth-Moon) reference
+frame, event C happens to the left of the event A in the primed
+(alien) reference frame. This is easy to understand: the alien is far
+from the Moon when event A happens, so A is far <q>to the right,</q>
+whereas the alien is close to the Moon when event C happens, so from
+the alien's perspective, C isn't so far to the right, i.e.,
+smaller <m>x^\prime</m> coordinate.
+</p>
+
+<p>
+But what about the ordering of events in time? We have commented
+that the invariance of the spacetime interval says that if two
+observers disagree about distances, then they will have to disagree
+about time intervals as well.
+</p>
+
+<p>
+\begin{boxittext}
+{<em>In preparation for class:</em> Look at the <m>t^\prime</m> coordinates for events
+P and A. In the Earth-Moon reference frame, these events are simultaneous.
+What about in the alien reference frame?
+}
+\end{boxittext}
+</p>
+
+<p>
+We have said that any two events on a line parallel to the
+<m>x^\prime</m>-axis are simultaneous in the primed frame of reference.
+Similarly two events that lie on a line parallel to the <m>x</m>-axis are
+simultaneous in the unprimed frame. However two different events
+cannot lie both on a line parallel to the <m>x</m>-axis and parallel to the
+<m>x^\prime</m>-axis. Thus two events that are simultaneous in one frame cannot
+be simultaneous in the other frame. We explore this idea in the
+following example.
+</p>
+
+<example xml:id="example_simultaneity">
+<statement>
+<p>
+{Simultaneity is Relative}
+Einstein showed, with the following thought experiment, that two events
+which occur at the same time but at different places in one frame,
+occur at different times in another frame.
+</p>
+<figure xml:id="fig_simultaneity" >
+<caption>Spacetime diagram for train of <xref ref="example_simultaneity">Example</xref>. (Light
+world lines shown as dashed lines.)</caption>
+<image width="78%" source="images/worldlines4.png" />
+</figure>
+<p>
+Imagine a train moving past a station. By chance, lightning
+happens to strike the front and back of the train at the same time
+according to observers on the station platform. Light pulses from
+these strikes travel toward the middle of the train, where a passenger
+observes their times of arrival. Do the light pulses arrive
+simultaneously or does one arrive before the other, and if so, which
+one?
+
+
+<em>Solution: </em>
+Use a spacetime diagram, Fig. <xref ref="fig_simultaneity"></xref>, with the
+station at rest in the unprimed frame and the train at rest in the
+primed frame. The <m>x</m>- and <m>x^\prime</m>-axes both lie along the track.
+(Note: this does <em>not</em> mean that the <m>x</m>- and <m>x^\prime</m>-axes
+are the same thing on a spacetime plot. The <m>x^\prime</m>-axis is not
+shown in Fig. <xref ref="fig_simultaneity"></xref>, but remember that it is the mirror
+image of the <m>t^\prime</m>-axis about a <m>45^\circ</m> line; i.e., the angle
+between the <m>t</m>- and <m>t^\prime</m>-axes is the same as the angle between
+the <m>x</m>- and <m>x^\prime</m>-axes.)
+The world line for the middle of the station is shown as the <m>t</m>-axis.
+</p>
+
+<p>
+Because all parts of the train are at rest in the primed frame, we
+draw the world lines for the front and the rear ends of the train
+parallel to the <m>t^\prime</m>-axis. Also, in
+Fig. <xref ref="fig_simultaneity"></xref>, we have chosen the world line for the
+passenger riding in the exact middle of the train to be the
+<m>t^\prime</m>-axis. In the primed frame the front and rear world lines
+are then equidistant from the passenger, by definition.
+</p>
+
+<p>
+The lightning strikes occur at points R and F on the world lines of
+the rear and front of the train. Because each strike represents an
+event and because these two events occur simultaneously in the
+station frame, R and F must be drawn on the same horizontal line.
+We arbitrarily choose this line to be at <m>t = 0</m>.
+</p>
+
+<p>
+The light pulses produced by the lightning strikes travel with speed
+<m>c = 1\units{lt-whatever per whatever}</m> from the event F back toward
+the passenger and from R forward toward the passenger. The pulse from
+F is represented by a world line of slope <m>-1</m> and the pulse from R is
+represented by a world line of slope <m>+1</m>. <xref ref="fig_simultaneity">Figure</xref> shows that the pulse from F arrives at the
+passenger's world line (at F<m>^\prime</m>) earlier (i.e., at a smaller
+value of <m>t^\prime</m>) than does the pulse from R, which arrives at
+R<m>^\prime</m>.
+</p>
+
+<p>
+The passenger must conclude that the front strike occurred before
+the rear strike because she is sitting in the middle of the train,
+equidistant from R and F, and she knows the light pulses must have
+taken the same time (in her frame) to reach her. By the same
+argument, an observer on the station platform who was at the exact
+middle of the train at <m>t = 0</m> when the strikes occurred, sees the
+pulses at the same time. This is shown on the spacetime diagram
+by the fact that the world lines of the pulses cross the world line of
+the middle of the station at <m>x = 0</m> (event M) at the same time.
+</p>
+</statement>
+</example>
+</section>

@@ -1,0 +1,111 @@
+<section>
+<title>Preliminaries</title>
+<p>
+A few definitions will be useful for the next few chapters.
+</p>
+
+<p>
+An <em>event</em> is something that happens at a particular
+location at a particular time. It is important to be clear about
+this, because relativity deals with how different observers measure
+distances and times between events. For instance, let's say that the
+penguin on top of your television set explodes at 7:12 a.m.<nbsp />on a
+Saturday morning. You then run 5 km to a large tower where you
+capture (at 7:45 a.m.) a small platypus that inexplicably is dressed like a
+secret agent and who is trying to thwart your plans to take over
+the Tri-State Area. You could identify two events <mdash /> (1) the
+explosion of the penguin and (2) your capture of the semi-aquatic,
+egg-laying mammal of action (i.e., the platypus) <mdash /> and say
+that these events are separated by 5 km in space and 33 min in time.
+Relativity addresses the question of how a different observer measures
+the distance and time between the same two events. (Preview: not
+everyone will agree about the distance and time between events.)
+</p>
+
+<p>
+So what do we mean, exactly, by <q>different observers,</q> and what
+are the characteristics of these observers that will determine how
+their measurements will differ? We start by explaining what is meant
+by the term <q>reference frame.</q> You can visualize a reference frame
+as a set of rulers (distance measuring devices) and clocks (time
+measuring devices) that are arrayed throughout space so that the
+position and time of any event can be determined directly. The distinguishing
+feature of a reference frame is that the set of <q>rulers</q> and <q>clocks</q>
+are all at rest with respect to one another. An observer IN THIS
+REFERENCE FRAME is at rest with respect to all the rulers and clocks.
+Notice that there can be many observers at different positions
+in this reference frame, as long as they are all at rest with respect
+to each other and to the measuring tools. All observers in the same
+reference frame will agree with each other about the distances and
+times between any two events, but they will not agree with observers
+in other reference frames moving with respect to their frame.
+</p>
+
+<p>
+A particularly important kind of reference frame is an <em>inertial reference frame</em>. Observers in an inertial reference
+frame experience no significant acceleration, nor can they discern any
+gravitational effects. In an ideal inertial reference frame, the
+observer would be floating free (hence the name <q>free float</q> that is
+sometimes used to discuss an inertial reference frame), because any
+non-floating motion would necessarily imply either acceleration or
+gravitational effects. To analyze behavior in the vicinity of very
+strong gravitational fields, it is necessary to use general
+relativity.
+</p>
+
+<p>
+Technically, an observer is not in a true inertial reference frame if
+she is standing on the surface of a planet since there is gravitation.
+However, there are plenty of situations where non-inertial effects are
+small enough as to be negligible. In fact, the gravitation from a
+typical planet is small enough so that the non-inertial effects are
+negligible, and Special Relativity works perfectly well. So, for
+example, we will often treat observers moving on a constant velocity
+train as though they are in an inertial reference frame, even though
+there is a small gravitational effect.
+</p>
+
+<p>
+When dealing with velocities, we have to be careful. A velocity
+technically has meaning only if there is a reference. So, for
+example, if you are in a car and you are traveling 65 mph toward the
+West, you are really traveling 65 mph <em>relative to the
+surface of the Earth</em>. In fact, almost any velocity that people
+quote in everyday usage is defined relative to the Earth.
+</p>
+
+<p>
+\begin{boxittext}
+{<em>In preparation for class</em>, consider the following question: how
+fast are you <em>really</em> going if you are in the car in the previous
+paragraph?}
+\end{boxittext}
+</p>
+
+<p>
+Certainly, anyone who is willing to accept a non-geocentric view of
+the universe realizes that there is nothing inherently special about
+the earth as a reference frame. But scientists have long wondered if
+there is some preferred universal reference frame from which all
+velocities should be defined, some standard by which we could define
+<em>absolute velocities</em> for every object in the universe.
+</p>
+
+<p>
+In relativity, we will use <em>relative velocities</em>, i.e.,
+velocities will always be defined relative to some reference frame.
+In fact, one result of relativity is the realization that this is the
+best way to define velocity. There is no need to choose any special
+reference frame for the universe; all the results of relativity work
+perfectly well with velocities measured relative to any reference
+frame that you might choose.
+</p>
+
+<p>
+The following statement applies to relative velocities: if observer A
+measures observer B to be moving at a (relative) velocity of <m>\vec{v}</m>
+in a particular direction, then B measures A to be moving at a
+(relative) velocity of <m>-\vec{v}</m>; i.e., same speed but opposite
+direction.
+</p>
+</section>

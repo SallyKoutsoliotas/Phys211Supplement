@@ -1,0 +1,39 @@
+<section>
+<title>Photons: Particles with Zero Mass</title>
+<p>
+How do we deal with the energy and momentum of light? As you will see
+next semester in PHYS 212, the same year that Einstein published his
+first paper on Special Relativity, he also proposed that light must be
+considered to be composed of particles which are now called photons.
+(This was the first of the three 1905 papers that we discussed at the
+beginning of <xref ref="chapter_relativityI">Chapter</xref>.) Since light always travels
+at a speed <m>c</m> in a vacuum, then photons in a vacuum must travel at
+that speed regardless of the reference frame of the observer. But if
+we look back at Eqs.<nbsp /><xref ref="eq_rel-p-def" /> and <xref ref="eq_rel-e-def" />, we
+find that the denominators of both equations are zero for a particle
+moving at the speed of light, and clearly a photon cannot have
+infinite momentum or infinite energy.
+</p>
+
+<p>
+The only way to resolve this dilemma is to postulate that photons are
+particles with zero mass (<m>m = 0</m>). Equations<nbsp /><xref ref="eq_rel-p-def" />
+and <xref ref="eq_rel-e-def" /> are still not very useful in this case, since a
+fraction which has zero in both the numerator and denominator is
+undefined. However, with zero mass these equations no longer imply
+infinite energy and momentum for particles moving at light speed.
+</p>
+
+<p>
+For a massless particle (such as photons),
+Eq.<nbsp /><xref ref="eq_m-invariance3" /> can be rewritten for <m>m=0</m> as
+<men xml:id="eq_e-photon" >
+  E = \vert p\vert c\text{\hspace{0.25in}\textbf{for massless particles only.}}
+</men>
+</p>
+
+<p>
+Remember, Eq.<nbsp /><xref ref="eq_e-photon" /> is valid only for massless
+particles.
+</p>
+</section>

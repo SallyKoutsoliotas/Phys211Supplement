@@ -1,0 +1,93 @@
+<section>
+<title>Refrigerators</title>
+<p>
+An interesting thing happens if we take a heat engine and run it
+backwards: we make a refrigerator. By refrigerator, we mean a device
+which requires work as input and is able to make heat flow from a
+colder object to a hotter object. This includes, of course, the
+refrigerator that keeps your milk from getting spoiled, but also
+includes air conditioners and even heat pumps (which is basically an
+air conditioner hooked up backwards to cool the outdoors and warm
+your house).
+</p>
+
+<p>
+Making heat flow from cold to hot may sound like a violation of
+Clausius's statement of the second law, but it is not as long as
+something else is going on in the process. Heat will not
+<em>spontaneously</em> flow from cold to hot; rather, we must cleverly
+engineer the refrigerator to make it happen and, most importantly, we
+must plug it in, to give the necessary work as input.
+</p>
+<figure xml:id="fig_refrigerator_diagram" >
+<caption>A refrigerator diagram, made by reversing all the arrows on a
+  heat engine diagram.  Note that the working substance cycle is now
+  counterclockwise instead of clockwise.</caption>
+<image width="37%" source="images/refrigerator_diagram.png" />
+</figure>
+<p>
+Let's start with an engine diagram in reverse, as shown in
+Fig. <xref ref="fig_refrigerator_diagram"></xref>, and focus on the first and second
+laws. Energy conservation now requires
+<men>
+  |Q_C| + |W| = |Q_H| \qquad\qquad\text{ (first law) }
+</men>
+which is exactly the same equation as before, since we reversed <em> all</em> the arrows. Now the signs of the entropy change in the
+reservoir are reversed, so the second law says
+<men>
+  \Delta S_\text{ total }  = \Delta S_H + \Delta S_C = 
+ \frac{|Q_H|}{T_H} - \frac{|Q_C|}{T_C} \geq 0.\text{ (second law) }
+</men>
+</p>
+
+<p>
+This now provides an <em>upper</em> bound on <m>|Q_C|</m>, namely
+<men xml:id="eq_qc_upper_bound" >
+  |Q_C| \leq \frac{T_C}{T_H}|Q_H|.
+</men>
+</p>
+
+<p>
+What does this mean? It means we can run a heat engine backwards and
+satisfy the first and second laws and actually make some heat go from
+cold to hot. But there is a limitation on how much heat we can pull
+out of the cold reservoir, and this limitation depends on the
+reservoir temperatures and on how much work we provide. If we
+eliminate <m>|Q_H|</m> from the upper bound, Eq.<nbsp /><xref ref="eq_qc_upper_bound" />,
+we can show
+<men xml:id="eq_qc_upper_bound_ii" >
+  |Q_C| \leq \frac{T_C}{T_H-T_C} |W|,
+</men>
+which you will derive in the homework. This expression says that we
+need work to pull heat out of the cold reservoir, and also that the
+effectiveness of pulling out heat will depend on the reservoir
+temperatures. We can quantify this <q>effectiveness</q> with what is
+called the coefficient of performance, <m>CP</m>, defined as the ratio of
+what want (<m>|Q_C|</m>) to what we must pay (<m>|W|</m>):
+<men>
+  CP = \frac{|Q_C|}{|W|} \leq  \frac{T_C}{T_H-T_C}.
+</men>
+</p>
+
+<p>
+As before, the maximum coefficient of performance is obtained from the
+borderline case of the second law <m>\Delta S_\text{ total } =0</m>.
+Notice that reservoirs that are close in temperature yield a larger
+<m>CP</m>. This makes sense, since the closer <m>T_H</m> and <m>T_C</m> are, the
+less <q>uphill</q> we are making the heat flow.
+</p>
+
+<p>
+In the refrigerator diagram the working substance now goes
+through a counterclockwise gas cycle. This allows for the heat to
+flow into the gas while it is at a lower temperature (lower than
+<m>T_C</m>) and heat to flow out of the gas while it is at a higher
+temperature (higher than <m>T_H</m>). But this counterclockwise cycle also
+means compression happens at higher pressure than the expansion. This
+will require some outside source of work to drive the gas through this
+cycle, which is exactly what we found from general first law and
+second law considerations: work input is necessary to make the
+refrigerator function. In other words, your refrigerator won't function
+properly if you forget to plug it in.
+</p>
+</section>

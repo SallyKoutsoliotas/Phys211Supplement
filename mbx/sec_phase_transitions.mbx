@@ -1,0 +1,326 @@
+<section xml:id="sec_phase_transitions">
+<title>Phase Transitions</title>
+<p>
+Heat up an ice cube and it melts. Heat up a chunk of copper and it
+melts also, albeit at a much higher temperature. What is melting, and
+what determines the temperature at which a substance melts? Our
+ball-spring model, taken literally, cannot exhibit melting, because no
+matter how energetically the molecules vibrate, they are still
+connected to the same neighbors. But we should recall that the spring
+was only an approximation to the molecular pair potential, valid when
+the thermal energy was low enough that the molecules were mostly near
+the minimum of their potential well. Once a pair of molecules is
+stretched far enough apart, their interaction differs from a spring in
+that the attractive force between them weakens and ultimately becomes
+negligible (see Fig. <xref ref="fig_pair_potential"></xref>). So we need a mental
+picture of a <q>spring</q> that weakens and <q>gives up</q> under too much
+stretching.
+</p>
+
+<p>
+We can use the ball-spring model to make a rough estimate of when
+melting should occur. The equipartition theorem tells us how far the
+molecules move in their vibrations. Let <m>x</m> be the displacement
+of a molecule from its equilibrium position in the <m>x</m>-direction. The
+average value of <m>x</m> is zero, because the molecule is displaced equal
+amounts of time in the <m>+x</m> and <m>-x</m> directions. But the
+average value of <m>x^2</m> is not zero and is given by (using the
+equipartition theorem)
+<men>
+  \bigl\langle{\textstyle\frac{1}{2}}k_{sp}{x^2}\bigr\rangle =
+{\textstyle\frac{1}{2}}k_{sp}\langle{x^2}\rangle 
+= {\textstyle\frac{1}{2}}k_BT.
+\Rightarrow
+\langle x^2\rangle = \frac{k_BT}{k_{sp}}.
+</men>
+</p>
+
+<p>
+This tells us the typical size of the excursions. We can define a
+thermal displacement magnitude
+<men xml:id="eq_x_thermal" >
+  x_\text{ therm }  = \sqrt{\langle x^2\rangle} = \sqrt{\frac{k_BT}{k_{sp}}},
+</men>
+which exhibits the reasonable behavior that the higher the temperature,
+the farther the molecule moves (on average) from equilibrium.
+</p>
+
+<example>
+<statement>
+<p>
+{Wiggling copper atoms.}
+Copper is a solid at room temperature, <m>T=295\units{K}</m>. As the
+copper atom oscillates about its equilibrium position, what is the
+typical magnitude of its displacement in the <m>x</m>-direction?
+
+
+<em>Solution: </em> From Eq.<nbsp /><xref ref="eq_x_thermal" />, we get
+<men>
+  x_\text{ therm }  = \sqrt{\frac{(1.38\times 10^{-23}\units{J/K})(295\units{K})}
+{29.6\units{N/m}}} =  1.17\times 10^{-11}\units{m}.
+</men>
+where we used the copper spring constant from
+<xref ref="chapter_thermal_energy">chapter</xref>. Note that we used SI
+units, so <m>x_\text{ therm }</m> comes out in meters.
+</p>
+
+<p>
+Is this answer reasonable? Recall that the equilibrium distance
+between copper atoms is <m>d=2.28\times 10^{-10}\units{m}</m>, which is
+about 20 times larger. So at room temperature, copper molecules are
+vibrating somewhere around 5<percent /> of the distance of their separation.
+That sounds plausible.
+</p>
+</statement>
+</example>
+
+<p>
+Melting occurs when the molecular excursions become an appreciable
+fraction of the bond length <m>d</m>, an idea is known as the <em> Lindemann criterion</em>. Lindemann found empirically<fn>i.e.,
+simply by looking at the experimental data</fn> that a reasonable estimate
+for the melting temperature can be obtained by setting <m>x_\text{ therm } 
+\approx d/10</m>. Note that if <m>x_\text{ therm }  \approx d/10</m>, it does
+not mean that each atom in the solid is vibrating precisely <m>d/10</m>
+from the equilibrium; some are going further, and some are going less.
+The Lindemann criterion implies
+<men>
+  x_\text{ therm }  = \sqrt{\frac{k_BT_m}{k_{sp}}} \approx d/10 \Rightarrow
+T_m \approx \frac{d^2k_{sp}}{100 k_B}
+</men>
+</p>
+
+<p>
+This is not an highly accurate estimate, but it does capture some
+general features. For example, lead has a relatively low melting
+temperature, which is evidently due to its weak spring constant.
+An estimate for copper, based on the ball-spring parameters, is
+<men>
+  T_{m} \approx \frac{(2.28\times 10^{-10}\units{m})^2(29.6\units{N/m})}
+{100(1.38\times 10^{-23}\units{J/K})} = 1120\units{K}
+</men>
+which is comparable to the measured value of <m>1358\units{K}</m>. Iron
+has a stronger spring constant that copper, and correspondingly a
+higher melting temperature.
+</p>
+<table xml:id="table_phase_transitions" >
+<caption>Melting and vaporization temperatures for a few materials, along
+with the latent heats of fusion and vaporization.</caption>
+<tabular>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  >
+Material</cell><cell><m>T_m</m> (K)</cell><cell><m>L_f</m> (kJ/mol)</cell><cell><m>T_v</m> (K)</cell><cell><m>L_v</m> (kJ/mol)</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row><cell>\noalign
+Oxygen</cell><cell>54.4</cell><cell>0.444</cell><cell>90.2</cell><cell>6.82</cell></row>
+<row><cell>Nitrogen</cell><cell>63.2</cell><cell>0.72</cell><cell>77.4</cell><cell>5.56</cell></row>
+<row><cell>Ethanol</cell><cell>159</cell><cell>5.02</cell><cell>352</cell><cell>38.6</cell></row>
+<row><cell>Water</cell><cell>273</cell><cell>6.01</cell><cell>373</cell><cell>40.6</cell></row>
+<row><cell>Lead</cell><cell>600</cell><cell>4.77</cell><cell>2022</cell><cell>180</cell></row>
+<row><cell>Copper</cell><cell>1358</cell><cell>13.3</cell><cell>2835</cell><cell>300</cell></row>
+<row><cell>Iron</cell><cell>1811</cell><cell>13.8</cell><cell>3134</cell><cell>340</cell></row>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  ></cell></row>
+</tabular>
+</table>
+<p>
+In the solid state, whenever thermal energy is added to an object, the
+temperature increases. However, when the temperature of a solid
+reaches the melting temperature, additional thermal energy no longer
+causes temperature increase but rather phase change. Adding a little
+thermal energy to a solid at the melting temperature causes a few of
+the molecules to break from the lattice structure and become liquid.
+Adding more thermal energy causes even more molecules to become
+liquid. While this is happening, the temperature of the material is
+not changing. Rather, a solid with temperature <m>T_m</m> is being
+converted to a liquid at temperature <m>T_m</m>, as shown in
+Fig. <xref ref="fig_etherm_vs_t"></xref>. The amount of thermal energy required to
+convert one mole of a solid to a liquid is called the <em>latent heat
+of fusion</em>, and denoted by the symbol <m>L_f</m>. Given the latent heat
+of fusion for a material, it is straightforward to determine how much
+energy is needed to melt a certain amount of that material:
+<men xml:id="eq_latent_heat" >
+  |\Delta E_\text{ therm } | = nL_f,\qquad\text{ (melt/solidify) }
+</men>
+where <m>n</m> is the number of moles of the material. This same relation
+can be used to determine how much energy is released when a certain
+amount of a liquid is frozen into solid form. Energy must be added to
+melt something, and energy is released when something freezes. Latent
+heats for a few materials are given in
+<xref ref="table_phase_transitions">Table</xref>.
+</p>
+<figure xml:id="fig_etherm_vs_t" >
+<caption>Shown is <m>E_ therm</m> versus <m>T</m> for one mole of a
+  typical material.  The slopes in the solid phase and liquid phase
+  are the molar specific heats, which are not typically equal to each
+  other.  The vertical jump at <m>T_m</m> represents the latent heat of
+  fusion, i.e., the amount of thermal energy required to change
+  phase.</caption>
+<image width="56%" source="images/etherm_vs_t.png" />
+</figure>
+
+<example>
+<statement>
+<p>
+{Melting lead}
+Calculate the amount of thermal energy that has to be added to 3.0
+moles of lead at room temperature to melt <m>\frac{2}{3}</m> of the lead.
+</p>
+
+<p>
+<em>Solution: </em>
+This is a two-part process. First the temperature of the solid lead
+solid must be raised to its melting temperature. <em>Then</em> the
+lead can be melted.
+</p>
+
+<p>
+In the first part of the process the temperature of all of the lead
+increases to <m>600\units{K}</m>. The thermal energy change corresponding
+to this is given by
+<md>
+  <mrow>  \Delta E_\text{ therm } ^{(1)} \amp  = n_1C\Delta T \nonumber</mrow>
+  <mrow>  \amp  = 3.0\units{mol}\times 26.6\units{J/mol$\cdot$K} \times
+        (600\units{K} - 295\units{K}) \nonumber</mrow>
+  <mrow>  \amp  = 24.3 \units{kJ}</mrow>
+</md>
+</p>
+
+<p>
+In the second part of the process the phase changes, so the
+thermal energy change necessary to melt two moles of the lead is given by
+<md>
+  <mrow>  \Delta E_\text{ therm } ^{(2)} \amp  = n_2 L_f \nonumber</mrow>
+  <mrow>  \amp  = 2.0\units{mol} \times 4.77\times 10^3\units{J/mol} \nonumber</mrow>
+  <mrow>  \amp  = 9.5\units{kJ}</mrow>
+</md>
+</p>
+
+<p>
+Combining these two thermal energy changes gives
+<md>
+  <mrow>  \left(\Delta E_\text{ therm } \right)_\text{ total }  
+    \amp  = \Delta E_\text{ therm } ^{(1)} + \Delta E_\text{ therm } ^{(2)} \nonumber</mrow>
+  <mrow>  \amp  = 24.3\units{kJ} + 9.5\units{kJ} \nonumber</mrow>
+  <mrow>  \amp  = 33.8\units{kJ} \</mrow>
+</md>
+</p>
+
+<p>
+In this calculation, we used the measured value for the molar
+specific heat for lead (see <xref ref="table_material_properties">Table</xref>).
+We could have used the Dulong-Petit (ball-spring) approximation (<m>C
+  = 3R</m>) which would have given us a result very close to the value
+that we calculated here.
+</p>
+
+<p>
+Note also that if we wanted to start with 2 moles of liquid lead
+and 1 mole of solid lead both at <m>600\units{K}</m>, and cool it down to
+a solid at room temperature, the same calculation would
+tell us how much thermal energy we would need to <em>remove</em>. It
+would also be <m>33.8\units{kJ}</m>.
+</p>
+</statement>
+</example>
+
+<p>
+For most substances, there exists a boiling point separating a liquid
+phase from a gas phase. At the molecular level, the liquid state has
+nearly solid-like density, with molecules packed close together and
+fairly near the minimum of the potential well. The transition to the
+gas phase requires pulling these molecules apart and setting them
+free, where they have no neighbors. Let <m>E_\text{ bind }</m> be the depth
+of the potential well, that is, <m>E_\text{ bind }</m> is the amount of
+energy needed to bring a pair of molecules from their equilibrium
+separation to far apart from each other (see
+Fig. <xref ref="fig_boiling"></xref>(a)). Vaporization (or boiling) occurs roughly
+when <m>k_BT\approx E_\text{ bind }</m>, so we can estimate the boiling
+temperature as
+<men xml:id="eq_t_v" >
+  T_v\approx\frac{E_\text{ bind } }{k_B}.
+</men>
+</p>
+
+<example>
+<statement>
+<p>
+{Molecular Binding Energy}
+Estimate the molecular pair binding energy <m>E_\text{ bind }</m> for
+copper, using the information in
+<xref ref="table_phase_transitions">Table</xref>. 
+
+<em>Solution: </em> Copper vaporizes at
+<m>T_v = 2835\units{K}</m>, so we may estimate
+<men>
+  E_\text{ bind } ^{ Cu} \approx k_B T_v = (1.38\times 10^{-23}\units{J/K})
+    (2835\units{K}) = 3.91\times 10^{-20}\units{J}.
+</men>
+</p>
+
+<p>
+A convenient energy unit for describing molecular bonds is the
+electron volt (eV), defined as
+<men>
+  1\units{eV} = 1.60\times 10^{-19}\units{J}.
+</men>
+</p>
+
+<p>
+In terms of electron volts, then,
+<men>
+  E_\text{ bind } ^{ Cu} = 
+    \frac{3.91\times 10^{-20}\units{J}}{1.60\times 10^{-19}\units{J/eV}} 
+    = 0.245\units{eV}
+</men>
+</p>
+</statement>
+</example>
+
+<figure xml:id="fig_boiling" >
+<caption>(a) The pair potential depth <m>E_ bind</m>.  (b) Removing a particle
+from the liquid state requires an energy of about 10<ndash />12<m>E_ bind</m>.</caption>
+<image width="82%" source="images/boiling.png" />
+</figure>
+<p>
+Like with melting, vaporization requires an input of thermal energy.
+As thermal energy is added, the temperature remains fixed at the
+vaporization temperature, while an increasing amount of liquid gets
+converted to gas. The amount of energy required to convert a mole of
+a substance from liquid to gas is called the <em>latent heat of
+vaporization</em>. This is used much the same way as the latent heat of
+fusion:
+<men>
+  |\Delta E_\text{ therm } | = nL_v. \qquad\text{ (vaporize/condense) }
+</men>
+</p>
+
+<p>
+As before, <m>\Delta E_\text{ therm }</m> is positive if we are adding
+thermal energy to vaporize, and it is negative if we are removing
+thermal energy to condense.
+</p>
+
+<p>
+One final comment about latent heat and phase transitions: the amount
+of heat needed to melt or boil most common materials is quite large.
+Just looking at <xref ref="table_material_properties">Tables</xref> and <xref ref="table_phase_transitions"></xref>, you can see that it is necessary to add a
+<q>k</q> to the units for latent heats <m>L_f</m> and <m>L_v</m> (versus the units
+for molar specific heat <m>C</m>) because we are usually talking about
+thousands of Joules of energy to cause a phase transition for each
+mole of the substance. This is a very important result with <em> lots</em> of practical applications. For example, this is the reason
+why ice is so good at cooling your drink; it isn't the low <em>temperature</em> of the ice that is important, rather it is the large
+amount of energy that the ice absorbs when it melts that does such a
+good job of cooling your drink. Phase transitions are used <em>all
+the time</em> in cooling and heating applications. A standard air
+conditioner or refrigerator typically uses some substance (e.g.,
+freon) whose condensation and vaporization play a key role in the
+cooling process. And your body uses phase transitions to keep cool on
+hot summer days. Sweat (water) on your skin vaporizes, and most of
+the energy needed for this phase transition comes from your body.
+This is how you can manage not to overheat even if the surrounding air
+temperature is greater than your body temperature. So, we would all
+be dead were it not for phase transitions.
+</p>
+</section>

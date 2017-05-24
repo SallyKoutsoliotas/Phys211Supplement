@@ -1,0 +1,56 @@
+<section>
+<title>The Liquid State</title>
+<p>
+In the liquid state, the pair potential <q>springs</q> are continually
+pushing and pulling and then getting stretched to the distance where
+they weaken and let go. In this way, molecules freely change their
+neighbors and slide past one another, which is why a liquid can flow.
+In this complicated picture, it is not possible to make a simple
+calculation for the thermal potential energy. The molar specific heat
+depends in a complicated way on the details of the pair potential, and
+so it varies considerably from material to material. While physicists
+and chemists have developed advanced theories for describing the
+liquid state, these are beyond the scope of this course.
+</p>
+
+<p>
+However, if we are given a measured specific heat, such as that of
+water, we can still relate changes in the thermal energy to
+temperature changes via
+<men>
+  \Delta E_\text{ therm }  = n C_\text{ liq } \Delta T
+</men>
+</p>
+
+<p>
+Measured values of the specific heat are given for a few different liquids
+in <xref ref="table_liquid_specific_heats">Table</xref>.
+</p>
+<table xml:id="table_liquid_specific_heats" >
+<caption>Molar specific heats of selected liquids.  Data is taken at 
+ room temperature.</caption>
+<tabular>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  >
+Liquid</cell><cell>molecule</cell><cell><m>C</m> (J/mol<m>\cdot</m>K)</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>\noalign
+water</cell><cell>H<m>_2</m>O</cell><cell>75.3</cell></row>
+<row><cell>methanol</cell><cell>CH<m>_3</m>OH</cell><cell>79.5</cell></row>
+<row><cell>ethanol</cell><cell>C<m>_2</m>H<m>_5</m>OH</cell><cell>112.4</cell></row>
+<row><cell>acetone</cell><cell>(CH<m>_3</m>)<m>_2</m>CO</cell><cell>125.5</cell></row>
+<row><cell>benzene</cell><cell>C<m>_6</m>H<m>_6</m></cell><cell>134.8</cell></row>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  ></cell></row>
+</tabular>
+</table>
+<p>
+Note that <m>C_\text{ liq }</m> is different than the specific heat of the
+solid state for the same material. It is typically larger.
+For example, for copper molar specific heat in the liquid phase
+is <m>C_\text{ liq }  = 36.3\units{J/mol</m>\cdot<m>K}</m>, compared
+to <m>C_\text{s} =24.4\units{J/mol</m>\cdot<m>K}</m> in the solid phase.
+</p>
+</section>

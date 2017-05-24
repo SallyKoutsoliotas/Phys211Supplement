@@ -1,0 +1,104 @@
+<section xml:id="section_thermal_kinetic_energy">
+<title>Thermal Kinetic Energy</title>
+<p>
+First, let's consider molecular kinetic energy. Consider a set of <m>N</m>
+molecules, each with the same mass <m>m</m>, with velocities <m>\vec v_1</m>,
+<m>\vec v_2</m>, <ellipsis />, <m>\vec v_N</m>. We will show that the kinetic energy
+associated with these moving molecules can be separated into
+mechanical kinetic energy and thermal kinetic energy. The first step
+is to calculate the motion of what is called the <em>center of mass.</em>
+At some particular instant in time, the positions of each particle are
+given by the vectors <m>\vec r_1</m>, <m>\vec r_2</m>, <ellipsis />, <m>\vec r_N</m>. The
+location of the center of mass, denoted by the vector <m>\vec r_{cm}</m>,
+is the average of these positions
+<men>
+  \vec r_{cm} = \frac{1}{N}(\vec r_1 + \vec r_2 + \dots + \vec r_N).
+</men>
+</p>
+
+<p>
+Taking a time derivative of this equation gives
+<men>
+  \vec v_{cm} = \frac{d\vec r_{cm}}{dt} =
+\frac{1}{N}(\vec v_1 + \vec v_2 + \dots + \vec v_N),
+</men>
+so the center of mass velocity is simply the average velocity (in this
+simplified case of equal masses).
+</p>
+
+<p>
+For a rigid object, like a solid, the velocity of the center of mass
+is simply the velocity of the object. If the center of mass velocity
+of some object is zero, then that object, viewed macroscopically, is at
+rest. A ball sitting on a table has a stationary center of mass, and
+therefore no mechanical kinetic energy. However, the individual
+molecules of the ball are certainly not at rest and do have kinetic
+energy. The motion appears random, with molecules moving in every
+direction; some molecules moving faster and some slower. It is this
+molecular kinetic energy which we identify as thermal
+energy.<fn>For simplicity, we are excluding the possibility of
+  rotations.</fn>
+</p>
+
+<p>
+\boxittext{The thermal kinetic energy of an object is simply the
+molecular kinetic energy when the center of mass is at
+rest.}
+</p>
+
+<p>
+What about the case where the center of mass is moving? For example,
+if the ball is not sitting on the table but rather flying through the
+air. It is still possible to identify the thermal kinetic energy,
+because there is always some co-moving reference frame in which the
+ball is at rest. The molecular motion as viewed in that
+frame will again be the thermal kinetic energy.
+</p>
+
+<p>
+But nevertheless we may ask if
+it is possible to identify the thermal kinetic energy in a frame where
+the ball is moving. And indeed, it is possible. The velocity <m>\vec
+v_i</m> of the <m>i</m>th molecule can be written as a sum of the center of
+mass velocity <m>\vec v_{cm}</m> and the velocity of the particle relative
+to the center of mass <m>\vec v_{i,rel}</m>. That is, <m>\vec v_i = \vec
+v_{cm} + \vec v_{i,rel}</m>. Then the total kinetic energy is the sum
+over all particles:
+<md>
+  <mrow>  K_\text{ total }  \amp =
+{\textstyle\frac{1}{2}}\sum_i m (\vec v_{cm}+\vec v_{i,rel})\cdot  
+(\vec v_{cm}+\vec v_{i,rel}) \nonumber</mrow>
+  <mrow>  \amp = {\textstyle\frac{1}{2}}\sum_i m\, v_{cm}^2 
++\sum_i m\,\vec v_{cm}\cdot \vec v_{i,rel}
++ {\textstyle\frac{1}{2}}\sum_i m\, v_{i,rel}^2.</mrow>
+</md>
+</p>
+
+<p>
+Note that <m>\vec v_{cm}</m> is the same for all particles, so it can be
+brought outside the sum over particles. Then the first term becomes
+<men>
+  {\textstyle\frac{1}{2}}\sum_i m\, v_{cm}^2  = {\textstyle\frac{1}{2}}v_{cm}^2
+\sum_i m = {\textstyle\frac{1}{2}}Mv_{cm}^2,
+</men>
+where <m>M</m> is the total mass of all the particles. This is exactly the
+mechanical kinetic energy we have already encountered. The second
+term can be written as
+<men>
+  m\vec v_{cm} \cdot \left( \sum \vec v_{i,rel}\right).
+</men>
+</p>
+
+<p>
+Since <m>\vec v_{i,rel}</m> is the particle velocity relative to the center
+of mass frame, the sum <m>\sum \vec v_{i,rel}=0</m>, and this term
+vanishes. The last term in Eq.<nbsp /><xref ref="eq_kinetic_energy" /> is just the
+total kinetic energy measured in a frame moving with the center of
+mass, which is the thermal kinetic energy. Putting this all together,
+<men>
+  K = K_\text{ mech }  + K_\text{ therm } ,
+</men>
+thus the kinetic energy divides cleanly into mechanical and thermal
+kinetic energy.
+</p>
+</section>

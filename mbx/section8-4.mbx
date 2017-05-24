@@ -1,0 +1,171 @@
+<section>
+<title>Curved Spacetime</title>
+<p>
+We now need to give a careful definition of the radial coordinate <m>r</m>.
+We begin with an example in ordinary three-dimensional space. Imagine
+drawing two large circles on the earth with the north pole as the
+common center (see Fig. <xref ref="fig_sphere"></xref>). Let <m>\Delta s</m> be the distance
+between one circle and the other, measured along the earth's surface
+as we walk out from the north pole. If we were sphere-dwellers who
+lived entirely in 2-dimensions, that is, on the surface of the earth,
+and knew nothing about a 3<m>^{ rd}</m> dimension (up or down), we could
+(having studied Euclidean geometry) <em>define</em> the radial
+coordinates, <m>r_1</m> and <m>r_2</m>, in terms of the circumferences of the
+two circles, by
+<men xml:id="eq_circumference" >
+  C_1 = 2\pi r_1\mbox{\hspace{.25in}and\hspace{.25in}} C_2 = 2\pi r_2.
+</men>
+</p>
+
+<p>
+The actual radii of the circles, <m>r_1</m> and <m>r_2</m>, are shown in
+Fig. <xref ref="fig_sphere"></xref>; they clearly are not measured along the surface
+of the earth. But these radii are not available for direct
+measurement by the sphere-dwellers; they must <em>calculate</em> the
+radii using Eq.<nbsp /><xref ref="eq_circumference" />.
+</p>
+<figure xml:id="fig_sphere" >
+<caption>Two concentric circles drawn on a sphere.</caption>
+<image width="37%" source="images/sphere.png" />
+</figure>
+<p>
+If we lived on a flat space, such as a flat piece of paper, the radial
+coordinates <m>r_1</m> and <m>r_2</m> would be related by
+<men xml:id="eq_flat" >
+  \Delta r = r_2 - r_1 = \Delta s \mbox{\hspace{0.5in}(flat space
+  expectation)} ,
+</men>
+where <m>\Delta s</m> is the shortest distance between the circles measured
+along the paper. But when the circles are actually drawn on the
+curved surface of the earth, <m>r_2</m> is larger than <m>r_1</m> by the amount
+<m>\Delta r</m>, which is less than <m>\Delta s</m>.
+</p>
+
+<p>
+We humans, who can comprehend the spherical nature of the earth's
+surface, can understand this deviation from flat-space geometry by
+studying Fig. <xref ref="fig_sphere"></xref>, where the actual difference in radius,
+<m>\Delta r</m>, between the two circles on the earth is clearly smaller
+than <m>\Delta s</m>. Thus, on a sphere, the flat-space expectation of
+Eq.<nbsp /><xref ref="eq_flat" /> is incorrect. We can therefore use
+Eq.<nbsp /><xref ref="eq_flat" /> in an experimental test, performed entirely on the
+surface of the earth, to determine whether that surface is curved or
+flat.
+</p>
+
+<p>
+The test requires that we measure the circumferences of the two
+circles and the distance <m>\Delta s</m> between them. Then we must divide
+each circumference by <m>2\pi</m> to get the radial coordinate, substitute
+these calculated values for <m>r_1</m> and <m>r_2</m>, along with the measured
+<m>\Delta s</m>, into Eq.<nbsp /><xref ref="eq_flat" /> and check for equality. If we
+get equality then the surface is flat. If <m>\Delta s</m> is larger than
+<m>r_2-r_1</m>, then the surface is curved like a sphere or a bowl. (If
+<m>\Delta s</m> is smaller, the surface is curved like a saddle.)
+</p>
+<figure xml:id="fig_grav-photon" >
+<caption>An outward displacement <m>\Delta s</m> in the gravitational field
+  of a star.</caption>
+<image width="65%" source="images/grav-photon.png" />
+</figure>
+<p>
+Now let's consider the region around a star as shown in
+Fig. <xref ref="fig_grav-photon"></xref>. We ask whether the space around the star
+is curved. How can we tell? We begin by drawing two circles centered
+on the star, <m>C_1</m> and <m>C_2</m> in Fig. <xref ref="fig_concentric"></xref>. We then
+measure their circumferences with meter sticks (which have been
+properly calibrated with clocks and light pulses) and calculate <m>r_1</m>
+and <m>r_2</m>. We also measure the distance <m>\Delta s</m>, by laying meter
+sticks radially along a path from <m>C_1</m> to <m>C_2</m>. Then to test
+whether space is curved or flat, we substitute our measurements into
+Eq.<nbsp /><xref ref="eq_flat" />. If Eq.<nbsp /><xref ref="eq_flat" /> is satisfied, then space
+is flat; otherwise it is curved.
+</p>
+<figure xml:id="fig_concentric" >
+<caption>Two concentric circles drawn around a star of mass <m>M</m>.</caption>
+<image width="33%" source="images/concentric.png" />
+</figure>
+<p>
+When we do this experiment (say with radar ranging around the sun) we
+find that actual measurements of phenomena occurring near the sun
+indicate that <m>\Delta s</m> is, in fact, slightly larger than <m>\Delta r</m>.
+Thus Eq.<nbsp /><xref ref="eq_flat" /> is <em>not</em> satisfied, and the space around
+the sun is curved like a bowl. The source of the curvature is the
+mass <m>M</m> of the sun. It's like placing a large mass on a rubber
+sheet; the added mass distorts and curves the sheet so that nearby
+smaller masses are attracted to it. Near a black hole, the curvature
+effect is quite pronounced. <xref ref="fig_curved-space">Figure</xref> shows a
+popular representation of the curved space near a black hole.
+</p>
+<figure xml:id="fig_curved-space" >
+<caption>Curved space near a black hole.  The distance <m>\Delta s</m> measured
+radially along the surface between circles of radial coordinate  <m>r_1</m> 
+and <m>r_2</m> is larger than their  difference <m>\Delta r</m>.</caption>
+<image width="75%" source="images/black-hole.png" />
+</figure>
+<p>
+Now imagine the motion of a small object in this curved space. It
+will try to follow the shortest path. If it goes on a path that takes
+it deep into the hole, where <m>\Delta s</m> is much bigger than <m>\Delta
+r</m>, the total distance will be larger than if the object skirts around
+the hole, trading a lot of <q>down-and-back-up</q> distance for just a
+little extra <q>sideways</q> distance. This is why light bends around
+large mass stars or galaxies (see
+Fig. <xref ref="fig_light-bent-by-curved-space"></xref>).
+</p>
+<figure xml:id="fig_light-bent-by-curved-space" >
+<caption>Light being bent by curved space near a black hole.</caption>
+<image width="56%" source="images/black-hole-bends-light.png" />
+</figure>
+<p>
+It's time to get quantitative. Can Einstein's conception of curved
+spacetime near the sun tell us that <m>\Delta s</m> is bigger than <m>\Delta
+r</m>, and by how much? Start with
+Eq.<nbsp /><xref ref="eq_curved_space_proper_distance" />
+<men>
+  \Delta s^2 =  \biggl(1-\frac{2GM}{r}\biggr)^{-1}\Delta r^2 -  
+  \biggl(1-\frac{2GM}{r}\biggr)(c\Delta t)^2.
+</men>
+</p>
+
+<p>
+We would like to consider a snapshot of the space around the sun; that
+is locate the two points at the <em>same time</em>. Thus set <m>\Delta
+t=0</m> and solve for <m>\Delta s</m>. We find
+<men xml:id="eq_schwarzschild_metric_iv" >
+  \Delta s = \biggl(1-\frac{2GM}{c^2 r}\biggr)^{-1/2}\Delta r.
+</men>
+</p>
+
+<p>
+Since <m>(1-\frac{2GM}{c^2r})^{-1/2} > 1</m> for any <m>M>0</m> and <m>r\lt \infty</m>
+we have that <m>\Delta s>\Delta r</m> near any mass <mdash /> the space near
+stars and planets is curved like a bowl!
+</p>
+
+<example>
+<statement>
+<p>
+How curved is space near the sun?
+
+
+<em>Solution: </em>
+Use Eq.<nbsp /><xref ref="eq_schwarzschild_metric_iv" /> with <m>M=M_\text{ sun } =
+1.99\times 10^{30}\units{kg}</m> and <m>r=R_\text{ sun } =6.96\times
+10^{8}\units{m}</m>.
+<md>
+  <mrow>  \Delta s \amp = \biggl(1-\frac{2\times 6.67\times 10^{-11}\times 1.99\times
+  10^{30}}{(3.00\times 10^{8})^2\times 6.96\times
+  10^8}\biggr)^{-1/2}\Delta r \nonumber</mrow>
+  <mrow>  \amp = (1-4.24\times 10^{-6})^{-1/2}\Delta r \nonumber</mrow>
+  <mrow>  \amp = 1.0000021\,\Delta r.</mrow>
+</md>
+</p>
+
+<p>
+That's not looking very curved, but it is big enough to direct the
+motion of all the planets in their orbits about the sun!
+</p>
+</statement>
+</example>
+</section>

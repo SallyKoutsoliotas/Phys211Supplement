@@ -1,0 +1,14 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chapter_thermal_energy">
+<title>Thermal Energy and Solids</title>
+<xi:include  href="section4-1.mbx" />
+<xi:include  href="section_thermal_kinetic_energy.mbx" />
+<xi:include  href="section_thermal_potential_energy.mbx" />
+<xi:include  href="section_the_solid_state.mbx" />
+<xi:include  href="section_speedofsound.mbx" />
+<xi:include  href="section4-6.mbx" />
+<xi:include  href="section4-7.mbx" />
+<xi:include  href="sec_equipartition.mbx" />
+<xi:include  href="section4-9.mbx" />
+<xi:include  href="section_heat.mbx" />
+<xi:include  href="section4-4x.mbx" />
+</chapter>

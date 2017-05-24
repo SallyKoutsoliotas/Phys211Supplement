@@ -1,0 +1,95 @@
+<section>
+<title>Rest Energy and Kinetic Energy</title>
+<p>
+Let's look more closely at what we called the relativistic energy of a
+particle in Eq.<nbsp /><xref ref="eq_rel-e-def" />. If the particle is at rest, so
+that <m>u = 0</m>, the energy reduces to <m>E = mc^2</m>, perhaps the most famous
+formula in all of physics. So we discover that a particle has energy
+even when it's not moving! This energy is called the <em>rest energy</em>,
+<m>E_0</m>. That is
+<men xml:id="eq_emc2" >
+  E_0 = mc^2.
+</men>
+</p>
+
+<p>
+This is a remarkable result! Consider an apple with a mass of
+<m>100\units{g}=0.1\units{kg}</m>. Einstein
+says that this apple has an energy at rest of <m>E_0 = 
+0.1\units{kg}\times (3\times 10^8)^2 = 9\times 10^{15}\units{J}</m>!
+This is a huge amount of energy. Let's compare this to a classical
+energy.
+</p>
+
+<p>
+You know that the classical kinetic energy of a particle is
+<m>K_{ class.}  = \frac{1}{2}mv^2</m>. For the <m>0.1\units{kg}</m>
+apple falling at <m>10\units{m/s}</m> we get <m>K_{ class.} = 5\units{J}</m>.
+This is the energy that the apple has because it is in motion.
+In relativistic physics, kinetic energy is not expressed as
+<m>K = \frac{1}{2}mv^2</m>, but it is still defined as the energy that
+a particle has <em>because it is in motion</em>. The relativistic
+kinetic energy is the difference between a particle's energy when
+it is moving and its rest energy,
+<men xml:id="eq_rel-k-def" >
+  K = E - mc^2 = \frac{mc^2}{\sqrt{1-u^2/c^2}} - mc^2.
+</men>
+</p>
+
+<p>
+This doesn't resemble the classical expression for kinetic
+energy <m>K_{ class.} = \frac{1}{2}mv^2</m> (or, since we
+use <m>v</m> for the velocity of the frame and <m>u</m> as the velocity of the
+particle, <m>K = \frac{1}{2}mu^2</m>). Since we know that the classical
+expression for kinetic energy is valid in the low-speed regime, the
+relativistic kinetic energy given be Eq.<nbsp /><xref ref="eq_rel-k-def" /> must
+somehow reduce to the classical expression when the speed of the
+particle is small compared to the speed of light. We show the
+connection between the relativistic and classical forms of kinetic
+energy in the next example.
+</p>
+
+<p>
+The relativistic expressions for energy and kinetic energy have
+amazing consequences. In collisions of high speed particles, or
+in radioactive decays, it is the total energy of a system of
+particles that is conserved, not the mass. In these processes,
+rest energy (<m>mc^2</m>) can be converted into kinetic energy, and vice
+versa. In a decay, the loss of a small amount of mass corresponds to the
+loss of a huge amount of rest energy, which will be manifested
+in a huge increase in kinetic energy.
+</p>
+
+<example>
+<statement>
+<p>
+{Relating relativistic and classical expressions
+for kinetic energy}
+</p>
+
+<p>
+Use the binomial approximation in Eq.<nbsp /><xref ref="eq_rel-k-def" /> to find
+an approximate expression for <m>K</m> when <m>u</m> is much smaller than
+<m>c</m>, i.e., when <m>u/c \ll 1</m>. (The binomial expansion states that
+<m>(1-\epsilon)^{-1/2} \simeq 1 + \frac{1}{2}\epsilon + \cdots</m> if
+<m>\epsilon</m> is small.)
+</p>
+
+<p>
+<em>Solution: </em>
+We write <m>1/\sqrt{1-u^2/c^2}</m> as <m>(1 - u^2/c^2)^{-1/2}</m> so that
+Eq.<nbsp /><xref ref="eq_rel-k-def" /> becomes
+<md>
+  <mrow>  K \amp =\amp  mc^2\left(1-u^2/c^2\right)^{-1/2} - mc^2 \nonumber</mrow>
+  <mrow>  \amp =\amp  mc^2 \left(1 + \frac{1}{2}\frac{u^2}{c^2} + \cdots\right) - mc^2</mrow>
+  <mrow>  \amp \simeq\amp   \frac{1}{2}mu^2 \nonumber,</mrow>
+</md>
+where in the last line we have assumed the classical limit in which
+<m>u/c \ll 1</m>.
+Thus we see that the classical expression for kinetic energy is only a
+low-velocity approximation to the correct expression, given by
+Eq.<nbsp /><xref ref="eq_rel-k-def" />.
+</p>
+</statement>
+</example>
+</section>

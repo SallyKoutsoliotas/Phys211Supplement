@@ -1,0 +1,57 @@
+<section>
+<title>Introduction</title>
+<p>
+Mechanical energy is essential for our every day life: cars move
+along roads and highways, electrons flow through
+semiconductor devices in our iPods,
+and blood flows through our arteries. Mechanical energy makes matter
+do things, and converting other forms of energy to mechanical energy
+is an essential technological challenge. Batteries and our bodies
+convert chemical bond energy into mechanical energy. And nuclear reactors
+convert mass into mechanical energy.
+</p>
+
+<p>
+But we have seen that there is a considerable amount of energy
+contained in the disorganized thermal motion of the molecules and the
+disorganized pushes and pulls on their molecular neighbors.
+Harnessing some of this thermal energy and converting it to organized
+mechanical energy provides yet another source of mechanical energy.
+But just how do we go about doing this?
+</p>
+
+<p>
+It is tempting to imagine some kind of molecular referee who could
+convince the all the molecules in a material to align their motion.
+If the molecules in your textbook could do this, your book would zip
+away from you at many hundreds of miles per hour, so it would be a
+very useful trick. However, no such microscopic referee exists. In
+fact, this trick would violate the second law of thermodynamics,
+moving from a more probable to a less probable arrangement of
+velocities.<fn>This microscopic referee was first pondered by
+  Maxwell, and is commonly referred to as Maxwell's Demon.  He showed
+  that the referee could make heat flow from a colder object to a
+  hotter one <mdash /> in contradiction to the second law, which of course
+  is impossible.</fn>
+</p>
+
+<p>
+Nevertheless, it is still possible to convert some (but not all)
+thermal energy to mechanical energy. That is, we can design devices
+to do this while still satisfying the second law. These devices are
+called <em>heat engines</em>, and they played an essential role in the
+industrial revolution and continue to play a vital role in modern
+society.
+</p>
+
+<p>
+In this chapter we will study the basic physics behind heat engines.
+We will discuss how the basic principle of a heat engine can be
+understood using the arguments of statistics and entropy discussed in
+<xref ref="chapter_second_law">Chapter</xref>. We will also describe the basic gas
+cycles that many such engines employ. As a fundamental starting
+point, any heat engine must satisfy the second law of thermodynamics,
+<m>\Delta S_\text{ total }  \ge 0</m>, so we begin with developing a
+convenient and powerful relationship between entropy change and heat.
+</p>
+</section>

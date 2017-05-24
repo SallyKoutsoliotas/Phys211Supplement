@@ -1,0 +1,13 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chapter_relativity_pande">
+<title>Relativistic Momentum and Energy</title>
+<xi:include  href="section3-1.mbx" />
+<xi:include  href="section3-2.mbx" />
+<xi:include  href="section3-3.mbx" />
+<xi:include  href="section3-4.mbx" />
+<xi:include  href="section3-5.mbx" />
+<xi:include  href="section3-6.mbx" />
+<xi:include  href="section3-7.mbx" />
+<xi:include  href="section_rel-units.mbx" />
+<xi:include  href="section3-9.mbx" />
+<xi:include  href="section3-3x.mbx" />
+</chapter>

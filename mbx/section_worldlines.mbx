@@ -1,0 +1,160 @@
+<section xml:id="section_worldlines">
+<title>World Lines and Spacetime Diagrams</title>
+<p>
+The motions of particles, clocks, or whatever can be represented on a
+spacetime diagram. A spacetime diagram consists of a pair of
+perpendicular axes, with the vertical axis representing time and the
+horizontal axis representing <m>x</m> position in a particular inertial
+reference frame. The <m>x</m>-axis is the direction of relative motion
+between this unprimed frame and another inertial frame called the
+primed frame.
+</p>
+
+<p>
+A plot of an object's position vs.<nbsp />time on a spacetime diagram is
+called the <em>world line</em> of the object. Three world lines are
+shown in Fig. <xref ref="fig_spacetime-example"></xref>; a straight world line
+represents motion with constant velocity while a curved world line
+represents accelerated motion. An <em>event</em> is represented by a dot
+on the spacetime diagram.
+</p>
+
+<p>
+When drawing a spacetime diagram, make sure you use appropriate units.
+(Do <em>not</em> use meters for length!) For time (which we use as the
+vertical axis on a spacetime diagram), we choose something appropriate
+to the time scale of the problem, like years, seconds, nanoseconds,
+etc. Then we must choose an appropriate unit of distance equal to
+that traveled by light in the chosen unit of time. For example,
+suppose we choose one second as the unit of time, then we would used
+one lt-s (the distance traveled by light in one second) as the unit of
+distance. In these units the speed of light is <m>c = 
+(1\units{lt-s})/(1\units{s}) = 1\units{lt-s/s}</m>. In this method of
+handling the units, the world line for a pulse of light must have a
+slope that is numerically equal to <m>+1</m> or <m>-1</m>. <em>And no world line
+can ever have a slope with magnitude less than 1; that would
+correspond to an object traveling faster than light.</em> Slopes can also
+be used to determine if the interval between two events is time-like,
+light-like or space-like. If a line were to be drawn connecting the
+two events, a time-like interval would correspond to a slope with
+magnitude greater than 1, a light-like interval would correspond to a
+slope with magnitude 1, and space-like interval would correspond to a
+slope with magnitude less than 1 (note that in this last case, that
+the <q>line</q> drawn between the two events can't be the world line
+of any real object, since nothing can travel faster than <m>c</m>).
+</p>
+<figure xml:id="fig_spacetime-example" >
+<caption>A spacetime diagram with three world lines.  The two world lines for 
+light have slopes <m>+1</m> and <m>-1</m>.</caption>
+<image width="65%" source="images/spacetime1.png" />
+</figure>
+<p>
+Let's use a spacetime diagram to display the world lines of the
+three-clock thought experiment of Ch. <xref ref="chapter_relativityI"></xref>,
+<xref ref="section_time-dilation">Section</xref> (see Fig. <xref ref="fig_light-clocks"></xref>
+from that section and Fig. <xref ref="fig_worldlines1"></xref> in this section).
+For example, put clock A at rest at <m>x = 0</m> and clock B at rest at <m>x
+= 0.60\units{lt-s}</m>. The world lines for the stationary clocks A
+and B are then vertical lines at <m>x = 0\units{lt-s}</m> and <m>x =
+0.60\units{lt-s}</m>. Let clock C travel with speed <m>0.60c</m> in the
+positive <m>x</m>-direction. Because <m>c = 1\units{lt-s/s}</m>, clock C
+passes through <m>x = 0</m> at time <m>t = 0\units{s}</m>, and it passes
+through <m>x = 0.60\units{lt-s}</m> at time <m>t = 1.0\units{s}</m>. It has
+traveled a distance of <m>0.60\units{lt-s}</m> in a time <m>1.0\units{s}</m>.
+</p>
+
+<p>
+Notice in Fig. <xref ref="fig_worldlines1"></xref> that we have labeled the world
+line of clock C as the <m>t^\prime</m> axis. This is a general result: the
+world line of a particular observer (say, someone traveling in a space
+ship) is the <m>t^\prime</m> axis for that observer. This can be
+understood by considering a person on a spaceship holding a ball. The
+world line for the ball is the same as the world line of the ship and
+person since they are all moving together. From the perspective of
+the astronaut, the ball remains right in front of him and isn't moving
+anywhere, so it makes sense that that astronaut will say that the
+location of the ball remains at <m>x^\prime = 0</m>. And just as it is
+true that the points where <m>x = 0</m> in the unprimed frame define the
+<m>t</m>-axis, so it is that the points where <m>x^\prime = 0</m> in the primed
+frame define the <m>t^\prime</m>-axis.
+</p>
+<figure xml:id="fig_worldlines1" >
+<caption>World lines for the three clocks in the thought experiment
+of <xref ref="section_worldlines">Section</xref></caption>
+<image width="75%" source="images/worldlines1.png" />
+</figure>
+<p>
+Some comments are in order:
+<ol>
+<li><p>A world line is nothing more than a plot of time versus
+position.  If you ever find yourself stumped about how to plot a
+world-line, ask yourself: <q>Where is the (whatever) at time <m>t=0</m>
+(i.e., what is its initial <m>x</m>-coordinate)?  Where is it at time 
+<m>t=1</m>?  At time <m>t=2</m>?  <ellipsis /></q>  Then simply plot those points 
+and connect them.</p></li>
+<li><p>The slope of a world line is simply <m>1/v</m>.  This comes from the
+  standard relation: distance = speed <times /> time, or equivalently, 
+  <m>\Delta x= v \Delta t</m>.   So <m>\Delta t =
+  \frac{1}{v}\Delta x</m>.  Practically, this means that if you have a ship
+  moving at a speed of, say, <m>0.5c</m>, then the slope will be <m>1/ v</m> or
+  <m>2.0\units{s/lt-s}</m>.  When plotting a world line, this means that
+  you go up 2 and over 1 (or over 0.5 and up 1).</p></li>
+<li><p>Don't <em>ever</em> forget <mdash /> nothing can travel faster than
+light, so there should <em>never</em> be a world line on a spacetime diagram
+ with a
+slope whose magnitude is less than 1.</p></li>
+<li><p>Remember: events are plotted as dots.</p></li>
+<li><p>Label everything clearly.</p></li>
+</ol>
+
+</p>
+<figure>
+<caption>Spacetime diagram for situation discussed in
+  <xref ref="example_causality-intervals">Examples</xref> and <xref ref="example_causality-intervals-diagram"></xref></caption>
+<image width="78%" source="images/worldlines2.png" />
+</figure>
+
+<example xml:id="example_causality-intervals-diagram">
+<statement>
+<p>
+{Spacetime diagram corresponding to
+<xref ref="example_causality-intervals">Example</xref>} Draw the spacetime diagram
+for the baseball scenario (Cubs losing the World Series) discussed
+in <xref ref="example_causality-intervals">Example</xref>, using the reference
+frame of the Earth/Moon. Show the world lines for Anthony Rizzo, Jr.,
+the girl and her father, and the TV signal. Also, show and label
+the following events: A <mdash /> girl sneezes, B <mdash /> Rizzo strikes out, and
+C <mdash /> girl and father see Rizzo striking out. 
+
+<em>Solution: </em> The world
+lines for Rizzo and the girl/father are simply straight vertical lines
+since they aren't moving in the Earth-Moon reference frame. If this
+isn't clear, then answer these questions: If we put the Earth at <m>x
+  = 0</m> at time <m>t = 0</m>, where is the Earth at time <m>t=1\units{s}</m>?
+Answer: still at <m>x = 0</m>. At <m>t=2\units{s}</m>? Answer: still at <m>x =
+  0</m>. The Earth's world line is nothing more that a set of points
+where <m>x</m> is always zero. As for the girl/father on the Moon, we
+already said in <xref ref="example_causality-intervals">Example</xref> that they
+are about <m>1.3\units{lt-s}</m> away from the Earth.
+</p>
+
+<p>
+We know from the problem that the girl/father see the strikeout
+<m>2\units{s}</m> after she sneezes. So, if she sneezes at <m>t = 0</m> (it is
+arbitrary as to what we choose as the <m>t = 0</m> time), then the TV
+signal arrives at <m>t = 2\units{s}</m>. It must have been sent from the
+Earth at an earlier time, and since it travels at the speed of light,
+then the world line for the TV signal is a <m>45^\circ</m> line. The only
+thing left is to plot the three dots for the events.
+</p>
+
+<p>
+Note that if you imagine a line between A and B, that line would
+have a slope with magnitude less than 1 (i.e., too shallow),
+indicating that nothing can travel between these two events,
+consistent with the result in Example 1 that the interval is space-like
+and the corresponding events can't be causally linked.
+</p>
+</statement>
+</example>
+</section>

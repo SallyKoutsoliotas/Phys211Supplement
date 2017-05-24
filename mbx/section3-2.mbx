@@ -1,0 +1,177 @@
+<section>
+<title>Relativistic Velocity Transformations</title>
+<p>
+Let's say that two spaceships leave Earth. The <em>USS Zaphod</em>
+leaves the Earth going in one direction with a speed <m>0.8c</m> relative
+to Earth. The <em>USS Beeblebrox</em> leaves Earth going in the opposite
+direction with a speed <m>0.8c</m> relative to Earth. What is the speed
+of the <em>Zaphod</em> from the reference frame of the <em>Beeblebrox</em>?
+Based on classical assumptions, you might expect the answer to be
+<m>1.6c</m>. But this conflicts with Einstein's theory of relativity which
+states that no object can travel faster than the speed of light
+relative to any other observer. It is clear that it is necessary to
+replace classical laws for addition and subtraction of velocities with
+a more general, relativistic transformation.
+</p>
+
+<p>
+A relativistic approach to velocity addition and subtraction was already
+hinted at earlier in <xref ref="chapter_relativityI">Chapter</xref>. The principle
+of invariance of the speed of light requires that all observers (in
+any reference frame) measure the same speed for a pulse of light <mdash />
+we can't simply add and subtract velocities. On the other hand, common
+experience shows us that for non-relativistic speeds, simple addition
+and subtraction work fine. So, we need a velocity transformation
+relation that reduces to the classical result for small speeds, but
+which prevents anything from traveling faster than the speed of light.
+It turns out that this can be accomplished by taking the classical result
+and dividing by a relativistic correction that becomes significant (i.e.,
+not just 1) for speeds close to <m>c</m>.
+</p>
+
+<p>
+<xref ref="fig_rel1_vtransform">Figure</xref> shows the scenario that we are
+discussing. Two reference frames are defined: an unprimed frame
+denoted by observer A and a primed frame denoted by observer B on a
+spaceship moving with a speed <m>v</m> relative to observer A. They are both
+measuring the speed of the same object. Observer A says the object is
+moving with a speed <m>u_{ obj}</m> while observer B says the ball is
+moving with a speed <m>u_{ obj}^\prime</m>.
+</p>
+<figure xml:id="fig_rel1_vtransform" >
+<caption>An object moving in the <m>x</m>-direction relative to both
+unprimed and primed frames.  The speed of the object is measured to be
+<m>u_{ obj}</m> from the reference frame of observer A and 
+<m>u_{ obj}^\prime</m> from the reference frame of observer<nbsp />B.</caption>
+<image width="75%" source="images/rel1_vtransform.png" />
+</figure>
+<p>
+The question is: How are <m>u_{ obj}</m>, <m>u^\prime_{ obj}</m> and <m>v</m> related?
+The answer is given by a <em>velocity transformation</em> equation,
+</p>
+
+<p>
+\begin{boxiteq}
+{
+<men xml:id="eq_vtransform" >
+  u_{ obj} = \frac{u_{ obj}^\prime + v}{1 + u_{ obj}^\prime v/c^2}.
+</men>
+</p>
+
+<p>
+}
+\end{boxiteq}
+</p>
+
+<p>
+Equation <xref ref="eq_vtransform" /> is used to relate an object's
+velocity in one frame to that as viewed in another frame.
+</p>
+
+<p>
+We won't derive Eq.<nbsp /><xref ref="eq_vtransform" /> rigorously here. Rather,
+note that if the object is a pulse of light, then <m>u_{ obj}^\prime
+= c</m>, and Eq.<nbsp /><xref ref="eq_vtransform" /> reduces to
+<men>
+  u_{ obj} = \frac{c+v}{1 + cv/c^2} = \frac{c+v}{1+v/c} = 
+c\left(\frac{c+v}{c+v}\right) = c.
+</men>
+</p>
+
+<p>
+Both observers measure the object to have a speed <m>c</m>, so, the
+invariance of the speed of light is preserved in this transformation.
+</p>
+
+<p>
+Note that the numerator in Eq.<nbsp /><xref ref="eq_vtransform" /> is the result
+that you would get classically, whereas the denominator is a
+relativistic correction. Also, note that if either the object or the
+primed observer are traveling at speeds that aren't a significant
+fraction of the speed of light, then the denominator of
+Eq.<nbsp /><xref ref="eq_vtransform" /> is very nearly 1, so we recover the
+classical result for <q>everyday</q> speeds.
+</p>
+
+<p>
+We'll show how to work with this relation in the next example.
+</p>
+
+<example>
+<statement>
+<p>
+{Baseball velocity addition}
+Bucknell Bison baseball pitcher Christy Mathewson throws a blazing
+fastball while riding on a really fast train.
+From his reference frame (i.e., the train's frame) the ball moves
+toward the front of the train with a speed <m>u_{ ball} = 0.7c</m>.
+The train itself is moving relative to the ground with speed <m>v =
+  0.8c</m>. How fast is the ball moving relative to someone on the
+ground?
+</p>
+
+<p>
+<em>Solution: </em> Classically, the speed as viewed from the ground
+would be <m>u_{ ball} + v</m> or <m>1.5c</m>. (This is the numerator of
+Eq.<nbsp /><xref ref="eq_vtransform" />.) But, of course, this isn't possible in
+a relativistic universe where nothing goes faster than <m>c</m>. Using
+Eq.<nbsp /><xref ref="eq_vtransform" /> we find
+<men>
+  u_{ ball} = \frac{u_{ ball}^\prime + v}{1+ u_{ ball}^\prime v/c^2}
+  = \frac{0.7c + 0.8c}{1+0.7\times 0.8} = 0.96c.
+</men>
+</p>
+
+<p>
+Note that relativistic correction keeps the speed less than <m>c</m>.
+</p>
+
+<p>
+<em>Exercise</em>: What if the ball were a beam of light? How
+fast would it be moving from the train's reference frame? How fast
+from the ground's reference frame? Show that
+Eq.<nbsp /><xref ref="eq_vtransform" /> gives the correct result for this case.
+</p>
+</statement>
+</example>
+
+<p>
+If the problem gives you the speed as measured by the unprimed observer,
+you can use the following inverse transformations to get the speed as
+measured by the primed observer:
+</p>
+
+<p>
+\begin{boxiteq}
+{
+<men xml:id="eq_vtransform-inverse" >
+  u_{ obj}^\prime = \frac{u_{ obj}- v}{1 - u_{ obj} v/c^2}.
+</men>
+</p>
+
+<p>
+}
+\end{boxiteq}
+</p>
+
+<p>
+You don't really need to write down these relations or try to figure
+out which speed is <m>v</m>, which speed is <m>u_{ obj}</m>, and which speed
+is <m>u_{ obj}^\prime</m>. There is a very simple way of handling all
+of these problems. No matter which velocity you are looking for, the
+answer is always:
+<men>
+  \frac{\text{ classical result } }{\text{ relativistic correction } }, \nonumber
+</men>
+where the relativistic correction is simply <q><m>1+</m>(product of other two
+speeds divided by <m>c^2</m>)</q> or <q><m>1-</m>(product of other two speeds divided
+by <m>c^2</m>).</q>. You will be given two velocities, and you'll be looking
+for the third one. Just figure out the answer classically, then divide
+by the correction. The only question then is whether to use the <q><m>+</m></q>
+or <q><m>-</m></q> in the correction. The rule: if you <em>added</em> magnitudes of
+velocities in the numerator, then you use the <q><m>+</m></q> in the denominator,
+and if you <em>subtracted</em> magnitudes in the numerator, then you use the
+<q><m>-</m></q> in the denominator. This will take care of any velocity addition
+or subtraction that you need.
+</p>
+</section>

@@ -1,0 +1,257 @@
+<section>
+<title>Problems</title>
+<problem xml:id="prob_iceintowater">
+<statement>
+<p>
+A <m>36\units{g}</m> ice cube at <m>0^\circ\units{C}</m> is dropped into
+<m>90\units{g}</m> of water at <m>22^\circ\units{C}</m>. Heat flows from the
+water to the ice, bringing both to equilibrium at
+<m>0^\circ\units{C}</m>.
+<ol>
+<li><p>Determine the number of moles of ice melted in cooling the
+    water to <m>0^\circ\units{C}</m>.</p></li>
+<li><p>Calculate the entropy change of the melted ice.</p></li>
+<li><p>Calculate the entropy change of the <m>90\units{g}</m> of water 
+   in this process.  Is your answer consistent
+    with the second law?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Consider a pair of <m>5.0\units{mol}</m> ideal solids. Solid <m>A</m> initially has
+a temperature of <m>500\units{K}</m>, while solid <m>B</m> has a temperature of
+<m>200\units{K}</m>. The solids are brought into thermal contact, and
+heat flows until the system reaches equilibrium.
+Determine the entropy change of each solid, and the total entropy
+change.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_multiplicityformelting">
+<statement>
+<p>
+By what factor is the multiplicity increased in melting
+<m>18\units{g}</m> of <m>0^\circ\units{C}</m> ice into <m>0^\circ\units{C}</m> water?
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_simpleengine">
+<statement>
+<p>
+A heat engine draws <m>600\units{J}</m> of heat per cycle from a hot
+reservoir at <m>800\units{K}</m>, and dumps <m>300\units{J}</m> of heat per
+cycle into a cold reservoir at <m>200\units{K}</m>. Determine the
+efficiency of this engine.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_onebrickengine">
+<statement>
+<p>
+Consider a <m>10\units{mol}</m> brick of ideal solid initially at temperature
+<m>500\units{K}</m>. This brick is used as the heat source for a heat
+engine, which is dumping heat to a room-temperature reservoir at
+<m>295\units{K}</m>.
+<ol>
+<li><p>Determine the entropy change of the brick as it cools to room
+    temperature.</p></li>
+<li><p>Determine the minimum amount of heat that must be dumped by
+    this heat engine.</p></li>
+<li><p>Calculate the efficiency of this best-case engine.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_twobrickengine">
+<statement>
+<p>
+Consider the two-brick heat engine of
+<xref ref="example_two_brick_heat_engine">Example</xref>. Calculate the maximum
+amount of work that could be obtained from this engine. For this
+problem, assume that the bricks are each an ideal solid with
+<m>2.0\units{mol}</m>.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_limousine">
+<statement>
+<p>
+Susquehanna Valley Limousine has modified their automobile engine to
+provide heat for an oven to bake fresh chocolate chip cookies while
+you cruise Lewisburg.<fn>Not really.</fn> For each gallon of gas,
+<m>12\units{MJ}</m> of heat is dumped from the engine into the oven at a
+temperature of <m>190^\circ\units{C}</m>, and the remainder of the heat
+coming from the engine is dumped to the environment at
+<m>70^\circ\units{C}</m>, as described in
+<xref ref="example_automobile_efficiency">Example</xref>. Calculate the maximum
+work possible from a gallon of gas for this engine. As in
+<xref ref="example_automobile_efficiency">Example</xref>, assume that the hot
+reservoir has a temperature of <m>820^{\circ}\units{C}</m> and the
+heat coming from the burning gas totals <m>120\units{MJ}</m>.
+</p>
+<figure>
+<caption>Engine diagram for <xref ref="prob_limousine">Problem</xref></caption>
+<image width="56%" source="images/limousine.png" />
+</figure>
+</statement>
+</problem>
+
+<problem xml:id="prob_threelegcycle">
+<statement>
+<p>
+In the cycle shown below, <m>1.0\units{mol}</m> of a
+monatomic ideal gas is initially at a pressure of <m>p_A=100\units{kPa}</m>
+and a temperature of <m>T_A=0^\circ\units{C}</m>. The gas is heated at
+constant volume to <m>T_B = 150^\circ\units{C}</m> and is then expanded
+adiabatically until its pressure is back to <m>p_C=100\units{kPa}</m>.
+Finally, the gas is compressed at constant pressure until it is back
+to its original state <m>A</m>. Find
+<ol>
+<li><p>the pressure, volume and temperature for each of the three
+  labeled points (A, B and C),</p></li>
+<li><p>the heat entering or leaving the system during each process, and</p></li>
+<li><p>the efficiency of this cycle.</p></li>
+</ol>
+
+</p>
+<figure>
+<caption>Cycle for <xref ref="prob_threelegcycle">Problem</xref></caption>
+<image width="65%" source="images/cycle.png" />
+</figure>
+</statement>
+</problem>
+
+<problem xml:id="prob_rectangularcycle">
+<statement>
+<p>
+For the rectangular gas cycle in Fig. <xref ref="fig_rectangle_cycle"></xref>,
+assume that there is <m>0.50\units{mol}</m> of diatomic gas.
+<ol>
+<li><p>If this cycle is to operate between two reservoirs, calculate
+    the minimum possible value for <m>T_H</m> and the maximum value for
+    <m>T_C</m>.</p></li>
+<li><p>Compare the efficiency of this gas cycle to the maximum
+    efficiency possible for a cycle operating between these two
+    reservoirs.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Explain why, for any gas cycle that is clockwise on a <m>p</m> -<m>V</m>
+diagram, the area enclosed by the loop gives the net work by the gas
+in the cycle.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Your problem session instructor will provide this problem.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_otto_cycle">
+<statement>
+<p>
+An Otto cycle for a fixed number of moles of a diatomic ideal gas is shown in
+Fig. <xref ref="fig_otto_cycle_hw"></xref>.
+</p>
+<figure xml:id="fig_otto_cycle_hw" >
+<caption>Otto cycle for <xref ref="prob_otto_cycle">Problem</xref>.</caption>
+<image width="56%" source="images/otto_cycle_hw.png" />
+</figure>
+<ol>
+<li><p>Calculate the pressure at points <m>C</m> and <m>D</m>.</p></li>
+<li><p>Determine <m>|Q_C|</m>, <m>|Q_H|</m>, and <m>|W|</m> for one cycle.  <em>       Hint:</em> save <m>|W|</m> for last.</p></li>
+<li><p>Calculate efficiency of this cycle.</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Derive Eq.<nbsp /><xref ref="eq_qc_upper_bound_ii" />, the upper bound for <m>|Q_C|</m>
+in a refrigerator, by starting from the first and second laws.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Can you cool off your house by opening the door to the refrigerator?
+Explain why or why not.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A refrigerator is designed to keep its interior at a constant
+<m>5^\circ\units{C}</m> while dumping heat into a room temperature
+environment at <m>22^\circ\units{C}</m>. The interior of
+the refrigerator may be regarded as a cold reservoir,
+while the air around it is a
+hot reservoir. Now suppose a pitcher containing <m>1800\units{g}</m> of
+room-temperature water is put into the refrigerator. We can break
+down what happens next into two steps: (1) the water will cool down
+to the temperature of the cold reservoir (fridge interior) as its
+heat flows into cold reservoir, and (2) the refrigerator will turn
+on and do work (run a compressor, circulate refrigerant, etc.) to
+extract this heat from the cold interior and dump it to the air
+outside.
+</p>
+
+<p>
+We'll calculate what happens in each of these steps.
+</p>
+
+<p>
+Step <hash />1:
+<ol>
+<li><p>Calculate the change in entropy of the water as it cools from 
+<m>22^\circ\units{C}</m> to <m>5^\circ\units{C}</m>.</p></li>
+<li><p>Calculate the change in entropy of the cold reservoir (i.e. the
+inside of the refrigerator) due to this same heat transfer.</p></li>
+<li><p>Is the second law of thermodynamics satisfied in this step?
+Explain briefly why or why not, using your results above.</p></li>
+</ol>
+</p>
+
+<p>
+Step <hash />2
+<ol>
+<li><p>Now we must get rid of the extra heat in the cold reservoir 
+  by   transferring  it  to  the  hot  reservoir.
+  Calculate the change in the entropy of the cold reservoir
+(refrigerator) as the excess heat
+  from step <hash />1 is removed from the refrigerator's interior.</p></li>
+<li><p>Determine the minimum amount  of work required to remove this 
+excess heat
+from the cold reservoir.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+</section>

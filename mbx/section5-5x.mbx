@@ -1,0 +1,279 @@
+<section>
+<title>Problems</title>
+<problem xml:id="problem_iron_melting">
+<statement>
+<p>
+<em>Melting iron</em>
+<ol>
+<li><p>Use your results from
+    <xref ref="chapter_thermal_energy">Problem</xref>. <xref ref="problem_ball-spring_iron"></xref>
+    to estimate the typical thermal displacement for atoms in a chunk
+    of solid iron at room temperature.  (Assume a room temperature of
+    <m>22^{\circ}\units{C}</m>.)  Compare your result to the typical
+    lattice separation for the iron atoms.  Based on this result and
+    the Lindemann criterion, explain why it is reasonable that iron is
+    a solid at room temperature.</p></li>
+<li><p>Now, assuming that iron melts when the typical displacement is
+    one-tenth the lattice separation (i.e., <m>x_\text{ therm }  \approx
+    d/10</m>, which is the Lindemann criterion), estimate the melting
+    temperature of iron.  Compare your result to the experimental
+    value.</p></li>
+<li><p>Write a sentence explaining in your own words why the melting
+    temperature should be related to the typical thermal displacement
+    <m>x_\text{ therm }</m>.  Don't worry so much about the factor <m>1/10</m> in
+    the Lindemann melting criterion, but your explanation <em>should</em>
+    state why melting occurs when <m>x_\text{ therm }</m> gets sufficiently large.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_thermal_speeds">
+<statement>
+<p>
+Calculate the thermal speed at temperature <m>22^\circ\units{C}</m> of
+<ol>
+<li><p>molecular oxygen (O<m>_2</m>)</p></li>
+<li><p>methane (CH<m>_4</m>)</p></li>
+<li><p>carbon dioxide (CO<m>_2</m>)</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_water_calorimetry">
+<statement>
+<p>
+A 100 g piece of ice at <m>0^\circ\units{C}</m> is placed into a
+container holding 200 g of water, initially at temperature
+<m>25^\circ\units{C}</m>. Heat flows from the water to the ice, cooling the water
+and melting the ice.
+<ol>
+<li><p>Calculate how many moles of ice and how many moles of water are
+initially present.</p></li>
+<li><p>Determine how much 
+heat flows out of the water in cooling to  <m>0^\circ\units{C}</m>.</p></li>
+<li><p>Determine how many moles of ice are melted by this added heat.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_ideal_gas_ratios">
+<statement>
+<p>
+Compare two containers of the same ideal gas; each container has
+the same volume and the same number of molecules. The temperature
+of the gas in the first container is twice the temperature in the
+second container,
+<m>T_1=2T_2</m>. Find the following ratios
+<ol>
+<li><p><m>v_\text{ therm,1 } /v_\text{ therm,2 }</m>.</p></li>
+<li><p><m>K_\text{ molec,1 } /K_\text{ molec,2 }</m>.</p></li>
+<li><p><m>p_1/p_2</m>.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_ideal_gas_moles">
+<statement>
+<p>
+How many moles are in 3 liters of ideal gas at pressure <m>200\units{kPa}</m>
+and temperature <m>100^\circ\units{C}</m>?
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_heat_of_vaporization">
+<statement>
+<p>
+Using the vaporization temperature of water to estimate the pair
+binding energy for water molecules.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_speed_of_sound">
+<statement>
+<p>
+Calculate the speed of sound in a gas of pure molecular hydrogen at a
+temperature of <m>22^\circ\units{C}</m>.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+One mole of water at <m>20^\circ\units{C}</m> has 20 kJ of thermal
+energy added. Calculate the number of moles which remain in the liquid
+state.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+Rank the following according to the speed of the molecules at room
+temperature, from fastest to slowest:
+<ol>
+<li><p>copper (solid)</p></li>
+<li><p>water (liquid)</p></li>
+<li><p>krypton (gas)</p></li>
+<li><p>molecular nitrogen (gas)</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A fixed amount of ideal gas is at temperature <m>25^\circ\units{C}</m>,
+volume <m>4.0\units{L}</m> and pressure <m>100\units{kPa}</m>. The temperature
+of the gas is increased to <m>80^\circ\units{C}</m> while the volume is
+decreased to <m>3.2\units{L}</m>. Determine the new pressure.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+For silver, the ball-spring parameters are <m>m=1.79\times
+  10^{-25}\units{kg}</m>, <m>d=2.58\times 10^{-10}\units{m}</m>, and
+<m>k_{sp}=21.4\units{N/m}</m>. Based on this information, estimate the
+melting temperature and latent heat of fusion for silver.
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+<em>Let's play microwave.</em> This is just fun, and
+you've got to do it. Load up the molecular dynamics applet, select
+the solid preset, and click <q>Start</q>. Now we're going to melt the
+solid without adding heat. This is exactly what a microwave oven
+does: the microwaves do work, pushing and pulling molecules around,
+and this gets converted to thermal energy. So let's do the same
+thing. You can <q>pull</q> a molecule by clicking on it and dragging
+it. Reach in and pull on a molecule, and then wait and watch how the
+system responds. Now do it again. Keep doing it until you've fully
+melted the solid. (Notes: it might help to reduce the <q>Animation
+speed</q> so that you can see what is going on. You also might have
+to pull your mouse a large distance quickly before letting go when
+<q>pulling</q> a molecule.)
+<ol>
+<li><p>Describe what you observe in the simulation and what you had to
+  do to melt the solid by pulling on individual atoms.  <em>    Question:</em> Why would pulling on just one or two individual atoms
+  melt the entire solid?</p></li>
+<li><p>Now think of something else cool to do with the applet.  Write a
+  few sentences describing what you did and what you found.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_aquaman">
+<statement>
+<p>
+Aquaman buys a balloon filled with a fixed amount of helium from a
+street vendor in New York City on a hot <m>37^{\circ}\units{C}</m> day.
+He measures the pressure inside the balloon to be <m>1.1\units{atm}</m>
+(<m>1\units{atm}=101\units{kPa}</m>). When he arrives at the underwater
+city of Atlantis, he discovers that the balloon is now 0.40 times
+the original volume. His thermometer indicates that the ocean has a
+temperature of <m>2^{\circ}\units{C}</m>. Determine the pressure inside
+the balloon.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="problem_ideal_gas_law">
+<statement>
+<p>
+Let's consider the ideal gas law <m>pV = nRT</m> qualitatively from a
+perspective of molecules of the gas hitting the shaded side of a
+container, as shown in Fig. <xref ref="fig_ideal_gas_problem"></xref>.
+</p>
+<figure xml:id="fig_ideal_gas_problem" >
+<caption>For <xref ref="problem_ideal_gas_law">problem</xref>.  Gas in a
+        container of length <m>L</m> and cross section <m>A</m>.</caption>
+<image width="65%" source="images/gas_pressure.png" />
+</figure>
+<ol>
+<li><p>Considering collisions of gas molecules with the wall, explain
+    qualitatively why the pressure of a gas increases if the
+    temperature of the gas increases, with everything else constant.
+    There are two different reasons why increasing the temperature
+    increases the pressure.</p></li>
+<li><p>Explain qualitatively why the pressure of a gas increases if
+    the number of moles of gas molecules in the gas increases, with
+    everything else constant.</p></li>
+<li><p>Explain qualitatively why the pressure increases if the volume
+    of the container holding the gas decreases, with everything else
+    constant.  There are actually two different reasons why decreasing
+    the volume increases the pressure: one is a result of decreasing
+    <m>L</m> and the other is a result of decreasing <m>A</m>.</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem xml:id="problem_ideal_gas_quant">
+<statement>
+<p>
+In this problem you will make some simplifying assumptions and estimate
+the pressure of a gas of nitrogen molecules from a microscopic picture
+of the gas. Assume that the gas is in a <m>10\units{cm} \times 
+  10\units{cm}\times 10\units{cm}</m> box at room temperature,
+<m>T = 22^\circ\units{C}</m>. The assumptions are:
+<ul>
+<li><p>All the molecules travel at the speed <m>v_\text{ therm }</m> derived 
+  in <xref ref="example_vtherm">Example</xref>.  This is 
+  not actually true <mdash /> there is a spread in 
+  molecular speeds around the average <mdash />
+  but <m>v_\text{ therm }</m> is a typical speed.</p></li>
+<li><p>One third of the molecules in the gas travel in the <m>\pm x</m>-direction,
+  one third travel in the <m>\pm y</m>-direction, and one third travel in the 
+  <m>\pm z</m>-direction.  This is obviously not true, but this assumption will
+  simplify the calculations.</p></li>
+</ul>
+
+</p>
+<figure xml:id="fig_ideal_gas_quant" >
+<caption>Figure for <xref ref="problem_ideal_gas_quant">problem</xref>.</caption>
+<image width="46%" source="images/ideal_gas_prob.png" />
+</figure>
+<ol>
+<li><p>Calculate the numerical value of the <em>change</em> in the momentum of 
+  a single nitrogen molecule traveling in the <m>x</m>-direction after it 
+  collides elastically with the right wall of the container.  (If you 
+  need help determining the speed of the nitrogen molecules, see <xref ref="example_vtherm">Example</xref>.)</p></li>
+<li><p>Calculate the number of times this single nitrogen molecule 
+  collides with the right wall of the container in 1 second.</p></li>
+<li><p>Calculate the total change in momentum of the molecule in 1 second
+  due to collisions with the right wall of the container.</p></li>
+<li><p>Calculate the average force on the right wall of the container 
+  due to collisions with the single molecule.</p></li>
+<li><p>At room temperature and atmospheric pressure, the number density, 
+  (i.e., the number of molecules per unit volume) of 
+  nitrogen molecules is <m>2.49\times 10^{19}\units{molecules/cm</m>^{3}<m>}</m>.  
+  Use the second of our simplifying assumptions and calculate the 
+  average force on the right wall of the container due to all of the 
+  molecules in the gas.</p></li>
+<li><p>Calculate the pressure that the gas exerts on the right wall
+  of the container.  Compare your answer to atmospheric pressure 
+  (<m>1\units{atm} = 1.01\times 10^5\units{Pa}</m>).</p></li>
+</ol>
+</statement>
+</problem>
+</section>

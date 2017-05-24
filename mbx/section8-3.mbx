@@ -1,0 +1,102 @@
+<section>
+<title>Gravity's Effect on Clock Rates</title>
+<p>
+An example will show how clock rates are affected by the curvature of
+spacetime. Consider two clocks, clock <m>A</m> parked near a large mass,
+and clock <m>B</m> parked very far away. Note that both clocks are at
+rest: there is NO relative motion. Yet general relativity predicts
+that the clocks still run at different rates.
+</p>
+
+<p>
+We start from Eq.<nbsp /><xref ref="eq_curved_space_proper_time" />
+<men xml:id="eq_schwarzschild_metric_ii" >
+  \Delta\tau^2 = \biggl(1-\frac{2GM}{c^2 r}\biggr)\Delta t^2-
+  \frac{1}{c^2}\biggl(1-\frac{2GM}{c^2 r}\biggr)^{-1}\Delta r^2
+</men>
+and insert the conditions for clock <m>B</m> and then for clock <m>A</m>. For
+clock <m>B</m>, it is at rest, so <m>\Delta r=0</m>. Also it is very far away
+(say <m>r\to\infty</m>), so that <m>\frac{2GM}{c^2r}\to 0</m>. Then for <m>B</m>,
+Eq.<nbsp /><xref ref="eq_schwarzschild_metric_ii" /> becomes
+<men>
+  \Delta \tau_B^2 = (1-0)\Delta t^2 - \frac{1}{c^2} (1-0)^{-1} (0) = \Delta
+  t^2 \text{ or }  \Delta\tau_B = \Delta\tau.
+</men>
+</p>
+
+<p>
+This shows that <m>\Delta t</m> is the proper time as recorded on far-away
+clocks.
+</p>
+<figure xml:id="fig_clocks" >
+<caption>Low clocks are slow clocks!</caption>
+<image width="18%" source="images/clocks.png" />
+</figure>
+<p>
+Now consider clock <m>A</m>, say at rest at radial location <m>r_A</m>. Similar
+to the above calculation we find
+<men xml:id="eq_low_clock" >
+  \Delta\tau_A = \biggl( 1 - \frac{2GM}{c^2 r_A}\biggr)^{1/2} \Delta t
+    = \biggl( 1 - \frac{2GM}{c^2 r_A}\biggr)^{1/2} \Delta\tau_B.
+</men>
+</p>
+
+<p>
+Since <m>(1-\frac{2GM}{c^2r})^{1/2} \lt  1</m>, we see that
+<m>\Delta\tau_A\lt \Delta\tau_B</m>.
+This shows that clocks near a mass record <em>less</em> elapsed proper
+time than those far away. As illustrated in Fig. <xref ref="fig_clocks"></xref>, a
+nice mnemonic is <q>Low clocks are slow clocks</q>.
+</p>
+
+<example>
+<statement>
+<p>
+{Clocks on the Earth's Surface.}
+How much slower does a clock at sea level run than one far away from
+Earth?
+
+
+<em>Solution: </em>
+</p>
+
+<p>
+Use Eq.<nbsp /><xref ref="eq_low_clock" />, with <m>M=5.97\times 10^{24}\units{kg}</m>
+and <m>r_A=R_E = 6.37\times 10^{6}\units{m}</m>
+<md>
+  <mrow>  \Delta\tau_A \amp = \biggl(1-\frac{2\times 6.67\times 10^{-11}\times
+   5.97\times 10^{24}}{(3.00\times 10^{8})^2 \times 6.37\times 10^{6}}
+\biggr)^{1/2}\Delta\tau_B   \nonumber</mrow>
+  <mrow>  \amp = (1-1.39\times 10^{-9})^{1/2}\Delta\tau_B \nonumber</mrow>
+  <mrow>  \amp \approx (1 - 6.95\times 10^{-10}) \Delta\tau_B.</mrow>
+</md>
+</p>
+
+<p>
+A useful way to express this result is the rate at which clock <m>A</m>
+gets behind:
+<men>
+  \Delta\tau_B - \Delta\tau_A = \Delta\tau_B -
+     (1 - 6.95\times 10^{-10}) \Delta\tau_B = 
+6.95\times 10^{-10} \Delta\tau_B.
+</men>
+</p>
+
+<p>
+Thus clock <m>A</m> falls behind clock <m>B</m> an amount <m>6.95\times 10^{-10}</m>
+seconds every second. Thus, for clock <m>A</m> to get behind clock <m>B</m> by
+one second, it takes
+<men>
+  \frac{1}{6.95\times 10^{-10}} \text{ seconds }  = 1.44\times
+10^9\units{s}   \approx 46\units{yr}.
+</men>
+</p>
+</statement>
+</example>
+
+<p>
+We don't notice these time effects much near Earth, but these small
+difference are essential to be accounted for in the design and
+operations of GPS devices. For a more dramatic example, see <xref ref="prob_neutron_star_time">Problem</xref>.
+</p>
+</section>

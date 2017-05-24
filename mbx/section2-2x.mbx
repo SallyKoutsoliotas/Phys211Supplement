@@ -1,0 +1,287 @@
+<section>
+<title>Problems</title>
+<problem>
+<statement>
+<p>
+If two events are separated by a time-like interval in one
+frame of reference, are they separated by a time-like interval in all
+frames of reference? Explain.
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_synchronizeB">
+<statement>
+<p>
+A simple way of synchronizing two clocks at rest relative to one
+another is to stand exactly halfway between them and emit light pulses
+toward each of them at the same instant of time. Each clock is then
+set to 0 when the synchronizing pulse reaches it.
+<ol>
+<li><p>How does this scheme ensure that the clocks are started
+    simultaneously?</p></li>
+<li><p>On a spacetime diagram show the world lines of two
+    clocks at rest in the unprimed frame of reference at <m>x = 0</m> and at <m>x =
+    L</m>, along with the world lines of two synchronizing light pulses that
+    start from the midpoint and reach each of the two clocks at <m>t = 0.</m></p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_spacetimeI">
+<statement>
+<p>
+Events A, B, and C are shown on the spacetime diagram in
+Fig. <xref ref="fig_spacetimeI"></xref>.
+</p>
+<figure xml:id="fig_spacetimeI" >
+<caption>Figure for <xref ref="prob_spacetimeI">Problem</xref>.</caption>
+<image width="52%" source="images/p_spacetimeI.png" />
+</figure>
+<ol>
+<li><p>Calculate the value of the squared interval for each pair of
+    events, i.e., find <m>I^2_{AB}</m>, <m>I^2_{AC}</m>, and <m>I^2_{BC}</m>.</p></li>
+<li><p>Label each interval as time-like, space-like, or light-like.</p></li>
+<li><p>In the frame shown, event A occurs before B, which occurs before
+    C.  Which pairs of events could have their time-order reversed
+    (switching before and after) by choosing an appropriate reference
+    frame?</p></li>
+<li><p>In the frame shown, event B occurs to the right of C, which
+    occurs to the right of A.  Which pairs of events could have their
+    space-order reversed (switching left and right) by choosing an
+    appropriate reference frame?</p></li>
+<li><p>Which events could be a <q>cause</q> for which other events?</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem xml:id="prob_spacetimeII">
+<statement>
+<p>
+Fig. <xref ref="fig_spacetimeII"></xref> shows a spacetime diagram with seven straight lines
+through the origin labeled with capital letters A through G. Various
+events are marked as points with small letters a through e. The <m>x</m>-<m>t</m>
+axes belong to the Earth's reference frame.
+</p>
+<figure xml:id="fig_spacetimeII" >
+<caption>Figure for <xref ref="prob_spacetimeII">Problem</xref>.</caption>
+<image width="46%" source="images/p_spacetimeII.png" />
+</figure>
+<ol>
+<li><p>Which line is a world line of an object at rest relative to the Earth?</p></li>
+<li><p>Which line is a world line of a spaceship traveling at speed  
+<m>+0.3c</m> relative to the Earth?</p></li>
+<li><p>Which line is a world line of a light pulse emitted by the
+spaceship as it passes the Earth?</p></li>
+<li><p>Which events happen simultaneously in the Earth frame?</p></li>
+<li><p>Which events happen simultaneously in the spaceship frame?</p></li>
+<li><p>Which pairs of events are clearly separated by space-like
+intervals?  Which are clearly separated by time-like intervals?</p></li>
+</ol>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+For <xref ref="example_simultaneity">Example</xref> in the text, show from
+the spacetime diagram in Fig. <xref ref="fig_simultaneity"></xref> that lightning
+hit the front of the train at a negative value of <m>t^\prime</m>, but that
+lightning hit the rear of the train at a positive value of <m>t^\prime</m>.
+Use the rule for finding the <m>t^\prime</m> coordinate of an event to
+solve this problem. [Hint: you might want to extend some of the axes
+in the negative direction.]
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_farmer">
+<statement>
+<p>
+Farmer Brown, at rest in his frame, carries a ladder through
+a barn. According to Farmer Brown, the ladder measures
+<m>20\units{lt-ns}</m>. According to observers at rest with respect
+to the barn, Farmer Brown and his ladder are moving at a
+speed <m>0.80c</m> (alternately, Farmer Brown sees the barn
+moving at speed <m>0.80c</m>). In the barn's frame, the
+front door of the barn is at <m>x = 0 \units{lt-ns}</m> and the back
+door is at <m>x = 16\units{lt-ns}</m>.
+<ol>
+<li><p>Calculate the length of the ladder as measured by
+observers in the barn's reference frame.  According to
+these observers, will the ladder fit within the barn?</p></li>
+<li><p>Calculate the length of the barn as measured by
+Farmer Brown.  According to Farmer Brown, will the ladder
+fit within the barn?</p></li>
+<li><p>Draw a careful spacetime plot for this situation,
+with appropriate tick marks on the axes (labeled with
+numbers).  Starting with the barn frame, draw world
+lines for the entrance and exit of the barn (i.e., the
+front and back doors).  Draw also world lines for the front and
+back of the ladder (which is moving as viewed in the
+barn frame).  The distance between the front and back of
+the ladder in your plot should agree with your answer
+to part (a), and the slopes of these lines should be
+consistent with the known velocities.</p></li>
+<li><p>Label the following events on your diagram:
+A = front of ladder enters the barn; B = front of ladder
+leaves the barn; C = back of ladder enters barn;
+D = back of ladder leaves barn.  Determine the order
+of these events in time as viewed from the barn's
+reference frame.  Is this result consistent with your
+answer to (a), i.e., whether or not the ladder fits in the
+barn, according to barn-frame observers?  (Consider
+whether the back of the ladder enters the barn before
+or after the front of the ladder leaves the barn.)</p></li>
+<li><p>Determine the order of events A, B, C and D as
+viewed from Farmer Brown's reference frame.  Is this
+result consistent with your answers to (b)?</p></li>
+<li><p>Based on your answers for this problem, can you
+see how relativistic time-ordering (i.e, the fact that
+different observers do not necessarily agree on the
+ordering of events in time) is necessarily linked with
+length contraction?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+<figure>
+<caption>Figure for <xref ref="prob_solar_flare">Problem</xref>.</caption>
+<me>
+  <image width="103%" source="images/p_solar_flare.png" />
+</me>
+</figure>
+<problem xml:id="prob_solar_flare">
+<statement>
+<p>
+The Earth is <m>8\units{lt-min}</m> from the Sun. An astronomer on Earth,
+looking through a telescope, notices the sudden appearance of a giant
+solar flare on the Sun's surface. At precisely that instant (when the
+astronomer detects the flare), a Klingon space ship whizzes over his
+head at speed <m>0.8c</m>, heading straight for the Sun.
+<ol>
+<li><p>On the facing page, construct a spacetime diagram for this situation.  
+  Label the following three events: <em>A</em>: Klingon ship hits Sun, 
+  <em>B</em>:  flare occurs on Sun, and <em>C</em>: Klingon ship passes Earth.  
+  (Note that event B is the occurrence of the flare <em>on</em> the Sun, 
+  not the detection of the flare by an astronomer on Earth.)</p></li>
+<li><p>Order the events A, B, C, from earliest to latest, according to
+  Earth-based observers.</p></li>
+<li><p>Calculate the time intervals <m>\Delta t</m> between each pair of
+  events (AB, AC, and BC), according to Earth observers.</p></li>
+<li><p>Calculate the interval <m>\Delta t^\prime_{BA}</m> between events B
+  and A, but now according to Klingon ship observers.</p></li>
+<li><p>Classify each of the intervals as space-like, time-like or
+  light-like.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_two_ships">
+<statement>
+<p>
+Two spacecraft, <em>Aaaak</em> and <em>Blech</em>, are carrying aliens from
+the planet Zortox to Earth. Both spacecraft are traveling
+at a speed of <m>0.6c</m> relative to the Earth, with <em>Aaaak</em> in
+front. In the Earth's frame, <em>Aaaak</em> and <em>Blech</em> are
+a distance <m>8.0\units{lt-s}</m> apart.
+At the moment that <em>Aaaak</em> passes Earth, the Zortoxians aboard <em>Aaaak</em>
+dump its garbage. At a time <m>10.0\units{s}</m> later
+(as measured by earthlings) <em>Blech</em> dumps its garbage.
+<ol>
+<li><p>Draw a spacetime diagram in Earth's frame that includes 
+worldlines for Earth, <em>Aaaak</em>, and <em>Blech</em>.  Indicate and label 
+the events corresponding to the garbage dumps.</p></li>
+<li><p>How far has <em>Blech</em> traveled during the <m>10.0\units{s}</m> 
+between the two garbage dumps measured by earthlings?</p></li>
+<li><p>What is the distance between the two garbage dump events measured by 
+earthlings?</p></li>
+<li><p>What is the distance between the two garbage dump events 
+measured by the Zortoxians on board their ship?</p></li>
+<li><p>Calculate the time interval between garbage dump events measured by 
+the Zortoxians on board their ship.</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem>
+<statement>
+<p>
+A train of rest length <m>40\units{lt-ns}</m> moves along the
+tracks at <m>0.8c</m> and is struck by two lightning bolts. One bolt hits
+the front of the train and the other hits the back. According to
+observers on the tracks the bolts are simultaneous.
+<ol>
+<li><p>How far apart did the lightning bolts strike according to 
+observers on the tracks?</p></li>
+<li><p>According to riders on the train, how much time passed between the
+striking of the lightning bolts?</p></li>
+<li><p>According to riders on the train, which lightning bolt 
+struck first?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_sparkler">
+<statement>
+<p>
+Joe holds and lights a sparkler, and one minute later, it goes
+out. Cheri, riding in a rocket past these events, notes that, as
+measured in her frame, the sparkler burned for 100 seconds.
+<ol>
+<li><p>How far apart in Cheri's frame did these two events (lighting
+and going out) occur?</p></li>
+<li><p>As measured by Cheri, how far did the lit sparkler travel, and
+how fast was it moving?</p></li>
+<li><p>As measured by Joe, how fast was Cheri traveling during the one
+minute of sparkler light, and how far did she travel?</p></li>
+</ol>
+
+</p>
+</statement>
+</problem>
+
+<problem xml:id="prob_spacetimeIII">
+<statement>
+<p>
+The spacetime diagram in the figure shows the world lines of the Earth,
+a star, and a rocket, as well as several labeled events.
+</p>
+<figure>
+<caption>Figure for <xref ref="prob_spacetimeIII">Problem</xref>.</caption>
+<image width="69%" source="images/p_spacetimeIII.png" />
+</figure>
+<ol>
+<li><p>On the diagram, label as <q>A</q> the event <q>Rocket arrives
+at Star.</q></p></li>
+<li><p>Determine the speed of the Rocket, as measured by Earth
+observers.</p></li>
+<li><p>Determine the time between passing the Earth and passing the
+Star, as measured by Rocket observers.</p></li>
+<li><p>Determine the distance between the Earth and the Star, as
+measured by Rocket observers.</p></li>
+<li><p>Draw the world line of a lost satellite passing the Earth at the
+same time as the Rocket, but going away from the Star at a speed that
+is <m>\frac{1}{2}</m> of the Rocket speed (as determined by Earth
+observers.)  Label this line <q>Satellite.</q></p></li>
+<li><p>Order the events A, B, C, D, from earliest to latest, as
+observed in the Earth-Star reference frame.</p></li>
+<li><p>Order the events A, B, C, D, from earliest to latest, as
+observed in the Rocket reference frame.</p></li>
+<li><p>In some reference frame, the events C and D are simultaneous.
+In that frame, what is the distance between events C and D?</p></li>
+<li><p>Explain why no one could ever measure the proper time between
+events C and D.</p></li>
+</ol>
+</statement>
+</problem>
+</section>

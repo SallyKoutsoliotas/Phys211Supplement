@@ -1,0 +1,53 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chapter_gas_processes">
+<title>Gas Processes</title>
+
+
+<introduction>
+<p>
+There are a lot of very useful and important things that can be done
+with gases. Burning gases in an internal combustion engine can power a
+car. Boiling water (and its vapor) can turn a turbine in an
+electrical power generation plant. Expanding lungs enable your body to
+draw in air and extract oxygen to enable you to live. Vaporization
+and expansion/compression of methylene chloride and water allows a
+dunking bird to bob up and down indefinitely over your glass of water
+in your dorm room. Numerous gas processes in the atmosphere drive the
+weather system on the Earth. Expanding and contracting gaseous
+bladders enable fish to swim without sinking or floating to the
+surface. Adiabatic heating of a collapsing cloud of hydrogen in space
+provides the spark that triggers nuclear fusion and enables the birth
+of stars (including our Sun). Hot gases shooting out of an engine can
+power an airplane or a rocket. And many chemical reactions produce
+gases that do work on systems (e.g., inflating airbags, firing
+ammunition, <ellipsis />).
+</p>
+
+<p>
+These are just a small sample of the ways in which thermodynamic
+processes play a critical role in practical applications and in the
+basic functioning of the universe as we know it. In all of these
+cases, it is critical to understand several things: (1) how much work
+is required to perform the process or, alternately, how much work is
+produced by the process; (2) how much energy in the form of heat must
+be added to the gas (or released from the gas) during the process; and
+(3) how the thermal energy of the gas either increases or decreases
+during the process. From this perspective, by far the most important
+mathematical relation required for analyzing gas processes is one that
+we have already seen: the First Law of Thermodynamics
+(Eq. <xref ref="eq_firstlaw"></xref>)
+</p>
+
+<p>
+<m>\Delta E_\text{ therm }  = Q_\text{ in }  + W_\text{ on }</m>.
+</p>
+
+<p>
+In this chapter, we will discuss in detail how we can calculate the work, heat and thermal energy changes that occur in thermodynamic processes.
+</p>
+</introduction>
+<xi:include  href="section6-1.mbx" />
+<xi:include  href="section_CalcWork.mbx" />
+<xi:include  href="section6-3.mbx" />
+<xi:include  href="section6-4.mbx" />
+<xi:include  href="section6-6x.mbx" />
+</chapter>

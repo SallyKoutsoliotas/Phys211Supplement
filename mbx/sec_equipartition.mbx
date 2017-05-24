@@ -1,0 +1,58 @@
+<section xml:id="sec_equipartition">
+<title>The Equipartition Theorem</title>
+<p>
+We now discuss a remarkable relationship between temperature and
+thermal energy, referred to as the <em>equipartition theorem</em>. The
+basic idea is that in thermodynamic systems, thermal energy is equally
+(<q>equi</q>) divided (<q>partition</q>) between certain types of molecular
+energy, both kinetic and potential. At first glance, you might think
+that this would mean that half of the energy is kinetic and half is
+potential (and sometimes this is true), but it is not quite that simple.
+For one, only those energy terms which are quadratic in a
+dynamical variable (such as <m>\frac{1}{2}mv_x^2</m>) get the equal shares.
+For any terms more complicated than that, like the pair potential, we
+cannot so easily say how the energy is divided. Also, the number of these
+egalitarian quadratic energy terms, often called <em>degrees of freedom</em>,
+depends on details such as whether there is rotational as well as
+translational kinetic energy.<fn>For a solid the molecules
+  essentially do not rotate, but rotational kinetic energy can have a
+  significant effect on the thermal energy of a liquid or gas.</fn>
+</p>
+
+<p>
+Maybe it will help to see the theorem:
+</p>
+
+<p>
+\boxittext{<sc>Equipartition Theorem:</sc>
+</p>
+
+<p>
+Any term in the energy of a
+molecule that is quadratic, such as <m>\frac{1}{2}mv_x^2</m> or
+<m>\frac{1}{2}k_\text{ sp } x^2</m> or <m>\frac{1}{2}I\omega^2</m>, averages to
+<m>\frac{1}{2}k_BT</m>.}
+</p>
+
+<p>
+This amazing result says that when some <m>10^{23}</m> particles push and pull
+and collide with each other, all the messy forces involved will result in
+every quadratic energy term averaging to the same value. It doesn't
+matter if the molecule is heavier or lighter, or what the spring
+constant is. It also doesn't matter whether we are talking about
+potential energy or translational kinetic energy or rotational kinetic
+energy. As long as the energy is quadratic in the dynamical variable,
+the thermal energy will depend only on <m>T</m> and
+Boltzmann's constant,
+<men>
+  k_B= 1.38\times 10^{-23}\units{J/K},
+</men>
+which is another constant of nature. Notice how the units work out:
+<m>k_BT</m> is an energy.
+</p>
+
+<p>
+In the next sections, we'll use the equipartition theorem to analyze
+thermal energy of an ideal solid.
+</p>
+</section>

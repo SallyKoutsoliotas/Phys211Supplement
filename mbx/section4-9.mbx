@@ -1,0 +1,86 @@
+<section>
+<title>Ideal Solid Specific Heat</title>
+<p>
+To determine the molar specific heat of an ideal solid,
+let us make the approximation that the neighbors of
+a particular molecule remain fixed. This turns out to be a reasonable
+approximation for most solids. Then the energy describing that
+particular molecule is
+<men xml:id="eq_ball-spring_energy" >
+  E_\text{ molecule }  = {\textstyle\frac{1}{2}}mv_x^2 +
+{\textstyle\frac{1}{2}}mv_y^2 + {\textstyle\frac{1}{2}}mv_z^2 +
+{\textstyle\frac{1}{2}}k_\text{ sp } x^2 + {\textstyle\frac{1}{2}}k_{ sp}y^2 +
+{\textstyle\frac{1}{2}}k_\text{ sp } z^2.
+</men>
+</p>
+
+<p>
+There are six terms contributing to the energy, all of which are
+quadratic. Each term is fluctuating up and down as the molecule
+interacts with its neighbors. The equipartition theorem tell us,
+then, that the average energy of this ball over time will be
+<men>
+  \langle E_\text{ molecule } \rangle =
+6\left({\textstyle\frac{1}{2}}k_BT\right) = 3k_BT.
+</men>
+</p>
+
+<p>
+Now consider an <m>N</m> molecule ideal solid. The number of moles
+is given by <m>n = N/N_A</m>, and the
+thermal energy will be
+<men xml:id="eq_E_thermal" >
+  E_\text{ therm }  = N (3 k_B T) = \frac{N}{N_A}(3k_BN_A)T = n3RT,
+\text{ (ideal solid) }
+</men>
+where <m>R=N_A k_B = 8.31\units{J/mol</m>\cdot<m>K}</m> is called the gas
+constant, although it has nothing in particular to do with
+gases.<fn>This isn't our fault either.</fn>
+</p>
+
+<p>
+Comparing Eqs.<nbsp /><xref ref="eq_E_thermal" /> and <xref ref="eq_Ethermspecificheat" />,
+the molar specific heat of the ideal solid is
+<men>
+  C = 3R = 24.9\units{J/mol$\cdot$K} \qquad\text{ (ideal solid) }
+</men>
+regardless of the material. This relation is known as the
+Dulong-Petit law. The molar specific heats of most solids agree with
+the Dulong-Petit result to within a few percent accuracy. For
+example, the molar specific heat of copper is <m>C_\text{ Cu }  =
+24.4\units{J/mol</m>\cdot<m>K}</m>, and comparable values for a variety of
+other solids are given in <xref ref="table_material_properties">Table</xref>. This
+provides more evidence that the ball-spring model of the ideal solid
+is reasonable.
+</p>
+<table xml:id="table_material_properties" >
+<caption>Material properties for a few selected substances.</caption>
+<tabular>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  >
+Material</cell><cell><m>M</m> (g/mol)</cell><cell><m>\rho</m> (g/cm<m>^3</m>)</cell><cell><m>Y</m> (GN/m<m>^2</m>)</cell><cell><m>C</m> (J/mol<m>\cdot</m>K)</cell><cell><m>v_s</m> (m/s)</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+<row><cell>Aluminum</cell><cell>27.0</cell><cell>2.70</cell><cell>70</cell><cell>24.2</cell><cell>5000</cell></row>
+<row><cell>Iron</cell><cell>55.8</cell><cell>7.87</cell><cell>211</cell><cell>25.1</cell><cell>5120</cell></row>
+<row><cell>Copper</cell><cell>63.5</cell><cell>8.96</cell><cell>130</cell><cell>24.4</cell><cell>3810</cell></row>
+<row><cell>Gold</cell><cell>197</cell><cell>19.3</cell><cell>78</cell><cell>25.4</cell><cell>2030</cell></row>
+<row><cell>Lead</cell><cell>207</cell><cell>11.3</cell><cell>16</cell><cell>26.6</cell><cell>1190</cell></row>
+<row><cell>ideal solid</cell><cell><m>mN_A</m></cell><cell><m>m/d^3</m></cell><cell><m>k_{ sp}/d</m></cell><cell>3R = 24.9</cell><cell><m>d\sqrt{k_{ sp}/m}</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+
+<row><cell  ></cell></row>
+</tabular>
+</table>
+<p>
+Finally, note that the specific heat is only defined in terms of
+<m>\Delta E_\text{ therm }</m> and <m>\Delta T</m>; it relates <em>changes</em> in
+the temperature to changes in thermal energy. However, if we assume
+that the specific heat is independent of temperature, which is a
+reasonable approximation down to some low temperature, then we can
+also estimate
+<men>
+  E_\text{ therm }  \approx nCT = n3RT. \qquad\text{ (ideal solid) }
+</men>
+</p>
+</section>

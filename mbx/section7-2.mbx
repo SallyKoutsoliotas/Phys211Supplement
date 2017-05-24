@@ -1,0 +1,241 @@
+<section>
+<title>Entropy Change and Heat</title>
+<p>
+As discussed in the previous chapter, entropy is a measure of
+probability; specifically, it is Boltzmann's constant times the
+logarithm of the multiplicity. While we can work with the
+multiplicity and take logarithms for simple enough models, we often
+want to know the entropy (actually, the entropy <em>change</em> <m>\Delta
+S</m>) for more complicated situations without having to sort out exactly
+what is going on with the multiplicity.
+</p>
+
+<p>
+In many situations it is possible to do this. We begin with our
+result from the previous chapter:
+<men>
+  \frac{1}{T} = \frac{dS}{dE_\text{ therm } },
+</men>
+which we can rewrite as a relation between a small (infinitesimal) entropy
+change <m>dS</m> and a small thermal energy change <m>dE_\text{ therm }</m>,
+<men xml:id="eq_dSdEtherm" >
+  dS = \frac{dE_\text{ therm } }{T} \qquad(W=0).
+</men>
+</p>
+
+<p>
+In our development of the definition of temperature, we only
+considered energy transfers between subsystems <m>A</m> and <m>B</m> that
+happened spontaneously, due to the increased probability associated
+with the new energy distribution. In other words, we only allowed for
+thermal energy changes due to <em>heat</em> and not due to <em>work</em>.
+Hence the <m>W=0</m> label in Eq.<nbsp /><xref ref="eq_dSdEtherm" />.
+</p>
+
+<p>
+Recall that the first law of thermodynamics, for small amounts of heat
+and work, says
+<men>
+  dE_\text{ therm }  = dQ + dW.
+</men>
+</p>
+
+<p>
+If no work is being done, <m>dE_\text{ therm }</m> is the same thing as <m>dQ</m>:
+the thermal energy has changed by however much heat flow has occurred.
+Thus, we could equally well write Eq.<nbsp /><xref ref="eq_dSdEtherm" /> with a <m>dQ</m>
+in the numerator.
+</p>
+
+<p>
+So the question is, what is the appropriate generalization of
+Eq.<nbsp /><xref ref="eq_dSdEtherm" /> to cases where there is both heat flow and
+work done? Should the numerator still be <m>dE_\text{ therm }</m>, or should
+it be <m>dQ</m>, or something else entirely?
+</p>
+
+<p>
+The answer is: it depends. If the work is being done slowly enough
+that the system remains in thermal equilibrium (which means that the
+basic hypothesis of all microstates being equally likely is at all
+times still true), then we have a clear answer: the numerator should
+be <m>dQ</m>, and so
+<men xml:id="eq_dSdQ" >
+  dS = \frac{dQ}{T}  \qquad\text{ (whether or not \(W=0\)) } .
+</men>
+</p>
+
+<p>
+A good rule of thumb for <q>slow enough</q> is that whatever moving
+object is doing the work should move slower than the speed of sound.
+In many cases this isn't much of a limitation. For our purposes, we
+will assume that we remain in equilibrium for all the processes we
+consider.<fn>When this isn't the case, and the system goes out
+  of equilibrium, we do not have a general expression for the change
+  in entropy.  This is an active area of research today!</fn>
+</p>
+
+<p>
+But you may be wondering why doing work (slowly enough) doesn't affect
+the entropy, that is, <m>\Delta S</m> only depends on the heat flow. The
+full explanation is beyond the scope of this course, but here is the
+flavor of it. We could do work on a solid by squeezing it, and this
+would certainly increase the thermal energy. The Einstein solid of
+the previous chapter would respond to the squeezing by having an
+increased energy spacing <m>\epsilon</m>, but not by having more <q>energy
+units.</q> So the multiplicity wouldn't change, even though the thermal
+energy has gone up. And of course if the multiplicity doesn't change,
+the entropy doesn't change.
+</p>
+
+<p>
+In practical terms, Eq.<nbsp /><xref ref="eq_dSdQ" /> is a very handy tool for
+calculating entropy changes. Of course, we usually have more than a
+small amount of heat flow, so we will need to use calculus to add up
+the net entropy change:
+<men xml:id="eq_DeltaSgeneral" >
+  \Delta S = S_B - S_A = \int_A^B dS = \int_A^B \frac{dQ}{T}.
+\qquad\text{ (equilibrium processes) }
+</men>
+</p>
+
+<p>
+Often we are considering constant temperature situations, and then
+this result simplifies even further:
+<men xml:id="eq_deltaS_isothermal" >
+  \Delta S= \frac{1}{T}\int dQ = \frac{Q}{T} \qquad\text{ (constant temperature) }
+</men>
+</p>
+
+<p>
+The sign of <m>Q</m> is important here! When <m>Q</m> is positive, <m>\Delta S</m>
+is positive, and when <m>Q</m> is negative, <m>\Delta S</m> is negative. Or to
+put it another way: heat flow in increases the entropy, and heat flow
+out decreases the entropy. <em>Do not forget this!</em> The second law
+is commonly misunderstood to say that all entropies must always
+increase. This is simply not true. The second law only tell us the
+<em>total</em> entropy must increase.
+</p>
+
+<p>
+There are three common situations where the temperature is constant,
+even though heat is flowing in or out of the system.
+<ul>
+<li><p><em>for an isothermal process</em> <mdash /> isothermal expansion or
+  contraction of a gas is, by definition, at constant temperature (iso
+  = <q>equal</q>, thermal = <q>temperature</q>).</p></li>
+<li><p><em>during a phase change</em> <mdash /> the latent heat at a phase
+  transition (e.g., melting/solidifying or vaporizing/condensing)
+  keeps the temperature constant.</p></li>
+<li><p><em>for a thermal reservoir</em> <mdash /> if a system is very large,
+  modest amounts of heat flow will not affect the temperature.  For
+  example, dumping a cup of coffee into the ocean will not change the
+  ocean's temperature measurably.</p></li>
+</ul>
+
+</p>
+
+<example>
+<statement>
+<p>
+{Entropy Change of Melting Ice}
+Consider an <m>18\units{g}</m> ice cube at <m>0^\circ\units{C}</m>. Heat
+flows in until is has changed phase to <m>0^\circ\units{C}</m> water.
+The water molecules are now free to wander, which increases their
+number of possible microstates. How much has the entropy increased?
+</p>
+
+<p>
+<em>Solution: </em> Since the molar mass of H<m>_2</m>O is <m>18\units{g}</m>, our ice
+cube contains one mole. Thus the heat required to melt it is (via
+<xref ref="table_phase_transitions">Table</xref>)
+<men>
+  Q = n L_f = 1\units{mol} \cdot 6.01\units{kJ/mol} = 6010 \units{J}.
+</men>
+</p>
+
+<p>
+Now we can find the entropy change
+<men>
+  \Delta S = S_\text{ water }  - S_\text{ ice } = \frac{Q}{T}=
+\frac{6010\units{J}}{273\units{K}}= 22.0 \units{J/K}.
+</men>
+</p>
+
+<p>
+Note that we have to use Kelvin for this to work.
+</p>
+</statement>
+</example>
+
+<p>
+In some cases, however, <m>T</m> is changing while the heat flows. In this
+case we must evaluate some kind of integral to find <m>\Delta S</m>. We
+will restrict ourselves to the cases where no work is being done and
+there is no phase change (i.e., nothing melting, solidifying,
+condensing or vaporizing). That is, heat is flowing in or out of a
+solid or liquid, whose volumes are essentially constant. In this
+case,
+<men>
+  dQ = dE_\text{ therm }  = nC\,dT
+</men>
+that is, we can relate the small heat flow to a small temperature
+change. Putting this into our integral expression gives
+<men>
+  \Delta S = \int_A^B \frac{dQ}{T}= \int_{T_A}^{T_B} \frac{nC\,dT}{T}
+</men>
+</p>
+
+<p>
+Since the specific heat usually is nearly constant with respect to
+temperature, we may bring it outside of the integral:
+<men>
+  \Delta S = nC\int_{T_A}^{T_B} \frac{dT}{T} = nC(\ln T_B -\ln T_A)
+ = nC\ln(T_B/T_A).
+</men>
+</p>
+
+<p>
+Note that when the temperature increases, <m>\Delta S</m> is positive,
+while when the temperature decreases, <m>\Delta S</m> is negative, since
+the natural log of a number less than one is negative.
+</p>
+
+<example>
+<statement>
+<p>
+{Entropy Change from Heating Water}
+Let's pick up with that <m>18\units{g}</m> of <m>0^\circ\units{C}</m> water,
+and now add heat until it has become <m>100^\circ\units{C}</m> water (but
+not yet started to boil). How much does the entropy increase?
+</p>
+
+<p>
+<em>Solution: </em> We have one mole of water, and we get the molar specific
+heat of water from <xref ref="table_liquid_specific_heats">Table</xref>. We need
+to use Kelvin for our temperature units, so
+<md>
+  <mrow>  \Delta S \amp = nC\ln(T_f/T_i) = 1\units{mol}\cdot  75.3\units{J/mol$\cdot$K}
+  \cdot\ln\left(\frac{373\units{K}}{273\units{K}}\right) \nonumber</mrow>
+  <mrow>  \amp = 23.5\units{J/K}</mrow>
+</md>
+</p>
+
+<p>
+Notice in this case we didn't need to calculate the amount of heat
+flow involved.
+</p>
+</statement>
+</example>
+
+<p>
+One final special case in which entropy changes are easy to calculate
+is for a <em>cyclic</em> process, i.e., a process where the system (or
+part of the system) ends up in the same state that it started in. In
+this case,
+<men xml:id="eq_DeltaS_cyclic" >
+  \Delta S_\text{ cyclic }  = 0
+\qquad\text{ (cyclic processes) }
+</men>
+</p>
+</section>
