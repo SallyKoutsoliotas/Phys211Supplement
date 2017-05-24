@@ -1,0 +1,31 @@
+\begin{picture}(0,0)%
+\includegraphics{cycle.pstex}%
+\end{picture}%
+\setlength{\unitlength}{3947sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(5505,5142)(2461,-5101)
+\put(4726,-5086){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}1}%
+}}}}
+\put(5926,-5086){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}2}%
+}}}}
+\put(7126,-5086){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}3}%
+}}}}
+\put(2626,-1036){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}100}%
+}}}}
+\put(2476,-286){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$p$ (kPa)}%
+}}}}
+\put(7951,-4861){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$V$ (L)}%
+}}}}
+\put(6676,-3811){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\sfdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}B}%
+}}}}
+\put(4726,-811){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\sfdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}A}%
+}}}}
+\put(6601,-811){\makebox(0,0)[lb]{\smash{{\SetFigFont{20}{24.0}{\sfdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}C}%
+}}}}
+\end{picture}%

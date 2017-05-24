@@ -1,0 +1,386 @@
+\chapter[Numerical Iteration]{Solving Equations of Motion Using 
+Numerical Iteration}
+\label{chapter:numerical}
+
+%\section*{Objectives}
+%\begin{objectives}
+%\item Know what is meant by a numerical iteration method for solving
+%  an equation of motion.
+%\item Given the initial position and velocity of a particle acted on
+%  by a force in one dimension, calculate the position and velocity
+%  several time increments later.
+%\end{objectives}
+
+\section{Introduction}
+
+The past few decades have witnessed a massive revolution in the way
+people live and work, due in great part to {\em significant} enhancements
+in computational power.  Computers are everywhere these days in society,
+not just on your desktop (or on your lap) but also in your pockets
+(MP3 players and cell phones), in your kitchens (ranges, dishwashers
+and microwave ovens), and behind the scenes monitoring the money in
+your bank accounts, your class schedules and grades, and your music
+preferences at on-line music stores.  
+
+The significant enhancement in
+computation power has also dramatically changed all fields of science
+and engineering.  Despite our brilliant teaching of physics
+in this course, there are many problems in physics and engineering that
+you simply will not be able to solve analytically.\footnote{By ``analytically''
+we mean using the tools from mathematics to determine a written solution
+in the form of an equation that can be used to describe the behavior of the
+system.}  Some problems simply don't allow a closed-form solution.
+But it is even more severe than that.  There are a wide variety of
+physical systems whose equations of motion {\bf can't} be solved, 
+no matter how brilliant or persistent the 
+scientist/mathematician.  In fact, many real systems are ``chaotic,''
+with surprisingly complicated behavior arising from seemingly simple
+systems.  In cases where an analytical solution is unavailable, the 
+only option is to solve the problem {\em numerically}, using a 
+computer to simulate the behavior.
+
+Computer simulations have become among the most important techniques
+in science and engineering.  Many of you will use numerical techniques
+in your career, whether you are simulating the behavior of a new
+passenger airline that you are designing, calculating the forces acting
+on an artificial joint that you are designing for a patient, or predicting
+the effects of a disruption in Middle East oil supply on the global
+economy.  Numerical simulations also play a significant role in basic
+scientific research, enabling us to explore the behavior of a system that
+is too complicated to solve analytically and to difficult to
+explore experimentally.  In fact, numerical simulations are so
+common now that they are often considered to be a third branch in
+scientific analysis, separate from (and complementary to) experimental
+and theoretical science.
+
+The basic idea of numerical simulations is actually quite easy.  
+In this chapter, we introduce an important technique referred to as 
+{\em iteration} where we break the dynamics of the system into 
+a series of discrete time steps.  So, for example, instead of 
+representing the motion of a ball with a continuous equation, we
+instead note the location of the ball, say, every tenth of a second.
+Given the location and velocity of the ball at a particular moment
+in time, we can predict its location 0.1 s later by using a very 
+simple numerical techniques referred to as the
+{\em Euler Method}, a technique that conceptually is nothing more
+than a simple application of the common ``distance = speed $\times$ time''
+approach.  Despite the simplicity of the Euler method, it is a very
+powerful method that is used in many numerical applications.  This chapter
+introduces the basic ideas (with some homework problems); you will use
+the method in lab to simulate the motion of a falling object subject
+to air resistance.
+
+\section{Solving Newton's second law analytically}
+
+Newton's second law $\vec{F}_{\rm net} = m\vec{a}$ is a {\em
+differential equation}, i.e., an equation that can be written in
+terms of derivatives of various quantities.  Ideally, we would like
+to ``solve'' this differential equation to 
+determine expressions (as a function of time) for the velocity and
+position of a particle moving under the influence of the forces.
+If the forces exerted on the particle are
+all known, then Newton's second law can be rewritten as
+\begin{equation}
+  a_x = \frac{d^2x}{dt^2} = \frac{F_{{\rm net},x}}{m},
+  \label{eq:newtonII}
+\end{equation}
+where the forces are assumed to be possibly functions of position and
+velocity.  Eq.~(\ref{eq:newtonII}) written in that form is known as
+the {\em equation of motion} for the system under consideration.
+Mathematically one would proceed by integrating Eq.~(\ref{eq:newtonII}) 
+to determine the velocity as a function of time
+$v_x(t)$ and then integrating once again to obtain the position as a
+function of time $x(t)$.  For example we have learned that for a
+particle falling from rest from a height $x_0$ under the force of
+gravity $F_{\rm net} = mg$, Eq.~(\ref{eq:newtonII}) becomes
+\begin{equation}
+  \frac{d^2x}{dt^2} = -g,
+  \label{eq:eom-freefall}
+\end{equation}
+and integrating we obtain the following expressions for the velocity
+and position:
+\begin{equation}
+  v_x(t) = -gt \mbox{\hspace{0.25in}and\hspace{0.25in}}x(t) = x_0 - 
+  \frac{1}{2}gt^2.
+\end{equation}
+If you don't understand how we got these expressions, then take the
+derivative with respect to time of $x(t)$ to get $v_x(t)$ and then
+$v_x(t)$ to get back to Eq.~(\ref{eq:eom-freefall}).
+
+For the example shown above as well as a few other cases, the equation
+of motion is relatively straightforward to integrate to get the
+analytical functions for velocity and position.  As discussed in the previous
+section, though, there are many cases
+where the equations of motion are not so easy to integrate and other
+means are necessary for determining the position and velocity of the
+particle as a function of time.
+
+In the following sections we will develop a set of equations that we
+can use to calculate the position and velocity of a particle at
+specified time increments $\Delta t$, a technique called {\em
+  numerical iteration}.  Although this technique does not give us as a
+final result a neat, compact formula for the position and velocity of
+the particle into which any value of time can be inserted, it does
+allow us to map out the position and velocity of the particle for an
+otherwise mathematically intractable problem.
+
+\section{Numerical Stepping Equations}
+
+Let us incorporate the ideas mentioned above into a set of formulas
+that we (or better yet, a computer) could use to calculate the
+position and velocity of a particle moving under the influence of some
+forces.  Call the present time $t$ and the time a little later $t +
+\Delta t$.  Let $x(t)$ denote the position of the particle now, then
+$x(t + \Delta t)$ denotes the position of the particle a short time
+later.  Similarly $v_x(t)$ and $v_x(t + \Delta t)$ represent the present
+and slightly later velocities of the particle.  In all of these
+expressions, note that $x(t + \Delta t)$ does not mean the quantity
+`$x$' times the quantity `$t + \Delta t$' but rather means the value
+of the function $x$ evaluated at the time $t + \Delta t$.  This is
+standard functional notation used in mathematics.
+
+Recall the definition of velocity as the rate of change of the
+position.  Taking $\Delta t$ to be very small in magnitude, we may
+approximate this as ``velocity = displacement/time'' and
+express the velocity at time $t$ approximately as
+\begin{equation}
+  v_x(t) \simeq \frac{\Delta x}{\Delta t} = \frac{x(t+\Delta t) - x(t)}
+  {\Delta t}.
+\end{equation}
+As you recall, $\Delta x/\Delta t$ is the definition of the average
+velocity, while the instantaneous velocity is actually the derivative
+of the position with respect to time.  However, for small enough time
+steps, the average velocity is an excellent approximation for the
+instantaneous velocity.
+
+Turning the previous expression around, we can write an expression for
+the position of the particle at time $t + \Delta t$ in terms of the
+position and velocity at time $t$:
+\begin{equation}
+  x(t+\Delta t) = x(t) + v_x(t)\Delta t.
+  \label{eq:x-step}
+\end{equation}
+
+Eq.~(\ref{eq:x-step}) says that the position at time $t + \Delta t$ is
+the position at time $t$ plus the distance traveled $v_x(t)\Delta t$ by
+the particle during the short time interval $\Delta t$.  Notice that
+this result is only approximate because the velocity $v_x$ at time $t$
+is not necessarily equal to the average velocity during the entire
+time interval.  However, if $\Delta t$ is small enough, the
+approximation should be quite good.
+   
+Next we need an expression for incrementing the velocity.  By analogy
+with the arguments leading up to Eq.~(\ref{eq:x-step}), we can write
+\begin{equation}
+  v_x(t+\Delta t) = v_x(t) + a_x(t)\Delta t.
+  \label{eq:v-step}
+\end{equation}
+
+The three equations (\ref{eq:newtonII}), (\ref{eq:x-step}) and
+(\ref{eq:v-step}) can now be incorporated into a looping procedure in
+a computer program.  These three equations constitute what is
+generally referred to as {\em Euler's method} of numerical
+approximation.  Given an initial position and velocity, we calculate
+the initial acceleration from Eq.~(\ref{eq:newtonII}).  Then we
+calculate the position and velocity a short time later from
+Eqs.~(\ref{eq:x-step}) and (\ref{eq:v-step}).  Then we repeat the
+process, pretending that the new values for $x$ and $v_x$ are the
+initial values.  In this way we can numerically iterate the motion of
+the particle from instant to instant as far into the future as we care
+to.  A spread-sheet program, such as EXCEL, can perform such
+calculations with very little ``programming'' required on your part.
+
+A note about numerical errors is worth mentioning.  Remember that
+although Eq.~(\ref{eq:newtonII}) is exact, Eqs.~(\ref{eq:x-step}) and
+(\ref{eq:v-step}) that update $x$ and $v_x$ to later times are
+approximations that are best when $\Delta t$ is small.  If the
+calculations start going haywire, we can help the situation by
+choosing smaller steps.  This means of course that the computer will
+have to run longer, but that's frequently not a serious problem.
+
+\section{Numerical Solution for a Mass on a Spring}
+
+Let's apply this new method to a system we will be studying more in
+depth later in this course.  The system is a mass which moves under
+the influence of a force exerted on it by a spring.  The spring is a
+device which exerts a force which is proportional to the displacement
+of the mass from an equilibrium position.  Taking the equilibrium
+position to be $x = 0$, this implies that the acceleration of the mass
+is directly proportional to the position $x(t)$.  Suppose in our
+particular system the acceleration is given by 
+\begin{equation}
+a_x(t) = -2.00\, x(t).
+\end{equation}
+The minus sign in this expression tells us that the force is
+always opposite to the displacement.  We'll also assume that time is
+in seconds, position is in meters, velocity is in meters per second,
+and acceleration is in meters per second squared
+   
+To proceed, we choose time steps of size $\Delta t = 0.10$ s and start
+the clock at $t = 0$.  We could pick any initial position and
+velocity; let's choose to release the mass from rest at a position
+0.30 m from equilibrium, i.e. $x(0) = 0.30$ m and $v_x(0) = 0$.  Let's
+walk through the first few steps and then show some results from a
+computer spreadsheet.
+   
+For our example Eqs.~(\ref{eq:newtonII}), (\ref{eq:x-step}) and
+(\ref{eq:v-step}) are written as
+\begin{align}
+a_x(t) &= -2.00\, x(t) 
+\label{eq:ex-a}\\
+x(t+0.10) &= x(t) + 0.10\, v_x(t) 
+\label{eq:ex-x}\\
+v_x(t+0.10) &= v_x(t) + 0.10\, a_x(t).
+\label{eq:ex-v}
+\end{align}
+First calculate the initial acceleration by setting $t = 0$ in
+Eq.~(\ref{eq:ex-a}) to find
+\begin{equation}
+a_x(0) = -2.00\, x(0)  = -2.00 \times 0.30 = -0.60.
+\end{equation}
+Then update $x(t)$ and $v_x(t)$ by setting $t = 0$ in Eqs.~(\ref{eq:ex-x}) and 
+(\ref{eq:ex-v}):
+\begin{align}
+x(0.10) &= x(0) + 0.10\, v_x(0) = 0.30 + 0.10\times 0 = 0.30 \\
+v_x(0.10) &= v_x(0) + 0.10\, a_x(0) = 0 + 0.10\times(-0.60) = -0.06.
+\end{align}
+Since the mass was initially at rest, a short time later it is still
+approximately at the same location.  However, since the spring is
+stretched at $t = 0$, a force is acting on the mass immediately, so
+that a short time later it has already acquired a non-zero velocity.
+   
+How would you find $x(0.20)$ and $v_x(0.20)$?  Again use
+Eqs.~(\ref{eq:ex-a}) through (\ref{eq:ex-v}), this time with the
+`present time' $t = 0.10$.  We find that
+\begin{align}
+a_x(0.20) &= -2.00\, x(0.10) = -2.00\times 0.30 = -0.60\\
+x(0.20) &= x(0.10) + 0.10\, v_x(0.10) \nonumber \\
+        &= 0.30 + 0.10 \times (-0.06) \nonumber \\
+        &= 0.294 \\
+v_x(0.20) &= v_x(0.10) + 0.10\, a_x(0.10) \nonumber  \\
+        &= -0.06 + 0.10\times(-0.60) \nonumber \\
+        &= = -0.12.
+\end{align}
+We can continue this process as long as we like.  You will find it
+convenient to organize the information for the position, velocity and
+acceleration for each time in the form of a table.  Table
+\ref{table:numerical1} on the next page lists $t$, $x$, $v_x$ and $a_x$ for
+the motion of this mass.  Note that the periodic nature of the motion
+is manifested in the entries of the table.  
+
+There is an unsettling aspect of the entries in Table
+\ref{table:numerical1}.  We started at $x = 0.30\, \mbox{m}$, but at
+$t = 2.30\, \mbox{s}$ the position of the mass is $x = -0.375\,
+\mbox{m}$, and further down in the table we find that at $t = 4.5$ s,
+$x = 0.468\, \mbox{m}$.  What should we have expected?  If we had a
+real mass connected to a spring and set it oscillating we would expect
+the amplitude of the oscillations to gradually decrease because of the
+presence of dissipative forces (air resistance and the imperfect
+elasticity of the spring).  In an ideal case, with no dissipative
+effects, we would expect there to be no increase or decrease in the
+amplitude; that is, the mass should oscillate between $x = +0.30\,
+\mbox{m}$ and $x = -0.30\, \mbox{m}$.  But this is not the case if we
+look at the data in Table \ref{table:numerical1}.  The problem is that
+we used too large a time increment.  Why does too large a time
+increment lead to errors?  If you recall, our stepping equations use
+the approximation that the average velocity is very close to the
+instantaneous velocity.  If the time step is too large, this
+approximation is no longer valid and leads to errors.
+   
+We can improve our calculation of the motion by choosing a smaller
+time increment $\Delta t$.  If we choose $\Delta t = 0.01\, \mbox{s}$
+rather than $0.10\, \mbox{s}$, we would be calculating over a much
+finer time interval (10 times smaller) and while we will have to do 10
+times more computations to evolve the motion out to the same time, the
+calculations should be more accurate.  Table \ref{table:numerical2}
+lists $t$, $x$, $v_x$ and $a_x$ near a point of maximum displacement for
+this smaller time increment.  The maximum displacement is now about
+0.314.  This is still larger than the initial displacement but not
+nearly as bad as before.  Further reduction of the time increment
+would improve the result.
+
+%%% I had to mess around a lot to get floats to appear correctly.  ML
+
+\addtolength{\textheight}{.5in}
+\addtolength{\footskip}{-2.in}
+\mbox{}
+\vspace{-2.in}
+
+\twocolumn
+
+\begin{table}[!t]
+\caption{Numerical solution for motion of 
+mass on a spring using $\Delta t=0.10\, \mbox{s}$}
+\begin{small}
+\begin{center}
+\begin{tabular}{cccc}
+$t$ & $x(t)$ & $v_x(t)$ & $a_x(t)$ \\
+\hline
+\input{numerical_integration/numerical_table1.tex}
+\hline
+\end{tabular}
+\end{center}
+\end{small}
+\label{table:numerical1}
+\end{table}
+\newpage
+
+%\mbox{}
+\begin{table}[!t]
+\caption{Data for mass on a spring near a turning point using  
+$\Delta t=0.01\, \mbox{s}$}
+\begin{small}
+\begin{center}
+\begin{tabular}{cccc}
+$t$ & $x(t)$ & $v_x(t)$ & $a_x(t)$ \\
+\hline
+\input{numerical_integration/numerical_table2.tex}
+\hline
+\end{tabular}
+\end{center}
+\end{small}
+\label{table:numerical2}
+\end{table}
+
+\onecolumn 
+\addtolength{\textheight}{-.5in} 
+\addtolength{\footskip}{2.in}
+
+
+
+%\addtolength{\textheight}{-2.in}
+%\addtolength{\footskip}{2.in}
+
+\newpage
+
+\section*{Problems}
+
+\begin{problem}
+  For a certain mass-spring system the acceleration is given by $a_x(t) =
+  -0.10\, x(t)$.  Suppose the initial position and velocity are $x(0)
+  = 10$ m and $v_x(0) = -1.0\, \mbox{m/s}$.  Calculate $x(t)$ and $v_x(t)$
+  at $t = 2\, \mbox{s}$ in two different ways:
+  \begin{enumerate}
+  \item Use two steps of 1 second each.
+  \item Use four steps of $\frac{1}{2}$ second each.  Round only your
+    final results to three digits (keep all digits for the
+    intermediate calculations).
+  \item Why aren't the answers to a) and b) the same?
+  \end{enumerate}
+  \label{problem:ho-undamped-num}
+\end{problem}
+
+
+\begin{problem}
+  A drag force on an object is opposite to its velocity and is often
+  proportional to its speed.  Let's immerse the mass-spring system of
+  problem (\ref{problem:ho-undamped-num}) in a vat of salad oil so
+  that the acceleration becomes
+  \[a_x(t) = -0.10\, x(t) - v_x(t)\] 
+
+  Repeat problem \ref{chapter:numerical}.\ref{problem:ho-undamped-num}
+  for this acceleration.  Compare the results with those you
+  originally got in problem
+  \ref{chapter:numerical}.\ref{problem:ho-undamped-num}.  Are the
+  results what you might expect when a drag force is present?
+\end{problem}

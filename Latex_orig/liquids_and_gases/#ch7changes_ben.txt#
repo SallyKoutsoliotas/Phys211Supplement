@@ -1,0 +1,5 @@
+* in 7.2 changed K_trans,molecule to K_trans.  Reworded a little the
+  v_therm derivation, including adding a footnote.
+
+* in 7.3 changed "fluids" to "liquids" after Eq. 6
+

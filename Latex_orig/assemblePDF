@@ -1,0 +1,2 @@
+#!/bin/bash
+pdfjam covers/altCover2014.pdf covers/constants.pdf supplement_211_14.pdf covers/back_cover.pdf --outfile assembled_supplement_211_2014.pdf

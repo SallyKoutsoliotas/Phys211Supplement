@@ -1,0 +1,17 @@
+\begin{picture}(0,0)%
+\includegraphics{tarzan.pstex}%
+\end{picture}%
+\setlength{\unitlength}{3947sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(6283,3790)(1551,-3464)
+\put(4351,-886){\makebox(0,0)[b]{\smash{{\SetFigFont{17}{20.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$17\, \mbox{m}$}%
+}}}}
+\put(4801,-2236){\makebox(0,0)[b]{\smash{{\SetFigFont{17}{20.4}{\familydefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$10\, \mbox{m}$}%
+}}}}
+\end{picture}%

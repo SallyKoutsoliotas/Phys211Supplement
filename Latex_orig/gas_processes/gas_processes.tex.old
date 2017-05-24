@@ -1,0 +1,472 @@
+\chapter{Gas Processes}
+\label{chapter:gas_processes}
+
+There are a lot of very useful and important things that can be done
+with gases. Burning gases in an internal combustion engine can power
+a car.  Boiling water (and its vapor) can turn a turbine in an electrical
+power generation plant. Expanding lungs enable your body to draw in air
+and extract oxygen to enable you to live.  Vaporization of methylene
+chloride and water allows a dunking bird to bob up and down indefinitely
+over your glass of water in your dorm room.  Numerous gas processes in
+the atmosphere drive the weather system on the Earth.  Expanding and
+contracting gaseous bladders enable fish to swim without sinking or
+floating to the surface.  Adiabatic heating of a collapsing cloud of
+hydrogen in space provides the spark that triggers nuclear fusion and
+enables the birth of stars (including our Sun). Hot gases shooting
+out of an engine can power an airplane or a rocket.  And just about
+every chemical reaction can be thought of as a thermodynamic process,
+so an understanding of this topic is critical for the entire field of
+chemistry and, by extension, biochemistry, biology and bioengineering.
+
+These are just a small sample of the ways in which thermodynamic
+processes play a critical role in practical applications and in the basic
+functioning of the universe as we know it.  In all of these cases, it
+is critical to understand several things:  (1) how much work is required
+to perform the process or, alternately, how much work is produced by the
+process; (2) how much energy in the form of heat must be added to the gas
+(or released from the gas) during the process; and (3) how the internal
+energy of the gas either increases or decreases during the process.
+From this perspective, by far the most important mathematical relation
+required for analyzing gas processes is one that we have already seen:
+the First Law of Thermodynamics (Eq.~\ref{eq:firstlaw}) 
+
+\begin{center}
+% \boxittext{$\Delta E_\text{therm} = Q_\text{in} + W_\text{on}$}. 
+$\Delta E_\text{therm} = Q_\text{in} + W_\text{on}$. 
+\end{center}
+
+In this chapter, we will discuss in detail how we can calculate the work, heat and internal energy changes that occur in thermodynamic processes.
+
+\section{P-V diagrams}
+
+An important tool used in analysis of thermodynamics processes is a
+plot of pressure versus the volume of a gas, referred to in short as a
+{\em P-V diagram}. These diagrams are very useful first because they are
+directly related to the work done on or by a gas and second because they
+are very convenient for showing the time evolution of a thermodynamic
+process, particularly {\em cyclic} processes that repeat over and over
+again, as is the case with many engineering systems.
+
+A dot on a PV diagram provides a partial representation of the state of
+a gaseous system. In general, the pressure $P$, volume $V$, temperature
+$T$, number of moles $n$ and the entropy $S$ (which will be  introduced
+in the next chapter) are all considered to be {\em state variables}
+for a gas -- if you can specify all of these, then you know the state
+of a gas at a particular moment in time. But displaying all of these
+quantities at the same time graphically would be too cumbersome, since
+we tend to view things best on a two-dimensional piece of paper (or the
+screen of your smart phone).  Pressure and volume are chosen as the two
+state variables that plotted directly, although we can use the ideal
+gas law to infer information about the temperature as well.
+
+A changing volume or pressure results in a curve on a PV-diagram.
+Figure {\bf BLA} shows a few different processes.  Figure BLA(a) shows a
+constant pressure process, with an arrow that indicates an increasing
+volume (expansion).  If the arrow were turned around, the same graph
+would show a constant pressure compression. In the literature, you may
+see a constant pressure process referred to as an {\em isobaric} process
+(``iso'' meaning ``same'' and ``baric'' meaning ``pressure'').
+Figure BLA(b) shows a constant volume process, with an arrow that
+indicates an increasing pressure.  (There is no fancy ``iso'' term
+that is used for constant volume processes.)
+
+Figure BLA(c) shows a few constant temperature ({\em isothermal})
+processes. Assuming the number of moles of the gas doesn't change during
+a process, the ideal gas law can be used to determine the relationship
+between the pressure $P$ and volume $V$ for  an isothermal process:
+$PV = nRT \rightarrow P = (nRT)\frac{1}{V}$
+The result is a swoopy curve (yes, ``swoopy'' is a valid scientific
+expression) since the pressure depends inversely on the volume if $n$
+and $T$ are constant. The resulting curve on a PV-diagram is referred
+to as an ``isotherm'' and the same graph can show several different
+isotherms, depending on the magnitude of the temperature.  Figure BLA(c)
+shows that the isotherms correspond to higher temperatures are higher and
+to the right on a PV diagram. It can also be seen that either a constant
+volume increase in pressure or an isobaric expansion result in a larger
+temperature (indicated by moving to a hotter isotherm).  These results,
+of course, are both consistent with the ideal gas law.
+
+\begin{example}{Sketching P-V diagrams.}
+EXAMPLE:  sketching PV diagrams.
+\end{example}
+
+\section{Calculating work done in gas processes}
+
+Okay, we now have the tools to enable us to calculate the work done on
+or by a gas during a process.  The key is the volume.  It turns out that
+an expanding gas does work on its environment, whereas it is necessary
+for an external agent to do work on a gas for it to be compressed.
+This can be understood qualitatively by considering a balloon.  If you
+want to compress the gas on a balloon, you have to squeeze the balloon,
+doing work on the gas.  But if you stick a pin in the balloon, it will pop
+and do work on the environment, as evidenced both by the loud ``POP!''
+sound and the pieces of balloon fabric that go flying all over the place
+after the explosion.
+
+Quantitatively, the work done in an expansion or compression process can
+be analyzed as a P-V process. For simplicity, let's consider a cylinder
+with a fitted piston with mass $m$ that seals in the gas but which can
+slide up and down without friction (Figure BLA).
+
+The work done on the piston by the gas inside the cylinder 
+\footnote{Note of course that the gas in the cylinder isn't the only
+thing doing work on the piston in this example:  gravity also does work,
+as does the gas {\em outside} the cylinder, along with any friction or
+air resistance.}
+can be calculated from the standard relation for the work done by
+a spatially-varying force:  
+$W_{by}=\int{F_{gas}dx}$.  Since the pressure $P$ is the force
+divided by the surface area, $F_{gas} = P_{gas}A$ where $A$ is the
+cross-sectional area of the piston.  Consequently, $W_{by} =  \int{PAdx} 
+=  \int{PdV}$ where we are dropping the ``gas'' subscripts. This result deserves its own line and an equation number:
+\begin{equation}
+W_{by} = \int PdV
+\label{eq:WorkBy}
+\end{equation}
+So, the work done by the gas is simply the integral of the pressure,
+integrated over the volume.  And the work done {\em on} a gas is just the
+opposite:  
+\begin{equation}
+W_{on} = -\int PdV
+\label{eq:WorkOn}
+\end{equation}
+Note also that we can also calculate the work
+by determining the area under a curve of P versus V, i.e., the area in a
+P-V diagram.  Here is another example of how useful P-V diagrams can be,
+since they display quite directly the work done on or by a gas process.
+
+
+{\bf NOTE:} the sign of the work is critically important.  There is a big
+difference between a positive and a negative value for, e.g., the work
+done by a process $W_{by}$. For a car engine, for example, a positive
+value of $W_{by}$ means that the car is able to drive, whereas a negative
+value for $W_{by}$ means that you have to push the car to get it to go.
+
+Special cases:
+
+\begin{itemize}
+\item {\bf Constant volume processes}.  If the volume remains constant during a
+process, the work done on and by the gas is zero.
+
+\item {\bf Isobaric (constant pressure) processes}. In this case, the work done
+by the gas $W_{by} = \int_{V_1}^{V_2}PdV = P\int_{V_1}^{V_2}dV = P\Delta V$.  
+So, the work
+done {\bf on} the gas $W_{on} = -W_{by} = -P\Delta V$.  This can also been
+seen easily from a P-V diagram for an isobaric process (Fig. BLA):  the
+area under the curve is simply the area of the rectangle $P\Delta V$.
+
+\item {\bf Isothermal (constant temperature) processes}. In this case, the work
+done by the gas $W_{by} = \int_{V_1}^{V_2}PdV = \int_{V_1}^{V_2}nRT\frac{1}{V}dV
+ = nRT\int_{V_1}^{V_2}\frac{1}{V} dV = nRT[\text{ln}(V)]_{V_1}^{V2}
+= nRT(\text{ln}(V_2)-\text{ln}(V_1)) = nRT\text{ln}(V_2/V_1)$. And, of course, the work
+done {\bf on} the gas $W_{on} = -W_{by} = -nRT\text{ln}(V_2/V_1)$.
+
+{\bf Useful trick:} note that since the ideal gas law states that $PV = nRT$, the work done by 
+a gas during an isothermal process can also be written as $W_{by}
+= PV\text{ln}(V_2/V_1)$. This is really useful if you know the pressure
+and volume at any moment during the isothermal process but don't know
+the temperature.
+
+\item {\bf Straight-line processes on a P-V diagram}. In these cases, the work
+can be determined by determining the area under the curve.
+
+\end{itemize}
+
+If you can't figure it out from any of the four approaches, there is
+one other way in which you will be able to calculate the work done on
+or by a gas during a processes: use the First Law of Thermodynamics.
+If you have a process where you can determine the heat flowing in $Q_{in}$
+and the change in the internal energy $\Delta E_{therm}$, then you will be able
+to find $W_{on} = \Delta E_{therm} - Q_{in}$.
+
+\begin{example}{BLA}
+EXAMPLE
+\end{example}
+
+\section{Adiabatic processes}
+
+In many real gas processes, there is no heat flow either into or out of
+the system; i.e., $Q_{in} = 0$. This occurs if (a) the system is completely
+isolated from its environment (so there is no way for heat to be exchanged
+with its surroundings); (b) if the system is well-insulated to prevent
+the flow of heat in or out (e.g., if wrapped in insulating foam); or 
+(c) if the processes occurs so rapidly that they simply isn't enough time for
+there to be an appreciable flow of heat into or out of the system.
+
+A process with no heat flow (i.e., $Q_{in} = 0$) is referred to as an
+{\em adiabatic} process. The calculations of $Q_{in}$, $W_{on}$ and
+$\Delta E_{therm}$ are easier for adiabatic processes, predominately because
+$Q_{in} = 0$ (by definition), so if you can determine one of either
+$W_{on}$ or $\Delta E_{therm}$, you can get the other from the First
+Law of Thermodynamics.
+Calculating $W_{on}$ is non-trivial for an adiabatic process (it isn't
+one of the four special cases discussed in the previous section), so
+for an adiabatic process, we will typically find $\Delta E_therm$  first.
+We'll discuss how to do that in the next section. 
+
+First, however, we
+can quickly get an idea of how an adiabatic process looks on a P-V
+diagram. Since $Q_{in} = 0$ for an adiabatic process, the First Law
+becomes:  $\Delta E_{therm} = W_{on}$; i.e., any work done on the system
+goes into increasing the internal energy.  And recall that the thermal
+energy of a gas increases with the temperature of the gas.
+So, an adiabatic compression, for example, will have $W_{on} > 0$
+which means that $\Delta E_{therm} > 0$.  This means that for any
+adiabatic compression, the gas heats up (i.e., the temperature increases).
+This makes sense:  we are doing work on the gas to compress it, and that
+work goes into heating up the gas and increasing the temperature.
+
+FIGURE SHOWING BOTH ADIABITIC AND ISOTHERMAL PROCESSES ON P-V DIAGRAM.
+
+Since an adiabatic compression results in an increase in temperature,
+the curve on a P-V diagram for an adiabatic compression must go to larger
+and larger temperature, which means that and adiabatic process is
+associated with a curve (an ``adiabat'') that is steeper than those for
+isothermal processes (i.e., ``isotherms''). This can be seen in Fig.
+BLA which shows curves for both adiabatic and isothermal processes.
+
+To make a quantitative statement about the functional form of the
+adiabatic curves, we need to consider the type of gas. 
+As discussed in section \ref{section:TheGasState}, the thermal energy
+of a gas depends on the type of molecules in that gas.  (See 
+Eqs.~\ref{eq:monatomic_ideal_gas}, \ref{eq:diatomic_ideal_gas} and 
+\ref{eq:EthermIdealGas}.)
+
+Eq.~\ref{eq:EthermIdealGas}
+
+Which brings us
+to a discussion of ...
+
+\section{Monatomic and diatomic gases}
+
+The thermodynamic behavior of a gas depends critically on the type
+of molecule that makes up the gas.  Different types of molecules have
+different ways of storing internal energy in a gas. For a
+monatomic gas -- i.e., a gas composed of monatomic molecules (those with
+just one atom, such as helium gas) -- the only kind of thermal
+energy is that associated with translational kinetic energy of the
+atoms; i.e., 
+\begin{equation}
+E_{molecule}^{monatomic} = \frac{1}{2}mv^2 
+= \frac{1}{2}mv_x^2  + \frac{1}{2}mv_y^2  + \frac{1}{2}mv_z^2.  
+\label{eq:monatomic}
+\end{equation}
+
+A {\em diatomic} gas (i.e., one composed of molecules with two atoms,
+such as nitrogen -- $N_2$ -- or oxygen -- $O_2$) has several forms of
+internal energy.  In addition to translation kinetic energy, a diatomic
+molecule can also have energy associated with {\em rotations}.
+We will be covering rotations later in the semester, but there is
+a kinetic energy $\frac{1}{2}I\omega^2$ associated with rotation.
+For a diatomic molecule, there are two axes around which it can
+rotate with a non-zero rotational kinetic energy, so
+\begin{equation}
+E_{molecule}^{diatomic}  
+= \frac{1}{2}mv_x^2  + \frac{1}{2}mv_y^2  + \frac{1}{2}mv_z^2  
++ \frac{1}{2}I_1\omega_1^2  + \frac{1}{2}I_2\omega_2^2,
+\label{eq:diatomic}
+\end{equation}
+where $\omega_1$ and $\omega_2$ are {\em angular velocities} associated
+with rotation.  Don't worry about the details here -- since we haven't
+covered rotations yet, we don't expect y'all to follow the details here.
+But you don't really have to understand the details; all that you need
+to recognize here is that whereas a monatomic gas has three quadratic terms
+associated with thermal energy, a diatomic gas has five quadratic terms. 
+We refer to these as {\em degrees of freedom} $f$ where $f = 3$ for a monatomic
+gas and $f = 5$ for a diatomic gas.
+
+(Actually, a diatomic gas has more degrees of freedom if hot enough. Thermal
+energy for a diatomic gas can also include two additional terms for
+potential energy for vibrations, in which case $f = 7$.  Because of
+quantum effects (which isn't discussed until PHYS 212), these vibrational
+states don't affect the behavior of the gas unless it is quite hot, so
+we will often ignore the vibrational degress of freedom.)
+
+We are now ready to calculate $\Delta E_{therm}$ for gas processes.  The
+only thing that we need is the Equipartition Theorem which says that we can 
+replace each of the terms in Eqs.~\ref{eq:monatomic} and \ref{eq:diatomic}
+with $\frac{1}{2}k_BT^2$, and then multiply by the number $N$ of gas molecules.  So,
+\begin{equation}
+E_{therm}^{monatomic} = 3\times N\times\frac{1}{2}k_BTi = \frac{3}{2}nRT
+\end{equation}
+and
+\begin{equation}
+E_{therm}^{diatomic} = 5\times N\times\frac{1}{2}k_BT = \frac{5}{2}nRT.
+\end{equation}
+More generally, for a gas composed of molecules with $f$ degrees of freedom
+\begin{equation}
+E_{therm} = \frac{f}{2}Nk_BT = \frac{f}{2}nRT.
+\label{eq:DeltaETherm}
+\end{equation}
+So, if you know how many degrees of freedom the gas molecules have
+(or if you are told it is a monatomic gas -- $f = 3$ -- or a cold
+diatomic gas -- $f = 5$), you can determine $\Delta E_{therm}$ from
+Eq.~\ref{eq:DeltaETherm}; i.e., $\Delta E_{therm} = \frac{f}{2}nR\Delta T$.
+
+{\bf Useful trick redux:} the same $PV = nRT$ trick can be used here.
+If you don't know the temperature but you do know the initial and
+final pressure and volume, then $\Delta E_{therm} = \frac{f}{2}(P_2V_2
+- P_1V_1)$.
+
+\begin{example}{Calculating heat, work and thermal energy changes for adiabatic process}
+Bla
+\end{example}
+
+
+PVgamma stuff.
+
+
+% * Determine ?Etherm, Won and Qon for thermodynamic processes.  Emphasize First Law of Thermodynamics.  CHECK THE SIGNS?!
+
+% * Examples of real-life processes?  
+
+
+
+% \section{Introduction}
+
+% \newpage
+
+%\section*{Problems}
+%\markright{PROBLEMS}
+
+%\begin{problem} 
+% Three identical gas-cylinder systems are compressed from the
+% same initial state to final states that have the same volume, one
+% isothermally, one adiabatically, and one isobarically. Which
+% system has the most work done on it? The least?
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+% By what factor must the volume of a gas with $\gamma = 1.4$ be
+% changed in an adiabatic process if the kelvin temperature is to
+% double?
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+% By how much does the temperature of (a) an ideal monatomic
+% gas and (b) an ideal diatomic gas (with molecular rotation but no
+% vibration) change in an adiabatic process in which $2.5\units{kJ}$ 
+% of work id done on each mole of gas?
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+%An ideal gas expands to 10 times its original volume, main-
+%taining a constant $440\units{K}$ temperature. If the gas does 
+%$3.3\units{kJ}$ of work on its surroundings, (a) how much heat 
+%does it absorb, and (b) how many moles of gas are there?
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+% A gas sample undergoes the cyclic process {\bf ABCA} shown in
+% Fig. where {\bf AB} is an isotherm. The pressure at {\bf A} is 
+% $60\units{kPa}$.  Find 
+% \begin{enumerate}
+% \item the pressure at {\bf B}, and 
+% \item the net work done on the gas.
+% \end{enumerate}
+%\end{problem}
+
+
+%\begin{problem}
+%A $3.50\units{mol}$ sample of ideal gas with molar specific heat 
+%$C = 5R/2$ is initially at a temperature $255\units{K}$  and 
+%pressure $101\units{kPa}$. Determine the final
+%temperature and the work done by the gas when $1.75\units{kJ}$ of heat
+%are added to the gas 
+%\begin{enumerate}
+%\item isothermally, 
+%\item at constant volume, and
+%\item isobarically.
+%\end{enumerate}
+%\end{problem}
+
+%\begin{problem}
+%The curved path in Fig. lies on the $350\units{K}$ isotherm for an
+%ideal gas with $\gamma = 1.4$
+%\begin{enumerate}
+%\item Calculate the net work done on the
+%gas as it goes around the cyclic path {\bf ABCA}. 
+%\item How much heat flows into or out of the gas on the 
+%segment {\bf AB}?
+%\end{enumerate}
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+%The curved path in Fig. lies on the $350\units{K}$ isotherm for an
+%ideal gas with $\gamma = 1.4$
+%\begin{enumerate}
+%\item Calculate the net work done on the
+%gas as it goes around the cyclic path {\bf ACDA}. 
+%\item How much heat flows into or out of the gas on the 
+%segment {\bf CD}?
+%\end{enumerate}
+%\label{prob:}
+%\end{problem}
+
+
+
+%\begin{problem}
+%A $0.25\units{mol}$ sample of ideal gas initially occupies 
+%$3.5\units{L}$. If it takes $61\units{J}$ of work to 
+%compress the gas isothermally to $3.0\units{L}$, what's
+%the temperature of the gas?
+%\label{prob:}
+%\end{problem}
+
+%\begin{problem}
+%A ideal gas sample undergoes the cyclic process {\bf ABCA} shown in
+%Fig. , where {\bf AB} is an isotherm. The pressure at {\bf A} is 
+%$60\units{kPa}$.
+%Find 
+%\begin{enumerate}
+%\item the pressure at {\bf B}, and 
+%\item the net work done on the gas.
+%\end{enumerate}
+%   \begin{figure}[h]
+%   \begin{center}
+%   \includegraphics[width=3.0in]{gas_processes/cycle_w_isotherm_prob.pdf} 
+%  \end{center} 
+%   \caption{$p$-$V$ diagram for Problem \ref{prob:cycle_w_isotherm}}
+%   \end{figure}
+%\label{prob:cycle_w_isotherm}
+%\end{problem}
+
+%\begin{problem}
+%An ideal gas with $\gamma = 1.4$ and $T = 300\units{K}$ starts at 
+%point {\bf A} in Fig. It is   
+%compressed adiabatically until its volume is $2.0\units{L}$ at {\bf B},
+%and it is then cooled at constant pressure until it reaches $300\units{K}$
+%at {\bf C}.  Finally it is allowed to expand isothermally back to 
+%state {\bf A}.  Find 
+%\begin{enumerate}
+%\item the net work done on the gas, and 
+%\item the minimum volume of the gas.
+%\end{enumerate}
+%\label{prob:}
+%\end{problem}
+%\newpage
+
+%\begin{problem}
+%A gas sample with the specific heat ratio $\gamma = 1.4$ undergoes 
+%the cyclic process {\bf ABCA} shown in Fig. , where {\bf AB} is an adiabat. 
+%The pressure at {\bf A} is $60\units{kPa}$.  Find 
+%\begin{enumerate}
+%\item the pressure at {\bf B}, and 
+%\item the net work done on the gas.
+%\end{enumerate}
+%\begin{figure}[h]
+%   \begin{center}
+%   \includegraphics[width=2.5in]{gas_processes/cycle_w_adiabat_prob.pdf} 
+%   \end{center} 
+%   \caption{$p$-$V$ diagram for Problem \ref{prob:cycle_w_adiabat}}
+%   \end{figure}
+%\label{prob:cycle_w_adiabat}
+%\end{problem}
+
+
+

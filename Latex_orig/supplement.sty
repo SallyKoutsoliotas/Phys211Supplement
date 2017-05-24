@@ -1,0 +1,82 @@
+\ProvidesPackage{supplement}
+
+%\setlength{\oddsidemargin}{0.5in}
+%\setlength{\evensidemargin}{0.2in}
+\addtolength{\topmargin}{-.5in}
+%\addtolength{\footskip}{-.5in}
+\addtolength{\headsep}{0.25in}
+\addtolength{\textheight}{0.75in}
+
+\setcounter{tocdepth}{0}  % gets rid of sections in table of contents
+
+\usepackage{fancybox}
+\newenvironment{boxittext}[1]{\bigskip
+                          \shadowbox{ 
+                          \begin{minipage}{4.3in}
+                          #1
+                          \smallskip
+                          \end{minipage}}\medskip}{}
+\newenvironment{boxiteq}[1]{\bigskip
+                          \shadowbox{ 
+                          \begin{minipage}{4.65in}
+                          #1
+                          \end{minipage}}}{}
+
+\newcounter{ex}[chapter]
+\newcounter{prob}[chapter]
+
+\newcommand{\solution}{\par\medskip\noindent\textbf{Solution: }}
+
+\newenvironment{objectives}{
+  \renewcommand{\labelenumi}{\bf \arabic{chapter}.\arabic{enumi}}
+  \begin{enumerate}}{\end{enumerate}}
+
+\newenvironment{example}[1]{%
+  \refstepcounter{ex}                  
+  \begin{center}\rule{4in}{0.5pt}\nopagebreak\end{center}\nopagebreak
+  \begin{list}{}{\leftmargin 3ex \rightmargin 3ex}
+  \item[]
+    \noindent \textbf{Example   \thechapter.\theex }\hspace{0.1in}\textbf{ #1} \par\nopagebreak}
+  {\end{list}
+  \begin{center}\rule{4in}{0.5pt}\end{center}
+}
+
+\newenvironment{exampleb}[1]{\refstepcounter{ex}                  
+  \begin{list}{}{\leftmargin 3ex \rightmargin 3ex}\item[]
+    \noindent 
+    \textbf{Example  \thechapter.\theex }\hspace{0.1in} \textbf{ #1} \par}
+  {\end{list}\begin{center}\rule{4in}{0.5pt}\end{center}}
+\newenvironment{myproblem}[1]{\vfill\parbox{5in}{ \item #1}}{}
+
+\newenvironment{problem}{\refstepcounter{prob}
+  \begin{list}{}{\leftmargin 3.5ex\labelsep 1ex}
+  \item[\textbf{\theprob.}]
+   \renewcommand{\labelenumi}{(\alph{enumi})}}
+  {\end{list}}
+
+\newenvironment{aproblem}[1]{\refstepcounter{prob}
+  \begin{list}{}{\leftmargin 3.5ex\labelsep 1ex}
+  \item[\textbf{A\theprob.}] \textbf{#1} 
+   \renewcommand{\labelenumi}{(\alph{enumi})}}
+  {\end{list}}
+
+\newcommand{\units}[1]{\,\mbox{#1}}
+
+%\newenvironment{example}[2]{\refstepcounter{ex}                  
+%                          \begin{center}
+%                          \rule{4in}{0.5pt}
+%			  \end{center}
+%                          \noindent {\bf EXAMPLE \theex.} #1
+%                          
+%                          \medskip\noindent{\bf Solution:} #2
+%                          \begin{center}
+%			  \rule{4in}{0.5pt}
+%			  \end{center}}{}
+%\newenvironment{exampleb}[2]{\stepcounter{ex}                  
+%                          \noindent {\bf EXAMPLE \theex.} #1
+%
+%                          \medskip\noindent{\bf Solution:} #2
+%                          \begin{center}
+%			  \rule{4in}{0.5pt}
+%			  \end{center}}{}
+

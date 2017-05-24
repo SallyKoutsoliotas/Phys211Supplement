@@ -1,0 +1,50 @@
+17 July 2008 - Ben
+
+* Made separate directories for each chapter, which included changing
+  the \includegraphics commands
+
+* defined "problem" and "aproblem" environments and recast all
+  problems in terms of these
+
+* brought in amsmath package to allow for using "align" rather than
+  "eqnarray".
+
+* defined "objectives" environment for the objectives enumerated list
+  and the beginning of each chapter - this was the counter for the
+  standard "enumerate" environment doesn't have to be re-defined
+
+
+2 July 2008 - Ben
+
+* Pushed local definitions and environments to "supplement.sty"
+
+* Redefined the "example" environment to simplify usage and provide 
+  some indentation.  Usage:
+
+  \begin{example}{Title of example}
+  Text of example question.
+  \solution 
+  Solution of example question.
+  \end{example}
+
+* Switched from obsolete caption2 to caption package, removed "hang"
+  and added small indentation to both sides.
+
+* Removed \pagestyle and \newpage commands.  This simplifies the
+  source files and avoids the possibility of accidental blank pages.
+  This also means that blank pages at the end of chapters now have a
+  header, but this seems like a minor cost.
+
+* Related: moved the \markboth and \markright header formatting
+  commands into the relevant chapters.  Switched to \markright for the
+  Problems section, to be more consistent with previous chapter
+  sections.
+
+* Moved title page and copyright page to external files: title.tex and
+  copyright.tex
+
+* Put the A-problem counter definition within the additional problems
+  file.
+
+* Experimenting with problem environment.
+

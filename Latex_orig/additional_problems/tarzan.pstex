@@ -1,0 +1,270 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: tarzan.fig
+%%Creator: fig2dev Version 3.2 Patchlevel 5
+%%CreationDate: Mon Jul 27 16:54:44 2015
+%%For: mligare@mligare (Martin Ligare)
+%%BoundingBox: 0 0 377 228
+%Magnification: 1.0000
+%%EndComments
+%%BeginProlog
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+ /DrawEllipse {
+	/endangle exch def
+	/startangle exch def
+	/yrad exch def
+	/xrad exch def
+	/y exch def
+	/x exch def
+	/savematrix mtrx currentmatrix def
+	x y tr xrad yrad sc 0 0 1 startangle endangle arc
+	closepath
+	savematrix setmatrix
+	} def
+
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+
+/pageheader {
+save
+newpath 0 228 moveto 0 0 lineto 377 0 lineto 377 228 lineto closepath clip newpath
+-93.0 258.2 translate
+1 -1 scale
+$F2psBegin
+10 setmiterlimit
+0 slj 0 slc
+ 0.06000 0.06000 sc
+} bind def
+/pagefooter {
+$F2psEnd
+restore
+} bind def
+%%EndProlog
+pageheader
+%
+% Fig objects follow
+%
+% 
+% here starts figure with depth 50
+% Ellipse
+7.500 slw
+n 3375 2250 106 106 0 360 DrawEllipse gs col0 s gr
+
+% Polyline
+0 slj
+0 slc
+n 3375 2325 m 3225 2625 l 3375 2700 l
+ 3225 2925 l gs col0 s gr 
+% Polyline
+n 3225 2625 m 3225 2775 l
+ 2925 2925 l gs col0 s gr 
+% Polyline
+n 3300 2550 m 3450 2550 l
+ 3525 2475 l gs col0 s gr 
+% Polyline
+n 3300 2475 m
+ 3525 2400 l gs col0 s gr 
+% Polyline
+30.000 slw
+n 1800 3000 m
+ 3600 3000 l gs col0 s gr 
+% Polyline
+n 6000 3000 m
+ 7800 3000 l gs col0 s gr 
+% Polyline
+15.000 slw
+n 3600 600 m
+ 3600 2700 l gs col0 s gr 
+% Polyline
+7.500 slw
+gs  clippath
+4380 736 m 4380 585 l 4320 585 l 4320 736 l 4320 736 l 4350 616 l 4380 736 l cp
+eoclip
+n 4350 1425 m
+ 4350 600 l gs col0 s gr gr
+
+% arrowhead
+n 4380 736 m 4350 616 l 4320 736 l 4380 736 l  cp gs 0.00 setgray ef gr  col0 s
+% Polyline
+gs  clippath
+4320 2564 m 4320 2715 l 4380 2715 l 4380 2564 l 4380 2564 l 4350 2684 l 4320 2564 l cp
+eoclip
+n 4350 1875 m
+ 4350 2700 l gs col0 s gr gr
+
+% arrowhead
+n 4320 2564 m 4350 2684 l 4380 2564 l 4320 2564 l  cp gs 0.00 setgray ef gr  col0 s
+% Polyline
+gs  clippath
+5639 2955 m 5790 2955 l 5790 2895 l 5639 2895 l 5639 2895 l 5759 2925 l 5639 2955 l cp
+eoclip
+n 5175 2925 m
+ 5775 2925 l gs col0 s gr gr
+
+% arrowhead
+n 5639 2955 m 5759 2925 l 5639 2895 l 5639 2955 l  cp gs 0.00 setgray ef gr  col0 s
+% Polyline
+gs  clippath
+3811 2895 m 3660 2895 l 3660 2955 l 3811 2955 l 3811 2955 l 3691 2925 l 3811 2895 l cp
+eoclip
+n 4275 2925 m
+ 3675 2925 l gs col0 s gr gr
+
+% arrowhead
+n 3811 2895 m 3691 2925 l 3811 2955 l 3811 2895 l  cp gs 0.00 setgray ef gr  col0 s
+% Polyline
+2 slj
+30.000 slw
+n 3600 3000 m 3603 3001 l 3610 3003 l 3621 3007 l 3638 3012 l 3659 3019 l
+ 3683 3027 l 3709 3036 l 3735 3046 l 3761 3056 l 3785 3066 l
+ 3808 3076 l 3829 3087 l 3849 3098 l 3869 3109 l 3887 3122 l
+ 3906 3135 l 3925 3150 l 3939 3162 l 3954 3174 l 3969 3188 l
+ 3985 3202 l 4001 3218 l 4017 3234 l 4033 3252 l 4050 3271 l
+ 4067 3290 l 4084 3311 l 4101 3333 l 4118 3355 l 4135 3378 l
+ 4151 3401 l 4166 3425 l 4182 3450 l 4196 3474 l 4210 3499 l
+ 4223 3524 l 4235 3549 l 4246 3574 l 4256 3599 l 4266 3624 l
+ 4275 3650 l 4283 3676 l 4291 3703 l 4298 3730 l 4305 3758 l
+ 4312 3786 l 4319 3815 l 4326 3845 l 4332 3875 l 4339 3905 l
+ 4347 3935 l 4354 3964 l 4362 3993 l 4371 4022 l 4380 4049 l
+ 4389 4075 l 4400 4100 l 4410 4123 l 4422 4145 l 4435 4165 l
+ 4448 4183 l 4463 4199 l 4478 4214 l 4495 4227 l 4513 4238 l
+ 4530 4246 l 4550 4253 l 4570 4259 l 4592 4264 l 4615 4267 l
+ 4640 4269 l 4666 4270 l 4693 4270 l 4721 4269 l 4750 4266 l
+ 4780 4263 l 4810 4259 l 4841 4254 l 4872 4249 l 4902 4242 l
+ 4933 4236 l 4963 4229 l 4992 4221 l 5020 4214 l 5048 4206 l
+ 5074 4199 l 5099 4191 l 5123 4184 l 5146 4176 l 5167 4169 l
+ 5188 4163 l 5210 4155 l 5232 4147 l 5252 4140 l 5271 4133 l
+ 5290 4125 l 5308 4117 l 5325 4109 l 5341 4100 l 5357 4091 l
+ 5372 4081 l 5386 4070 l 5400 4059 l 5413 4046 l 5425 4033 l
+ 5437 4018 l 5448 4003 l 5459 3987 l 5470 3969 l 5481 3951 l
+ 5491 3931 l 5502 3910 l 5513 3888 l 5521 3870 l 5529 3851 l
+ 5538 3831 l 5547 3809 l 5557 3786 l 5567 3761 l 5578 3734 l
+ 5589 3704 l 5602 3673 l 5615 3638 l 5629 3601 l 5644 3562 l
+ 5659 3520 l 5676 3476 l 5693 3430 l 5711 3382 l 5728 3333 l
+ 5746 3285 l 5764 3238 l 5780 3192 l 5795 3150 l 5809 3113 l
+ 5821 3080 l 5831 3053 l 5838 3032 l 5844 3017 l 5847 3008 l
+ 5849 3002 l
+ 5850 3000 l gs col0 s gr 
+% Polyline
+7.500 slw
+n 2550 2925 m 2549 2923 l 2548 2919 l 2544 2911 l 2540 2898 l 2533 2882 l
+ 2525 2860 l 2516 2835 l 2505 2805 l 2494 2774 l 2482 2740 l
+ 2470 2705 l 2458 2670 l 2447 2636 l 2436 2601 l 2426 2568 l
+ 2417 2535 l 2409 2503 l 2401 2472 l 2394 2441 l 2387 2410 l
+ 2381 2379 l 2376 2348 l 2371 2316 l 2367 2284 l 2363 2250 l
+ 2359 2222 l 2356 2192 l 2354 2162 l 2351 2131 l 2349 2099 l
+ 2347 2066 l 2345 2032 l 2344 1996 l 2342 1960 l 2342 1923 l
+ 2341 1886 l 2341 1847 l 2341 1808 l 2342 1769 l 2343 1729 l
+ 2344 1689 l 2346 1649 l 2348 1610 l 2351 1571 l 2354 1532 l
+ 2358 1494 l 2362 1457 l 2366 1420 l 2371 1384 l 2376 1350 l
+ 2382 1316 l 2388 1284 l 2394 1253 l 2401 1222 l 2409 1193 l
+ 2417 1165 l 2425 1138 l 2434 1109 l 2445 1082 l 2455 1055 l
+ 2467 1029 l 2480 1004 l 2493 979 l 2507 955 l 2522 931 l
+ 2538 908 l 2555 885 l 2573 863 l 2592 842 l 2611 822 l
+ 2632 802 l 2653 783 l 2675 765 l 2697 747 l 2720 731 l
+ 2744 716 l 2768 701 l 2792 687 l 2817 675 l 2842 663 l
+ 2867 652 l 2893 641 l 2919 632 l 2945 623 l 2971 615 l
+ 2998 607 l 3025 600 l 3051 594 l 3078 588 l 3105 582 l
+ 3134 577 l 3164 573 l 3195 568 l 3228 564 l 3262 560 l
+ 3299 557 l 3338 554 l 3379 550 l 3423 548 l 3469 545 l
+ 3517 542 l 3567 540 l 3619 538 l 3673 536 l 3727 534 l
+ 3780 532 l 3833 531 l 3884 530 l 3931 529 l 3975 528 l
+ 4013 527 l 4046 526 l 4073 526 l 4093 525 l 4108 525 l
+ 4118 525 l 4123 525 l
+ 4125 525 l gs col0 s gr 
+% Polyline
+n 1875 2925 m 1876 2923 l 1877 2919 l 1881 2911 l 1885 2898 l 1892 2882 l
+ 1900 2860 l 1909 2835 l 1920 2805 l 1931 2774 l 1943 2740 l
+ 1955 2705 l 1967 2670 l 1978 2636 l 1989 2601 l 1999 2568 l
+ 2008 2535 l 2016 2503 l 2024 2472 l 2031 2441 l 2038 2410 l
+ 2044 2379 l 2049 2348 l 2054 2316 l 2058 2284 l 2063 2250 l
+ 2066 2222 l 2069 2192 l 2071 2162 l 2074 2131 l 2076 2099 l
+ 2078 2066 l 2080 2032 l 2081 1996 l 2083 1960 l 2083 1923 l
+ 2084 1886 l 2084 1847 l 2084 1808 l 2083 1769 l 2082 1729 l
+ 2081 1689 l 2079 1649 l 2077 1610 l 2074 1571 l 2071 1532 l
+ 2067 1494 l 2063 1457 l 2059 1420 l 2054 1384 l 2049 1350 l
+ 2043 1316 l 2037 1284 l 2031 1253 l 2024 1222 l 2016 1193 l
+ 2008 1165 l 2000 1138 l 1988 1102 l 1975 1069 l 1961 1036 l
+ 1947 1004 l 1931 973 l 1914 943 l 1897 914 l 1879 885 l
+ 1860 858 l 1841 832 l 1821 807 l 1802 783 l 1782 760 l
+ 1763 739 l 1744 719 l 1726 701 l 1708 684 l 1692 669 l
+ 1676 654 l 1661 641 l 1647 629 l 1635 619 l 1623 609 l
+ 1613 600 l 1604 592 l 1596 585 l 1589 579 l 1583 573 l
+ 1578 568 l 1573 563 l 1569 558 l 1567 554 l 1564 550 l
+ 1563 547 l 1562 544 l 1562 541 l 1562 538 l 1562 535 l
+ 1563 533 l 1565 531 l 1566 530 l 1568 528 l 1570 527 l
+ 1571 526 l 1573 526 l 1574 525 l
+ 1575 525 l gs col0 s gr 
+% here ends figure;
+pagefooter
+showpage
+%%Trailer
+%EOF

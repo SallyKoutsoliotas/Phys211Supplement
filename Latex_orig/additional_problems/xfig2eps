@@ -1,0 +1,35 @@
+#!/usr/bin/perl
+
+# Read filename from commandline (no file extension)
+$file = $ARGV[0];  
+($file) = split(/\./, $file);
+
+
+# Create file.tex
+initialize_latex_file();
+$latex_file =~ s/FILE/$file/; 
+open(LATEX,">temp_$file.tex") or die "Cannot open $!";
+print LATEX $latex_file;
+close(LATEX);
+
+# Compile file.tex and clean up
+system("latex temp_$file.tex");
+#system("latex temp_$file.tex >& junk");
+system("dvips -E temp_$file.dvi -o $file.eps");
+#system("dvips -E temp_$file.dvi -o $file.eps >& junk");
+#unlink("temp_$file.tex","temp_$file.aux","temp_$file.dvi","temp_$file.log","junk");
+
+# Subroutine loads latex file into the string
+# $latex_file.  'FILE' is a dummy placeholder to be
+# replaced with command line input
+
+sub initialize_latex_file {
+$latex_file = <<'END';
+\documentclass{article}
+\usepackage{graphicx,color}
+\pagestyle{empty}
+\begin{document}
+\input{FILE.pstex_t}
+\end{document}
+END
+}
