@@ -4,14 +4,13 @@
 Einstein's Special Theory of Relativity is based on a very simple
 premise, namely
 </p>
-
+<aside>
 <p>
-\begin{boxittext} {<em>The Principle of Relativity</em>: the laws of
+{<em>The Principle of Relativity</em>: the laws of
 physics are the same for observers in different inertial reference
 frames.}
-\end{boxittext}
 </p>
-
+</aside>
 <p>
 Let's say, for example, that Michelle sets up a lab in the
 basement of Olin Science while Barack sets up an identical lab inside
@@ -99,17 +98,15 @@ speed of light with respect to the motion of the <em>observer</em>
 are simply consequences of each other.</fn>
 :
 </p>
-
+<aside>
 <p>
-\begin{boxittext}
 {
 <em>The invariance of the speed of light</em>: The speed of light in a vacuum <m>c</m>
 is measured to be <m>3.0\times 10^8\units{m/s}</m> by any observer in any inertial
 reference frame.
 }
-\end{boxittext}
 </p>
-
+</aside>
 <p>
 Although verified experimentally,<fn>In fact, an
   experiment by Michelson and Morly in 1895 already indicated the
@@ -137,8 +134,10 @@ travels at a speed of <m>20\units{m/s}</m> relative to Jeff and Brian.
 </statement>
 </example>
 
+<example>
+<statement>
 <p>
-\begin{exampleb}{Classical calculation of relative velocities II.}
+{Classical calculation of relative velocities II.}
 Brian now picks up his blow dart gun and aims it in Karen's
 direction. Karen quickly retreats, running away from Brian and Jeff
 with a constant speed of <m>5\units{m/s}</m>. Brian fires a dart toward Karen at
@@ -148,11 +147,14 @@ dart moving with respect to Karen's reference frame?
 <em>Solution: </em> Again, the
 result is what you would think <mdash /> simply subtract the speeds to
 find that the blow dart travels at a speed <m>10\units{m/s}</m> relative to Karen.
-\end{exampleb}
 </p>
+</statement>
+</example>
 
+<example>
+<statement>
 <p>
-\begin{exampleb}{Speeds of light pulses.}
+{Speeds of light pulses.}
 Lord Fa is returning to his home world of Gao. Approaching the
 planet at speed of <m>2.0\times 10^8\units{m/s}</m> (relative to the planet), he
 sends a beacon of light to Commander Nea stationed on Gao. This
@@ -167,8 +169,9 @@ reference frame, the pulse is moving with a speed of <m>3.0\times
   10^8\units{m/s}</m>! That's just the way it is with light pulses moving in a
 vacuum <mdash /> everyone measures the same speed of <m>3.0\times 10^8\units{m/s}</m>,
 regardless of their motion.
-\end{exampleb}
 </p>
+</statement>
+</example>
 
 <p>
 You should find the results of the above example to be strange <mdash />
